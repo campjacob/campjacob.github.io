@@ -1,15 +1,16 @@
 main:
+  - title: "Contact"
+    url: /contact/
+  - title: "Blog"
+    url: /blog/
+  - title: "Resources"
+    url: /resources/
   - title: "About"
-    url: /about-site/
-  - title: "Posts"
-    url: /year-archive/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "Pages"
-    url: /page-archive/
-  - title: "Collections"
-    url: /collection-archive/
-  - title: "External Link"
-    url: https://google.com
+    url: /about/
+    children:
+      - title: "About this Site"
+        url: /about-site/
+      - title: "Professional Connections"
+        url: /professional-connections/
+      - title: "Curriculum Vitae"
+        url: /cv/

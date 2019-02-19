@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-02-18T18:40:01-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jacob R. Campbell, …</title><subtitle>My hope for all of my stuff. I am a school social worker, adjunct faculty member for a university, Ph.D. Candidate, Licensed Independent Clinical Social Worker, Father, Husband, and active community member</subtitle><author><name>Jacob Campbell</name></author><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/post/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-02-18T15:33:32-08:00</published><updated>2019-02-18T15:33:32-08:00</updated><id>http://localhost:4000/blog/post/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/post/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-02-18T22:41:12-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jacob R. Campbell, …</title><subtitle>My hope for all of my stuff. I am a school social worker, adjunct faculty member for a university, Ph.D. Candidate, Licensed Independent Clinical Social Worker, Father, Husband, and active community member</subtitle><author><name>Jacob Campbell</name></author><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/post/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-02-18T15:33:32-08:00</published><updated>2019-02-18T15:33:32-08:00</updated><id>http://localhost:4000/blog/post/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/post/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
@@ -10,6 +10,185 @@
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Jacob Campbell</name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">The 15 Hats (ahem, Roles) of Social Workers</title><link href="http://localhost:4000/blog/the-15-hats-ahem-roles-of-social-workers/" rel="alternate" type="text/html" title="The 15 Hats (ahem, Roles) of Social Workers" /><published>2019-02-16T23:55:00-08:00</published><updated>2019-02-16T23:55:00-08:00</updated><id>http://localhost:4000/blog/the-15-hats-ahem-roles-of-social-workers</id><content type="html" xml:base="http://localhost:4000/blog/the-15-hats-ahem-roles-of-social-workers/">&lt;div class=&quot;responsive-embed&quot;&gt;
-  &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iBmtlNkEnFI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</content><author><name>Jacob Campbell</name></author><category term="blog" /><category term="Social Work" /><category term="Professional Roles" /><category term="YouTube Posts" /><summary type="html"></summary></entry></feed>
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Jacob Campbell</name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">The 15 Hats (ahem, Roles) of Social Workers</title><link href="http://localhost:4000/blog/the-15-hats-ahem-roles-of-social-workers/" rel="alternate" type="text/html" title="The 15 Hats (ahem, Roles) of Social Workers" /><published>2019-02-16T23:55:00-08:00</published><updated>2019-02-16T23:55:00-08:00</updated><id>http://localhost:4000/blog/the-15-hats-ahem-roles-of-social-workers</id><content type="html" xml:base="http://localhost:4000/blog/the-15-hats-ahem-roles-of-social-workers/">&lt;!-- Courtesy of embedresponsively.com //--&gt;
+&lt;div class=&quot;responsive-video-container&quot;&gt;
+
+  &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/iBmtlNkEnFI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Social workers all wear a number of different hats, or function in a number of different roles for their practice. In this video we talk about 15 different roles that social workers frequently put on. We go through and talk talk about the roles of counselor, case manager, broker, enabler, enabler, educator, facilitator, mediator, negotiator, manager, analyst/evaluator, consultant, integrator/coordinator, spokesperson, organizer/mobilizer, and advocate.&lt;/p&gt;
+
+&lt;p&gt;References&lt;/p&gt;
+
+&lt;p&gt;Barker, R.L. (1995). &lt;em&gt;The social work dictionary (3rd ed.)&lt;/em&gt;. Washington, DC: NASW Press.&lt;/p&gt;
+
+&lt;p&gt;Yessian, M.R., &amp;amp; Broskowski, A. (1983). &lt;em&gt;Generalists in human-service systems: Their problems and prospects&lt;/em&gt;. Prentice Hall.&lt;/p&gt;
+
+&lt;p&gt;Zastrow, C., &amp;amp; Kirst-Ashman, K. (1997). U_nderstanding human behavior and the social environment (4th ed.)_. Wadsworth Publishing Company.&lt;/p&gt;
+
+&lt;p&gt;Kirst-Ashman, K. K., &amp;amp; Hull, Jr., G. H. (2015). &lt;em&gt;Understanding generalist practice&lt;/em&gt; (7th ed.). Stamford, CT: Cengage Learning.&lt;/p&gt;
+
+&lt;p&gt;Chechak, D. (2008 November 10)The roles of a social worker. Retrieved from &lt;a href=&quot;https://www.scribd.com/doc/7852257/The-Roles-of-a-Social-Worker&quot;&gt;https://www.scribd.com/doc/7852257/The-Roles-of-a-Social-Worker&lt;/a&gt;&lt;/p&gt;</content><author><name>Jacob Campbell</name></author><category term="Blog" /><category term="Social Work" /><category term="Professional Roles" /><category term="YouTube Posts" /><summary type="html"></summary></entry><entry><title type="html">Mutual Aid Model and Children with Special Needs</title><link href="http://localhost:4000/blog/mutual-aid-model-children-special-needs/" rel="alternate" type="text/html" title="Mutual Aid Model and Children with Special Needs" /><published>2019-02-07T00:00:00-08:00</published><updated>2019-02-07T00:00:00-08:00</updated><id>http://localhost:4000/blog/mutual-aid-model-children-special-needs</id><content type="html" xml:base="http://localhost:4000/blog/mutual-aid-model-children-special-needs/">&lt;!-- Courtesy of embedresponsively.com //--&gt;
+&lt;div class=&quot;responsive-video-container&quot;&gt;
+
+  &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/O_D4Igcxgic&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Helping the populations that we work with be able to connect together, feel as if they are in the same boat with persons with similar needs, and giving them opportunities to provide assistance to those persons is a effective way to help people feel supported. Mutual Aid groups are useful for all different types of needs, includes families of youth who have special needs. We discuss what Mutual Aid is and some of the ways that we facilitate groups with Mutual Aid as social workers.&lt;/p&gt;</content><author><name>Jacob Campbell</name></author><category term="Blog" /><category term="Social Work" /><category term="Mutual Aid" /><category term="Work with Groups" /><category term="YouTube Posts" /><summary type="html"></summary></entry><entry><title type="html">ADHD Information for Practitioners, Parents, and Schools</title><link href="http://localhost:4000/blog/adhd-information-practitioners-parents-schools/" rel="alternate" type="text/html" title="ADHD Information for Practitioners, Parents, and Schools" /><published>2019-01-21T00:00:00-08:00</published><updated>2019-01-21T00:00:00-08:00</updated><id>http://localhost:4000/blog/adhd-information-practitioners-parents-schools</id><content type="html" xml:base="http://localhost:4000/blog/adhd-information-practitioners-parents-schools/">&lt;!-- Courtesy of embedresponsively.com //--&gt;
+&lt;div class=&quot;responsive-video-container&quot;&gt;
+
+  &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/o_39K2AjJgo&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;A look into how to address Attention-Deficit / Hyperactivity Disorder (ADHD) from the perspectives of clinicians, parents, and schools.&lt;/p&gt;
+
+&lt;p&gt;We focus on an article published in the Journal on Pediatrics in 2011 written by the Subcommittee on Attention-Deficit/Hyperactivity Disorder and the Steering Committee on Quality Improvement and Management. This article focuses on diagnosis, evaluation, and treatment.&lt;/p&gt;
+
+&lt;p&gt;Reference&lt;/p&gt;
+
+&lt;p&gt;American Psychiatric Association. (2013) Diagnostic and statistical manual of mental disorders (Fifth ed.). Washington: American Psychiatric Association.&lt;/p&gt;
+
+&lt;p&gt;Centers for Disease Control and Prvention (2018, September 21) Attention-deficit / hyperactivity disorder (ADHD): Data &amp;amp; statistics. Retrieved from &lt;a href=&quot;https://www.cdc.gov/ncbddd/adhd/data.html&quot;&gt;https://www.cdc.gov/ncbddd/adhd/data.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Wolraich, M., Brown, L., Brown, R. T., DuPaul, G., Earls, M., Feldman, H. M., … Davidson, C. (2011). ADHD: Clinical Practice Guideline for the Diagnosis, Evaluation, and Treatment of Attention-Deficit/Hyperactivity Disorder in Children and Adolescents. Pediatrics, 128(5), 1007–1022. &lt;a href=&quot;https://doi.org/10.1542/peds.2011-2654.ADHD&quot;&gt;https://doi.org/10.1542/peds.2011-2654.ADHD&lt;/a&gt;&lt;/p&gt;</content><author><name>Jacob Campbell</name></author><category term="Blog" /><category term="Social Work" /><category term="ADHD" /><category term="School Social Work" /><category term="Community Mental Health" /><category term="YouTube Posts" /><summary type="html"></summary></entry><entry><title type="html">Working with Vulnerable Populations, a Rationale for Social Work Policy Practice</title><link href="http://localhost:4000/blog/working-vulnerable-populations-rationale-social-work-policy-practice/" rel="alternate" type="text/html" title="Working with Vulnerable Populations, a Rationale for Social Work Policy Practice" /><published>2019-01-15T00:00:00-08:00</published><updated>2019-01-15T00:00:00-08:00</updated><id>http://localhost:4000/blog/working-vulnerable-populations-rationale-social-work-policy-practice</id><content type="html" xml:base="http://localhost:4000/blog/working-vulnerable-populations-rationale-social-work-policy-practice/">&lt;!-- Courtesy of embedresponsively.com //--&gt;
+&lt;div class=&quot;responsive-video-container&quot;&gt;
+
+  &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/0n5AmK4nTL8&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Working with vulnerable population is a staple for social workers. Discussion about types of policy practice (including policy-sensitive practice, policy-related practice, and policy advocacy) and some real life examples of participating in policy advocacy through legislative advocacy, social advocacy, and policy analysis.&lt;/p&gt;
+
+&lt;p&gt;References&lt;/p&gt;
+
+&lt;p&gt;Figueira-McDonough, J. (1993). Policy practice: The neglected side of social work intervention. Social Work, 38(2), 179–188.&lt;/p&gt;
+
+&lt;p&gt;Jansson, B. (2014). Brooks/Cole empowerment series: Becoming an effective policy advocate (7th ed.). Belmont, CA: Brooks/Cole, Cengage Learning.&lt;/p&gt;</content><author><name>Jacob Campbell</name></author><category term="Blog" /><category term="Social Work" /><category term="Special Needs Populations" /><category term="Advocacy" /><category term="YouTube Posts" /><summary type="html"></summary></entry><entry><title type="html">Tracking Trainings Using Drafts and Launch Center Pro</title><link href="http://localhost:4000/blog/tracking-trainings-using-dafts-and-launch-center-pro/" rel="alternate" type="text/html" title="Tracking Trainings Using Drafts and Launch Center Pro" /><published>2014-11-14T23:55:00-08:00</published><updated>2014-11-14T23:55:00-08:00</updated><id>http://localhost:4000/blog/tracking-trainings-using-dafts-and-launch-center-pro</id><content type="html" xml:base="http://localhost:4000/blog/tracking-trainings-using-dafts-and-launch-center-pro/">&lt;p&gt;&lt;img src=&quot;/images/track-your-trainings-learn-blocks.jpg&quot; alt=&quot;Graphic of Blocks Saying Learn&quot; title=&quot;Track Trainings for CEUs and Clock Hours Using Drafts 4 &amp;amp; Launch Center Pro&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A couple of weeks ago, I spent some times further diving into &lt;a href=&quot;http://agiletortoise.com/drafts/&quot;&gt;Drafts&lt;/a&gt; and &lt;a href=&quot;http://contrast.co/launch-center-pro/&quot;&gt;Launch Center Pro&lt;/a&gt;. Both are amazing applications for iOS, and have greatly improved my productivity and ability to get things done. I have been absolutely loving my &lt;a href=&quot;/blog/2014/8/mileage-tracking-form-and-launch-center-pro&quot;&gt;Milage Tracker&lt;/a&gt; that I put together, and use it multiple times a day (and find that it makes it so I don’t forget to track). As I have written before, I’m a big fan of using plain &lt;a href=&quot;/blog/2014/3/review-of-david-sparkss-markdown-book-an-investigation-to-formatting-documents&quot;&gt;text files and Markdown&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Several years ago, when I started working at Tri-Cities Community Health Behavioral Health Services, and attending various trainings post MSW I started keeping a word document listing all of the various trainings that I attend. If you work in an industry that requires documentation regarding trainings received, hopefully you have started doing that too. I since have change my system around. I now have a plain text file that I keep on dropbox which has a listing of every training that I have received (whether that be in agency or for some sort of professional development certificate). As I have been looking towards applying for my &lt;a href=&quot;http://www.doh.wa.gov/LicensesPermitsandCertificates/ProfessionsNewReneworUpdate/SocialWorker/LicenseRequirements/LicensedIndependentClinicalSocialWorker&quot;&gt;LICSW&lt;/a&gt; and having my &lt;a href=&quot;https://www.k12.wa.us/certification/ESAMain.aspx&quot;&gt;ESA&lt;/a&gt; which requires so many clock hours, I decided that I wanted to also have an easy way to calculate how many CEU’s or Clock Hours without combing through my long text file of all my trainings. I created two &lt;a href=&quot;http://en.m.wikipedia.org/wiki/Comma-separated_values&quot;&gt;CSV files&lt;/a&gt; which I could open in Excel or Numbers and have calculate the total number of hours easily. The problem is, I didn’t want to have to write entries sometimes three times. I also wanted to be able to add these entries either from my phone or from my iPad easily when I get to the training. Never having to worry about it again.&lt;/p&gt;
+
+&lt;p&gt;With so many iOS automation tasks that I do, it starts in Launch Center Pro (LCP) for me. I have a main entry that collects data in several prompts (you &lt;a href=&quot;https://launchcenterpro.com/t4zs0x&quot;&gt;can install it&lt;/a&gt;). The content is as follows:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;launch://x-callback-url/clipboard?text=[prompt:Review=[prompt:Date], [prompt:Training Title], [prompt-num:Number of CEUs or Clock Hours] [list:Type|Clock Hours=Clock Hours|CEUs=CEUs|Both=Clock Hours and CEUs], [list:Type of Units|Ethics= Professional Law and Ethics|Suicide=Suicide Assessment Treatment and Management|General=General Continuing Education Credits|None=|ESA Suicide=ESA Suicide Prevention Intervention Training]]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;It creates a final review prompt that includes text regarding the training date, the title of the training, the number of hours, and the type of hours (i.e. Professional Law and Ethics or Suicide Assessment Treatment and Management).&lt;/p&gt;
+
+&lt;p&gt;I have this LCP action in my “base” actions folder along with a couple of different actions related to my trainings. All of them send the contents to Drafts for different actions. One action posts the clipboard to an action that appends it to my Clock Hour CSV, one to my CEU CSV, and one to my text file. I then have a main action that calls all of the other actions and let me select if I want to post it to one, two or all three of the actions.&lt;/p&gt;
+
+&lt;p&gt;The two actions that I have which append to my Clock Hour CSV and my CEU CSV files are very simple and just append to the files. There are two actions to append to my overall text file. One action takes the comma separated data and uses some JavaScript to split the text at each “, “ and return the text with each section as a new line. You can &lt;a href=&quot;http://drafts4-actions.agiletortoise.com/a/1NF&quot;&gt;install the drafts action&lt;/a&gt; or see the JavaScript below:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// Function to Parse Comma Separated Value Text
+// Jacob Campbell -- http://jacobrcampbell.com/
+
+function parseText(s){
+    var temp = new Array();
+    temp = s.split(', ');
+      var result = &quot;&quot;;
+      var i;
+    for(i=0; i&amp;lt;temp.length; i++) {
+        result += temp[i] + &quot;\n&quot;;
+    }
+return result;
+}
+
+// Commit content to draft
+
+var text = draft.content;
+draft.content = parseText(text);
+commit(draft);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The drafts action then passes that data to another action which takes those new lines and adds it to a template page that has the following information:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## [[line|2]]
+* __Date__: [[line|1]]  
+* __Location__:   
+* __Facilitator__:   
+* __CEU / Clock Hours__: [[line|3]], [[line|4]]  
+* __Duration__:   
+* __Certificate of Completion__:
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Each of the the parts that say [[line&lt;/td&gt;
+      &lt;td&gt;n]] takes that line from the draft and puts it there. I then add the last little bit of information (i.e. location, who facilitated it… etc) and I’m all done.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;What is amazing, is I can write it once in LCP, have it post to both CSV files and then prepare it for posting it to my text file with only typing minimal text. I have taken it to another level, and have made some OmniFocus task templates that I can post and remember to follow up and see if I have received my confirmation form for my clock hours.&lt;/p&gt;
+
+&lt;p&gt;If you have the need to track your clock hours or CEU’s its a pretty awesome system, and I’d highly encourage you steal what I have put together and change it for your own needs.&lt;/p&gt;</content><author><name>Jacob Campbell</name></author><category term="Blog" /><category term="Technology" /><category term="Personal" /><category term="Professional" /><category term="Drafts" /><category term="Launch Center Pro" /><summary type="html"></summary></entry><entry><title type="html">Mileage Tracking Form and Launch Center Pro</title><link href="http://localhost:4000/blog/mileage-tracking-form-and-launch-center-pro/" rel="alternate" type="text/html" title="Mileage Tracking Form and Launch Center Pro" /><published>2014-08-30T20:55:00-07:00</published><updated>2014-08-30T20:55:00-07:00</updated><id>http://localhost:4000/blog/mileage-tracking-form-and-launch-center-pro</id><content type="html" xml:base="http://localhost:4000/blog/mileage-tracking-form-and-launch-center-pro/">&lt;p&gt;&lt;img src=&quot;/images/mileage-tracking-lauch-center-pro-ifttt-google-sheets.jpg&quot; alt=&quot;Mileage Tracking with Launch Center Pro, IFTTT and Google Sheets&quot; title=&quot;Mileage Tracking with Launch Center Pro, IFTTT and Google Sheets&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;On &lt;a href=&quot;http://jacobrcampbell.com/blog/2014/4/jump-in-the-stream-favorite-podcasts&quot;&gt;my favorite podcast&lt;/a&gt;, &lt;a href=&quot;http://www.macpowerusers.com/&quot;&gt;Mac Power Users&lt;/a&gt; I feel like I’ve heard about &lt;a href=&quot;http://contrast.co/launch-center-pro/&quot;&gt;Launch Center Pro&lt;/a&gt; a number of times. I’ve thought about purchasing it a number of times, because I really like the concept automation. I’ve kept putting off purchasing it because I didn’t know exactly what I would do with it. I use &lt;a href=&quot;http://agiletortoise.com/drafts/&quot;&gt;Drafts&lt;/a&gt; all of the time on my iPhone and my iPad, and it’s always seemed like enough.&lt;/p&gt;
+
+&lt;p&gt;I was reading Dr. Drang’s article &lt;a href=&quot;http://www.leancrew.com/all-this/2014/08/late-to-launch/&quot;&gt;Late to Launch&lt;/a&gt; earlier today, and decided that I did need to buy Launch Center Pro (LCP). I figured that it was ok, because he is late coming to LCP too.&lt;/p&gt;
+
+&lt;p&gt;Basically LCP is an iPhone / iPad app that launches other applications or does tasks within those application. It also gives interaction for IFTTT (which I talked &lt;a href=&quot;http://jacobrcampbell.com/blog/2013/1/new-and-fun-functionality&quot;&gt;about here&lt;/a&gt;), which opens up so many other possibilities.&lt;/p&gt;
+
+&lt;p&gt;In reading Dr. Drang’s article, I decided that I needed a simple way to track my mileage. Whenever I go in between schools at my new job, I can submit for a reimbursement for the gas and wear and tear on my car. They don’t require a listing of miles driven, but from one building to another building (the school district dictates what the milage is between buildings, for those people who tend to drive circuitous routes). For last month, I went through my calendar and tried to pick out the days that I drove between different buildings. I’m excited about my new system using LCP and think I will save myself time. One of my co-workers told me that she never has time to fill out her form, so maybe I will have to share this with her.&lt;/p&gt;
+
+&lt;p&gt;For all of the non nerds out there, this might sound kind of complicated, but really it is not, and it’s kind of fun to put together. I’ll walk you through what I did. Basically I have an action in LCP that opens two lists which I select from which schools I’m drive from and to, sends those as a row in a google spreadsheet, and then at the end of the month, IFTTT sends me an email with a link to the spreadsheet to remind me to copy and past it onto the correct from.&lt;/p&gt;
+
+&lt;ul class=&quot;small-12 medium-block-grid-3&quot;&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/images/iphone-launch-center-pro-action-screen.png&quot;&gt;&lt;img src=&quot;/images/iphone-launch-center-pro-action-screen.png&quot; alt=&quot;A screenshot of the new action screen blank and ready to be set up&quot; /&gt;&lt;/a&gt;
+		&lt;p class=&quot;caption&quot;&gt;A screenshot of the new action screen blank and ready to be set up. iPhone mock-up thanks to &lt;a href=&quot;http://www.pixeden.com/psd-mock-up-templates/iphone-5s-psd-vector-mockup&quot;&gt;Pixel Den&lt;/a&gt;.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;img src=&quot;/images/iphone-launch-center-pro-action-screen-mileage-tracker.png&quot; alt=&quot;A screenshot of my completed action&quot; /&gt;
+		&lt;p class=&quot;caption&quot;&gt;A screenshot of my completed action. You can have it go through and make a list, or add text or a number. iPhone mock-up thanks to &lt;a href=&quot;http://www.pixeden.com/psd-mock-up-templates/iphone-5s-psd-vector-mockup&quot;&gt;Pixel Den&lt;/a&gt;.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;img src=&quot;/images/iphone-launch-center-pro-action-screen-list.png&quot; alt=&quot;A screenshot of my list in action&quot; /&gt;
+		&lt;p class=&quot;caption&quot;&gt;A screenshot of my list in action. Two clicks and I'm done... iPhone mock-up thanks to &lt;a href=&quot;http://www.pixeden.com/psd-mock-up-templates/iphone-5s-psd-vector-mockup&quot;&gt;Pixel Den&lt;/a&gt;.&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The first step is to create a new action in LCP. I just went through their action composer, found the IFTTT trigger, had it complete a Trigger Recipe with Values. I named my Recipe “Mileage Tracker” (I had to name it the same thing when creating my recipe on IFTTT). Then I set two values as “input with a list.” I made list items of each of the schools that I might go from so that one list is the school building I was leaving and the second would be the school building I would be going to.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/ifttt-screenshot-launch-center-pro.png&quot; alt=&quot;My IFTTT recipe&quot; title=&quot;My IFTTT recipe.&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;caption&quot;&gt;My &lt;a href=&quot;https://ifttt.com/recipes/199280-create-mileage-entry-from-launch-center-pro-and-google-drive&quot;&gt;IFTTT Recipe&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Then the IFTTT magic starts. It sends my answers to an IFTT recipe where it appends a spreadsheet in google docs to add the new data (along with the date) to cells in the the spreadsheet. I made a second IFTT rule sending my work email an notification every month on the last day to complete copy and paste the values from the Google Docs to the appropriate spreadsheet and turn it in to receive my reimbursement.&lt;/p&gt;
+
+&lt;p&gt;After I got it all working, I was super excited. It feels amazing to know that I can track my mileage with a couple of clicks on my phone and I won’t ever have to worry about it again. I might have to think about making it based on location… but we will see so that I don’t even have to click anything on my phone.&lt;/p&gt;</content><author><name>Jacob Campbell</name></author><category term="Technology," /><category term="Personal," /><category term="Professional," /><category term="Launch" /><category term="Center" /><category term="Pro," /><category term="Google," /><category term="Google" /><category term="Drive," /><category term="Mac" /><category term="Power" /><category term="Users," /><summary type="html"></summary></entry><entry><title type="html">Is My Mac Magic?</title><link href="http://localhost:4000/blog/is-my-mac-magic/" rel="alternate" type="text/html" title="Is My Mac Magic?" /><published>2014-08-17T16:10:00-07:00</published><updated>2014-08-17T16:10:00-07:00</updated><id>http://localhost:4000/blog/is-my-mac-magic</id><content type="html" xml:base="http://localhost:4000/blog/is-my-mac-magic/">&lt;p&gt;&lt;img src=&quot;/assets/media/is-my-mac-magic-photo.jpg&quot; alt=&quot;Photo of MacBook Pro&quot; title=&quot;A Photo of My MacBook Pro&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;caption&quot;&gt;A photo of my MacBook Pro taken as I was writing this post at Starbucks off of 390 in Kennewick...&lt;/p&gt;
+
+&lt;p&gt;This last week, I had my last day at &lt;a href=&quot;http://www.mytcch.org/&quot;&gt;Tri-Cities Community Health Behavioral Health Services&lt;/a&gt;, and my have started some of my training for my work at the &lt;a href=&quot;http://www.psd1.org/site/default.aspx?PageID=1&quot;&gt;Pasco School District&lt;/a&gt;. I’ve also still been spending quite a bit of time preparing my class lectures for the &lt;a href=&quot;http://www.heritage.edu/CampusLocations/TriCities.aspx&quot;&gt;Heritage Courses&lt;/a&gt; I will be teaching. All that being said, its still a really busy time right now. I figured I’d share some of my geekary from last night that I put together. One of the benefits of being a geek is that can make my computer do magic tricks sometimes, and save myself a lot of hassle and time (although it also means that sometimes I spend a significant amount of time doing things that don’t deserve that much time, but that’s neither here or there).&lt;/p&gt;
+
+&lt;p&gt;The reason I am so in love with my mac, is some of the amazing software and things that I can do with it, that just weren’t possible on a Windows PC. I just downloaded &lt;a href=&quot;http://www.keyboardmaestro.com/main/&quot;&gt;Keyboard Maestro - KM&lt;/a&gt;, a really powerful and amazing piece of software. I’m very excited to see what I can all automate with it on my mac. I’ve put together a couple of what KM calls macros. The first one I did was in apple mail to make keyboard like shortcuts. I’m not going to write about about it, but I did the same as described &lt;a href=&quot;http://apple.stackexchange.com/questions/53254/gmail-like-keyboard-shortcuts-in-mail-app-keys-without-modifiers&quot;&gt;Stack Exchange&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I love my Apple TV, and even like the little four button remote that comes with it. I like to use it even when I’m given presentations as my clicker. The only problem is that it always tries to control my mac. We will be sitting on the couch and watching &lt;a href=&quot;http://www.imdb.com/title/tt0934814/&quot;&gt;Chuck&lt;/a&gt;, our current show of choice on Netflix, and you click a button and it turns on iTunes or click another button and the volume on my mac goes up and down. It’s a bit of a pain to toggle the IR remote on and off. It’s kind of hidden in the system preferences. If you are turning it on and off, it might look something like this &lt;a href=&quot;https://v.usetapes.com/AxaSINsYsY&quot;&gt;short screencast&lt;/a&gt;. While it doesn’t take way to long, it is kind of an annoying process, and KM can come to the rescue. It wasn’t too hard to set it up and automate the process. I created a keyboard short cut that goes though the whole process with minimal needs for me to do anything when turning on and off the remote.&lt;/p&gt;
+
+&lt;p&gt;Basically here is what it does:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/keyboard-maestro-macro-ir-remote.png&quot; alt=&quot;A screenshot of my Keyboard Maestro's macro for toggling the IR remote.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A screenshot of my Keyboard Maestro’s macro for toggling the IR remote.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Click ⇧⌘→&lt;/li&gt;
+  &lt;li&gt;Open “Security &amp;amp; Privacy Preferences Pane”&lt;/li&gt;
+  &lt;li&gt;Pause for 1.5 seconds (so that it has time to open)&lt;/li&gt;
+  &lt;li&gt;Click the gatekeeper lock to unlock the advanced settings&lt;/li&gt;
+  &lt;li&gt;Pause until “Advanced button is available” (waiting for me to put in my password)&lt;/li&gt;
+  &lt;li&gt;Press “Advanced…” button.&lt;/li&gt;
+  &lt;li&gt;Wait for user to (I have to click the check box and pair the IR remote).&lt;/li&gt;
+  &lt;li&gt;Click the “Ok” button&lt;/li&gt;
+  &lt;li&gt;Re-lock the gatekeeper.&lt;/li&gt;
+  &lt;li&gt;Quite the system’s preferences pane.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;It makes me feel a little bit like my mac does magic for me, so beautiful. You can see the &lt;a href=&quot;https://v.usetapes.com/KVk70MAAFE&quot;&gt;short screencast&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now, I can just click a couple of keys, and turn on and off my Apple TV Remote when I’m teaching… easy as that.&lt;/p&gt;</content><author><name>Jacob Campbell</name></author><category term="Technology" /><category term="Personal" /><category term="Work" /><category term="TCCH BHS" /><category term="Pasco School District" /><category term="Heritage University" /><category term="Keyboard Maestro" /><summary type="html">Using Keyboard Maestro to get stuff done on my computer.</summary></entry></feed>
