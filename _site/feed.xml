@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-02-18T22:49:12-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jacob R. Campbell, …</title><subtitle>My hope for all of my stuff. I am a school social worker, adjunct faculty member for a university, Ph.D. Candidate, Licensed Independent Clinical Social Worker, Father, Husband, and active community member</subtitle><author><name>Jacob Campbell</name></author><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/post/2019/02/18/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-02-18T15:33:32-08:00</published><updated>2019-02-18T15:33:32-08:00</updated><id>http://localhost:4000/blog/post/2019/02/18/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/post/2019/02/18/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Jacob Campbell</name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">The 15 Hats (ahem, Roles) of Social Workers</title><link href="http://localhost:4000/blog/2019/02/16/the-15-hats-ahem-roles-of-social-workers/" rel="alternate" type="text/html" title="The 15 Hats (ahem, Roles) of Social Workers" /><published>2019-02-16T23:55:00-08:00</published><updated>2019-02-16T23:55:00-08:00</updated><id>http://localhost:4000/blog/2019/02/16/the-15-hats-ahem-roles-of-social-workers</id><content type="html" xml:base="http://localhost:4000/blog/2019/02/16/the-15-hats-ahem-roles-of-social-workers/">&lt;!-- Courtesy of embedresponsively.com //--&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-02-22T13:06:12-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jacob R. Campbell, …</title><subtitle>My hope for all of my stuff. I am a school social worker, adjunct faculty member for a university, Ph.D. Candidate, Licensed Independent Clinical Social Worker, Father, Husband, and active community member</subtitle><author><name>Jacob Campbell</name></author><entry><title type="html">The 15 Hats (ahem, Roles) of Social Workers</title><link href="http://localhost:4000/blog/2019/02/16/the-15-hats-ahem-roles-of-social-workers/" rel="alternate" type="text/html" title="The 15 Hats (ahem, Roles) of Social Workers" /><published>2019-02-16T23:55:00-08:00</published><updated>2019-02-16T23:55:00-08:00</updated><id>http://localhost:4000/blog/2019/02/16/the-15-hats-ahem-roles-of-social-workers</id><content type="html" xml:base="http://localhost:4000/blog/2019/02/16/the-15-hats-ahem-roles-of-social-workers/">&lt;!-- Courtesy of embedresponsively.com //--&gt;
 &lt;div class=&quot;responsive-video-container&quot;&gt;
 
   &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/iBmtlNkEnFI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
@@ -66,7 +54,104 @@
 
 &lt;p&gt;Figueira-McDonough, J. (1993). Policy practice: The neglected side of social work intervention. Social Work, 38(2), 179–188.&lt;/p&gt;
 
-&lt;p&gt;Jansson, B. (2014). Brooks/Cole empowerment series: Becoming an effective policy advocate (7th ed.). Belmont, CA: Brooks/Cole, Cengage Learning.&lt;/p&gt;</content><author><name>Jacob Campbell</name></author><category term="Blog" /><category term="Social Work" /><category term="Special Needs Populations" /><category term="Advocacy" /><category term="YouTube Posts" /><summary type="html"></summary></entry><entry><title type="html">Tracking Trainings Using Drafts and Launch Center Pro</title><link href="http://localhost:4000/blog/2014/11/14/tracking-trainings-using-dafts-and-launch-center-pro/" rel="alternate" type="text/html" title="Tracking Trainings Using Drafts and Launch Center Pro" /><published>2014-11-14T23:55:00-08:00</published><updated>2014-11-14T23:55:00-08:00</updated><id>http://localhost:4000/blog/2014/11/14/tracking-trainings-using-dafts-and-launch-center-pro</id><content type="html" xml:base="http://localhost:4000/blog/2014/11/14/tracking-trainings-using-dafts-and-launch-center-pro/">&lt;p&gt;&lt;img src=&quot;/images/track-your-trainings-learn-blocks.jpg&quot; alt=&quot;Graphic of Blocks Saying Learn&quot; title=&quot;Track Trainings for CEUs and Clock Hours Using Drafts 4 &amp;amp; Launch Center Pro&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Jansson, B. (2014). Brooks/Cole empowerment series: Becoming an effective policy advocate (7th ed.). Belmont, CA: Brooks/Cole, Cengage Learning.&lt;/p&gt;</content><author><name>Jacob Campbell</name></author><category term="Blog" /><category term="Social Work" /><category term="Special Needs Populations" /><category term="Advocacy" /><category term="YouTube Posts" /><summary type="html"></summary></entry><entry><title type="html">From the City to the French Countryside and Italy</title><link href="http://localhost:4000/blog/2016/8/from-the-city-to-the-french-countryside-and-italy" rel="alternate" type="text/html" title="From the City to the French Countryside and Italy" /><published>2016-08-10T00:00:00-07:00</published><updated>2016-08-10T00:00:00-07:00</updated><id>http://localhost:4000/blog/2016/8/from-the-city-to-the-french-countryside-and-italy</id><content type="html" xml:base="http://localhost:4000/blog/2016/8/from-the-city-to-the-french-countryside-and-italy">&lt;p&gt;&lt;img src=&quot;/assets/media/Balcony-Commune-of-Fabas-in-the-Midi-Phyrénées-French-Countryside.jpeg&quot; alt=&quot;A photo from the Balcony of Sheila and Dennis house in the Commune of Fabas in the Midi-Phyrénées of the French Countryside.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A photo from the Balcony of Sheila and Dennis house in the Commune of Fabas in the Midi-Phyrénées of the French Countryside.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A Black Madonna or Black Virgin is a statue or painting of Mary in which she, and oftentimes the infant Yahshua are depicted with dark skin, especially those created in Europe in the medieval period or earlier. The Black Madonnas are generally found in Catholic and Orthodox countries. The term refers to a type of Marian statue or painting of mainly medieval origin (12th to 15th centuries), with dark or black features.&lt;/p&gt;
+
+  &lt;p&gt;– Wikipedia&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The city of lights was beautiful. You can find my photo album on Facebook, &lt;a href=&quot;https://www.facebook.com/media/set/?set=a.10100259365182336.1073741840.44504407&amp;amp;type=1&amp;amp;l=61670512fa&quot;&gt;Paris, City of Lights&lt;/a&gt;. After spending four nights in Paris, we caught a train heading to &lt;a href=&quot;https://en.wikipedia.org/wiki/Toulouse&quot;&gt;Toulouse&lt;/a&gt;, in the Southern France region. In Toulouse, we didn’t really spend much time. We rented cars and spent a little bit of time getting some lunch and wandering around the Toulouse downtown for a bit. We tried to go and see the &lt;a href=&quot;https://en.wikipedia.org/wiki/Black_Madonna&quot;&gt;Black Madonna&lt;/a&gt;, but we couldn’t find parking. We rented two  cars, mine was a manual. I hadn’t driven a manual transmission car since I was in high school, but after we got into the windy roads of the French Countryside in Midi-Pyrénées, I was glad that was my car. It felt exhilarating to be shifting through all of the roads.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/house-aulus-les-brains-france.jpg&quot; alt=&quot;A house in the commune of Aulus-les-Brains in the French Countryside.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A house in the commune of Aulus-les-Brains in the French Countryside.&lt;/p&gt;
+
+&lt;p&gt;Heading to the Commune of Fabas, we went to the wrong Fabas at first (putting us about 45 minutes in the wrong direction), but we finally made it to some of the most wonderful country I’ve ever seen. We spent four nights in the area. My mom, Geralyn and I stayed at an old family friend of my mother and I, Sheila and Dennis. They used to live in the Dayton Watisburg area where I grew up. They built a house, in the countryside with the most spectacular view. You can check out photos on Facebook album, &lt;a href=&quot;https://www.facebook.com/media/set/?set=a.10100262325235366.1073741841.44504407&amp;amp;type=1&amp;amp;l=6d066c7b40&quot;&gt;French Countryside in the Midi-Pyrénées&lt;/a&gt;. We got the opportunity to do a lot of different things while we were there.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/snapchat-steak-chevalier-horse.jpeg&quot; alt=&quot;Steak Chevalier (Horse).&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Steak Chevalier (Horse).&lt;/p&gt;
+
+&lt;p&gt;Before heading out on our trip, I was the least excited about visiting the countryside. I was thinking that I wouldn’t like it as much, because it is out of the city, but it was amazing! We spent one day touring various small villages, passes, and outlooks.  The views from the some of the passes, and Lake Bethmal were breathtaking. We even picked wild huckleberries on the mountain side. I was amazed at the roads, and sites especially knowing that often times the &lt;a href=&quot;http://www.letour.com/us/&quot;&gt;Tour de France&lt;/a&gt; goes through these mountains. It made me tired just thinking about it. In the City of Seix, I ended up ordering horse (common food in France), it was good and tasted mostly like cow.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In 1858 Lourdes rose to prominence in France and abroad due to the Marian apparitions seen by the peasant girl Bernadette Soubirous, who was later canonized. Shortly thereafter the city became one of the world’s most important sites of pilgrimage and religious tourism. Today Lourdes hosts around six million visitors every year from all corners of the world. This constant stream of pilgrims and tourists transformed quiet Lourdes into the second most important center of tourism in France, second only to Paris, and the third most important site of international Catholic pilgrimage after Rome and the Holy Land. As of 2011, of French cities only Paris had more hotel capacity.&lt;/p&gt;
+
+  &lt;p&gt;– Wikipedia&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/View-of-the-Church-at-Lourdes-in-France.jpeg&quot; alt=&quot;View of the Church at Lourdes in France.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;View of the Church at Lourdes in France.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;An estimated 200 million people have visited the shrine since 1860,&lt;a href=&quot;https://en.wikipedia.org/wiki/Toulouse&quot;&gt;7&lt;/a&gt; and the Roman Catholic Church has officially recognized 69 healings considered miraculous. Cures are examined using Church criteria for authenticity and authentic miracle healing with no physical or psychological basis other than the healing power of the water&lt;/p&gt;
+
+  &lt;p&gt;– Wikipedia&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Another one of the days, some of us went to &lt;a href=&quot;https://en.wikipedia.org/wiki/Lourdes&quot;&gt;Lourdes, France&lt;/a&gt;. It was a bit of drive, but is an interesting town. There are hundreds of people with diseases, handicaps, and different abilities that make the pilgrimage to Lourdes to seek healing. The church of Lourdes, is gorgeous and I’m pretty sure it is what Disneyland is modeled after.&lt;/p&gt;
+
+&lt;p&gt;We also had an amazing five course traditional French meal at the bed and breakfast the rest of my family was staying at. The food was amazing, and we sat, ate, talked, ate, drank, ate, and drank more for almost three and half hours. A wonderful experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/family-friends-lake-bethmal.jpeg&quot; alt=&quot;A photo of Sheila, Dennis, and I at Lake Bethmal.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A photo of Sheila, Dennis, and I at Lake Bethmal.&lt;/p&gt;
+
+&lt;p&gt;The next morning, we set off early, heading to Nice. When I told family and friends that I was going to France, everybody was worried because of the attack that happened about a month before our trip in Nice. It was unfortunate that we only got to stay one night in Nice, because it was a hip, vibrant, and fun town. We spent 10 hours driving from Sheila and Dennis to Nice, toll bridges, and craziness, but it was absolutely worth it.&lt;/p&gt;
+
+&lt;p&gt;Then it was a train to Florence with a stop in Milan. Our train was late arriving in Milan, and the carrier wouldn’t refund our ticket so we had to wait for another one and purchase it again.&lt;/p&gt;
+
+&lt;p&gt;In Florence we’ve had the opportunity see David, walk the streets, go shopping, I’ve gone out a couple of nights and gotten to experience some of the nightlife, and stay in an absolutely beautiful hotel (&lt;a href=&quot;http://www.krafthotel.it&quot;&gt;Kaft Hotel&lt;/a&gt;) with a terrace roof and restaurant and pool. We leave tomorrow to head to the last leg of our trip and Rome.&lt;/p&gt;</content><author><name>Jacob Campbell</name></author><category term="Travel Blog" /><category term="Travel" /><category term="Family European Adventure 2016" /><category term="Family Fun" /><summary type="html"></summary></entry><entry><title type="html">Our European Adventure with a Start in Paris, The City of Lights</title><link href="http://localhost:4000/blog/2016/8/our-european-adventure-with-a-start-in-paris-the-city-of-lights" rel="alternate" type="text/html" title="Our European Adventure with a Start in Paris, The City of Lights" /><published>2016-08-02T00:00:00-07:00</published><updated>2016-08-02T00:00:00-07:00</updated><id>http://localhost:4000/blog/2016/8/our-european-adventure-with-a-start-in-paris-the-city-of-lights</id><content type="html" xml:base="http://localhost:4000/blog/2016/8/our-european-adventure-with-a-start-in-paris-the-city-of-lights">&lt;p&gt;&lt;img src=&quot;/assets/media/Family-European-Adventure-2016-Paris-Header.jpg&quot; alt=&quot;Family European Adventure 2016 - Paris&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Family European Adventure 2016 - Paris&lt;/p&gt;
+
+&lt;p&gt;It has been a fly by trip so far. My mom, my aunt Geralyn, my cousin Larissa and her boyfriend Shane, and my aunt Barbara and uncle Allen all have made her way over to Europe. Our first stop has been in Paris, the city of lights. It is a beautiful city, with amazing architecture, different little neighborhoods each with their own feel, wonderful architecture, and so many different people.&lt;/p&gt;
+
+&lt;p&gt;My mom and I left from the Pasco Airport to Seattle Tacoma Airport where we met up with the rest of our family. Then it was a 10.5 hour flight with a nine hour time difference (yes, we are living in the future). We have been walking a ton. I thought that it might be interesting to share how far we actually have been walking. I have been wearing my Apple Watch (which I absolutely love) the whole trip, so I have a pretty good idea of how far we’ve been walking each day so far.&lt;/p&gt;
+
+&lt;h2 id=&quot;miles-walked-each-day&quot;&gt;Miles Walked Each Day&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/paris-trip-miles-walked.png&quot; alt=&quot;A graphi showing the number of miles walked each day so far.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The number of miles I have walked each day so far as a part of the trip. &lt;img src=&quot;/assets/media/first-meal-in-Paris-taken-at-the-Le-Nemrod.jpeg&quot; alt=&quot;A picture of my first meal in Paris, taken at the Le Nemrod.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A picture of my first meal in Paris, taken at the Le Nemrod.&lt;/p&gt;
+
+&lt;p&gt;We arrived in Paris after leaving Friday morning at 8:30 am on Saturday morning. It took a couple of hours to wait to go through customs and we found ourselves a taxi to our hotel, &lt;a href=&quot;http://www.hotel-belle-juliette-paris.com/&quot;&gt;Hotel &amp;amp; Spa La Belle Juliette&lt;/a&gt;. The hotel is somewhat expensive, and much more expensive then any hotels  that I would generally choose, but it is very chic with beautiful small rooms with iMacs in every room that double as a TV. After checking in, we were hungry and headed to &lt;a href=&quot;http://www.lenemrod.com&quot;&gt;Le Nemrod&lt;/a&gt; to get some food and then made our way to a giant beautiful park to wander around a little bit. The &lt;a href=&quot;http://www.senat.fr/visite/jardin/index.html&quot;&gt;Jardin du Luxembourg&lt;/a&gt; is absolutely a wonderful place to go, and really felt very much the epitome of what I imagine when I think of France. There was wonderful statues, old men playing chess and Bocci Ball, and many people just passing time with each other at a slow pace.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/people-playing-chess-at-the-Jardin-du-Luxembourg.jpeg&quot; alt=&quot;A photo of people playing chess at the Jardin du Luxembourg.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A photo of people playing chess at the Jardin du Luxembourg.&lt;/p&gt;
+
+&lt;p&gt;After wondering around the park for a couple of hours, playing some Pokémon Go (yes, you have to catch them all) and finding some pizza for dinner we made our way back to the hotel to relax and sleep after a sleepless two days.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/Cheap-food-and-fruit-at-the-Mouffetard-Market.jpeg&quot; alt=&quot; Cheap food and fruit at the Mouffetard Market. &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sunday, was a busy day with so many views of the city and little adventures along the way. We made our way to do some shopping and pick up some produce at the Mouffetard Market. Rue de Mouffetard and the market that is nearby is a little get away from modern life with cobble stones and small little stores all around. After doing a little shopping and resting our feet a little bit, we made our way to the &lt;a href=&quot;https://en.wikipedia.org/wiki/Panthéon&quot;&gt;Panthéon in Paris&lt;/a&gt;. I will be posting a bunch of pictures from our trip on Facebook (and I’m sure I’ll share a link on here in the future), but the internet that I’ve mostly found has been fairly slow and difficult to upload. Just making this post with a couple of pictures has been a challenge.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/panorama-shot-family-front-Panthéon.jpeg&quot; alt=&quot;A panorama shot of my family (although, they aren't paying attention) in front of the Panthéon.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A panorama shot of my family (although, they aren’t paying attention) in front of the Panthéon.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Panthéon is a building in the Latin Quarter in Paris. It was originally built as a church dedicated to St. Genevieve and to house the reliquary châsse containing her relics but, after many changes, now functions as a secular mausoleum containing the remains of distinguished French citizens. It is an early example of neoclassicism, with a façade modeled on the Pantheon in Rome, surmounted by a dome that owes some of its character to Bramante’s ‘Tempietto.’
+– Wikipedia&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/photo-base-Eiffel-Tower.jpeg&quot; alt=&quot;A photo from the base of the Eiffel Tower.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A photo from the base of the Eiffel Tower.&lt;/p&gt;
+
+&lt;p&gt;I got the opportunity to climb to the top of the Panthéon and take some really great shots of all of Paris. We walked down to the Zig Zag Café where I got the opportunity to try some Escargot for the first time and then we made our way to the &lt;a href=&quot;https://en.wikipedia.org/wiki/Notre_Dame_de_Paris&quot;&gt;Cathédrale Notre Dame&lt;/a&gt;. Absolutely one of the best cathedrals that I’ve seen in my various trips. By night, we went to see the &lt;a href=&quot;https://en.wikipedia.org/wiki/Eiffel_Tower&quot;&gt;Eiffel Tower&lt;/a&gt;, and shared a bottle of some tequila as we walked home and so many laughs and fun times with my family.&lt;/p&gt;
+
+&lt;p&gt;Monday was a trip to the &lt;a href=&quot;https://en.wikipedia.org/wiki/Louvre&quot;&gt;Louvre Museum&lt;/a&gt;, some Jazz at &lt;a href=&quot;http://www.sunset-sunside.com/&quot;&gt;Sunset Subside&lt;/a&gt; and sharing some checha at the Isis Café. Today has been mostly a relaxed day, and giving me an opportunity to share a little bit of our adventure with all of you. Here is looking forward to more stores as we go through France and Europe for the next couple of weeks. I will also be posting some photos to Facebook, so look forward to that.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;</content><author><name>Jacob Campbell</name></author><category term="Travel Blog" /><category term="Travel" /><category term="Family European Adventure 2016" /><category term="Family Fun" /><summary type="html"></summary></entry><entry><title type="html">Tracking Trainings Using Drafts and Launch Center Pro</title><link href="http://localhost:4000/personal%20blog/professional%20blog/2014/11/14/tracking-trainings-using-dafts-and-launch-center-pro/" rel="alternate" type="text/html" title="Tracking Trainings Using Drafts and Launch Center Pro" /><published>2014-11-14T23:55:00-08:00</published><updated>2014-11-14T23:55:00-08:00</updated><id>http://localhost:4000/personal%20blog/professional%20blog/2014/11/14/tracking-trainings-using-dafts-and-launch-center-pro</id><content type="html" xml:base="http://localhost:4000/personal%20blog/professional%20blog/2014/11/14/tracking-trainings-using-dafts-and-launch-center-pro/">&lt;p&gt;&lt;img src=&quot;/assets/media/track-your-trainings-learn-blocks.jpg&quot; alt=&quot;Graphic of Blocks Saying Learn&quot; title=&quot;Track Trainings for CEUs and Clock Hours Using Drafts 4 &amp;amp; Launch Center Pro&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;A couple of weeks ago, I spent some times further diving into &lt;a href=&quot;http://agiletortoise.com/drafts/&quot;&gt;Drafts&lt;/a&gt; and &lt;a href=&quot;http://contrast.co/launch-center-pro/&quot;&gt;Launch Center Pro&lt;/a&gt;. Both are amazing applications for iOS, and have greatly improved my productivity and ability to get things done. I have been absolutely loving my &lt;a href=&quot;/blog/2014/8/mileage-tracking-form-and-launch-center-pro&quot;&gt;Milage Tracker&lt;/a&gt; that I put together, and use it multiple times a day (and find that it makes it so I don’t forget to track). As I have written before, I’m a big fan of using plain &lt;a href=&quot;/blog/2014/3/review-of-david-sparkss-markdown-book-an-investigation-to-formatting-documents&quot;&gt;text files and Markdown&lt;/a&gt;.&lt;/p&gt;
 
@@ -115,18 +200,37 @@ commit(draft);
 * __Certificate of Completion__:
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Each of the the parts that say [[line&lt;/td&gt;
-      &lt;td&gt;n]] takes that line from the draft and puts it there. I then add the last little bit of information (i.e. location, who facilitated it… etc) and I’m all done.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;Each of the the parts that say &lt;code class=&quot;highlighter-rouge&quot;&gt;[[line|n]]&lt;/code&gt; takes that line from the draft and puts it there. I then add the last little bit of information (i.e. location, who facilitated it… etc) and I’m all done.&lt;/p&gt;
 
 &lt;p&gt;What is amazing, is I can write it once in LCP, have it post to both CSV files and then prepare it for posting it to my text file with only typing minimal text. I have taken it to another level, and have made some OmniFocus task templates that I can post and remember to follow up and see if I have received my confirmation form for my clock hours.&lt;/p&gt;
 
-&lt;p&gt;If you have the need to track your clock hours or CEU’s its a pretty awesome system, and I’d highly encourage you steal what I have put together and change it for your own needs.&lt;/p&gt;</content><author><name>Jacob Campbell</name></author><category term="Blog" /><category term="Technology" /><category term="Personal" /><category term="Professional" /><category term="Drafts" /><category term="Launch Center Pro" /><summary type="html"></summary></entry><entry><title type="html">Mileage Tracking Form and Launch Center Pro</title><link href="http://localhost:4000/blog/2014/08/30/mileage-tracking-form-and-launch-center-pro/" rel="alternate" type="text/html" title="Mileage Tracking Form and Launch Center Pro" /><published>2014-08-30T20:55:00-07:00</published><updated>2014-08-30T20:55:00-07:00</updated><id>http://localhost:4000/blog/2014/08/30/mileage-tracking-form-and-launch-center-pro</id><content type="html" xml:base="http://localhost:4000/blog/2014/08/30/mileage-tracking-form-and-launch-center-pro/">&lt;p&gt;&lt;img src=&quot;/images/mileage-tracking-lauch-center-pro-ifttt-google-sheets.jpg&quot; alt=&quot;Mileage Tracking with Launch Center Pro, IFTTT and Google Sheets&quot; title=&quot;Mileage Tracking with Launch Center Pro, IFTTT and Google Sheets&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;If you have the need to track your clock hours or CEU’s its a pretty awesome system, and I’d highly encourage you steal what I have put together and change it for your own needs.&lt;/p&gt;</content><author><name>Jacob Campbell</name></author><category term="[&quot;Personal Blog&quot;, &quot;Professional Blog&quot;]" /><category term="Technology" /><category term="Personal" /><category term="Professional" /><category term="Drafts" /><category term="Launch Center Pro" /><summary type="html"></summary></entry><entry><title type="html">Mileage Tracking Form and Launch Center Pro</title><link href="http://localhost:4000/blog/2014/08/30/mileage-tracking-form-and-launch-center-pro/" rel="alternate" type="text/html" title="Mileage Tracking Form and Launch Center Pro" /><published>2014-08-30T20:55:00-07:00</published><updated>2014-08-30T20:55:00-07:00</updated><id>http://localhost:4000/blog/2014/08/30/mileage-tracking-form-and-launch-center-pro</id><content type="html" xml:base="http://localhost:4000/blog/2014/08/30/mileage-tracking-form-and-launch-center-pro/">&lt;p&gt;feature_row:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;image_path: /assets/media/iphone-launch-center-pro-action-screen.png
+alt: “A screenshot of the new action screen blank and ready to be set up”
+title: “New Action Screen”
+excerpt: “A screenshot of the new action screen blank and ready to be set up. iPhone mock-up thanks to &lt;a href=&quot;href=&amp;quot;http://www.pixeden.com/psd-mock-up-templates/iphone-5s-psd-vector-mockup&quot;&gt;Pixel Den&lt;/a&gt;”&lt;/li&gt;
+  &lt;li&gt;image_path: /assets/media/iphone-launch-center-pro-action-screen-mileage-tracker.png
+alt: “A screenshot of my completed action”
+title: “Completed Action”
+excerpt: “A screenshot of my completed action. You can have it go through and make a list, or add text or a number. iPhone mock-up thanks to &lt;a href=&quot;http://www.pixeden.com/psd-mock-up-templates/iphone-5s-psd-vector-mockup&quot;&gt;Pixel Den&lt;/a&gt;”&lt;/li&gt;
+  &lt;li&gt;image_path: /assets/media/iphone-launch-center-pro-action-screen-list.png
+  	alt: “A screenshot of my list in action”
+title: “List in Action”
+excerpt: “A screenshot of my list in action. Two clicks and I’m done… iPhone mock-up thanks to &lt;a href=&quot;href=&amp;quot;http://www.pixeden.com/psd-mock-up-templates/iphone-5s-psd-vector-mockup&quot;&gt;Pixel Den&lt;/a&gt;”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;tags: 
+	- “Technology”
+	- “Personal”
+	- “Professional”
+	- “Launch Center Pro”
+	- “Google”
+	- “Google Drive”
+	- “Mac Power Users” 
+location: “Tri-Cities Washington”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/mileage-tracking-lauch-center-pro-ifttt-google-sheets.jpg&quot; alt=&quot;Mileage Tracking with Launch Center Pro, IFTTT and Google Sheets&quot; title=&quot;Mileage Tracking with Launch Center Pro, IFTTT and Google Sheets&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;On &lt;a href=&quot;http://jacobrcampbell.com/blog/2014/4/jump-in-the-stream-favorite-podcasts&quot;&gt;my favorite podcast&lt;/a&gt;, &lt;a href=&quot;http://www.macpowerusers.com/&quot;&gt;Mac Power Users&lt;/a&gt; I feel like I’ve heard about &lt;a href=&quot;http://contrast.co/launch-center-pro/&quot;&gt;Launch Center Pro&lt;/a&gt; a number of times. I’ve thought about purchasing it a number of times, because I really like the concept automation. I’ve kept putting off purchasing it because I didn’t know exactly what I would do with it. I use &lt;a href=&quot;http://agiletortoise.com/drafts/&quot;&gt;Drafts&lt;/a&gt; all of the time on my iPhone and my iPad, and it’s always seemed like enough.&lt;/p&gt;
 
@@ -136,32 +240,23 @@ commit(draft);
 
 &lt;p&gt;In reading Dr. Drang’s article, I decided that I needed a simple way to track my mileage. Whenever I go in between schools at my new job, I can submit for a reimbursement for the gas and wear and tear on my car. They don’t require a listing of miles driven, but from one building to another building (the school district dictates what the milage is between buildings, for those people who tend to drive circuitous routes). For last month, I went through my calendar and tried to pick out the days that I drove between different buildings. I’m excited about my new system using LCP and think I will save myself time. One of my co-workers told me that she never has time to fill out her form, so maybe I will have to share this with her.&lt;/p&gt;
 
-&lt;p&gt;For all of the non nerds out there, this might sound kind of complicated, but really it is not, and it’s kind of fun to put together. I’ll walk you through what I did. Basically I have an action in LCP that opens two lists which I select from which schools I’m drive from and to, sends those as a row in a google spreadsheet, and then at the end of the month, IFTTT sends me an email with a link to the spreadsheet to remind me to copy and past it onto the correct from.&lt;/p&gt;
+&lt;p&gt;For all of the non nerds out there, this might sound kind of complicated, but really it is not, and it’s kind of fun to put together. I’ll walk you through what I did. Basically I have an action in LCP that opens two lists which I select from which schools I’m drive from and to, sends those as a row in a Google spreadsheet, and then at the end of the month, IFTTT sends me an email with a link to the spreadsheet to remind me to copy and past it onto the correct from.&lt;/p&gt;
 
-&lt;ul class=&quot;small-12 medium-block-grid-3&quot;&gt;
-	&lt;li&gt;
-		&lt;a href=&quot;/images/iphone-launch-center-pro-action-screen.png&quot;&gt;&lt;img src=&quot;/images/iphone-launch-center-pro-action-screen.png&quot; alt=&quot;A screenshot of the new action screen blank and ready to be set up&quot; /&gt;&lt;/a&gt;
-		&lt;p class=&quot;caption&quot;&gt;A screenshot of the new action screen blank and ready to be set up. iPhone mock-up thanks to &lt;a href=&quot;http://www.pixeden.com/psd-mock-up-templates/iphone-5s-psd-vector-mockup&quot;&gt;Pixel Den&lt;/a&gt;.&lt;/p&gt;
-	&lt;/li&gt;
-	&lt;li&gt;
-		&lt;img src=&quot;/images/iphone-launch-center-pro-action-screen-mileage-tracker.png&quot; alt=&quot;A screenshot of my completed action&quot; /&gt;
-		&lt;p class=&quot;caption&quot;&gt;A screenshot of my completed action. You can have it go through and make a list, or add text or a number. iPhone mock-up thanks to &lt;a href=&quot;http://www.pixeden.com/psd-mock-up-templates/iphone-5s-psd-vector-mockup&quot;&gt;Pixel Den&lt;/a&gt;.&lt;/p&gt;
-	&lt;/li&gt;
-	&lt;li&gt;
-		&lt;img src=&quot;/images/iphone-launch-center-pro-action-screen-list.png&quot; alt=&quot;A screenshot of my list in action&quot; /&gt;
-		&lt;p class=&quot;caption&quot;&gt;A screenshot of my list in action. Two clicks and I'm done... iPhone mock-up thanks to &lt;a href=&quot;http://www.pixeden.com/psd-mock-up-templates/iphone-5s-psd-vector-mockup&quot;&gt;Pixel Den&lt;/a&gt;.&lt;/p&gt;
-	&lt;/li&gt;
-&lt;/ul&gt;
+&lt;div class=&quot;feature__wrapper&quot;&gt;
+
+  
+
+&lt;/div&gt;
 
 &lt;p&gt;The first step is to create a new action in LCP. I just went through their action composer, found the IFTTT trigger, had it complete a Trigger Recipe with Values. I named my Recipe “Mileage Tracker” (I had to name it the same thing when creating my recipe on IFTTT). Then I set two values as “input with a list.” I made list items of each of the schools that I might go from so that one list is the school building I was leaving and the second would be the school building I would be going to.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/ifttt-screenshot-launch-center-pro.png&quot; alt=&quot;My IFTTT recipe&quot; title=&quot;My IFTTT recipe.&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/media/ifttt-screenshot-launch-center-pro.png&quot; alt=&quot;My IFTTT recipe&quot; title=&quot;My IFTTT recipe.&quot; /&gt;&lt;/p&gt;
 
-&lt;p class=&quot;caption&quot;&gt;My &lt;a href=&quot;https://ifttt.com/recipes/199280-create-mileage-entry-from-launch-center-pro-and-google-drive&quot;&gt;IFTTT Recipe&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My &lt;a href=&quot;https://ifttt.com/recipes/199280-create-mileage-entry-from-launch-center-pro-and-google-drive&quot;&gt;IFTTT Recipe&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Then the IFTTT magic starts. It sends my answers to an IFTT recipe where it appends a spreadsheet in google docs to add the new data (along with the date) to cells in the the spreadsheet. I made a second IFTT rule sending my work email an notification every month on the last day to complete copy and paste the values from the Google Docs to the appropriate spreadsheet and turn it in to receive my reimbursement.&lt;/p&gt;
+&lt;p&gt;Then the IFTTT magic starts. It sends my answers to an IFTT recipe where it appends a spreadsheet in Google docs to add the new data (along with the date) to cells in the the spreadsheet. I made a second IFTT rule sending my work email an notification every month on the last day to complete copy and paste the values from the Google Docs to the appropriate spreadsheet and turn it in to receive my reimbursement.&lt;/p&gt;
 
-&lt;p&gt;After I got it all working, I was super excited. It feels amazing to know that I can track my mileage with a couple of clicks on my phone and I won’t ever have to worry about it again. I might have to think about making it based on location… but we will see so that I don’t even have to click anything on my phone.&lt;/p&gt;</content><author><name>Jacob Campbell</name></author><category term="Technology," /><category term="Personal," /><category term="Professional," /><category term="Launch" /><category term="Center" /><category term="Pro," /><category term="Google," /><category term="Google" /><category term="Drive," /><category term="Mac" /><category term="Power" /><category term="Users," /><summary type="html"></summary></entry><entry><title type="html">Is My Mac Magic?</title><link href="http://localhost:4000/blog/2014/08/17/is-my-mac-magic/" rel="alternate" type="text/html" title="Is My Mac Magic?" /><published>2014-08-17T16:10:00-07:00</published><updated>2014-08-17T16:10:00-07:00</updated><id>http://localhost:4000/blog/2014/08/17/is-my-mac-magic</id><content type="html" xml:base="http://localhost:4000/blog/2014/08/17/is-my-mac-magic/">&lt;p&gt;&lt;img src=&quot;/assets/media/is-my-mac-magic-photo.jpg&quot; alt=&quot;Photo of MacBook Pro&quot; title=&quot;A Photo of My MacBook Pro&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;After I got it all working, I was super excited. It feels amazing to know that I can track my mileage with a couple of clicks on my phone and I won’t ever have to worry about it again. I might have to think about making it based on location… but we will see so that I don’t even have to click anything on my phone.&lt;/p&gt;</content><author><name>Jacob Campbell</name></author><category term="Blog" /><summary type="html">feature_row: image_path: /assets/media/iphone-launch-center-pro-action-screen.png alt: “A screenshot of the new action screen blank and ready to be set up” title: “New Action Screen” excerpt: “A screenshot of the new action screen blank and ready to be set up. iPhone mock-up thanks to Pixel Den” image_path: /assets/media/iphone-launch-center-pro-action-screen-mileage-tracker.png alt: “A screenshot of my completed action” title: “Completed Action” excerpt: “A screenshot of my completed action. You can have it go through and make a list, or add text or a number. iPhone mock-up thanks to Pixel Den” image_path: /assets/media/iphone-launch-center-pro-action-screen-list.png alt: “A screenshot of my list in action” title: “List in Action” excerpt: “A screenshot of my list in action. Two clicks and I’m done… iPhone mock-up thanks to Pixel Den” tags: - “Technology” - “Personal” - “Professional” - “Launch Center Pro” - “Google” - “Google Drive” - “Mac Power Users” location: “Tri-Cities Washington”</summary></entry><entry><title type="html">Is My Mac Magic?</title><link href="http://localhost:4000/blog/2014/08/17/is-my-mac-magic/" rel="alternate" type="text/html" title="Is My Mac Magic?" /><published>2014-08-17T16:10:00-07:00</published><updated>2014-08-17T16:10:00-07:00</updated><id>http://localhost:4000/blog/2014/08/17/is-my-mac-magic</id><content type="html" xml:base="http://localhost:4000/blog/2014/08/17/is-my-mac-magic/">&lt;p&gt;&lt;img src=&quot;/assets/media/is-my-mac-magic-photo.jpg&quot; alt=&quot;Photo of MacBook Pro&quot; title=&quot;A Photo of My MacBook Pro&quot; /&gt;&lt;/p&gt;
 &lt;p class=&quot;caption&quot;&gt;A photo of my MacBook Pro taken as I was writing this post at Starbucks off of 390 in Kennewick...&lt;/p&gt;
 
 &lt;p&gt;This last week, I had my last day at &lt;a href=&quot;http://www.mytcch.org/&quot;&gt;Tri-Cities Community Health Behavioral Health Services&lt;/a&gt;, and my have started some of my training for my work at the &lt;a href=&quot;http://www.psd1.org/site/default.aspx?PageID=1&quot;&gt;Pasco School District&lt;/a&gt;. I’ve also still been spending quite a bit of time preparing my class lectures for the &lt;a href=&quot;http://www.heritage.edu/CampusLocations/TriCities.aspx&quot;&gt;Heritage Courses&lt;/a&gt; I will be teaching. All that being said, its still a really busy time right now. I figured I’d share some of my geekary from last night that I put together. One of the benefits of being a geek is that can make my computer do magic tricks sometimes, and save myself a lot of hassle and time (although it also means that sometimes I spend a significant amount of time doing things that don’t deserve that much time, but that’s neither here or there).&lt;/p&gt;
@@ -191,4 +286,20 @@ commit(draft);
 
 &lt;p&gt;It makes me feel a little bit like my mac does magic for me, so beautiful. You can see the &lt;a href=&quot;https://v.usetapes.com/KVk70MAAFE&quot;&gt;short screencast&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Now, I can just click a couple of keys, and turn on and off my Apple TV Remote when I’m teaching… easy as that.&lt;/p&gt;</content><author><name>Jacob Campbell</name></author><category term="Technology" /><category term="Personal" /><category term="Work" /><category term="TCCH BHS" /><category term="Pasco School District" /><category term="Heritage University" /><category term="Keyboard Maestro" /><summary type="html">Using Keyboard Maestro to get stuff done on my computer.</summary></entry></feed>
+&lt;p&gt;Now, I can just click a couple of keys, and turn on and off my Apple TV Remote when I’m teaching… easy as that.&lt;/p&gt;</content><author><name>Jacob Campbell</name></author><category term="Technology" /><category term="Personal" /><category term="Work" /><category term="TCCH BHS" /><category term="Pasco School District" /><category term="Heritage University" /><category term="Keyboard Maestro" /><summary type="html">Using Keyboard Maestro to get stuff done on my computer.</summary></entry><entry><title type="html">Glad Mateo’s Cute, Reasons to Not Be Ugly</title><link href="http://localhost:4000/personal%20blog/2014/02/02/glad-mateos-cute-reasons-to-not-be-ugly/" rel="alternate" type="text/html" title="Glad Mateo's Cute, Reasons to Not Be Ugly" /><published>2014-02-02T00:00:00-08:00</published><updated>2014-02-02T00:00:00-08:00</updated><id>http://localhost:4000/personal%20blog/2014/02/02/glad-mateos-cute-reasons-to-not-be-ugly</id><content type="html" xml:base="http://localhost:4000/personal%20blog/2014/02/02/glad-mateos-cute-reasons-to-not-be-ugly/">&lt;p&gt;&lt;img src=&quot;/assets/media/jacob-campbell-facial-symmetry.png&quot; alt=&quot;A photo I took when I was living in  Cusco Peru , asking &amp;quot;how's your facial symmetry?&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A photo I took when I was living in &lt;a href=&quot;/blog?tag=Cusco%20Peru&quot;&gt;Cusco Peru&lt;/a&gt;, asking “how’s your facial symmetry?”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/mateo-campbell-facial-symmetry.png&quot; alt=&quot;I used a photo of from  Mateo's baby dedication  to complete a  Ana Faces Facial Beauty Analysis .  He got a 7.37 although I think he's much cuter than that.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I used a photo of from &lt;a href=&quot;/events/2013/12/mateos-baby-dedication-at-a-very-merry-eastlake-christmas-party&quot;&gt;Mateo’s baby dedication&lt;/a&gt; to complete a &lt;a href=&quot;http://www.anaface.com&quot;&gt;Ana Faces Facial Beauty Analysis&lt;/a&gt;.  He got a 7.37 although I think he’s much cuter than that.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://freakonomics.com/&quot;&gt;Freakonomics&lt;/a&gt; recently had an episode of their podcast, &lt;a href=&quot;http://freakonomics.com/2014/01/30/reasons-to-not-be-ugly-a-new-freakonomics-radio-podcast/&quot;&gt;Reasons to Not Be Ugly&lt;/a&gt;. The episode looks at beauty, and how it effects peoples lives from being a cute baby to working and marriage relationships in adulthood. It was pretty interesting.&lt;/p&gt;
+
+&lt;p&gt;It made me think about how fussy people are for Mateo. When I take him to the store and other public locations, people are always fussing over him and saying how cute he is. This helps me to justify my feelings and bias that Mateo is by far one of the cutest babies out there.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/jacob-campbell-facial-symmetry-score.png&quot; alt=&quot;A photo I took when I was living in  Cusco Peru , It's probably not the best photo I could choose to check my facial symmetry, but it made me laugh.  My score from  Ana Faces Facial Beauty Analysis  was a 3.13.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A photo I took when I was living in &lt;a href=&quot;/blog?tag=Cusco%20Peru&quot;&gt;Cusco Peru&lt;/a&gt;, It’s probably not the best photo I could choose to check my facial symmetry, but it made me laugh.  My score from &lt;a href=&quot;http://www.anaface.com&quot;&gt;Ana Faces Facial Beauty Analysis&lt;/a&gt; was a 3.13.&lt;/p&gt;
+
+&lt;p&gt;If you had previously asked me how to tell the attractiveness of an individual, I would not have guessed that facial symmetry would be a good way to identify attractiveness. I decided that I needed to have a more objective way of measuring both my and Mateo’s attractiveness. For Mateo, he scored a 7.37 (although I would say he should be higher and I just didn’t put the points accurately). It is still a good score, especially for somebody who still has a lot of growth to happen. I used, &lt;a href=&quot;http://www.anaface.com&quot;&gt;Ana face&lt;/a&gt;’s Facial Beauty Analysis. I ended up uploading one of my pictures, but it did not turn out that I was nearly as cute as Mateo. I will say, that the photo I uploaded was a bit more joking and probably one that doesn’t quite do me justice. I’m ok with my score of 3.13. I can rest assured that at least Mateo will not be discriminated against based on his looks.&lt;/p&gt;</content><author><name>Jacob Campbell</name></author><category term="Personal Blog" /><category term="Personal" /><category term="Funny" /><category term="Podcasts" /><category term="Freakonomics" /><summary type="html"></summary></entry></feed>

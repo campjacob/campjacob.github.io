@@ -16,7 +16,7 @@ excerpt: "Little bits and pieces of my life written down and shared with you."
 {% for post in site.posts %}
        
 <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-<p>Posted on <a href="{{ post.url }}">{{ post.date | date: "%A %B %-d, %Y" }}</a> by <a href="/contact">Jacob Campbell, MSW</a>.</p>
+<p>Posted on <a href="{{ post.url }}">{{ post.date | date: "%A %B %-d, %Y" }}</a> by <a href="/contact">Jacob Campbell</a>.</p>
 
 {{ post.content }}
 

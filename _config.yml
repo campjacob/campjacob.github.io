@@ -24,7 +24,7 @@ url                      : "campjacob.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "campjacob/campjacob.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/jacob-campbell-logo.svg"
+logo                     : "/assets/src/jacob-campbell-logo.svg"
 masthead_title           : " "
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -85,7 +85,7 @@ naver_site_verification  :
 twitter:
   username               : campjacob
 facebook:
-  username               :
+  username               : jacobshouse
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -107,12 +107,12 @@ analytics:
 # Site Author
 author:
   name             : "Jacob Campbell"
-  avatar           : "/assets/images/jacob-campbell-profile-photo.jpeg"
+  avatar           : "/assets/src/jacob-campbell-profile-photo.jpeg"
   bio              : "School social worker practicing with students with EBD, university adjunct faculty, Ph.D. Candidate, LISCW, father, husband, and active community member"
   location         : "Pasco, Washington"
   email            : # "jacob.r.campbell@gmail.com"
   links:
-    - label: "Email"
+    - label: "Contact Me"
       icon: "fas fa-fw fa-envelope-square"
       url: "/contact"
     - label: "YouTube"
@@ -121,37 +121,45 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/campjacob"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/campjacob"
+    - label: "Snapchat"
+      icon: "fab fa-snapchat-square"
+      url: "https://www.snapchat.com/add/campjacob1982"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://fb.com/jacobshouse"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/campjacob"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/campjacob"
+    
 
 # Site Footer
 footer:
   links:
+    - label: "Contact Me"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "/contact"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube-square"
+      url: "https://www.youtube.com/user/campjacob/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
+      url: "https://twitter.com/campjacob"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://instagram.com/campjacob"
+    - label: "Snapchat"
+      icon: "fab fa-snapchat-square"
+      url: "https://www.snapchat.com/add/campjacob1982"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://fb.com/jacobshouse"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/campjacob"
+
 
 
 # Reading Files
@@ -159,6 +167,8 @@ include:
   - .htaccess
   - _pages
   - _data
+  - _resources
+  - _includes
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -191,6 +201,11 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
+# Collections - Resources
+collections:
+  resources:
+    output: true
+    permalink: /:collection/:path/
 
 # Conversion
 markdown: kramdown
@@ -294,3 +309,11 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _resources
+  - scope:
+      path: ""
+      type: resources
+    values:
+      layout: single
+      author_profile: true
+      share: true

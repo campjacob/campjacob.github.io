@@ -11,7 +11,8 @@ header:
   video:
     id: iBmtlNkEnFI
     provider: youtube
-location: Tri-Cities Washington
+locations: 
+    - Tri-Cities Washington
 ---
 
 {% include video id="iBmtlNkEnFI" provider="youtube" %}

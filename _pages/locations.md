@@ -1,0 +1,5 @@
+---
+title: Locations
+permalink: /locations
+---
+

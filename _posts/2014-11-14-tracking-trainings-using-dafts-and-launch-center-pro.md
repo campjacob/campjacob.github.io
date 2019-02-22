@@ -2,22 +2,20 @@
 layout: single
 title: Tracking Trainings Using Drafts and Launch Center Pro
 date: 2014-11-14 23:55
-author: Jacob Campbell
 tags:
     - "Technology"
     - "Personal"
     - "Professional"
     - "Drafts"
     - "Launch Center Pro"
-category: Blog
-post-type:
+category:
     - "Personal Blog"
     - "Professional Blog"
-location: Tri-Cities Washington
-post-image: track-your-trainings-learn-blocks.jpg
+locations:
+    - Tri-Cities Washington
 ---
 
-![Graphic of Blocks Saying Learn](/images/track-your-trainings-learn-blocks.jpg "Track Trainings for CEUs and Clock Hours Using Drafts 4 & Launch Center Pro")
+![Graphic of Blocks Saying Learn](/assets/media/track-your-trainings-learn-blocks.jpg "Track Trainings for CEUs and Clock Hours Using Drafts 4 & Launch Center Pro")
 
 A couple of weeks ago, I spent some times further diving into [Drafts][0] and [Launch Center Pro][1]. Both are amazing applications for iOS, and have greatly improved my productivity and ability to get things done. I have been absolutely loving my [Milage Tracker][2] that I put together, and use it multiple times a day (and find that it makes it so I don't forget to track). As I have written before, I'm a big fan of using plain [text files and Markdown][3].
 
@@ -65,7 +63,7 @@ The drafts action then passes that data to another action which takes those new 
     * __Duration__:   
     * __Certificate of Completion__:
 
-Each of the the parts that say [[line|n]] takes that line from the draft and puts it there. I then add the last little bit of information (i.e. location, who facilitated it... etc) and I'm all done.
+Each of the the parts that say `[[line|n]]` takes that line from the draft and puts it there. I then add the last little bit of information (i.e. location, who facilitated it... etc) and I'm all done.
 
 What is amazing, is I can write it once in LCP, have it post to both CSV files and then prepare it for posting it to my text file with only typing minimal text. I have taken it to another level, and have made some OmniFocus task templates that I can post and remember to follow up and see if I have received my confirmation form for my clock hours.
 

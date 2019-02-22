@@ -13,7 +13,8 @@ header:
   video:
     id: o_39K2AjJgo
     provider: youtube
-location: Tri-Cities Washington
+locations: 
+    - Tri-Cities Washington
 ---
 
 {% include video id="o_39K2AjJgo" provider="youtube" %}
