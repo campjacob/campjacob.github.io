@@ -106,8 +106,93 @@ var store = [{
         "teaser":null},{
         "title": "Things Lost on the Trip",
         "excerpt":"This Cartoon was taken from the blog Good Deed A Day . It features a Lost and Found Booth with boxes of various human feelings. While on my trip I didn’t loose my feelings, I felt it was a good picture to use. During my trip I lost, broke, or...","categories": ["Personal Blog","Travel Blog"],
-        "tags": ["European Excursion 2008","Travel","Travel Troubles"],
+        "tags": ["European Excursion 2008","Travel","Travel Troubles","Fix"],
         "url": "http://localhost:4000/blog/2008/10/things-lost-on-the-trip",
+        "teaser":null},{
+        "title": "Google Elections",
+        "excerpt":"I must say that I am slightly biased as to which online products I like for various activities. I recently came across Google 2008 U.S. Elections. This has many different Google products that bring up various election features. One of these that I think is very cool is the Google...","categories": ["Personal Blog"],
+        "tags": ["Personal","Politics","Google","Google Maps"],
+        "url": "http://localhost:4000/blog/2008/10/google-elections",
+        "teaser":null},{
+        "title": "Now You Can Read What I'm Reading",
+        "excerpt":"One of the benefits of working in the afternoon is that I have time to take my mornings slowly. I tend to sit outside and and drink a cup of coffee and read the news most mornings now. I read my news from Google News. I have made several personalization...","categories": ["Personal Blog"],
+        "tags": ["Personal","Google","Google News"],
+        "url": "http://localhost:4000/blog/2008/10/now-you-can-read-what-im-reading",
+        "teaser":null},{
+        "title": "Who Knew Ordering Pizza Could be Cool",
+        "excerpt":"The pizza tracking page on Domino’s I got off work tonight, and was hungry. I don’t have any food in my house, and am in desperate need of going grocery shopping. For some reason, this didn’t sound like a good idea at almost midnight when I got home. I decided...","categories": ["Personal Blog"],
+        "tags": ["Personal"],
+        "url": "http://localhost:4000/blog/2008/10/who-knew-ordering-pizza-could-be-cool",
+        "teaser":null},{
+        "title": "Fervent Retreat",
+        "excerpt":"Fervent Fall Retreat at Camp Tshimakain, Ford WA This weekend was the Fervent Victory Faith’s college age group called Fervent retreat. It was awesome. Unfortunately I did not get to go up for the entire event. I worked on Friday until about 1am. I got up there Saturday and it...","categories": ["Personal Blog"],
+        "tags": ["Victory Faith Fellowship","Facebook","Facebook Album","Facebook Video","Dance"],
+        "url": "http://localhost:4000/blog/2008/11/fervent-retreat",
+        "teaser":null},{
+        "title": "My Website has Been in Every State, Plus Two",
+        "excerpt":"Checking out my Google Analytics this morning, I realized that my website has been visited by people in every state this previous month. It’s like I can travel around the country (really the world for that matter) every month. My Analytics US Map Overlay tells me that I’ve had visitors...","categories": ["Personal Blog"],
+        "tags": ["Personal","Webdesign","Google","Google Analytics"],
+        "url": "http://localhost:4000/blog/2008/11/my-website-has-been-in-every-state-plus-two",
+        "teaser":null},{
+        "title": "New Church Building",
+        "excerpt":"A screenshot of the Victory Faith Fellowship of a collage of photos regarding their new church facility. My church, Victory Faith Fellowship, has been undergoing a lot of changes lately. One huge leap of faith that we have made is in purchasing a new building. It has really been an...","categories": ["Personal Blog"],
+        "tags": ["Personal","Victory Faith Fellowship","Church","Google","Google Maps"],
+        "url": "http://localhost:4000/blog/2008/11/new-church-building",
+        "teaser":null},{
+        "title": "Stupid Flash Debugging",
+        "excerpt":"I taught myself xHTML, CSS several years ago. Since then I have learned some PHP and JavaScript, VisualBasic, and C++. The newest thing that I have been working on is Fash. It’s been really interesting, but I don’t think I have a great grasp on action script and I can...","categories": ["Personal Blog"],
+        "tags": ["Personal","Webdesign","Adobe Flash"],
+        "url": "http://localhost:4000/blog/2008/11/stupid-flash-debugging",
+        "teaser":null},{
+        "title": "So... It Starts Again",
+        "excerpt":"My yard in Spokane all snowy. I guess I can say that it officially starts again. Winter is upon us. First I must say that I have been thankful for a lot of things this year. Two things I was especially thankful was that I could go to see my...","categories": ["Personal Blog"],
+        "tags": ["Personal","Snow","Holiday","Facebook","Facebook Album"],
+        "url": "http://localhost:4000/blog/2014/1/lajrg9u0w5qpgwyp820vdmfk2s043o",
+        "teaser":null},{
+        "title": "Legislative Breakfast",
+        "excerpt":"A stock photo of breakfast. My mom keeps telling me that I will need to change my sleeping schedule to more regular hours as I enter into more professional arenas. Waking up at 6:30 am this morning I decided that this is probably true. I got up before there was...","categories": ["Personal Blog"],
+        "tags": ["Crisis Residential Center","Children's Alliance","Juveniles","Social Work","Advocacy","Design"],
+        "url": "http://localhost:4000/blog/2008/12/legislative-breakfast",
+        "teaser":null},{
+        "title": "Information Overload",
+        "excerpt":"I’m not exactly sure if it’s information overload, but getting off work tonight I felt like my brain was going to explode. I woke up this morning to go to a meeting with my research group mates. We needed to prepare for our Institutional Board Review meeting regarding our research...","categories": ["Personal Blog"],
+        "tags": ["Social Work","Research","National Public Radio","Juveniles"],
+        "url": "http://localhost:4000/blog/2008/12/information-overload",
+        "teaser":null},{
+        "title": "Soldiering for Social Work",
+        "excerpt":"My Snow Covered Car Since the massive snow storm in Spokane, I have felt a little bit like a soldier going to work. I have also seen some things take place that I do not think where right. On Wednesday, 12/17/08, the snow started coming in heavy. I found myself...","categories": ["Personal Blog"],
+        "tags": ["News","Social Work","Work","Crisis Residential Center","Juveniles"],
+        "url": "http://localhost:4000/blog/2008/12/soldiering-for-social-work",
+        "teaser":null},{
+        "title": "Adventure by the Fly",
+        "excerpt":"Ready to Roll When I got back from Europe, I thought I was done with my backpack for a while. Well, now that it’s Christmas time I figured it was OK to pick it back up. This year, I ended up working the whole week of Christmas (including Christmas and...","categories": ["Personal Blog","Travel Blog"],
+        "tags": ["Personal","Travel","Bus","Google","Google Maps","Holiday","Games"],
+        "url": "http://localhost:4000/blog/2008/12/adventure-by-the-fly",
+        "teaser":null},{
+        "title": "Just a Bit Depreciated",
+        "excerpt":"I love to think of nature as an unlimited broadcasting station, through which God speaks to us every hour, if we will only tune in. – George Washington Carver Snow on my garage’s roof. I truly believe that God comes and speaks to us though nature often. I don’t know...","categories": ["Personal Blog"],
+        "tags": ["Personal","Deep Thoughts","IMDB","Spirituality","Juveniles","Struggle"],
+        "url": "http://localhost:4000/blog/2009/1/just-a-bit-depreciated",
+        "teaser":null},{
+        "title": "Do You Really Understand",
+        "excerpt":"Have you ever heard numbers, and wondered really what they mean. People say that they will be there or do something in a second, for things that are to be done relatively soon (i.e. like 10 minutes or less). I’ve talked to people in juvenile detention, or jail who say...","categories": ["Personal Blog"],
+        "tags": ["Personal","Politics","Adobe Flash","Money"],
+        "url": "http://localhost:4000/blog/2009/1/do-you-really-understand",
+        "teaser":null},{
+        "title": "Working with Diverse Populations - Juvenile's Involved in the Justice System",
+        "excerpt":"No Matter How Loud I Shout by Edward Humes is a powerful book about Juveniles in the Juvenile Justice System. You can find a copy of No Matter How Loud I Shout on Amazon or on No Matter How Loud I shout on Google Books . Working with a diverse...","categories": ["Personal Blog","Professional Blog"],
+        "tags": ["Resources","Juveniles","Social Work","Book Review"],
+        "url": "http://localhost:4000/blog/2009/1/working-with-diverse-populations-juveniles-involved-in-the-justice-system",
+        "teaser":null},{
+        "title": "Whew for a Moment... Now for the Next Step",
+        "excerpt":"Two other group members and myself have been working tirelessly on a research project. We are doing an effectiveness study of the Crisis Residential Center’s Direction Program. It’s a fairly intensive project. We went though and looked at former client files, are sending out surveys to both the former clients...","categories": ["Personal Blog"],
+        "tags": ["Work","School","Crisis Residential Center","Research","Technology","Adobe Photoshop"],
+        "url": "http://localhost:4000/blog/2009/1/whew-for-a-moment-now-for-the-next-step",
+        "teaser":null},{
+        "title": "Cultural Awareness",
+        "excerpt":"Sign Inside of Zola’s . The image is of a sign inside of Zola’s. I went there with a couple of friends on Friday night. The Band Milonga, was playing. I must say that I was super excited to hear them play. They are excellent. Not only do they have...","categories": ["Personal Blog"],
+        "tags": ["Personal","Work","Social Work","Ethnicity","Facebook","Cultural Awareness"],
+        "url": "http://localhost:4000/blog/2009/2/cultural-awareness",
         "teaser":null},{
         "title": "The Economy and Social Work",
         "excerpt":"With the worldwide, national, state, and local economies facing an economic downturn, it is important to examine its effects on social service agencies and social work. The active policy of how economic downturns effect social service agencies is examined though a number of modalities. When looking at these types of...","categories": ["Travel Blog"],

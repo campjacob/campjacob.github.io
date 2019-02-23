@@ -6,6 +6,7 @@ tags:
   - European Excursion 2008
   - Travel
   - Travel Troubles
+  - Fix 
 categories:
   - Personal Blog
   - Travel Blog
