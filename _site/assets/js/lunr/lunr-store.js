@@ -184,6 +184,11 @@ var store = [{
         "tags": ["Resources","Juveniles","Social Work","Book Review"],
         "url": "http://localhost:4000/blog/2009/1/working-with-diverse-populations-juveniles-involved-in-the-justice-system",
         "teaser":null},{
+        "title": "It's All Relative",
+        "excerpt":"Marko Calasan: Mini Mozart of Computers is a story about an eight year old kid who has become the worlds youngest IT Professional. He passed the Microsoft Certified System Administrator exam. This means that he would be qualified to administer some business’ Microsoft based network. This made me think about...","categories": ["Personal Blog"],
+        "tags": ["Personal","Deep Thoughts","News"],
+        "url": "http://localhost:4000/blog/2009/1/its-all-relative",
+        "teaser":null},{
         "title": "Whew for a Moment... Now for the Next Step",
         "excerpt":"Two other group members and myself have been working tirelessly on a research project. We are doing an effectiveness study of the Crisis Residential Center’s Direction Program. It’s a fairly intensive project. We went though and looked at former client files, are sending out surveys to both the former clients...","categories": ["Personal Blog"],
         "tags": ["Work","School","Crisis Residential Center","Research","Technology","Adobe Photoshop"],
@@ -194,10 +199,285 @@ var store = [{
         "tags": ["Personal","Work","Social Work","Ethnicity","Facebook","Cultural Awareness"],
         "url": "http://localhost:4000/blog/2009/2/cultural-awareness",
         "teaser":null},{
+        "title": "The First Glimpse of Lima",
+        "excerpt":"The Plaza Mayor or Plaza de Armas of Lima, is the birthplace of the city of Lima, as well as the core of the city. Located in the Historic Center of Lima, it is surrounded by the Government Palace, Cathedral of Lima, Archbishop’s Palace of Lima, the Municipal Palace, and...","categories": ["Personal Blog","Travel Blog"],
+        "tags": ["Travel","Peruvian Spring Break 2009","International Social Work","Social Work","Wikipedia","Hostel","Facebook","Facebook Album"],
+        "url": "http://localhost:4000/blog/2009/3/the-first-glimpse-of-lima",
+        "teaser":null},{
+        "title": "Peru Dias Tres y Cuatro",
+        "excerpt":"An artistic photo of The sidewalk in Parque Amor in Peru at Sunset. Sunday was a free day, which for me, meant sleeping in until late. I woke up and wondered down to the nearest café to order a chorizo enchilada and an Inca Cola for breakfast (maybe lunch). I...","categories": ["Personal Blog","Travel Blog"],
+        "tags": ["Travel","Peruvian Spring Break 2009","Personal","International Social Work","Social Work","Hostel","Facebook","Facebook Album","Spirituality"],
+        "url": "http://localhost:4000/blog/2009/3/peru-dias-tres-y-cuatro",
+        "teaser":null},{
+        "title": "Abject Poverty, Orphanages, and Cuban Cigars",
+        "excerpt":"Los Niños de PPA A photo overlooking some of Villa El Salvador. It began as a pueblo jóven (shantytown) in the vast, empty sand flats to the south of Lima in 1970 because of the urgent housing needs of immigrant families who had left the sierra of Peru. Villa El...","categories": ["Personal Blog","Travel Blog"],
+        "tags": ["Personal","Travel","Peruvian Spring Break 2009","International Social Work","Social Work","Hostel","Facebook","Facebook Album","Relationship","Poverty","Drinking"],
+        "url": "http://localhost:4000/blog/2009/3/abject-poverty-orphanages-and-cuban-cigars",
+        "teaser":null},{
         "title": "The Economy and Social Work",
         "excerpt":"With the worldwide, national, state, and local economies facing an economic downturn, it is important to examine its effects on social service agencies and social work. The active policy of how economic downturns effect social service agencies is examined though a number of modalities. When looking at these types of...","categories": ["Travel Blog"],
         "tags": ["Travel","Family European Adventure 2016","Family Fun"],
         "url": "http://localhost:4000/blog/2009/4/the-economy-and-social-work",
+        "teaser":null},{
+        "title": "Street Lights",
+        "excerpt":"Street Lights I spent this weekend seeing old friends in both Pulman and Moscow. It was a really good time, and a trip well spent. The trip really made me spend some time evaluating where I am in my life, especially as I sped home at 2 am on Sunday...","categories": ["Personal Blog"],
+        "tags": ["Deep Thoughts"],
+        "url": "http://localhost:4000/blog/2009/4/street-lights",
+        "teaser":null},{
+        "title": "Weighing the Balance",
+        "excerpt":"The needs of the many verses the one. I made it in Adobe Illustrator, but I’m attaching the Adobe Photoshop file, because I can’t find the original Illustrator file. It’s some of my first experiences playing with Illustrator At work recently, I have been thinking about some tough issues. Weighing...","categories": ["Personal Blog"],
+        "tags": ["Work","Social Work","Deep Thoughts","Adobe Photoshop"],
+        "url": "http://localhost:4000/blog/2009/5/weighing-the-balance",
+        "teaser":null},{
+        "title": "Five Years Each",
+        "excerpt":"Five Years. Transitions and ceremony are important aspects of all of our lives. I was talking with a good friend the other day, who was telling me that she is not that interested in a wedding. To me the marriage is not about either the certificate or the ceremony. I...","categories": ["Personal Blog"],
+        "tags": ["Personal","School","Deep Thoughts"],
+        "url": "http://localhost:4000/blog/2009/6/five-years-each",
+        "teaser":null},{
+        "title": "Both Good and Bad Can be Crazy",
+        "excerpt":"Crazy South American Trip Confirmation In my years working with at-risk youth, I’ve come to have some pretty crazy stories that I was either there for or heard about second hand. Yesterday, was no exception. What I can say is that a man with a machete attacked a teenager outside...","categories": ["Personal Blog","Travel Blog"],
+        "tags": ["Work","Crazy","Juveniles","Violence","Crime","Community","Book Review","Travel","Jaunt Down South 2010"],
+        "url": "http://localhost:4000/blog/2009/6/both-good-and-bad-can-be-crazy",
+        "teaser":null},{
+        "title": "Let The World Change You, and... You Can Change The World",
+        "excerpt":"The Motorcycle Diaries (2004) is about two men from Buenos Aires who make plans to travel by motorcycle travel around the coast of South America. The story comes from journey and written memoir of the 23-year-old Ernesto (“Che”) Guevara. Che Guevara years later become internationally known as the iconic Marxist...","categories": ["Personal Blog","Travel Blog"],
+        "tags": ["Personal","Travel","Jaunt Down South 2010","Movie Review","IMDB","Wikipedia","Deep Thoughts"],
+        "url": "http://localhost:4000/blog/2009/7/let-the-world-change-you-and-you-can-change-the-world",
+        "teaser":null},{
+        "title": "From Surreal to Real",
+        "excerpt":"Some background From surreal to real The last days before heading out on this adventure of a lifetime (see post: Let The World Change You, and… You Can Change The World for more information on my trip) I had a lot of different feelings and thoughts. You can also see...","categories": ["Personal Blog","Travel Blog"],
+        "tags": ["Travel","Jaunt Down South 2010","Facebook","Facebook Album","Wikipedia","Dance","Drinking"],
+        "url": "http://localhost:4000/blog/2009/9/from-surreal-to-real",
+        "teaser":null},{
+        "title": "Quick Update From Isla de Margarita",
+        "excerpt":"While traveling sometimes, it seems like I might spend too much time on my computer. Especially because I am a bit of a perfectionist, I take quite a bit of time to get any one thing finished. I was hoping to write about some of my experiences over the last...","categories": ["Personal Blog","Travel Blog"],
+        "tags": ["Travel","Jaunt Down South 2010","Facebook","Facebook Album","Google","Google Maps"],
+        "url": "http://localhost:4000/blog/2009/9/quick-update-from-isla-de-margarita",
+        "teaser":null},{
+        "title": "Out of Trinidad & Tobago and into the New World of Venezuela",
+        "excerpt":"This is a photo is from my missions trip to Africa. We went for a speak at a church in Goma . It was kind of intense, there apparently was fighting going on within 100 miles of where we were. You can check out Africa Mission Trip 2002 – pt...","categories": ["Personal Blog","Travel Blog"],
+        "tags": ["Travel","Jaunt Down South 2010","Facebook","Facebook Album","Spirituality","Wikipedia","Politics"],
+        "url": "http://localhost:4000/blog/2009/9/out-of-trinidad-tobago-and-into-the-new-world-of-venezuela",
+        "teaser":null},{
+        "title": "Sad to Leave the Caribbean Lifestyle",
+        "excerpt":"Yacht Trips, All Inclusive Hotels, Two Day Birthday Celebrations, and Leaving Sunset Off the Yacht As I briefly described in the last post, we got the opportunity to go on a small yacht. This was a pretty phenomenal opportunity. It also meant that Ami got to celebrate her birthday on...","categories": ["Personal Blog","Travel Blog"],
+        "tags": ["Travel","Jaunt Down South 2010","Couch Surfing","Bus"],
+        "url": "http://localhost:4000/blog/2009/10/sad-to-leave-the-caribbean-lifestyle",
+        "teaser":null},{
+        "title": "From Jungle to Jungle",
+        "excerpt":"More from Venezuela The Botanical Gardens Cuidad Boliviar. Now that I have more time, I will go a little more in-depth regarding the last week or so. We sadly left Isla de Margarita. It was a really great place. Ami said a number of times that she could imagine just...","categories": ["Personal Blog","Travel Blog"],
+        "tags": ["Travel","Jaunt Down South 2010","Ferry","Bus","Music","Hotel","Hostel","Taxi","Wikipedia","Travel Troubles","Dance","Jungle","Trek","Adventures","Movie Review","IMDB","Facebook","Facebook Album"],
+        "url": "http://localhost:4000/blog/2009/10/from-jungle-to-jungle",
+        "teaser":null},{
+        "title": "Delays, Couchsurfing, and Boats... Oh My (Brazil)",
+        "excerpt":"A lot has happened since I last posted. I’ve uploaded a couple of different photo albums. You can check out Oi… its Brazil Facebook Album, Kite Running and Long Boat Rides Facebook Album, and Out of Brazil… Into Peru Facebook Album. You can also check out Ami’s photo album she...","categories": ["Personal Blog","Travel Blog"],
+        "tags": ["Travel","Jaunt Down South 2010","Wikipedia","Poverty","Spirituality","Epic Falls","Dance","Adventures","Crazy","Boat","Travel Troubles","Ferry"],
+        "url": "http://localhost:4000/blog/2009/10/delays-couchsurfing-and-boats-oh-my-brazil",
+        "teaser":null},{
+        "title": "New Experiences & Broken Things",
+        "excerpt":"The Late Birthday Present The Giant Peccary I had for Lunch I’ve recently broken my camera, so you can view the last of the photos I will be able to upload from my camera at its album Ayahuasca Vision Quest, an Overnight Jungle Trek, and Los Días de Los Muertos...","categories": ["Personal Blog","Travel Blog"],
+        "tags": ["Travel","Jaunt Down South 2010","Facebook","Facebook Album","Wikipedia","Jungle","Interesting Food","Ayahuasca","Birthday","Plaza","Learning","Volunteering"],
+        "url": "http://localhost:4000/blog/2009/11/new-experiences-broken-things",
+        "teaser":null},{
+        "title": "Some Words Are the Same",
+        "excerpt":"A graphic I created in Adobe Photoshop with the hallelujah in different languages. I’ve been living in Cusco Perú now for about two months (I believe a little bit longer). I haven’t really posted anything since getting to Cusco. My camera is still broken, so I don’t have any new...","categories": ["Personal Blog","Travel Blog"],
+        "tags": ["Travel","Jaunt Down South 2010","Wikipedia","Couch Surfing","Business","Volunteering","UNSAAC","Protests","Taxi","Travel Troubles","Spirituality"],
+        "url": "http://localhost:4000/blog/2010/1/some-words-are-the-same",
+        "teaser":null},{
+        "title": "Student's Protest & Jacob Torres Goes to The Hospital",
+        "excerpt":"You’ve heard of Teacher’s Striking But Never Students Blockade made by students at UNSAAC It’s not uncommon for teachers in the United States to go on strike, but I don’t believe I’ve ever heard of students doing the same. In Cusco Perú, it does seem like there are a lot...","categories": ["Personal Blog","Travel Blog"],
+        "tags": ["Travel","Jaunt Down South 2010","UNSAAC","Protests","Travel Troubles"],
+        "url": "http://localhost:4000/blog/2010/3/students-protest-jacob-torres-goes-to-the-hospital",
+        "teaser":null},{
+        "title": "Mi Vida Loca",
+        "excerpt":"Mi Vida Loca or My Crazy Life Mi Vida Loca, which translates to My Crazy Life. While three dots tattoo (placed on the hand between the index finger and thumb or by the eye) in a triangle shape is often used by gang members to signify gang life… I felt...","categories": ["Personal Blog","Travel Blog"],
+        "tags": ["Travel","Jaunt Down South 2010","Crazy","Wikipedia","Travel Troubles"],
+        "url": "http://localhost:4000/blog/2010/4/mi-vida-loca",
+        "teaser":null},{
+        "title": "Corpus Christi, Fashion Show, and Tipon... a Good Week",
+        "excerpt":"View of the Carroza de Plata with the Templo de Merced in the background This week I got to do a couple of fun things, including getting my camera back so you can check out my photos The Title Of The Album. On Thursday was Corpus Christi (latin for Body...","categories": ["Personal Blog","Travel Blog"],
+        "tags": ["Travel","Jaunt Down South 2010","Festival","Spirituality","Wikipedia","Archaeological Sites"],
+        "url": "http://localhost:4000/blog/2010/6/corpus-christi-fashion-show-and-tipon-a-good-week",
+        "teaser":null},{
+        "title": "Corrupt Police, Pickpockets, and Broken Computers",
+        "excerpt":"It seems I only write when there is crazy stuff happening in my life… please don’t think that my life is so full of these crazy experiences. At the beginning of this I had to travel to Arica Chile to renew my passport. I took a bus from Cusco to...","categories": ["Personal Blog","Travel Blog"],
+        "tags": ["Travel","Jaunt Down South 2010","Wikipedia","Passport","Bus","Travel Troubles","Crazy","Webdesign","Drupal"],
+        "url": "http://localhost:4000/blog/2010/7/corrupt-police-pickpockets-and-broken-computers",
+        "teaser":null},{
+        "title": "Jacob's (in)credible Adventures",
+        "excerpt":"Wandering around our America has changed me more than I thought. I am not me any more. At least I’m not the same me I was. – Ernesto Guevara de la Serna (Diarios de motocicleta) A Quick Recap In just about a month, I will have been in South America...","categories": ["Personal Blog","Travel Blog"],
+        "tags": ["Travel","Jaunt Down South 2010","IMDB","International Social Work","Social Work","Travel Troubles","Crazy"],
+        "url": "http://localhost:4000/blog/2010/8/jacobs-incredible-adventures",
+        "teaser":null},{
+        "title": "Preparing for Real Life",
+        "excerpt":"Jacob Campbell and the Raiders of the Lost Ark! Very quickly photo shopped image of Indaina Jones and The Raiders of the Lost Ark movie poster with my face. My adventures in South America seem to be coming to a close, at least of now (hopefully I’ll be back in...","categories": ["Personal Blog","Travel Blog"],
+        "tags": ["Travel","Jaunt Down South 2010","IMDB","Google","Bus","Webdesign","Plane","Couch Surfing"],
+        "url": "http://localhost:4000/blog/2010/8/preparing-for-real-life",
+        "teaser":null},{
+        "title": "Two Tourist Capitals",
+        "excerpt":"A graphic I designed in Adobe Photoshop of the “Welcome to Las Vegas Sign” showing that I’m broke while here in Vegas. Out of Peru &amp; Back to the US After being in Cusco for about a year, it was really sad to leave. I remember being on the bus...","categories": ["Personal Blog","Travel Blog"],
+        "tags": ["Travel","Jaunt Down South 2010","Facebook","Facebook Album","Interesting Food","Travel Troubles"],
+        "url": "http://localhost:4000/blog/2010/9/two-tourist-capitals",
+        "teaser":null},{
+        "title": "Which Style?",
+        "excerpt":"Hey, just looking for some feedback. which style do you think is better for my business cards. My old card has my photo, and is more relaxed. I was thinking that maybe it was time to change up and have my business card match my website / letterhead / resume…...","categories": ["Personal Blog","Travel Blog"],
+        "tags": ["Travel","Jaunt Down South 2010","Personal","Design","Adobe Photoshop"],
+        "url": "http://localhost:4000/blog/2010/9/which-style",
+        "teaser":null},{
+        "title": "The Job Hunt Continues",
+        "excerpt":"A photoshoped designed logo for my job search. As I’ve been back in the US, I’ve been looking for a job. I feel kind of like Elmer Fudd and never finding my wabit Since I’ve been back in the Tri-Cities, I’ve been up to quite a bit. Mainly I’ve been...","categories": ["Personal Blog"],
+        "tags": ["Personal","Work","TCCH BHS"],
+        "url": "http://localhost:4000/blog/2010/10/the-job-hunt-continues",
+        "teaser":null},{
+        "title": "Finally, it works!",
+        "excerpt":"Other then the job hunt, I’ve been spending some time online working on my website. Well, actually (not consistently) for the last several weeks I’ve been trying to figure out one thing. Not even a very important thing, but something that I wanted done. Basically I wanted to make it...","categories": ["Personal Blog"],
+        "tags": ["Personal","Work","Webdesign"],
+        "url": "http://localhost:4000/blog/2010/10/finally-it-works",
+        "teaser":null},{
+        "title": "Creative Giving?",
+        "excerpt":"I think that creativity and ideas are everywhere for us, we just have to tap into them. It also seems that it is easy to come up with ideas about things to spend money on, when one doesn’t have any money to spend. I went to McDonald’s tonight for a...","categories": ["Personal Blog"],
+        "tags": ["Personal","Giving,"],
+        "url": "http://localhost:4000/blog/2010/10/creative-giving",
+        "teaser":null},{
+        "title": "Safe Harbor Crisis Nursery Promotional Video",
+        "excerpt":"I really enjoy doing a little bit of graphic and web design, it seems like a good hobby. Sometimes it can take up just a little bit too much time, but I generally enjoy it (unless it’s one of those times that I just can’t seem to get my computer...","categories": ["Personal Blog"],
+        "tags": ["Personal","Webdesign","Video","Adobe Premier Pro","Safe Harbor Family Support Center","Youtube"],
+        "url": "http://localhost:4000/blog/2010/10/safe-harbor-crisis-nursery-promotional-video",
+        "teaser":null},{
+        "title": "Cool Stuff Happening",
+        "excerpt":"This is a screen shot of the Walk Score for my mom’s house. It’s pretty interesting. It comes up with a score of 30, and being car dependent. I would have to agree. This last week has been a really good one for me. I just got hired on at...","categories": ["Personal Blog"],
+        "tags": ["Personal","Work","Culture Shock","Blessings","Sustainable Living"],
+        "url": "http://localhost:4000/blog/2010/10/cool-stuff-happening",
+        "teaser":null},{
+        "title": "Tri-Cities Wine Festival",
+        "excerpt":"The last couple of weeks have been pretty great. This last weekend was really fun. I got the opportunity to go to the 2010 Tri-Cities Wine Festival held at the Three Rivers Convention Center. It was a really fabulous event. While the entrance was generally $65.00 to attend, I was...","categories": ["Personal Blog"],
+        "tags": ["Personal","Work","Fundraiser","Safe Harbor Family Support Center"],
+        "url": "http://localhost:4000/blog/2010/11/tri-cities-wine-festival",
+        "teaser":null},{
+        "title": "2010 Beggars Banquet Excitement",
+        "excerpt":"On Friday, I got the opportunity to go to Safe Harbor’s annual Beggars Banquet. It was a really great event, and so much bigger then I’ve seen it. It had been several years since I was able to go to the last event, and it has changed drastically and really...","categories": ["Personal Blog"],
+        "tags": ["Community","Personal","Safe Harbor Family Support Center","Fundraiser"],
+        "url": "http://localhost:4000/blog/2010/11/2010-beggars-banquet-excitement",
+        "teaser":null},{
+        "title": "Business... Life, Work, and Organizations",
+        "excerpt":"Life has been busy lately, and I haven’t posted anything for a while. Most of my time has been taken up by working. I’m working as a Mental Health Case Manager at Nueva Esperanza a part of Tri-Cities Community Health. I have been really loving it. I’ve gotten lots of...","categories": ["Personal Blog"],
+        "tags": ["Work","Community","TCCH BHS","Tri-Cities Young Professionals","Safe Harbor Family Support Center"],
+        "url": "http://localhost:4000/blog/2011/1/business-life-work-and-organizations",
+        "teaser":null},{
+        "title": "It Starts Again",
+        "excerpt":"I have been been doing graphic and web design stuff for the last several years. It all started with an original blogspot website . My friends all started posting blogs and I created my own. Later I learned that I wanted to change how the blog looked and felt. I...","categories": ["Personal Blog"],
+        "tags": ["Personal","Webdesign"],
+        "url": "http://localhost:4000/blog/2011/9/it-starts-again",
+        "teaser":null},{
+        "title": "Still in The Right Profession",
+        "excerpt":"Job Well Done As my avid blog readers (I think with all the time my site was down, there are probably none… LOL) probably already know I love NPR. I’m always listening to it in the car all day (unless I’m bumping some Drake). Last night as I was getting...","categories": ["Personal Blog"],
+        "tags": ["Personal","National Public Radio","Work"],
+        "url": "http://localhost:4000/blog/2011/10/still-in-the-right-profession",
+        "teaser":null},{
+        "title": "The Lawyers & Artists Ball 2011 for My Friends Place",
+        "excerpt":"This is the graphic used for the Lawyer’s and Artists Ball 2011 Event. It is pretty amazing. I absolutely loved it…hopefully some day, I can make artwork of a similar quality. On Saturday, I got the opportunity to attend My Friends Place’s Fundraiser called the Lawyer’s and Artist’s Ball 2011....","categories": ["Personal Blog"],
+        "tags": ["Community","Fundraiser","Facebook","Facebook Album","My Friends Place","Safe Harbor Family Support Center"],
+        "url": "http://localhost:4000/blog/2011/10/the-lawyers-artists-ball-2011-for-my-friends-place",
+        "teaser":null},{
+        "title": "Can These Dry Bones Still be Raised, A Review on Chris Hodges's Death of the Liberal Class",
+        "excerpt":"The book cover of Chris The book cover of Chris Hodges’s Death of the Liberal Class. You can view the book on Amazon. As I generally do, I was listening to National Public Radio (my driving companion when I’m not listing to gangster rap) and I first heard a story...","categories": ["Personal Blog"],
+        "tags": ["Book Review","Politics","Libral","National Public Radio","Occupy Together","Spirituality"],
+        "url": "http://localhost:4000/blog/2011/11/can-these-dry-bones-still-be-raised-a-review-on-chris-hodgess-death-of-the-liberal-class",
+        "teaser":null},{
+        "title": "Busy Weekend of Drinks, Fundraisers, and Outreaches",
+        "excerpt":"Safe Harbor Crisis Nursery Beggars’ 2011 was a wonderful event this year. Every year they have a large selection of Christmas Trees as silent auction items. This is one of those trees titled “Homeless Teens Live in Glass Houses.” I’m guessing it is inspired by My Friends Place. The last...","categories": ["Personal Blog"],
+        "tags": ["Community","Personal","My Friends Place","Safe Harbor Family Support Center","Fundraiser","Tri-Cities Young Professionals","Eastlake Tri-Cities","Professional Connections"],
+        "url": "http://localhost:4000/blog/2011/11/busy-weekend-of-drinks-fundraisers-and-outreaches",
+        "teaser":null},{
+        "title": "Friends, Family, and Thanksgiving 2011",
+        "excerpt":"The “you are here” sign for Astoria Oregon’s Column. This Thanksgiving has been pretty spectacular. It has been the first that I’ve split my holiday, and it has worked out really great. Minnie, my mom, and I started on Wednesday (I took the day off from work) and headed to...","categories": ["Personal Blog"],
+        "tags": ["Travel","Holiday","Hotel","Facebook","Facebook Album","IMDB","Music"],
+        "url": "http://localhost:4000/blog/2011/11/friends-family-and-thanksgiving-2011",
+        "teaser":null},{
+        "title": "A Look into Joining the Irresistible Revolution",
+        "excerpt":"I have been making a determined effort as of late, to push myself to read more. I try to spend some time in the morning reading my devotional (My Utmost for His Highest by Oswald Chambers) and my bible first thing in the morning with my morning coffee, news, and...","categories": ["Personal Blog"],
+        "tags": ["Personal","Book Review","The Daily Show","Work","Spirituality","Community","Communal Living","Deep Thoughts"],
+        "url": "http://localhost:4000/blog/2011/12/a-look-into-joining-the-irresistible-revolution",
+        "teaser":null},{
+        "title": "The 2011 Holiday Newsletter for Jacob & Minnie",
+        "excerpt":"The head section of our 2011 Christmas Newsletter. Monday, the 19th of December 2011 Dear Friends &amp; Family, 2011 has been a year of new beginnings for both Minnie and I. While neither of us has ever sent out a Christmas Newsletter, we thought (although Minnie usually sends cards and...","categories": ["Personal Blog"],
+        "tags": ["Personal","Holiday","Christmas","Juveniles"],
+        "url": "http://localhost:4000/blog/2011/12/the-2011-holiday-newsletter-for-jacob-minnie",
+        "teaser":null},{
+        "title": "I Dream of Christmas",
+        "excerpt":"The Best Christmas Light in the Tri-Cities This Christmas Holiday has been pretty amazing. It was chocked full of all kinds of fun adventures. You can check out my The Nowell 2011 Story Facebook Album or Minnie’s Untitled Facebook Album. We got to go to the Christmas Party for Elijah...","categories": ["Personal Blog"],
+        "tags": ["Personal","Work","Holiday","Elijah Family Homes","TCCH BHS","Facebook","Facebook Album","Community","Eastlake Tri-Cities"],
+        "url": "http://localhost:4000/blog/2011/12/i-dream-of-christmas",
+        "teaser":null},{
+        "title": "Not a New Year's Resolution... But I Think a Start",
+        "excerpt":"Not a monster. A graphic I took as a coloring page . I imported it into Adobe Illustrator and turned it into a paint area and painted it. I’ve been told a number of times that I should write a book. When I tell people about my hopes and dreams,...","categories": ["Personal Blog"],
+        "tags": ["Personal","Charles Rodman Campbell","Ideas","Writing","Wikipedia","Not A Monster"],
+        "url": "http://localhost:4000/blog/2013/1/not-a-new-years-resolution-but-i-think-a-start",
+        "teaser":null},{
+        "title": "2012 Have a Heart for Kids Day",
+        "excerpt":"Writing Letters to my Representatives during Children’s Alliances’ Have a Heart for Kids Day. It has been a busy couple of weeks at work. I’ve been burning the midnight oil the last couple of weeks. We’ve had lots of changes happening at our agency. We’ve had three case managers change...","categories": ["Personal Blog","Travel Blog"],
+        "tags": ["Personal","Work","TCCH BHS","Juveniles","Children's Alliance","Social Work","Advocacy","Couch Surfing"],
+        "url": "http://localhost:4000/blog/2012/2/2012-have-a-heart-for-kids-day",
+        "teaser":null},{
+        "title": "How's Your Mental Efficiency, a Review of Arnold Bennett's Book",
+        "excerpt":"Arnold Bennett’s book cover of Mental Efficiency My mom and I have a long tradition of listening to books on tape (well, really I guess they were CD’s mostly) when we would travel. When Minnie and I were driving back from Olympia this weekend, we continued this tradition. We listened...","categories": ["Personal Blog"],
+        "tags": ["Book Review","Personal","Deep Thoughts","Wikipedia","Google","Google Books"],
+        "url": "http://localhost:4000/blog/2012/2/hows-your-mental-efficiency-a-review-of-arnold-bennetts-book",
+        "teaser":null},{
+        "title": "Pasco Discovery Coalition Logo Ideas",
+        "excerpt":"I am very lucky at my job, to be able to be a part of a some community organizing. I have started to be involved with meetings associated with the Pasco Discovery Coalition. I’ve just started, so I am very much in the learning phase of participating in their coalition,...","categories": ["Personal Blog"],
+        "tags": ["Personal","Design","Adobe Illustrator","Logo","Pasco Discovery Coalition"],
+        "url": "http://localhost:4000/blog/2012/4/pasco-discovery-coalition-logo-ideas",
+        "teaser":null},{
+        "title": "Developing Strengths, Tim Roth's Strengths Finder 2.0 Review",
+        "excerpt":"Tom Rath’s Strengths Finder 2.0 Book Cover. You can read Developing Strengths, Tim Roth’s Strengths Finder 2.0 Review. I’m currently helping out at my agency, Nueva Esperanza Community Counseling Services, with a working group redesigning out treatment plan that we use with our client. It’s been a good process and...","categories": ["Personal Blog"],
+        "tags": ["Personal","Work","Strengths Perspective","Clinical","Book Review","TCCH BHS"],
+        "url": "http://localhost:4000/blog/2012/5/developing-strengths-tim-roths-strengths-finder-20-review",
+        "teaser":null},{
+        "title": "My Friends Place Presents - Will Rage for Food -- All Ages Event",
+        "excerpt":"Safe Harbor Crisis Nursery is putting on an event, My Friends Place Presents: Will Work For Food. I’m really excited. I started wanting to put on this event several months ago. I remember thinking about how much of a need in the community there is, but how few kids are...","categories": ["Personal Blog"],
+        "tags": ["Personal","My Friends Place","Safe Harbor Family Support Center","Events","Juveniles","Design"],
+        "url": "http://localhost:4000/blog/2012/7/my-friends-place-presents-will-rage-for-food-all-ages-event",
+        "teaser":null},{
+        "title": "Hard for the Economy as For Individuals",
+        "excerpt":"Yesterday, I was listening to an article on NPR’s Planet Money Even If You’re All-Powerful, It’s Hard To Fix The Economy.The article was all about how difficult it really would be to fix the economy. Using a computer generated model of the United States economy, they try to change various...","categories": ["Personal Blog"],
+        "tags": ["Opinions","National Public Radio","Economy","Current Events","Counseling"],
+        "url": "http://localhost:4000/blog/2012/9/hard-for-the-economy-as-for-individuals",
+        "teaser":null},{
+        "title": "When it Rains it Pours",
+        "excerpt":"A photo taken by Ami while were both still living down in Cusco Peru during my travel experience of my Jaunt Down South 2010 . It showcases how during the rainy season in Cusco Peru, the rain really pours down and the streets turn to rivers. During the peak of...","categories": ["Personal Blog"],
+        "tags": ["Adobe Illustrator","Personal","Work","Counseling","School","Difficult Times","TCCH BHS","Facebook","Facebook Album","Facebook Events","Columbia Basin College","Crazy"],
+        "url": "http://localhost:4000/blog/2012/11/when-it-rains-it-pours",
+        "teaser":null},{
+        "title": "Follow Me to Freedom, Leadership / Followership and Shane Claiborn and John Perkins",
+        "excerpt":"Come along as we live out this conversation … there are many obstacles—so much suffering, poverty and violence. But our God is familiar with suffering. Our God can swallow up armies and pour out bread from the heavens. Wall Street may fail us, but the God who takes care of...","categories": ["Personal Blog"],
+        "tags": ["Personal","Book Review","Spirituality","Community","Pasco Discovery Coalition","TCCH BHS"],
+        "url": "http://localhost:4000/blog/2012/11/follow-me-to-freedom-leadership-followership-and-shane-claiborn-and-john-perkins",
+        "teaser":null},{
+        "title": "Are You Pondering What I'm Pondering Presentation",
+        "excerpt":"Recently at work, I created a Microsoft PowerPoint presentation for a training I did during one of our staff meetings. It is about affecting environmental change and empowerment theory. You can check out the tag Are You Pondering What I’m Pondering Presentation for all of the material that I uploaded...","categories": ["Personal Blog"],
+        "tags": ["Work","Empowerment Theory","Behavioral Health Services","Counseling","Microsoft PowerPoint"],
+        "url": "http://localhost:4000/blog/2012/11/are-you-pondering-what-im-pondering-presentation",
+        "teaser":null},{
+        "title": "Similarities of Bounty Hunters and Mental Health Case Managers",
+        "excerpt":"Are mental health case managers like bounty hunters? It is a question in I ask in my blog post Similarities of Bounty Hunters and Mental Health Case Managers . In thinking about this blog post, it reminded me of the classic bounty hunter, Boba Fett from the original Star War’s...","categories": ["Personal Blog"],
+        "tags": ["Work","Personal","TCCH BHS","Freakonomics","Images","Star Wars"],
+        "url": "http://localhost:4000/blog/2012/12/similarities-of-bounty-hunters-and-mental-health-case-managers",
+        "teaser":null},{
+        "title": "Are You Ready or Not? Proud Father",
+        "excerpt":"A photo of Minnie at Kadlec Regional Medical Center in Richland and our baby Mateo Rodman Campbell, VSP. We just wanted to update everybody, and let you all know that Minnie and I just had our baby. Minnie had gone in to her regular weekly check up with her doctor....","categories": ["Personal Blog"],
+        "tags": ["Personal","Big Deal"],
+        "url": "http://localhost:4000/blog/2012/12/are-you-ready-or-not-proud-father",
+        "teaser":null},{
+        "title": "Birth Announcements and the Economics of Children",
+        "excerpt":"Official Birth Announcement You might be getting a postcard in the mail soon, as an official announcement of Mateo Rodman Campbell VSP’s birth. If you don’t, I’m sorry, and we don’t mean any office to you what so ever. We have a lot of friends and family and it is...","categories": ["Personal Blog"],
+        "tags": ["Personal","Images","Postcard","Freakonomics","Parenthood"],
+        "url": "http://localhost:4000/blog/2013/1/birth-announcements-and-the-economics-of-children",
+        "teaser":null},{
+        "title": "Serving in the Cold, PDC Annual Community Survey",
+        "excerpt":"I was doing a Google Image Search, how any of my good Adobe Photoshop or Adobe Illustrator design projects start. I’m writing an post for my blog, Serving in the Cold, PDC Annual Community Survey, about my recent experience canvassing East Pasco with a Survey for the Pasco Discovery Coalition...","categories": ["Personal Blog"],
+        "tags": ["Pasco Discovery Coalition","Community","Survey","Servant Leadership"],
+        "url": "http://localhost:4000/blog/2013/1/serving-in-the-cold-pdc-annual-community-survey",
         "teaser":null},{
         "title": "Glad Mateo's Cute, Reasons to Not Be Ugly",
         "excerpt":"A photo I took when I was living in Cusco Peru, asking “how’s your facial symmetry?” I used a photo of from Mateo’s baby dedication to complete a Ana Faces Facial Beauty Analysis. He got a 7.37 although I think he’s much cuter than that. Freakonomics recently had an episode...","categories": ["Personal Blog"],

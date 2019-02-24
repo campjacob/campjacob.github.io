@@ -1,5 +1,8 @@
 ---
 layout: home
+pagination: 
+  enabled: true
+  category: Personal Blog
 title:  "Snapshots: My Blog"
 permalink: "/blog/"
 author_profile: "true"
@@ -9,8 +12,6 @@ header:
   overlay_image: "assets/media/brazil-boat-sunset-blog-header.jpg"
   caption: "Photo credit: A photo I took during my [**Jaunt Down South**](http://fixme.com) while on the Amazon in Brazil."
 excerpt: "Little bits and pieces of my life written down and shared with you."
-
-
 ---
 
 {% for post in site.posts %}
