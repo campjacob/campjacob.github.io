@@ -479,6 +479,11 @@ var store = [{
         "tags": ["Pasco Discovery Coalition","Community","Survey","Servant Leadership"],
         "url": "http://localhost:4000/blog/2013/1/serving-in-the-cold-pdc-annual-community-survey",
         "teaser":null},{
+        "title": "New and Fun Functionality",
+        "excerpt":"I’ve always been a little bit of a geek. That’s actually a little bit of why I’ve created this website in the first place… so that I could show off my geekyness a little bit. More than just knowing how to use computers at a slightly higher proficiency than average,...","categories": ["Personal Blog"],
+        "tags": ["Personal","Technology","Apple","Lifehaker","Google","Google News","Feakonomics","Twitter","Facebook","IFTTT"],
+        "url": "http://localhost:4000/blog/2013/1/new-and-fun-functionality",
+        "teaser":null},{
         "title": "Glad Mateo's Cute, Reasons to Not Be Ugly",
         "excerpt":"A photo I took when I was living in Cusco Peru, asking “how’s your facial symmetry?” I used a photo of from Mateo’s baby dedication to complete a Ana Faces Facial Beauty Analysis. He got a 7.37 although I think he’s much cuter than that. Freakonomics recently had an episode...","categories": ["Personal Blog"],
         "tags": ["Personal","Funny","Podcasts","Freakonomics"],
