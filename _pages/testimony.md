@@ -1,7 +1,7 @@
 ---
 layout: single
 title: About My Story, a Bit of Testimony
-permalink: /testimony
+permalink: /testimony/
 author_profile: "true"
 ---
 
