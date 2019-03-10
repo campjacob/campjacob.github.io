@@ -28,7 +28,7 @@ I've always been a little bit of a geek. That's actually a little bit of why I'v
 
 With my commute having gotten longer, I've also been listening to Podcasts to take up some of the time. I've written a couple of articles about the [Freakonomics Podcast][3]that I've been listening to. I've added to my collection of digital media to subscribe to, and have started also listening to the [Life Hacker Podcast][4] which doesn't have exactly as great of production quality as [the Freakonomics Podcast][5] does, but it does have some great content.
 
-   [3]: /blog/tags/freakonomics
+   [3]: /tags#freakonomics
    [4]: http://lifehacker.com/the-show/
    [5]: http://www.freakonomics.com/
 

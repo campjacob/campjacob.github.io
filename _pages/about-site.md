@@ -3,7 +3,7 @@ layout: single
 title:  "About Jacob's Site"
 permalink: /about-site/
 classes: wide
-author_profile: "true"
+author_profile: true
 feature_row:
   - image_path: "/assets/media/header-logo-for-my-life-blog.jpg"
     alt: "A photo I took during my jaunt down south while on the Amazon in Brazil."

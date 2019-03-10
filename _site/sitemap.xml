@@ -728,10 +728,7 @@
 <loc>http://localhost:4000/resources/articles/2012-coalition-assessment-report-summary</loc>
 </url>
 <url>
-<loc>http://localhost:4000/_pages/404/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/about-site</loc>
+<loc>http://localhost:4000/about-site/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/resources/articles/article-review-supervisors-and-stress</loc>
@@ -740,7 +737,7 @@
 <loc>http://localhost:4000/resources/articles/breaking-the-cycle-of-addiction</loc>
 </url>
 <url>
-<loc>http://localhost:4000/categories</loc>
+<loc>http://localhost:4000/categories/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/contact/</loc>
@@ -752,7 +749,7 @@
 <loc>http://localhost:4000/cv/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/_pages/design/</loc>
+<loc>http://localhost:4000/design/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/resources/determining-studies-internal-validity</loc>
@@ -791,10 +788,10 @@
 <loc>http://localhost:4000/resources/articles/group-facilitation-as-a-non-professional-group-leader</loc>
 </url>
 <url>
-<loc>http://localhost:4000/blog/</loc>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>http://localhost:4000/blog/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/resources/intro-case-management-presentation</loc>
@@ -827,9 +824,6 @@
 <loc>http://localhost:4000/play</loc>
 </url>
 <url>
-<loc>http://localhost:4000/professional-connections/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/resources/articles/quality-assurance-survey-for-safe-harbor-crisis-nursery</loc>
 </url>
 <url>
@@ -851,7 +845,7 @@
 <loc>http://localhost:4000/resources/single-system-design-studies</loc>
 </url>
 <url>
-<loc>http://localhost:4000/_pages/sitemap/</loc>
+<loc>http://localhost:4000/sitemap/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/resources/solution-focused-brief-therapy-presentation-handout</loc>

@@ -29,6 +29,6 @@ As I was listening to the podcast, I found myself wondering if I could be a boun
 
 They discussed that a good bounty hunter will build relationships with police and the community members. This also is true for case managers. I feel like an important part of my job is being the face of [Tri-Cities Community Health][4] in the community, building relationships, networking to be better able to connect clients to resources, and everything in the community.
 
-   [4]: /blog/tags?TCCH-BHS
+   [4]: /tags#tcch-bhs
 
 I find myself, as I am trying to connect people to resources in the community (especially at DSHS), waiting around a lot. This means I need to find ways to be industrious (i.e. making phone calls as I drive with my bluetooth, something else discussed that bounty hunters do) and that much of my job is boring. In the podcast I believe that Bob Burton said that bounty hunting is 90% work and 10% adrenaline. I guess on this point, while I may not be kicking doors down or handcuffing people, there is that 10% that is super exciting and engaging and that reminds me of why I do what I do.

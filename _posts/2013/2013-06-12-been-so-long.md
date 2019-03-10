@@ -30,7 +30,7 @@ Staying on the Mac theme, I've been listening to the amazing Podcast [Mac Power 
 
 More than the looking for, negotiation (for sale by owner), and purchase of our home in Central Pasco... I've also been renovating some of it. I ripped out all of the living room carpet and refinished the hardwood floors. I've done some other projects to, some of which will likely end up in as [DIY][4] articles eventually.
 
-   [4]: /tags/#diy
+   [4]: /tags#diy
 
 I'm even doing a first ever complete post written from my iPad and is the first post I'm writing in [Markdown][5]. Maybe too many experiments at once, but I just really wanted to post something.
 

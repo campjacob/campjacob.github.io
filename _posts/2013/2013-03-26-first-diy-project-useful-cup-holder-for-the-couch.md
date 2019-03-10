@@ -18,7 +18,7 @@ locations:
 
 This is the first [DIY (Do It Yourself)][1] project I've done for my blog. As I've been moving towards home ownership, I've been enamored by [Pinterest][2] and all of the projects I'd like to take on at the home I'd like to buy. Actually, I've completed a purchase and sale agreement with the owner and the paperwork is being process by the bank. You can see the home posted for sale by owner on [Zillow at 1119 W Irving Street][3]. It's a pretty amazing house. I'm sure in a month or two we will be inviting friends over for a house warming party (no need to bring stuff). While the home is pretty well done, it sounds exciting for the moment to think about personalizing the house. Who knows if that's how I'll feel in a year, but for now it's fun to think fondly about weekends spent working on my home.
 
-   [1]: /tags/#diy
+   [1]: /tags#diy
    [2]: http://pinterest.com/campjacob/
    [3]: http://www.zillow.com/homedetails/1119-W-Irving-St-Pasco-WA-99301/23341266_zpid/
 
