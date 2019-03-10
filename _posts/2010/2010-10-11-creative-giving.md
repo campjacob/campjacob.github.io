@@ -4,7 +4,8 @@ date: 2010-10-11 05:23
 permalink: /blog/2010/10/creative-giving
 tags:
   - Personal
-  - Giving, 
+  - Giving
+  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

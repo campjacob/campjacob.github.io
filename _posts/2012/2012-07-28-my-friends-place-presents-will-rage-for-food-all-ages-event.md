@@ -9,6 +9,7 @@ tags:
   - Events
   - Juveniles
   - Design
+  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

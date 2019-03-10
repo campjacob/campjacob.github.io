@@ -1,28 +1,29 @@
 ---
 date: 2012-02-13 01:04
 title: Determining a Studies Internal Validity
-permlink: /resources/determining-studies-internal-validity
+permalink: /resources/determining-studies-internal-validity
 exerpt: Determining a studies internal validity
 categories:
   - Informational
   - Research Methods
 tags: 
-  - "Research"
-  - "Research Methods"
-  - "Social Work"
-  - "Internal Validity"
+  - Research
+  - Research Methods
+  - Social Work
+  - Internal Validity
+excerpt: "Evaluating how to determine a studies internal validity."
 ---
 
 Looking at a studies design helps to determine internal validity and causality in regards to the results of the study. It explains simply what you did to whom. The design of the study looks at the number of groups and measures, the independent and dependent variables, and whether the sample was randomly assigned.
 
 The researcher can enhance internal validity by having a comparison group and a control group. Furthermore, randomly selecting and assigning participants can increase internal validity and reduce selection bias.
 
-## Ways to Enhance Internal Validity
+# Ways to Enhance Internal Validity
 
 1. Comparison group or control group
 2. Randomly select and randomly assign participants (helps with selection bias)
 
-## Three Types of Design
+# Three Types of Design
 
 * Pre-experimental
   - Pilot study
@@ -39,13 +40,13 @@ The researcher can enhance internal validity by having a comparison group and a 
 
 {% include figure image_path="/assets/media/research-methods-internal-validity.png" alt="A graphic I created while taking notes in my Social Work Classes regarding internal validity." caption="A graphic I created while taking notes in my Social Work Classes regarding internal validity." %}
 
-## Internal Validity
+# Internal Validity
 
 **Internal Validity:** Confidence that change in the dependent variable is caused by the independent variable and not something else.
 
 **Rival hypotheses:** Another factor causing and or explaining the change in the dependent variable.
 
-## Threats to internal Validity
+# Threats to internal Validity
 
 **History:** Outside even that coincides with the study and might be the real cause of your findings
 

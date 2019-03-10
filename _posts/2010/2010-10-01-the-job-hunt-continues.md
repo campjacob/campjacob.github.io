@@ -6,6 +6,7 @@ tags:
   - Personal
   - Work
   - TCCH BHS
+  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

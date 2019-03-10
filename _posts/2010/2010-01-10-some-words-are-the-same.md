@@ -14,6 +14,7 @@ tags:
   - Taxi
   - Travel Troubles
   - Spirituality
+  - L-- Cusco Peru
 categories:
   - Personal Blog
   - Travel Blog

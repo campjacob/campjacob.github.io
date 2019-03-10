@@ -9,6 +9,9 @@ tags:
   - Facebook Album
   - Interesting Food
   - Travel Troubles
+  - L-- Las Vegas Nevada
+  - L-- Lima Peru
+  - L-- Cusco Peru
 categories:
   - Personal Blog
   - Travel Blog

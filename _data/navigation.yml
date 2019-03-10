@@ -6,11 +6,103 @@ main:
   - title: "Resources"
     url: /resources/
   - title: "About"
-    url: /about/
+    url: /about-site/
+  - title: "CV"
+    url: /cv/
+
+resources:
+  - title: Research Methods
     children:
-      - title: "About this Site"
-        url: /about-site/
-      - title: "Professional Connections"
-        url: /professional-connections/
-      - title: "Curriculum Vitae"
-        url: /cv/
+      - title: "Research Methods & Evidence Based Practice"
+        url: /resources/research-methods-evidence-based-practice
+      - title: "Types of Study Designs"
+        url: /resources/types-study-designs
+      - title: "Determining a Studies Internal Validity"
+        url: /resources/determining-studies-internal-validity
+      - title: "Ethics in Research"
+        url: /resources/ethics-research
+      - title: "Factors Affecting Measurement"
+        url: /resources/factors-affecting-measurement
+      - title: "Overview of The Research Process"
+        url: /resources/overview-research-process
+      - title: "Paradigm's and Reasoning Types in Research"
+        url: /resources/paradigms-reasoning-types-research
+      - title: "Research Description & Research Types"
+        url: /resources/research-description-research-types
+      - title: "Sampling and Population in Research"
+        url: /resources/sampling-population-research
+      - title: "Single System Design Studies"
+        url: /resources/single-system-design-studies
+
+  - title: Various Articles
+    children:
+      - title: "2012 Coalition Assessment Report Summary: An Overview of the Annual Coalition Summary"
+        url: /resources/articles/2012-coalition-assessment-report-summary
+      - title: "Critical Article Review: Supervisors and Stress"
+        url: /resources/articles/article-review-supervisors-and-stress
+      - title: "Breaking the Cycle of Addiction: An Eight Week Curriculum for Working with Adult Alcoholics"
+        url: /resources/articles/breaking-the-cycle-of-addiction
+      - title: "The Ethnicity of Non-Ethnicity: The Ethnic Autobiography of the Dominate Culture"
+        url: /resources/articles/ethnicity-non-ethnicity
+      - title: "Fetal Alcohol Spectrum Disorder: Developing a Case for Prevention"
+        url: /resources/articles/fasd-research-paper
+      - title: "Genogram & Eco-map"
+        url: /resources/articles/genogram-eco-map
+      - title: "Alcoholics Anonymous: Group Facilitation as a Non-Professional Group Leader"
+        url: /resources/articles/group-facilitation-as-a-non-professional-group-leader
+      - title: "Job Skills Training for Juvenile Offenders: An Analysis of SB 5370"
+        url: /resources/articles/job-skills-training-for-juvenile-offenders-an-analysis-of-sb-5370
+      - title: "Working with Diverse Populations: Juvenile's Involved in the Justice System"
+        url: /resources/articles/juveniles-involved-in-the-justice-system
+      - title: "Levels of Leadership: A Leadership Philosophy Grounded in Introspective, Interpersonal, and Intrapersonal Concepts"
+        url: /resources/articles/levels-of-leadership
+      - title: "No Matter How Loud I Shout Book Review"
+        url: /resources/articles/no-matter-how-loud-i-shout-book-review
+      - title: "Quality Assurance Survey for Safe Harbor Crisis Nursery"
+        url: /resources/articles/quality-assurance-survey-for-safe-harbor-crisis-nursery
+      - title: "Study of a Diverse Population: Prisoners the Left out Group"
+        url: /resources/articles/study-of-a-diverse-population
+      - title: "Older Adults Funeral Services: the Difficulties that the Financially Insecure have in Obtaining a Proper Burial"
+        url: /resources/articles/the-difficulties-that-the-financially-insecure-have-in-obtaining-a-proper-burial
+      - title: "The Economy and Social Work: How the Economic Downturn Effects Social Service Agencies"
+        url: /resources/articles/the-economy-and-social-work
+      - title: "The Stress of Poverty: A Case Study Using Amazing Grace"
+        url: /resources/articles/the-stress-of-poverty-a-case-study-using-amazing-grace
+      - title: "Turn Your Life Upside Down: An Individual Design Study"
+        url: /resources/articles/turn-your-life-upside-down-an-individual-design-study
+
+  - title: Directions Program Evaluation
+    children:
+      - title: "Overview of The Crisis Residential Center's Directions Program Evaluation: For the 2006-2008 Financial Grant Years Study"
+        url: /resources/overview-of-the-crisis-residential-centers-directions-program-evaluation
+      - title: "Directions Program Evaluation Literature Review and Methodology"
+        url: /resources/articles/directions-program-evaluation-literature-review-and-methodology
+      - title: "The Crisis Residential Center's Directions Program Evaluation: For the 2006-2008 Financial Grant Years"
+        url: /resources/articles/the-crisis-residential-centers-directions-program-evaluation
+      - title: "Directions Program Effectiveness Study Presentations"
+        url: /resources/directions-program-effectiveness-study-presentations
+      - title: "Directions Program Evaluation Appendix A -- Timeline"
+        url: /resources/directions-program-evaluation-appendix-a-timeline
+
+  - title: Presentations and Handouts
+    children:
+      - title: "Empowerment Theory Presentation Handout"
+        url: /resources/empowerment-theory-presentation-handout
+      - title: "Empowerment Theory Presentation"
+        url: /resources/empowerment-theory-presentation
+      - title: "Intro to Case Management Presentation"
+        url: /resources/intro-case-management-presentation
+      - title: "The Economy and Social Work: How the Economic Downturn Effects Social Service Agencies Presentation"
+        url: /resources/the-economy-and-social-work-powerpoint-presentation
+      - title: "Solution-focused Brief Therapy Presentation Handout"
+        url: /resources/solution-focused-brief-therapy-presentation-handout
+      - title: "Solution-focused Brief Therapy Presentation"
+        url: /resources/solution-focused-brief-therapy-presentation
+
+  - title: Other Information
+    children:
+      - title: "Cultural Competence: Awareness"
+        url: /resources/cultural-competency-awareness
+      - title: "Strengths Perspective and Mental Health"
+        url: /resources/strengths-perspective-and-mental-health
+  

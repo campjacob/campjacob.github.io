@@ -10,6 +10,11 @@ tags:
   - Spirituality
   - Wikipedia
   - Politics
+  - L-- Goma Democratic Republic Of The Congo
+  - L-- Port Of Spain Trinidad And Tobago
+  - L-- Crown Point Trinidad And Tobago
+  - L-- The Port Of Scarborough Trinidad And Tobago
+  - L-- Isla De Margarita Venezuela
 categories:
   - Personal Blog
   - Travel Blog

@@ -3,11 +3,12 @@ title: Site Overhaul Complete
 date: 2008-08-17 11:58
 permalink: /blog/2008/8/site-overhaul-complete
 tags:
-    - Webdesign
+  - Webdesign
+  - L-- Spokane Washington
 categories:
-    - Personal Blog
+  - Personal Blog
 locations: 
-    - Spokane Washington
+  - Spokane Washington
 ---
 
 Since purchasing this domain name, and transferring all of it to here I have been going to though and giving the entire site a brief overhaul. I’ve had relatively limited experience with PHP. Since migrating my data, I have reduced it dramatically by utilizing the php language for includes for all the material that I add into each page. I have also added added and made a complete section for research and evidence based practice (link no longer valid). In completing this section I even utilized some JavaScript for the specific menu.

@@ -12,6 +12,7 @@ tags:
   - Facebook Album
   - Community
   - Eastlake Tri-Cities
+  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

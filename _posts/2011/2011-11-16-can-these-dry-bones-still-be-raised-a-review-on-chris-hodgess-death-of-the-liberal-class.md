@@ -9,6 +9,7 @@ tags:
   - National Public Radio
   - Occupy Together
   - Spirituality
+  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

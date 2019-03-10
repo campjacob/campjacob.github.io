@@ -1,18 +1,24 @@
 ---
-layout: single
 title: The 15 Hats (ahem, Roles) of Social Workers
 date: 2019-02-16  23:55
 tags:
-    - "Social Work"
-    - "Professional Roles"
-    - "YouTube Posts"
-category: Blog
+    - Social Work
+    - Professional Roles
+    - YouTube Posts
+    - L-- Tri-Cities Washington
+categories:
+    - Professional Blog
+    - YouTube Videos
 header:
-  video:
-    id: iBmtlNkEnFI
-    provider: youtube
+  overlay_image: /assets/media/jacob-campbell-15-hats-social-work.jpg
+  teaser: /assets/media/jacob-campbell-15-hats-social-work-500x300.png
+  caption: "Photo credit: [**Jacob Campbell**](/contact/) and the 15 hats of social work"
+  actions:
+    - label: "Watch Video"
+      url: "https://youtu.be/iBmtlNkEnFI"
 locations: 
     - Tri-Cities Washington
+excerpt: "Social workers all wear a number of different hats, or function in a number of different roles for their practice. In this video we talk about 15 different roles that social workers frequently put on."
 ---
 
 {% include video id="iBmtlNkEnFI" provider="youtube" %}

@@ -1,0 +1,24 @@
+---
+layout: archive
+pagination: 
+title:  "Snapshots: My Blog"
+author_profile: "true"
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: "assets/media/brazil-boat-sunset-blog-header.jpg"
+  caption: "Photo credit: A photo I took during my [**Jaunt Down South**](/tags/#jaunt-down-south-2010) while on the Amazon in Brazil."
+excerpt: "Little bits and pieces of my life written down and shared with you."
+---
+
+{% for post in paginator.posts %}
+
+{% include archive-single.html %}
+
+<p>Posted on <a href="{{ post.url }}">{{ post.date | date: "%A %B %-d, %Y" }}</a> by <a href="/contact/">Jacob Campbell</a>.</p>
+
+{{ post.content }}
+
+{% endfor %}
+
+{% include paginator.html %}

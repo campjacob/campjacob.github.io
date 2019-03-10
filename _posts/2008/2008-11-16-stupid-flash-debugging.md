@@ -6,6 +6,7 @@ tags:
   - Personal
   - Webdesign
   - Adobe Flash
+  - L-- Spokane Washington
 categories:
   - Personal Blog
 locations: 

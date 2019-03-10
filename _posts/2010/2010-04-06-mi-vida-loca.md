@@ -8,6 +8,7 @@ tags:
   - Crazy
   - Wikipedia
   - Travel Troubles
+  - L-- Cusco Peru
 categories:
   - Personal Blog
   - Travel Blog

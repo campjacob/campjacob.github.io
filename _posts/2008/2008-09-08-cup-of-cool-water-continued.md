@@ -3,20 +3,21 @@ title: Cup of Cool Water Continued
 date: 2008-09-08 17:34
 permalink: /blog/2008/9/cup-of-cool-water-continued
 tags:
-    - European Excursion 2008
-    - Travel
-    - Bus
-    - Plane
-    - Hostel
-    - Drinking
-    - Facebook Album
-
+  - European Excursion 2008
+  - Travel
+  - Bus
+  - Plane
+  - Hostel
+  - Drinking
+  - Facebook Album
+  - L-- Barcelona Spain
+  - L-- Bratislava Slovakia
 categories:
-    - Personal Blog
-    - Travel Blog
+  - Personal Blog
+  - Travel Blog
 locations: 
-    - Barcelona Spain
-    - Bratislava Slovakia
+  - Barcelona Spain
+  - Bratislava Slovakia
 ---
 
 ## Bratislava... just passing though

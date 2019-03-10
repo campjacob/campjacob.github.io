@@ -11,6 +11,7 @@ tags:
   - Hostel
   - Facebook
   - Facebook Album
+  - L-- Lima Peru
 categories:
   - Personal Blog
   - Travel Blog

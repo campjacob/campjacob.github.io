@@ -3,19 +3,22 @@ title: Travelers Cup of Cool Water
 date: 2008-09-02 19:24
 permalink: /blog/2008/9/travelers-cup-of-cool-water
 tags:
-    - European Excursion 2008
-    - Travel
-    - Palace
-    - Drinking
-    - Hostel
-    - Facebook Album
+  - European Excursion 2008
+  - Travel
+  - Palace
+  - Drinking
+  - Hostel
+  - Facebook Album
+  - L-- Vienna Austria
+  - L-- Bratislava Slovakia
+  - L-- Barcelona Spain
 categories:
-    - Personal Blog
-    - Travel Blog
+  - Personal Blog
+  - Travel Blog
 locations: 
-    - Vienna Austria
-    - Bratislava Slovakia
-    - Barcelona Spain
+  - Vienna Austria
+  - Bratislava Slovakia
+  - Barcelona Spain
 ---
 
 ![ A cool cup of water. ][1] A cool cup of water.

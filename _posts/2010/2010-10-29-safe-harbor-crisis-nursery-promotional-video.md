@@ -9,6 +9,7 @@ tags:
   - Adobe Premier Pro
   - Safe Harbor Family Support Center
   - Youtube
+  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

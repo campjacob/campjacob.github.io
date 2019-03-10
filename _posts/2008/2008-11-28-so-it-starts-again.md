@@ -8,6 +8,7 @@ tags:
   - Holiday
   - Facebook
   - Facebook Album
+  - L-- Spokane Washington
 categories:
   - Personal Blog
 locations: 

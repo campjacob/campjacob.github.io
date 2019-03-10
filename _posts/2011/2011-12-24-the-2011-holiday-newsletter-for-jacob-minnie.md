@@ -7,6 +7,7 @@ tags:
   - Holiday
   - Christmas
   - Juveniles
+  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

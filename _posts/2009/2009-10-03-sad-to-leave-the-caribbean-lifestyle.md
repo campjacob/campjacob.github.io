@@ -7,6 +7,9 @@ tags:
   - Jaunt Down South 2010
   - Couch Surfing
   - Bus
+  - L-- Isla De Margarita Venezuela
+  - L-- Ciudad Bolivar Venezuela
+  - L-- Santa Elena De Uairén Venezuela
 categories:
   - Personal Blog
   - Travel Blog

@@ -6,6 +6,7 @@ tags:
   - Personal
   - Google
   - Google News
+  - L-- Spokane Washington
 categories:
   - Personal Blog
 locations: 

@@ -4,6 +4,8 @@ date: 2009-04-19 10:17
 permalink: /blog/2009/4/street-lights
 tags:
   - Deep Thoughts
+  - L-- Moscow Idaho
+  - L-- Spokane Washington
 categories:
   - Personal Blog
 locations: 

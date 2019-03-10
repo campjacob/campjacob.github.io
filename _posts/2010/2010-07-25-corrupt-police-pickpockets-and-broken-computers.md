@@ -12,6 +12,9 @@ tags:
   - Crazy
   - Webdesign
   - Drupal
+  - L-- Cusco Peru
+  - L-- Arica Chile
+  - L-- Arequipa Peru
 categories:
   - Personal Blog
   - Travel Blog

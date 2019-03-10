@@ -7,6 +7,7 @@ tags:
   - Travel
   - Travel Troubles
   - Fix 
+  - L-- Spokane Washington
 categories:
   - Personal Blog
   - Travel Blog

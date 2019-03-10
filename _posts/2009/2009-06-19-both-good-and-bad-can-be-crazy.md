@@ -12,6 +12,7 @@ tags:
   - Book Review
   - Travel
   - Jaunt Down South 2010
+  - L-- Spokane Washington
 categories:
   - Personal Blog
   - Travel Blog

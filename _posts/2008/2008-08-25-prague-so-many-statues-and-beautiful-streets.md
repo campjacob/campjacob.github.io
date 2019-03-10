@@ -3,9 +3,10 @@ title: Prague, So Many Statues and Beautiful Streets
 date: 2008-08-25 13:58
 permalink: /blog/2008/8/prague-so-many-statues-and-beautiful-streets
 tags:
-    - European Excursion 2008
-    - Travel
-    - Castle
+  - European Excursion 2008
+  - Travel
+  - Castle
+  - L-- Prague Czech Republic
 categories:
     - Personal Blog
     - Travel Blog

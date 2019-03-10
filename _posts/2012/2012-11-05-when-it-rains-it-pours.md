@@ -15,6 +15,7 @@ tags:
   - Facebook Events
   - Columbia Basin College
   - Crazy
+  - L-- Prosser Washington
 categories:
   - Personal Blog
 locations: 

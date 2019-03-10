@@ -9,6 +9,8 @@ tags:
   - Spirituality
   - Wikipedia
   - Archaeological Sites
+  - L-- Cusco Peru
+  - L-- Tipon Peru
 categories:
   - Personal Blog
   - Travel Blog

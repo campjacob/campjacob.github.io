@@ -7,6 +7,7 @@ tags:
   - Politics
   - Adobe Flash
   - Money
+  - L-- Spokane Washington
 categories:
   - Personal Blog
 locations: 
@@ -17,9 +18,9 @@ Have you ever heard numbers, and wondered really what they mean. People say that
 
 The fact is, that numbers can be hard to understand and people might mean different things with them. This becomes especially true when talking about the large amounts of money. For example, Washington State has a [$6 billion shortfall][1]. The United States trade deficit is about [$40.4 billion][2]. The bailout of the US economy could range upwards of [$5 Trillion][3].
 
-   [1]: http://www.governor.wa.gov/priorities/budget/faq.asp (Governor Budget FAQs)
-   [2]: http://www.census.gov/foreign-trade/statistics/highlights/monthly.html ($40.4 billion)
-   [3]: http://www.infowars.net/articles/october2008/151008Bailout_figures.htm (Total Bailout Cost Heads Towards $5 TRILLION)
+   [1]: http://www.governor.wa.gov/priorities/budget/faq.asp
+   [2]: http://www.census.gov/foreign-trade/statistics/highlights/monthly.html
+   [3]: http://www.infowars.net/articles/october2008/151008Bailout_figures.htm
 
 The question is, do people really understand how much that money is. I am not in this post making an argument for or against any type of bailout I just want people to understand how much money these numbers are. When somebody starts talking about numbers in this range, it becomes difficult to comprehend how much that really is and their exponential growth from lesser numbers.
 

@@ -7,6 +7,7 @@ tags:
   - Work
   - Fundraiser
   - Safe Harbor Family Support Center
+  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

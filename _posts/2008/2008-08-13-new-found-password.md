@@ -1,16 +1,17 @@
 ---
-layout: single
 title: New Found Password
 date: 2008-08-13 11:42
 permalink: /blog/2008/8/new-found-password
 tags:
-    - Personal
-    - Crisis Residential Center
-    - Work
-    - Crazy
-category: "Personal Blog"
+  - Personal
+  - Crisis Residential Center
+  - Work
+  - Crazy
+  - L-- Spokane Washington
+categories:
+  - Personal Blog
 locations: 
-    - Spokane Washington
+  - Spokane Washington
 ---
 
 ![ A photo of the overnight chair at the CRC. This is where I spend my hours at all night long. ][1] A photo of the overnight chair at the CRC. This is where I spend my hours at all night long.

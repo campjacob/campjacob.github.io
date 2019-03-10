@@ -8,6 +8,7 @@ tags:
   - UNSAAC
   - Protests
   - Travel Troubles
+  - L-- Cusco Peru
 categories:
   - Personal Blog
   - Travel Blog

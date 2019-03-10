@@ -10,6 +10,7 @@ tags:
   - IMDB
   - Wikipedia
   - Deep Thoughts
+  - L-- Spokane Washington
 categories:
   - Personal Blog
   - Travel Blog
@@ -19,13 +20,13 @@ locations:
 
 ![The Motorcycle Diaries Poster Art][1]{: .align-left}
 
-   [1]: http://static1.squarespace.com/static/51dcde94e4b09506a9c98fbc/51dcde94e4b09506a9c98fc0/52da35e3e4b04f03beabfa84/1390032356025/motorcycle-diaries-poster.jpg
+   [1]: /assets/media/motorcycle-diaries-poster.jpg
 
 [The Motorcycle Diaries (2004)][2] is about two men from Buenos Aires who make plans to travel by motorcycle travel around the coast of South America. The story comes from journey and written memoir of the 23-year-old Ernesto ("Che") Guevara. [Che Guevara][3] years later become internationally known as the iconic Marxist revolutionary. The film recounts the 1952 journey, initially by motorcycle, across South America by Guevara and his friend Alberto Granado. As the adventure centered around youthful hedonism unfolds, Guevara discovers himself transformed by his observations of the life of the impoverished indigenous peasantry. The road presents Ernesto Guevara and Alberto Granado a genuine picture of the Latin American identity. Through the characters they encounter on the road, Guevara and Granado learn the injustices the impoverished face and are exposed to people they would have never encountered in their hometown. The trip serves to expose a Latin American identity as well as explore the identity of one of its most memorable revolutionaries. This description changed from [Wikipedia entry][4]
 
-   [2]: http://www.imdb.com/title/tt0318462/ (IMDB Link)
-   [3]: http://en.wikipedia.org/wiki/Che_Guevara (Che Guevara article on Wikipedia)
-   [4]: http://en.wikipedia.org/wiki/The_Motorcycle_Diaries_(film) (wikipedia Article on the film)
+   [2]: http://www.imdb.com/title/tt0318462/
+   [3]: http://en.wikipedia.org/wiki/Che_Guevara
+   [4]: http://en.wikipedia.org/wiki/The_Motorcycle_Diaries_(film)
 
 I watched this movie last night with my friend who I am going to be traveling around South America with. It was a powerful movie, and one that I highly recommend for anybody to watch. Watching it, made me think about my upcoming trip, and what some of my expectations/reasons for going are. The following is some of what these are
 
@@ -37,9 +38,9 @@ I watched this movie last night with my friend who I am going to be traveling ar
 
    [5]: /blog?tag=Barcelona%20Spain
    [6]: /blog/european-excursion-2008
-   [7]: http://masterscommission.com/ (The Master's Commission)
-   [8]: http://www.columbiabasin.edu/home/index.asp (Columbia Basin Community College)
-   [9]: http://www.ewu.edu/Home.xml (Eastern Washington Univeristy)
+   [7]: http://masterscommission.com/
+   [8]: http://www.columbiabasin.edu/home/index.asp
+   [9]: http://www.ewu.edu/Home.xml
 
 I think that is quite a list of different hopes for my trip. If you want to see [a preview of the move Motorcycle Diaries watch it from youtube][10] below.
 

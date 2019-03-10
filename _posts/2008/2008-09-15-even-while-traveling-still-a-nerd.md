@@ -8,6 +8,7 @@ tags:
   - Technology
   - Google
   - Google Chrome
+  - L-- Krakow Poland
 categories:
   - Personal Blog
   - Travel Blog

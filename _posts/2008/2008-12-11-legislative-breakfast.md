@@ -9,6 +9,7 @@ tags:
   - Social Work
   - Advocacy
   - Design
+  - L-- Spokane Washington
 categories:
   - Personal Blog
 locations: 

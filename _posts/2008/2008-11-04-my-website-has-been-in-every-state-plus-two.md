@@ -7,6 +7,7 @@ tags:
   - Webdesign
   - Google
   - Google Analytics
+  - L-- Spokane Washington
 categories:
   - Personal Blog
 locations: 

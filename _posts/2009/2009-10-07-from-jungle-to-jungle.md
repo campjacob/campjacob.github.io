@@ -21,6 +21,10 @@ tags:
   - IMDB
   - Facebook
   - Facebook Album
+  - L-- Isla De Margarita Venezuela
+  - L-- Ciudad Bolivar Venezuela
+  - L-- Santa Elena De Uairén Venezuela
+  - L-- Manaus Brazil
 categories:
   - Personal Blog
   - Travel Blog

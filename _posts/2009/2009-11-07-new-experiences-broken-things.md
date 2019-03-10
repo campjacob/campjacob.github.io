@@ -15,6 +15,9 @@ tags:
   - Plaza
   - Learning
   - Volunteering
+  - L-- Puerto Maldonado Peru
+  - L-- Tambopata National Reserve Peru
+  - L-- Cusco Peru
 categories:
   - Personal Blog
   - Travel Blog

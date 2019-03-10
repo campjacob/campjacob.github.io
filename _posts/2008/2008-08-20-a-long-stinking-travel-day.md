@@ -5,6 +5,7 @@ permalink: /blog/2008/8/a-long-stinking-travel-day
 tags:
     - Travel
     - European Excursion 2008
+    - L-- Berlin Germany
 categories:
     - Personal Blog
     - Travel Blog

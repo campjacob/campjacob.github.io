@@ -7,6 +7,7 @@ tags:
   - Research
   - National Public Radio
   - Juveniles
+  - L-- Spokane Washington
 categories:
   - Personal Blog
 locations: 

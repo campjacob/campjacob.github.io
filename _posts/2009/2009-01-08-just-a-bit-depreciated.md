@@ -9,6 +9,7 @@ tags:
   - Spirituality
   - Juveniles
   - Struggle
+  - L-- Spokane Washington
 categories:
   - Personal Blog
 locations: 

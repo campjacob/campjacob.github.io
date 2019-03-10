@@ -1,8 +1,7 @@
 ---
-layout: single
 date: 2012-02-13 01:04
 title: Sampling and Population in Research
-permlink: /resources/sampling-population-research
+permalink: /resources/sampling-population-research
 exerpt: 
 categories:
   - Informational
@@ -12,6 +11,7 @@ tags:
   - Research
   - Research Methods
   - Social Work
+excerpt: "A review regarding how sampling and population affect research."
 ---
 
 # Sampling

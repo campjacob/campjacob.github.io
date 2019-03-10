@@ -7,6 +7,7 @@ tags:
     - European Excursion 2008
     - Personal
     - Hostel
+    - L-- Seattle Washington
 categories:
     - Personal Blog
     - Travel Blog

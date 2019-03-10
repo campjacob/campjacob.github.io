@@ -3,21 +3,24 @@ title: Münichen, The Tent, and Good Chicken
 date: 2008-08-30 00:18
 permalink: /blog/2008/8/mnichen-the-tent-and-good-chicken
 tags:
-    - European Excursion 2008
-    - Travel
-    - Fire
-    - Cooking
-    - Surfing
-    - Facebook
-    - Facebook Album
-    - Bus
+  - European Excursion 2008
+  - Travel
+  - Fire
+  - Cooking
+  - Surfing
+  - Facebook
+  - Facebook Album
+  - Bus
+  - L-- Munich Germany
+  - L-- Vienna Austria
+  - L-- Prague Czech Republic
 categories:
-    - Personal Blog
-    - Travel Blog
+  - Personal Blog
+  - Travel Blog
 locations:
-    - Munich Germany
-    - Vienna Austria
-    - Prague Czech Republic
+  - Munich Germany
+  - Vienna Austria
+  - Prague Czech Republic
 ---
 ![ Great Beer from Hofbräuhaus. The Staatliches Hofbräuhaus in München is a brewery in Munich, Germany, owned by the Bavarian state government. The brewery owns the Hofbräuhaus am Platzl, the Hofbräukeller and the second largest tent at the Oktoberfest (Hofbräu-Festzelt). Its own brew is the only beer served.][1] Great Beer from Hofbräuhaus. The Staatliches Hofbräuhaus in München is a brewery in Munich, Germany, owned by the Bavarian state government. The brewery owns the Hofbräuhaus am Platzl, the Hofbräukeller and the second largest tent at the Oktoberfest (Hofbräu-Festzelt). Its own brew is the only beer served.
 

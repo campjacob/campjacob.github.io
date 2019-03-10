@@ -108,59 +108,52 @@ analytics:
 author:
   name             : "Jacob Campbell"
   avatar           : "/assets/src/jacob-campbell-profile-photo.jpeg"
-  bio              : "School social worker practicing with students with EBD, university adjunct faculty, Ph.D. Candidate, LISCW, father, husband, and active community member"
+  bio              : "School social worker practicing with students with EBD, university adjunct faculty, father, husband, and active community member"
   location         : "Pasco, Washington"
   email            : # "jacob.r.campbell@gmail.com"
   links:
     - label: "Contact Me"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "/contact"
+      icon: "fas fa-id-card"
+      url: "/contact/"
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube-square"
       url: "https://www.youtube.com/user/campjacob/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/campjacob"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/campjacob"
     - label: "Snapchat"
-      icon: "fab fa-snapchat-square"
+      icon: "fab fa-snapchat"
       url: "https://www.snapchat.com/add/campjacob1982"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://fb.com/jacobshouse"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/campjacob"
+
     
 
 # Site Footer
 footer:
   links:
     - label: "Contact Me"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "/contact"
-    - label: "YouTube"
+      icon: "fas fa-id-card"
+      url: "/contact/"
+    - label: ""
       icon: "fab fa-fw fa-youtube-square"
       url: "https://www.youtube.com/user/campjacob/"
-    - label: "Twitter"
+    - label: ""
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/campjacob"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/campjacob"
-    - label: "Snapchat"
-      icon: "fab fa-snapchat-square"
+    - label: ""
+      icon: "fab fa-snapchat"
       url: "https://www.snapchat.com/add/campjacob1982"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+    - label: ""
+      icon: "fab fa-facebook"
       url: "https://fb.com/jacobshouse"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+    - label: ""
+      icon: "fab fa-instagram"
+      url: "https://instagram.com/campjacob"
+    - label: ""
+      icon: "fab fa-github"
       url: "https://github.com/campjacob"
-
-
+    - label: ""
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/jacobrcampbell/"
 
 # Reading Files
 include:
@@ -234,9 +227,9 @@ sass:
 
 
 # Outputting
-permalink: pretty
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+permalink: /blog/:year/:month/:day/:title/
+paginate: 8 # amount of posts to show
+paginate_path: /blog/page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -315,5 +308,8 @@ defaults:
       type: resources
     values:
       layout: single
-      author_profile: true
       share: true
+      toc: true
+      toc_label: Table of Contents
+      sidebar:
+        nav: "resources"

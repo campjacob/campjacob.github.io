@@ -10,6 +10,8 @@ tags:
   - Google Maps
   - Holiday
   - Games
+  - L-- Spokane Washington
+  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
   - Travel Blog

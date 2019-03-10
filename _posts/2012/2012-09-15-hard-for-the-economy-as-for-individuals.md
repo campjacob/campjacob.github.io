@@ -8,6 +8,7 @@ tags:
   - Economy
   - Current Events
   - Counseling
+  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

@@ -1,14 +1,15 @@
 ---
-layout: single
 title: Sending My Computer Away
 date: 2008-08-05 08:08
 permalink: /blog/2008/8/sending-my-computer-away
 tags:
-    - Personal
-    - Technology
-category: "Personal Blog"
+  - Personal
+  - Technology
+  - L-- Spokane Washington
+categories:
+  - Personal Blog
 locations: 
-    - Spokane Washington
+  - Spokane Washington
 ---
 
 ![ A photo of the repair box ][3] A photo of the repair box

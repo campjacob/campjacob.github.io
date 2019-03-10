@@ -10,6 +10,7 @@ tags:
   - Social Work
   - Travel Troubles
   - Crazy
+  - L-- Cusco Peru
 categories:
   - Personal Blog
   - Travel Blog

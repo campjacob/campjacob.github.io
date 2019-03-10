@@ -10,7 +10,8 @@ tags:
   - Children's Alliance
   - Social Work
   - Advocacy
-  - Couch Surfing 
+  - Couch Surfing
+  - L-- Olympia Washington
 categories:
   - Personal Blog
   - Travel Blog

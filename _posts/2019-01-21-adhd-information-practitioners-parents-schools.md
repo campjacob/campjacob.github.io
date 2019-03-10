@@ -1,18 +1,25 @@
 ---
-layout: single
 title: ADHD Information for Practitioners, Parents, and Schools
 date: 2019-01-21 00:00
 tags:
-    - "Social Work"
-    - "ADHD"
-    - "School Social Work"
-    - "Community Mental Health"
-    - "YouTube Posts"
-category: Blog
+    - Social Work
+    - ADHD
+    - School Social Work
+    - Community Mental Health
+    - YouTube Posts
+    - L-- Tri-Cities Washington
+categories:
+    - Professional Blog
+    - YouTube Videos
 header:
-  video:
-    id: o_39K2AjJgo
-    provider: youtube
+header:
+  overlay_image: /assets/media/adhd-information.jpg
+  teaser: /assets/media/adhd-information-500x300.png
+  caption: "Photo credit: [**Jacob Campbell**](/contact/) and ADHD Information"
+  actions:
+    - label: "Watch Video"
+      url: "https://youtu.be/o_39K2AjJgo"
+excerpt: "A look into how to address Attention-Deficit / Hyperactivity Disorder (ADHD) from the perspectives of clinicians, parents, and schools."
 locations: 
     - Tri-Cities Washington
 ---

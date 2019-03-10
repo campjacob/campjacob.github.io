@@ -9,6 +9,7 @@ tags:
   - Ethnicity
   - Facebook
   - Cultural Awareness
+  - L-- Spokane Washington
 categories:
   - Personal Blog
 locations: 
