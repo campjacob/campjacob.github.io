@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "About Jacob's Site"
-permalink: "about-site"
+permalink: /about-site/
 classes: wide
 author_profile: "true"
 feature_row:
