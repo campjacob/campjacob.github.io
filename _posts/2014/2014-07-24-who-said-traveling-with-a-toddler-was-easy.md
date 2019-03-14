@@ -56,8 +56,8 @@ We went to [Downtown Disney][9]) and got a bit to eat at the [Earl of Sandwich][
 ![][13] ![][14] ![][15] ![][16] ![][17]
 
    [13]: /assets/media/disney-world-photos-01.jpg
-   [14]: /assets/media/disney-world-photos-02.JPG
-   [15]: /assets/media/disney-world-photos-03.JPG
+   [14]: /assets/media/disney-world-photos-02.jpg
+   [15]: /assets/media/disney-world-photos-03.jpg
    [16]: /assets/media/disney-world-photos-04.jpg
    [17]: /assets/media/disney-world-photos-05.jpg
 

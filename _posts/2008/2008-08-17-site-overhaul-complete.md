@@ -19,5 +19,5 @@ This would all change based on what specific page the viewer is on. I also loade
 
    [1]: http://code.google.com/apis/maps/
 
-  * [PHP]: Pre Hypertext Processor
+>  * PHP: Pre Hypertext Processor
 

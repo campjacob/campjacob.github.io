@@ -16,7 +16,7 @@ locations:
 
 ![A photo from the Balcony of Sheila and Dennis house in the Commune of Fabas in the Midi-Phyrénées of the French Countryside.][5]
 
-   [5]: /assets/media/Balcony-Commune-of-Fabas-in-the-Midi-Phyrénées-French-Countryside.jpeg
+   [5]: /assets/media/balcony-commune-of-fabas-in-the-midi-phyrenees-french-countryside.jpeg
 
 A photo from the Balcony of Sheila and Dennis house in the Commune of Fabas in the Midi-Phyrénées of the French Countryside.
 
