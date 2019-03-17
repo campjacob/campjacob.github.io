@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-14T13:00:29-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jacob R. Campbell, …</title><subtitle>My hope for all of my stuff. I am a school social worker, adjunct faculty member for a university, Ph.D. Candidate, Licensed Independent Clinical Social Worker, Father, Husband, and active community member</subtitle><author><name>Jacob Campbell</name></author><entry><title type="html">The 15 Hats (ahem, Roles) of Social Workers</title><link href="http://localhost:4000/blog/2019/02/16/the-15-hats-ahem-roles-of-social-workers/" rel="alternate" type="text/html" title="The 15 Hats (ahem, Roles) of Social Workers" /><published>2019-02-16T23:55:00-08:00</published><updated>2019-02-16T23:55:00-08:00</updated><id>http://localhost:4000/blog/2019/02/16/the-15-hats-ahem-roles-of-social-workers</id><content type="html" xml:base="http://localhost:4000/blog/2019/02/16/the-15-hats-ahem-roles-of-social-workers/">&lt;!-- Courtesy of embedresponsively.com //--&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-16T22:54:20-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jacob R. Campbell, …</title><subtitle>My hope for all of my stuff. I am a school social worker, adjunct faculty member for a university, Ph.D. Candidate, Licensed Independent Clinical Social Worker, Father, Husband, and active community member</subtitle><author><name>Jacob Campbell</name></author><entry><title type="html">Is it Spring Yet? Duck Pond &amp;amp; River Fun</title><link href="http://localhost:4000/blog/2019/03/16/is-it-spring-yet-duck-pond-river-fun/" rel="alternate" type="text/html" title="Is it Spring Yet? Duck Pond &amp; River Fun" /><published>2019-03-16T00:00:00-07:00</published><updated>2019-03-16T00:00:00-07:00</updated><id>http://localhost:4000/blog/2019/03/16/is-it-spring-yet-duck-pond-river-fun</id><content type="html" xml:base="http://localhost:4000/blog/2019/03/16/is-it-spring-yet-duck-pond-river-fun/">&lt;!-- Courtesy of embedresponsively.com //--&gt;
+&lt;div class=&quot;responsive-video-container&quot;&gt;
+
+  &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/4lxvUFRwsng&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;It feels like Spring is finally hear. We went to the Duck Pond at Columbia Park and fed the Ducks.&lt;/p&gt;
+
+&lt;p&gt;I will say, after I was posting about buying bread to feed the ducks, a friend reached out to me and told me about the problems related to that, so you should consider feeding them something else. Fun video though.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/assets/media/dont-feed-ducks-bread.jpg&quot; alt=&quot;Photo of sign stating not to feed ducks bread&quot; /&gt;
+  
+    &lt;figcaption&gt;Don’t Feed Ducks Bread.
+&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;p&gt;Shot on my GoPro and iPhone and Made by GoPro Quick using the song Straight West.&lt;/p&gt;</content><author><name>Jacob Campbell</name></author><category term="YouTube Videos" /><category term="Family Fun" /><category term="L-- Tri-Cities Washington" /><summary type="html">It feels like Spring is finally hear. We went to the Duck Pond at Columbia Park and fed the Ducks.</summary></entry><entry><title type="html">The 15 Hats (ahem, Roles) of Social Workers</title><link href="http://localhost:4000/blog/2019/02/16/the-15-hats-ahem-roles-of-social-workers/" rel="alternate" type="text/html" title="The 15 Hats (ahem, Roles) of Social Workers" /><published>2019-02-16T23:55:00-08:00</published><updated>2019-02-16T23:55:00-08:00</updated><id>http://localhost:4000/blog/2019/02/16/the-15-hats-ahem-roles-of-social-workers</id><content type="html" xml:base="http://localhost:4000/blog/2019/02/16/the-15-hats-ahem-roles-of-social-workers/">&lt;!-- Courtesy of embedresponsively.com //--&gt;
 &lt;div class=&quot;responsive-video-container&quot;&gt;
 
   &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/iBmtlNkEnFI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
@@ -324,34 +343,4 @@ commit(draft);
 
 &lt;p&gt;Then the IFTTT magic starts. It sends my answers to an IFTT recipe where it appends a spreadsheet in Google docs to add the new data (along with the date) to cells in the the spreadsheet. I made a second IFTT rule sending my work email an notification every month on the last day to complete copy and paste the values from the Google Docs to the appropriate spreadsheet and turn it in to receive my reimbursement.&lt;/p&gt;
 
-&lt;p&gt;After I got it all working, I was super excited. It feels amazing to know that I can track my mileage with a couple of clicks on my phone and I won’t ever have to worry about it again. I might have to think about making it based on location… but we will see so that I don’t even have to click anything on my phone.&lt;/p&gt;</content><author><name>Jacob Campbell</name></author><category term="Technology" /><category term="Personal" /><category term="Professional" /><category term="Launch Center Pro" /><category term="Google" /><category term="Google Drive" /><category term="Mac Power Users" /><category term="L-- Tri-Cities Washington" /><summary type="html"></summary></entry><entry><title type="html">Is My Mac Magic?</title><link href="http://localhost:4000/blog/2014/8/is-my-mac-magic" rel="alternate" type="text/html" title="Is My Mac Magic?" /><published>2014-08-17T16:10:00-07:00</published><updated>2014-08-17T16:10:00-07:00</updated><id>http://localhost:4000/blog/2014/8/is-my-mac-magic</id><content type="html" xml:base="http://localhost:4000/blog/2014/8/is-my-mac-magic">&lt;p&gt;&lt;img src=&quot;/assets/media/is-my-mac-magic-photo.jpg&quot; alt=&quot;Photo of MacBook Pro&quot; title=&quot;A Photo of My MacBook Pro&quot; /&gt;&lt;/p&gt;
-&lt;p class=&quot;caption&quot;&gt;A photo of my MacBook Pro taken as I was writing this post at Starbucks off of 390 in Kennewick...&lt;/p&gt;
-
-&lt;p&gt;This last week, I had my last day at &lt;a href=&quot;http://www.mytcch.org/&quot;&gt;Tri-Cities Community Health Behavioral Health Services&lt;/a&gt;, and my have started some of my training for my work at the &lt;a href=&quot;http://www.psd1.org/site/default.aspx?PageID=1&quot;&gt;Pasco School District&lt;/a&gt;. I’ve also still been spending quite a bit of time preparing my class lectures for the &lt;a href=&quot;http://www.heritage.edu/CampusLocations/TriCities.aspx&quot;&gt;Heritage Courses&lt;/a&gt; I will be teaching. All that being said, its still a really busy time right now. I figured I’d share some of my geekary from last night that I put together. One of the benefits of being a geek is that can make my computer do magic tricks sometimes, and save myself a lot of hassle and time (although it also means that sometimes I spend a significant amount of time doing things that don’t deserve that much time, but that’s neither here or there).&lt;/p&gt;
-
-&lt;p&gt;The reason I am so in love with my mac, is some of the amazing software and things that I can do with it, that just weren’t possible on a Windows PC. I just downloaded &lt;a href=&quot;http://www.keyboardmaestro.com/main/&quot;&gt;Keyboard Maestro - KM&lt;/a&gt;, a really powerful and amazing piece of software. I’m very excited to see what I can all automate with it on my mac. I’ve put together a couple of what KM calls macros. The first one I did was in apple mail to make keyboard like shortcuts. I’m not going to write about about it, but I did the same as described &lt;a href=&quot;http://apple.stackexchange.com/questions/53254/gmail-like-keyboard-shortcuts-in-mail-app-keys-without-modifiers&quot;&gt;Stack Exchange&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I love my Apple TV, and even like the little four button remote that comes with it. I like to use it even when I’m given presentations as my clicker. The only problem is that it always tries to control my mac. We will be sitting on the couch and watching &lt;a href=&quot;http://www.imdb.com/title/tt0934814/&quot;&gt;Chuck&lt;/a&gt;, our current show of choice on Netflix, and you click a button and it turns on iTunes or click another button and the volume on my mac goes up and down. It’s a bit of a pain to toggle the IR remote on and off. It’s kind of hidden in the system preferences. If you are turning it on and off, it might look something like this &lt;a href=&quot;https://v.usetapes.com/AxaSINsYsY&quot;&gt;short screencast&lt;/a&gt;. While it doesn’t take way to long, it is kind of an annoying process, and KM can come to the rescue. It wasn’t too hard to set it up and automate the process. I created a keyboard short cut that goes though the whole process with minimal needs for me to do anything when turning on and off the remote.&lt;/p&gt;
-
-&lt;p&gt;Basically here is what it does:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/keyboard-maestro-macro-ir-remote.png&quot; alt=&quot;A screenshot of my Keyboard Maestro's macro for toggling the IR remote.&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A screenshot of my Keyboard Maestro’s macro for toggling the IR remote.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Click ⇧⌘→&lt;/li&gt;
-  &lt;li&gt;Open “Security &amp;amp; Privacy Preferences Pane”&lt;/li&gt;
-  &lt;li&gt;Pause for 1.5 seconds (so that it has time to open)&lt;/li&gt;
-  &lt;li&gt;Click the gatekeeper lock to unlock the advanced settings&lt;/li&gt;
-  &lt;li&gt;Pause until “Advanced button is available” (waiting for me to put in my password)&lt;/li&gt;
-  &lt;li&gt;Press “Advanced…” button.&lt;/li&gt;
-  &lt;li&gt;Wait for user to (I have to click the check box and pair the IR remote).&lt;/li&gt;
-  &lt;li&gt;Click the “Ok” button&lt;/li&gt;
-  &lt;li&gt;Re-lock the gatekeeper.&lt;/li&gt;
-  &lt;li&gt;Quite the system’s preferences pane.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;It makes me feel a little bit like my mac does magic for me, so beautiful. You can see the &lt;a href=&quot;https://v.usetapes.com/KVk70MAAFE&quot;&gt;short screencast&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Now, I can just click a couple of keys, and turn on and off my Apple TV Remote when I’m teaching… easy as that.&lt;/p&gt;</content><author><name>Jacob Campbell</name></author><category term="Technology" /><category term="Personal" /><category term="Work" /><category term="TCCH BHS" /><category term="Pasco School District" /><category term="Heritage University" /><category term="Keyboard Maestro" /><category term="L-- Tri-Cities Washington" /><summary type="html">Using Keyboard Maestro to get stuff done on my computer.</summary></entry></feed>
+&lt;p&gt;After I got it all working, I was super excited. It feels amazing to know that I can track my mileage with a couple of clicks on my phone and I won’t ever have to worry about it again. I might have to think about making it based on location… but we will see so that I don’t even have to click anything on my phone.&lt;/p&gt;</content><author><name>Jacob Campbell</name></author><category term="Technology" /><category term="Personal" /><category term="Professional" /><category term="Launch Center Pro" /><category term="Google" /><category term="Google Drive" /><category term="Mac Power Users" /><category term="L-- Tri-Cities Washington" /><summary type="html"></summary></entry></feed>
