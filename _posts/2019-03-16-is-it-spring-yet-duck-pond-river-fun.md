@@ -1,6 +1,7 @@
 ---
 title: "Is it Spring Yet? Duck Pond & River Fun"
 date: 2019-03-16 16-27
+permalink: /blog/2019/03/16/is-it-spring-yet-duck-pond-river-fun/
 tags:
   - YouTube Videos
   - Family Fun
