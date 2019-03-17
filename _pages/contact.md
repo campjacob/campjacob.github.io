@@ -10,7 +10,7 @@ author_profile: "true"
 [1]: /assets/media/jacob-campbell-grading-papers-cusco.jpeg
 
 
-Hi, My name is Jacob Rodman Campbell V.S.P. (the V.S.P. is on my birth certificate and stands for "Very Special Person"). I'm a lot of things, the least of which is a web / graphic designer (it's really just a hobby for me). I have a couple of jobs and am super involved in a lot of things. You can check out my [CV](/cv/) (kine of like a resume). I really am an advocate for people in need (especially at risk youth, you can check out [my story because I was one][2]).
+Hi, My name is Jacob Rodman Campbell V.S.P. (the V.S.P. is on my birth certificate and stands for "Very Special Person"). I'm a lot of things, the least of which is a web / graphic designer (it's really just a hobby for me). I have a couple of jobs and am super involved in a lot of things. You can check out my [CV](/cv/) (kind of like a resume). I really am an advocate for people in need (especially at risk youth, you can check out [my story because I was one][2]).
 
    [2]: /testimony
 
