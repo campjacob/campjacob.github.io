@@ -342,9 +342,94 @@
     
     
 
-<h1 class="archive__item-title" itemprop="headline">
-	<a href="/blog/2014/11/tracking-trainings-using-dafts-and-launch-center-pro">Mileage Tracking Form and Launch Center Pro</a>
-</h1>
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <h1 class="archive__item-title" itemprop="headline">
+      
+        <a href="/blog/2014/8/mileage-tracking-form-and-launch-center-pro" rel="permalink">Tracking Trainings Using Drafts and Launch Center Pro
+</a>
+      
+    </h1>
+
+<p>Posted on <a href="/blog/2014/8/mileage-tracking-form-and-launch-center-pro">Friday November 14, 2014</a> by <a href="/contact/">Jacob Campbell</a>.</p>
+
+<p><img src="/assets/media/track-your-trainings-learn-blocks.jpg" alt="Graphic of Blocks Saying Learn" title="Track Trainings for CEUs and Clock Hours Using Drafts 4 &amp; Launch Center Pro" /></p>
+
+<p>A couple of weeks ago, I spent some times further diving into <a href="http://agiletortoise.com/drafts/">Drafts</a> and <a href="http://contrast.co/launch-center-pro/">Launch Center Pro</a>. Both are amazing applications for iOS, and have greatly improved my productivity and ability to get things done. I have been absolutely loving my <a href="/blog/2014/8/mileage-tracking-form-and-launch-center-pro">Milage Tracker</a> that I put together, and use it multiple times a day (and find that it makes it so I don’t forget to track). As I have written before, I’m a big fan of using plain <a href="/blog/2014/3/review-of-david-sparkss-markdown-book-an-investigation-to-formatting-documents">text files and Markdown</a>.</p>
+
+<p>Several years ago, when I started working at Tri-Cities Community Health Behavioral Health Services, and attending various trainings post MSW I started keeping a word document listing all of the various trainings that I attend. If you work in an industry that requires documentation regarding trainings received, hopefully you have started doing that too. I since have change my system around. I now have a plain text file that I keep on dropbox which has a listing of every training that I have received (whether that be in agency or for some sort of professional development certificate). As I have been looking towards applying for my <a href="http://www.doh.wa.gov/LicensesPermitsandCertificates/ProfessionsNewReneworUpdate/SocialWorker/LicenseRequirements/LicensedIndependentClinicalSocialWorker">LICSW</a> and having my <a href="https://www.k12.wa.us/certification/ESAMain.aspx">ESA</a> which requires so many clock hours, I decided that I wanted to also have an easy way to calculate how many CEU’s or Clock Hours without combing through my long text file of all my trainings. I created two <a href="http://en.m.wikipedia.org/wiki/Comma-separated_values">CSV files</a> which I could open in Excel or Numbers and have calculate the total number of hours easily. The problem is, I didn’t want to have to write entries sometimes three times. I also wanted to be able to add these entries either from my phone or from my iPad easily when I get to the training. Never having to worry about it again.</p>
+
+<p>With so many iOS automation tasks that I do, it starts in Launch Center Pro (LCP) for me. I have a main entry that collects data in several prompts (you <a href="https://launchcenterpro.com/t4zs0x">can install it</a>). The content is as follows:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>launch://x-callback-url/clipboard?text=[prompt:Review=[prompt:Date], [prompt:Training Title], [prompt-num:Number of CEUs or Clock Hours] [list:Type|Clock Hours=Clock Hours|CEUs=CEUs|Both=Clock Hours and CEUs], [list:Type of Units|Ethics= Professional Law and Ethics|Suicide=Suicide Assessment Treatment and Management|General=General Continuing Education Credits|None=|ESA Suicide=ESA Suicide Prevention Intervention Training]]
+</code></pre></div></div>
+
+<p>It creates a final review prompt that includes text regarding the training date, the title of the training, the number of hours, and the type of hours (i.e. Professional Law and Ethics or Suicide Assessment Treatment and Management).</p>
+
+<p>I have this LCP action in my “base” actions folder along with a couple of different actions related to my trainings. All of them send the contents to Drafts for different actions. One action posts the clipboard to an action that appends it to my Clock Hour CSV, one to my CEU CSV, and one to my text file. I then have a main action that calls all of the other actions and let me select if I want to post it to one, two or all three of the actions.</p>
+
+<p>The two actions that I have which append to my Clock Hour CSV and my CEU CSV files are very simple and just append to the files. There are two actions to append to my overall text file. One action takes the comma separated data and uses some JavaScript to split the text at each “, “ and return the text with each section as a new line. You can <a href="http://drafts4-actions.agiletortoise.com/a/1NF">install the drafts action</a> or see the JavaScript below:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// Function to Parse Comma Separated Value Text
+// Jacob Campbell -- http://jacobrcampbell.com/
+
+function parseText(s){
+    var temp = new Array();
+    temp = s.split(', ');
+      var result = "";
+      var i;
+    for(i=0; i&lt;temp.length; i++) {
+        result += temp[i] + "\n";
+    }
+return result;
+}
+
+// Commit content to draft
+
+var text = draft.content;
+draft.content = parseText(text);
+commit(draft);
+</code></pre></div></div>
+
+<p>The drafts action then passes that data to another action which takes those new lines and adds it to a template page that has the following information:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## [[line|2]]
+* __Date__: [[line|1]]  
+* __Location__:   
+* __Facilitator__:   
+* __CEU / Clock Hours__: [[line|3]], [[line|4]]  
+* __Duration__:   
+* __Certificate of Completion__:
+</code></pre></div></div>
+
+<p>Each of the the parts that say <code class="highlighter-rouge">[[line|n]]</code> takes that line from the draft and puts it there. I then add the last little bit of information (i.e. location, who facilitated it… etc) and I’m all done.</p>
+
+<p>What is amazing, is I can write it once in LCP, have it post to both CSV files and then prepare it for posting it to my text file with only typing minimal text. I have taken it to another level, and have made some OmniFocus task templates that I can post and remember to follow up and see if I have received my confirmation form for my clock hours.</p>
+
+<p>If you have the need to track your clock hours or CEU’s its a pretty awesome system, and I’d highly encourage you steal what I have put together and change it for your own needs.</p>
+
+
+
+  </article>
+</div>
+
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <h1 class="archive__item-title" itemprop="headline">
+      
+        <a href="/blog/2014/11/tracking-trainings-using-dafts-and-launch-center-pro" rel="permalink">Mileage Tracking Form and Launch Center Pro
+</a>
+      
+    </h1>
 
 <p>Posted on <a href="/blog/2014/11/tracking-trainings-using-dafts-and-launch-center-pro">Saturday August 30, 2014</a> by <a href="/contact/">Jacob Campbell</a>.</p>
 
@@ -465,11 +550,22 @@
 
 
 
+  </article>
+</div>
 
 
-<h1 class="archive__item-title" itemprop="headline">
-	<a href="/blog/2014/8/is-my-mac-magic">Is My Mac Magic?</a>
-</h1>
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <h1 class="archive__item-title" itemprop="headline">
+      
+        <a href="/blog/2014/8/is-my-mac-magic" rel="permalink">Is My Mac Magic?
+</a>
+      
+    </h1>
 
 <p>Posted on <a href="/blog/2014/8/is-my-mac-magic">Sunday August 17, 2014</a> by <a href="/contact/">Jacob Campbell</a>.</p>
 
@@ -507,11 +603,22 @@
 
 
 
+  </article>
+</div>
 
 
-<h1 class="archive__item-title" itemprop="headline">
-	<a href="/blog/2014/7/who-said-traveling-with-a-toddler-was-easy">Who Said Traveling With a Toddler Was Easy</a>
-</h1>
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <h1 class="archive__item-title" itemprop="headline">
+      
+        <a href="/blog/2014/7/who-said-traveling-with-a-toddler-was-easy" rel="permalink">Who Said Traveling With a Toddler Was Easy
+</a>
+      
+    </h1>
 
 <p>Posted on <a href="/blog/2014/7/who-said-traveling-with-a-toddler-was-easy">Thursday July 24, 2014</a> by <a href="/contact/">Jacob Campbell</a>.</p>
 
@@ -539,11 +646,22 @@
 
 
 
+  </article>
+</div>
 
 
-<h1 class="archive__item-title" itemprop="headline">
-	<a href="/blog/2014/7/probably-time-to-eat-my-wheaties">Probably Time to Eat My Wheaties</a>
-</h1>
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <h1 class="archive__item-title" itemprop="headline">
+      
+        <a href="/blog/2014/7/probably-time-to-eat-my-wheaties" rel="permalink">Probably Time to Eat My Wheaties
+</a>
+      
+    </h1>
 
 <p>Posted on <a href="/blog/2014/7/probably-time-to-eat-my-wheaties">Saturday July 19, 2014</a> by <a href="/contact/">Jacob Campbell</a>.</p>
 
@@ -576,11 +694,22 @@
 
 
 
+  </article>
+</div>
 
 
-<h1 class="archive__item-title" itemprop="headline">
-	<a href="/blog/2014/7/positive-life-transition-did-somebody-say-summer">Positive Life Transition, Did Somebody Say Summer</a>
-</h1>
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <h1 class="archive__item-title" itemprop="headline">
+      
+        <a href="/blog/2014/7/positive-life-transition-did-somebody-say-summer" rel="permalink">Positive Life Transition, Did Somebody Say Summer
+</a>
+      
+    </h1>
 
 <p>Posted on <a href="/blog/2014/7/positive-life-transition-did-somebody-say-summer">Monday July 14, 2014</a> by <a href="/contact/">Jacob Campbell</a>.</p>
 
@@ -602,11 +731,22 @@
 
 
 
+  </article>
+</div>
 
 
-<h1 class="archive__item-title" itemprop="headline">
-	<a href="/blog/2014/6/ever-wonder-how-you-can-play-video-games-and-get-paid">Ever Wonder How You Can Play Video Games and Get Paid</a>
-</h1>
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <h1 class="archive__item-title" itemprop="headline">
+      
+        <a href="/blog/2014/6/ever-wonder-how-you-can-play-video-games-and-get-paid" rel="permalink">Ever Wonder How You Can Play Video Games and Get Paid
+</a>
+      
+    </h1>
 
 <p>Posted on <a href="/blog/2014/6/ever-wonder-how-you-can-play-video-games-and-get-paid">Sunday June 15, 2014</a> by <a href="/contact/">Jacob Campbell</a>.</p>
 
@@ -620,11 +760,22 @@
 
 
 
+  </article>
+</div>
 
 
-<h1 class="archive__item-title" itemprop="headline">
-	<a href="/blog/2014/6/fishies-and-eggs">Fishies and Eggs</a>
-</h1>
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <h1 class="archive__item-title" itemprop="headline">
+      
+        <a href="/blog/2014/6/fishies-and-eggs" rel="permalink">Fishies and Eggs
+</a>
+      
+    </h1>
 
 <p>Posted on <a href="/blog/2014/6/fishies-and-eggs">Saturday June 7, 2014</a> by <a href="/contact/">Jacob Campbell</a>.</p>
 
@@ -651,20 +802,8 @@
 
 
 
-
-
-<h1 class="archive__item-title" itemprop="headline">
-	<a href="/blog/2014/5/quick-happy-birthday-graphic">Quick Happy Birthday Graphic</a>
-</h1>
-
-<p>Posted on <a href="/blog/2014/5/quick-happy-birthday-graphic">Saturday May 3, 2014</a> by <a href="/contact/">Jacob Campbell</a>.</p>
-
-<p><img src="/assets/media/happy-birthday-old-lady-sons-anarchy-graphic.jpg" alt=" SOA style Happy Birthday Graphic for Minnie " /> SOA style Happy Birthday Graphic for Minnie</p>
-
-<p>Not going to be a long post, just a quick graphic I put together for Minnie’s Birthday. She really likes <a href="http://www.fxnetworks.com/soa">Sons of Anarchy</a>, so I figured that theme would be fun (even if it is a day late). I found the picture on <a href="http://nwhog.wordpress.com/2013/03/27/harley-davidson-out-bmwing-bmw/">Northwest Harley Blog</a> and used the magic healing brush to erase the writing. I used the <a href="http://www.dafont.com/carnevalee-freakshow.font?nb_ppp=50&amp;text=SONS+OF+ANARCHY">Carnevalee Freak Font</a> to try to match the Son’s of Anarchy Font with applied shadow and stroke. The <a href="http://news.toyark.com/2013/12/12/mezco-produce-sons-anarchy-collectible-products-109665">SOA Logo</a> was taken from one of lots on the internet with the background deleted and a circular shape with opacity placed behind it to help it stand out (and some other blending options). If you’re interested, you can download the <a href="/assets/media/happy-birthday-old-lady-sons-anarchy-graphic.psd">photoshop file</a>.</p>
-
-
-
+  </article>
+</div>
 
 
 

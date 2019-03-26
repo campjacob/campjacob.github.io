@@ -6,7 +6,6 @@ tags:
   - European Excursion 2008
   - Travel
   - Travel Troubles
-  - Fix 
   - L-- Spokane Washington
 categories:
   - Personal Blog
@@ -33,19 +32,19 @@ During my trip I lost, broke, or other crazy events happened. The following is a
   * In [Riga][10], I told a friend that I would get him a souvenir. The shops closed before I made it there, and I didn’t get him the one I wanted to (cool leather covered liquor bottle).
   * Somebody stole my €10.00 plastic watch that I bought because I was tired of never knowing what time it was and being late for check out time.
 
-   [2]: /locations/copenhagen-denmark
-   [3]: /locations/prague-czech-republic
-   [4]: /locations/berin-germany
-   [5]: /locations/vienna-austria
-   [6]: /locations/bratislava-slovakia
-   [7]: /locations/barcelona-spain
-   [8]: /locations/rome-italy
-   [9]: /locations/bergemo-italy
-   [10]: /locations/riga-latvia
+   [2]: /locations/#l-copenhagen-denmark
+   [3]: /locations/#l-prague-czech-republic
+   [4]: /locations/#l-berin-germany
+   [5]: /locations#l-vienna-austria
+   [6]: /locations/#l-bratislava-slovakia
+   [7]: /locations/#l-barcelona-spain
+   [8]: /locations/#l-rome-italy
+   [9]: /locations/#l-bergemo-italy
+   [10]: /locations/#l-riga-latvia
 
   * In [Krakow][11] I tore my only pair of pants beyond repair... leaving me with one pair of pants. Also, my flip flops broke forcing me to walk in the rain with my right foot continually falling out of the thong.
 
-   [11]: /locations/krakow-poland
+   [11]: /locations/#l-krakow-poland
 
   * I also did cosmetic damage to the second watch that I purchased in [Warsaw][12]... due to losing the first one.
   * In [Budapest][13], we missed another plane, and I think I got bit by bed bugs.
@@ -57,11 +56,11 @@ During my trip I lost, broke, or other crazy events happened. The following is a
   * I got home, and my computer was broken, I lost my cell phone so I felt very disconnected from life… and realized that somebody stole my bike.
   * Finally I lost my financial security. I’ve gone back to donating plasma (first time today in a long time), haven’t bought groceries and am hoping to get paid before my rent is due... other wise I’ll have to figure out something quick
 
-   [12]: /locations/warsaw-poland
-   [13]: /locations/budapest-hungary
-   [14]: /locations/london-united-kingdom
-   [15]: /locations/prague-czech-republic
-   [16]: /locations/seattle-washington
+   [12]: /locations/#l-warsaw-poland
+   [13]: /locations/#l-budapest-hungary
+   [14]: /locations/#l-london-united-kingdom
+   [15]: /locations/#l-prague-czech-republic
+   [16]: /locations/#l-seattle-washington
 
 Although that is quite a list of lost items, I wouldn’t trade my trip experience for any of it or all of it. It was a truly amazing trip. I really could have made a longer list of all the things I got from the trip, but thought that this was a bit funnier. When / if you have traveled, have you lost, broke or done something else to your stuff.
 

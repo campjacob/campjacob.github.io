@@ -1,6 +1,7 @@
 ---
 title: "Is it Spring Yet? Duck Pond & River Fun"
 date: 2019-03-16 16-27
+permalink: /blog/2019/03/16/is-it-spring-yet-duck-pond-river-fun/
 tags:
   - YouTube Videos
   - Family Fun
@@ -24,10 +25,10 @@ excerpt: "It feels like Spring is finally hear. We went to the Duck Pond at Colu
 
 {% include video id="4lxvUFRwsng" provider="youtube" %}
 
-It feels like Spring is finally hear. We went to the Duck Pond at Columbia Park and fed the Ducks.
+It feels like Spring is finally here. We went to the Duck Pond at Columbia Park and fed the ducks.
 
 I will say, after I was posting about buying bread to feed the ducks, a friend reached out to me and told me about the problems related to that, so you should consider feeding them something else. Fun video though.
 
 {% include figure image_path="/assets/media/dont-feed-ducks-bread.jpg" alt="Photo of sign stating not to feed ducks bread" caption="Don't Feed Ducks Bread." %}
 
-Shot on my GoPro and iPhone and Made by GoPro Quick using the song Straight West.
+Video shot on my GoPro and iPhone and Made by GoPro Quick using the song Straight West.
