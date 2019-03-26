@@ -1,5 +1,5 @@
 ---
-title: Paradigm's and Reasoning Types in Research
+title: Paradigms and Reasoning Types in Research
 permalink: /resources/paradigms-reasoning-types-research
 date: 2011-12-18 07:14
 categories:
@@ -11,7 +11,7 @@ tags:
 excerpt: "A review of the various social work paradigms in social work research along with a look into research methods and reasoning types."
 ---
 
-## Paradigm's in Research
+## Paradigms in Research
 
 Research is a pursuit of the truth, attempting to find the best methods to reaching clients. A paradigm is a world view (a view point, the nature of reality). There are three different paradigms for social work research
 
