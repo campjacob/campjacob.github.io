@@ -11,14 +11,14 @@ locations:
   - Tri-Cities Washington
 categories:
   - Personal Blog
- - Travel Blog
+  - Travel Blog
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/media/privilege-is-a-thing-1600x600.png
   teaser: /assets/media/privilege-is-a-thing-500x300.png
   caption: "Photo credit: Graphic created by Jacob Campbell using Adobe Spark"
-excerpt: "Line description"
+excerpt: "All of the areas that privilege seems to be coming up in my life these days."
 review-block:
   class: "align-left"
   image_path: "/assets/media/between-worlds-and-me-audiobook-cover.png"
