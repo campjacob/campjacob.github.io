@@ -1,6 +1,7 @@
 ---
 title: "Privilege It's a Thing and We Should Care"
 date: 2019-04-15 13:19
+permalink: /blog/2019/04/privilege-its-a-thing-and-we-should-care/
 tags:
   - Resources
   - Book Review
