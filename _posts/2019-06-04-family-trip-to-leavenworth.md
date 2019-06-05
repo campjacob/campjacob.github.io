@@ -3,7 +3,7 @@ title: "2019 Family Trip to Leavenworth"
 date: 2019-06-04 22:50
 tags:
   - YouTube Video
-  - Quick Video
+  - Quik Video
   - Family Trip
   - Travel
   - L-- Leavenworth Washington
@@ -13,7 +13,7 @@ locations:
   - Leavenworth Washington
 categories:
   - Personal Blog
- - Travel Blog
+  - Travel Blog
   - YouTube Videos
 header:
   overlay_color: "#000"
