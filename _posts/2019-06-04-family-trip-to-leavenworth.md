@@ -1,5 +1,5 @@
 ---
-title: 2019 Family Trip to Leavenworth
+title: "2019 Family Trip to Leavenworth"
 date: 2019-06-04 22:50
 tags:
   - YouTube Video
@@ -24,9 +24,6 @@ header:
   actions:
     - label: "Watch Video"
       url: "https://youtu.be/UufhaojwFXA"
-  video:
-    id: UufhaojwFXA
-    provider: youtube
 excerpt: "Video and photos from family vacation to Leavenworth Washington."
 gallery:
   - url: /assets/media/2019-leavenworth-city-mountain.jpg
