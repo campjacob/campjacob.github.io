@@ -29,7 +29,7 @@ gallery:
   - url: /assets/media/2019-leavenworth-city-mountain.jpg
     image_path: /assets/media/2019-leavenworth-city-mountain.jpg
     alt: "Photo of Leavenworth WA with Mountain in background"
-    title: "Leavenworth, a gorgeous little city"
+    title: "Leavenworth is a gorgeous little city"
   - url: /assets/media/2019-leavenworth-city-black-and-white.jpg
     image_path: /assets/media/2019-leavenworth-city-black-and-white.jpg
     alt: "Photo of Leavenworth WA with city in Black and White"
@@ -44,20 +44,20 @@ gallery:
     title: "You walk out of the back door and find this."
   - url: /assets/media/2019-leavenworth-kids-hat-viking-hat.jpg
     image_path: /assets/media/2019-leavenworth-kids-hat-viking-hat.jpg
-    alt: "Viking Hat inside the Wood Shop & Hat Shop in Leavenworth, WA"
-    title: "Viking Hat inside the Wood Shop & Hat Shop in Leavenworth, WA"
+    alt: "Viking Hat inside the Wood Shop and Hat Shop in Leavenworth WA"
+    title: "Viking Hat inside the Wood Shop and Hat Shop in Leavenworth WA"
   - url: /assets/media/2019-leavenworth-kids-hotdog-hat.jpg
     image_path: /assets/media/2019-leavenworth-kids-hotdog-hat.jpg
-    alt: "Hotdog Hat inside the Wood Shop & Hat Shop in Leavenworth, WA"
-    title: "Hotdog Hat inside the Wood Shop & Hat Shop in Leavenworth, WA"
+    alt: "Hotdog Hat inside the Wood Shop and Hat Shop in Leavenworth WA"
+    title: "Hotdog Hat inside the Wood Shop and Hat Shop in Leavenworth WA"
   - url: /assets/media/2019-leavenworth-kids-bunny-hat.jpg
     image_path: /assets/media/2019-leavenworth-kids-bunny-hat.jpg
-    alt: "Bunny Derby Hat inside the Wood Shop & Hat Shop in Leavenworth, WA"
-    title: "Bunny Derby Hat inside the Wood Shop & Hat Shop in Leavenworth, WA"
+    alt: "Bunny Derby Hat inside the Wood Shop and Hat Shop in Leavenworth WA"
+    title: "Bunny Derby Hat inside the Wood Shop and Hat Shop in Leavenworth WA"
   - url: /assets/media/2019-leavenworth-kids-hot-tub.jpg
     image_path: /assets/media/2019-leavenworth-kids-hot-tub.jpg
-    alt: "Hot Tub Photo in Leavenworth, WA"
-    title: "Hot Tub Photo in Leavenworth, WA"
+    alt: "Hot Tub Photo in Leavenworth WA"
+    title: "Hot Tub Photo in Leavenworth WA"
 ---
 
 {% include video id="UufhaojwFXA" provider="youtube" %}
@@ -75,4 +75,4 @@ You can also also see some some of the photos from our trip.
   <figcaption>From the waterfront side, Jacks Cabin</figcaption>
 </figure>
 
-We got the opportunity to stay in Jack's Cabin, through airbnb which was a phenomenal experience. The video take you on a bit of tour, but there is really nothing like being able to walk out the back door and have a river and and little waterfall right outside.
+We got the opportunity to stay in [Jack's Cabin](https://www.airbnb.com/rooms/30254693), through airbnb which was a phenomenal experience. The video take you on a bit of tour, but there is really nothing like being able to walk out the back door and have a river and and little waterfall right outside.
