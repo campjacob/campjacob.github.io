@@ -1,0 +1,13 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+.fa-youtube-square{color:#FF0000;}
+.fa-snapchat{color:#FFFC00;}
+.fa-map-marker-alt{color:red;}
+.fa-id-card{color:#9370DB;}
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
