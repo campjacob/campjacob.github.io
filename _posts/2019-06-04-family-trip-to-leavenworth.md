@@ -62,7 +62,7 @@ gallery:
 
 {% include video id="UufhaojwFXA" provider="youtube" %}
 
-I'm still figuring out how I want to share more personal things about my life. While I'm still currently on Facebook (and probably this post will be shared there), I almost never post there. I've actually turned off the notifications (other than for messenger). Sometimes I post to Instagram, but that seems somewhat rare as well. I probably most frequently post things to Snapchat, as I like that it just disapears, but I don't really have many friends there. 
+I'm still figuring out how I want to share more personal things about my life. While I'm still currently on Facebook (and probably this post will be shared there), I almost never post there. I've actually turned off the notifications (other than for messenger). Sometimes I post to Instagram, but that seems somewhat rare as well. I probably most frequently post things to Snapchat, as I like that it just disappears, but I don't really have many friends there. 
 
 Sometimes I share photos sometimes directly with people through the [Sharing Suggestions in Photos](https://support.apple.com/en-us/HT209035), but I'm still figuring it out. I have a couple hundred photos and video's I took while we were in the [Leavenworth area](https://en.m.wikipedia.org/wiki/Leavenworth,_Washington) over Memorial Day. I wanted to share share something, so I put together this video using the [Quik App on my iPad](https://itunes.apple.com/us/app/quik-gopro-video-editor/id694164275), which is such and easy way to put together a pretty neat looking video quickly. 
 

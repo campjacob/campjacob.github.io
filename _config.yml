@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Jacob R. Campbell, ..."
 title_separator          : "-"
 name                     : "Jacob Campbell"
-description              : "My hope for all of my stuff. I am a school social worker, adjunct faculty member for a university, Ph.D. Candidate, Licensed Independent Clinical Social Worker, Father, Husband, and active community member"
+description              : "My hope for all of my stuff. I am a school social worker, adjunct faculty member for a university, Ph.D. Student, Licensed Independent Clinical Social Worker, Father, Husband, and active community member"
 url                      : "https://jacobrcampbell.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "campjacob/campjacob.github.io"
@@ -166,6 +166,7 @@ include:
   - _data
   - _resources
   - _includes
+  - _communications
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -203,6 +204,13 @@ collections:
   resources:
     output: true
     permalink: /:collection/:path/
+
+# Collections - Communications
+collections:
+  Communications:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Conversion
 markdown: kramdown
@@ -317,3 +325,11 @@ defaults:
       toc_label: Table of Contents
       sidebar:
         nav: "resources"
+  # _communications
+  - scope:
+      path: ""
+      type: communications
+    values:
+      layout: single
+      author_profile: true
+      share: true
