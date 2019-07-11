@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Jacob R. Campbell, ..."
 title_separator          : "-"
 name                     : "Jacob Campbell"
-description              : "My hope for all of my stuff. I am a school social worker, adjunct faculty member for a university, Ph.D. Student, Licensed Independent Clinical Social Worker, Father, Husband, and active community member"
+description              : "This site is my home for all of my stuff. I am a school social worker, adjunct faculty member for a university, Ph.D. Student, Licensed Independent Clinical Social Worker, father, husband, and active community member"
 url                      : "https://jacobrcampbell.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "campjacob/campjacob.github.io"
@@ -112,7 +112,7 @@ analytics:
 author:
   name             : "Jacob Campbell"
   avatar           : "/assets/src/jacob-campbell-profile-photo.jpeg"
-  bio              : "School social worker practicing with students with EBD, university adjunct faculty, father, husband, and active community member"
+  bio              : "School social worker practicing with students with EBD, university adjunct faculty, PhD student, Licensed Independent Clinical Social Worker, father, husband, and active community member"
   location         : "Pasco, Washington"
   email            : # "jacob.r.campbell@gmail.com"
   links:
@@ -126,7 +126,7 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/campjacob"
     - label: "Snapchat"
-      icon: "fab fa-snapchat"
+      icon: "fab fa-snapchat-ghost"
       url: "https://www.snapchat.com/add/campjacob1982"
 
     
@@ -144,7 +144,7 @@ footer:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/campjacob"
     - label: ""
-      icon: "fab fa-snapchat"
+      icon: "fab fa-snapchat-ghost"
       url: "https://www.snapchat.com/add/campjacob1982"
     - label: ""
       icon: "fab fa-facebook"
@@ -199,15 +199,13 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# Collections - Resources
+
 collections:
   resources:
     output: true
     permalink: /:collection/:path/
 
-# Collections - Communications
-collections:
-  Communications:
+  communications:
     output: true
     permalink: /:collection/:path/
 
@@ -330,6 +328,7 @@ defaults:
       path: ""
       type: communications
     values:
-      layout: single
+      layout: communication
       author_profile: true
       share: true
+      related: true

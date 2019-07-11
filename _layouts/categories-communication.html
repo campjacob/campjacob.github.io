@@ -1,0 +1,12 @@
+---
+layout: single
+---
+
+{{ content }}
+
+{% for email in site.communications %}
+<h2>{{ email.group }}</h2>
+<ul>
+    <li><a href="{{ email.url }}">{{ email.title }}</a></li>  
+</ul>
+ {% endfor %}
