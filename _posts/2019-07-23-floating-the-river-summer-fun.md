@@ -16,7 +16,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/media/2019-floating-the-river-blog-header.png
   teaser: /assets/media/2019-floating-the-river-teaser-500x300.png
-  caption: "Photo credit: Photo fo the river at Sunset by [**Jacob Campbell**](/contact) while floating."
+  caption: "Photo credit: Photo of the river at Sunset by [**Jacob Campbell**](/contact) while floating."
   actions:
     - label: "Watch Video"
       url: "https://youtu.be/_mMPkFowGJ0"
