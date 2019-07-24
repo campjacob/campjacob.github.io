@@ -1,5 +1,4 @@
 ---
-name: 2019-07-23-floating-the-river-summer-fun.md
 title: "Floating the River - Summer Fun"
 date: 2019-07-23 18:23:27
 tags:
@@ -11,7 +10,7 @@ locations:
   - Tri-Cities Washington
 categories:
   - Personal Blog
- - YouTube Videos
+  - YouTube Videos
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -24,7 +23,6 @@ header:
   video:
     id: _mMPkFowGJ0
     provider: youtube
-excerpt: "A short video and some photos from a recent short adventure floating down the river."
 gallery:
   - url: /assets/media/2019-floating-the-river-summer-fun-tree-of-lost-items-snapchat.jpg
     image_path: /assets/media/2019-floating-the-river-summer-fun-tree-of-lost-items-snapchat.jpg
@@ -35,13 +33,15 @@ gallery:
     alt: "Photo of river with floating cooler"
     title: "Photo of river with floating cooler"
   - url: /assets/media/2019-floating-the-river-summer-fun-sunset.jpg
-    image_path: /assets/images/2019-floating-the-river-summer-fun-sunset.jpg
+    image_path: /assets/media/2019-floating-the-river-summer-fun-sunset.jpg
     alt: "Photo of the river at sunset"
     title: "The river at sunset is one of the best reasons to go and float the river."
   - url: /assets/media/2019-floating-the-river-summer-fun-sunset-bokeh-inner-tube.jpg
-    image_path: /assets/images/2019-floating-the-river-summer-fun-sunset-bokeh-inner-tube.jpg
+    image_path: /assets/media/2019-floating-the-river-summer-fun-sunset-bokeh-inner-tube.jpg
     alt: "Photo of the river with a Bokeh with the inner-tube in the foreground"
     title: "A bit of Bokeh play with the sunset."
+excerpt: "A short video and some photos from a recent short adventure floating down the river."
+my-file-name: "2019-07-23-floating-the-river-summer-fun.md"
 ---
 
 {% include video id="_mMPkFowGJ0" provider="youtube" %}
