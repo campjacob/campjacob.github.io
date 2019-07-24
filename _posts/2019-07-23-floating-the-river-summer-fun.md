@@ -1,7 +1,7 @@
 ---
 name: 2019-07-23-floating-the-river-summer-fun.md
-title: Floating the River - Summer Fun
-date: 2019-07-23 18.23.27
+title: "Floating the River - Summer Fun"
+date: 2019-07-23 18:23:27
 tags:
   - YouTube
   - Family Fun
@@ -17,7 +17,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/media/2019-floating-the-river-blog-header.png
   teaser: /assets/media/2019-floating-the-river-teaser-500x300.png
-  caption: "Photo credit: Photo fo the river at Sunset by [**Jacob Campbell**](/contact) while on floating."
+  caption: "Photo credit: Photo fo the river at Sunset by [**Jacob Campbell**](/contact) while floating."
   actions:
     - label: "Watch Video"
       url: "https://youtu.be/_mMPkFowGJ0"
@@ -52,7 +52,7 @@ You can see this on my website, [Floating the River - Summer Fun](https://jacobr
 
 {% include gallery caption="Some selected photos from us floating the river. Being on the river at sunset is one of my favorite reasons to float the river, even if we don't get out until it's completely dark." %}
 
-Soundtrack: [KRANE - Daylight](https://kranemusic.com)
+**Soundtrack**: [KRANE - Daylight](https://kranemusic.com)  
 Shot on my Hero Black and my iPhone 10.
 
 
