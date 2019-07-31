@@ -47,7 +47,7 @@ Especially as I was initially considering CIIS, I was worried about the program 
 
 I don't know exactly what I want my dissertation to be on, but my current school of thought is around trauma and kids. I talked to my advisor about this as I did my admissions interview, and they thought it sounded like a very viable option. Really, it was like I was as I was going through this minor existential crisis (I'm sure it is not the only one I will be going through), that my mom recommended this book to get some perspective on integral practice.
 
-%20include%20review-block%20
+{{ include review-block }}
 
 The book was pretty great. Like many of my [book reviews](/tags/#book-review), this isn't really a comprehensive review of the book, but more some stuff that stood out to me. It's also been a while since I listened to the majority of the book. I ended up listening to a couple of the books in the [Red Queen Series books that I recently wrote about](/blog/2019/07/getting-out-of-my-head-my-latest-audiobook-series/) that I recently wrote about.
 
