@@ -34,3 +34,5 @@ The presentation slides can be viewed on [Notist](https://noti.st/campjacob), wh
 You can also find the slides from last week's class:
 
 <p data-notist="campjacob/p6l55j" data-ratio="4:3">View <a href="https://noti.st/campjacob/p6l55j">Week 01 - Theories of Practice I - Course Introduction</a> on Notist.</p><script async src="https://on.notist.cloud/embed/002.js"></script>
+
+If you haven't downloaded the [course syllabus](/assets/media/fall-2019-sowk-486-syllabus.pdf), you can also do that.
