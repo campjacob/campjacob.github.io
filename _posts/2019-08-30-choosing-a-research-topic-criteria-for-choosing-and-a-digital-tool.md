@@ -17,7 +17,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/media/newport-or-tunnel-light-at-end.jpg
-  teaser: /assets/media/choosing-a-research-topic-thumbnail-500x300.jpg
+  teaser: /assets/media/choosing-a-research-topic-thumbnail-500x300.png
   caption: "Photo credit: Photo by [**Jacob Campbell**](/contact) of some of my family walking back through a tunnel after a visiting the beach in Newport Oregon."
   actions:
     - label: "Watch Video"
