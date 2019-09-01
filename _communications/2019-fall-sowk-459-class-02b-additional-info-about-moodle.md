@@ -13,4 +13,6 @@ So some people seem to be having some trouble determining how to submit your int
 
 I created a short video using PanOpto about how to submit your assignment from your Moodle Account. It can be seen at [Week 02b: How to Submit a Post in Moodle](https://heritage.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4e5fbb50-d6c7-413f-bb0c-aabb00546717). If you view this email by clicking the link above at the website, it also embedded there.
 
+<iframe src="https://heritage.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=4e5fbb50-d6c7-413f-bb0c-aabb00546717&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+
 Have a great rest of your memorial day weekend.
