@@ -7,7 +7,7 @@ semester: Fall 2019
 excerpt: "Update for Week xx of SOWK 486"
 ---
 
-![SOWK 486 Class Header](/assets/media/class-header-sowk-theories-practice-1.png "SOWK 486 Class Header")
+![SOWK 486 Class Header](https://jacobrcampbell.com/assets/media/class-header-sowk-theories-practice-1.png "SOWK 486 Class Header")
 
 General info to share 
 
@@ -19,7 +19,7 @@ During class, the following are topics that we will be covering:
 
 - Agenda item
 
-The presentation slides can be viewed on [Notist](https://noti.st/campjacob), where you can download them and follow along during class.
+The presentation slides can be viewed through [Notist on my website](https://presentations.jacobrcampbell.com), where you can download them and follow along during class.
 
 This week, the following assignments are due:
 

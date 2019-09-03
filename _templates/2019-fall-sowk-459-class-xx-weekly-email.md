@@ -7,19 +7,19 @@ semester: Fall 2019
 excerpt: "Update for Week xx of SOWK 459"
 ---
 
-![SOWK 459 Class Header](/assets/media/class-header-sowk-459-research-methods.png "SOWK 459 Class Header")
+![SOWK 459 Class Header](https://jacobrcampbell.com/assets/media/class-header-sowk-459-research-methods.png "SOWK 459 Class Header")
 
 General info to share 
 
 To be prepared for class, you should complete the weekly reading prior to class this week. Don't forget to complete the reading quiz found on the MyHeritage class forum. This week the reading is:
 
-- Hepworth et al. (2017) __Chapter 1__
+- DeCarlo (2018) __Chapter 1__
 
 During class, the following are topics that we will be covering:
 
 - Agenda item
 
-The presentation slides can be viewed on [Notist](https://noti.st/campjacob), where you can download them and follow along during class.
+The presentation slides can be viewed through [Notist on my website](https://presentations.jacobrcampbell.com), where you can download them and follow along during class.
 
 This week, the following assignments are due:
 
