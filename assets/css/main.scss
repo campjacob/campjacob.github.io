@@ -11,3 +11,51 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.term {
+  display: inline;
+  list-style: none;
+}
+
+.term ul li ul li {
+  display: inline;
+}
+
+.term ul li ul li:after {
+  content: ", ";
+}
+
+.term ul li ul li:last-child:after {
+	content: "";
+}
+
+.term-entry-list ul, {
+	display: none;
+}
+
+.card {
+	text-decoration: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+	max-width: 350px;
+	margin: 20px;
+	box-shadow: 0px 0px 30px 2px #000;
+	img {
+		max-width: 100%;
+	}
+}
+
+.card-text {
+	padding: 20px;
+	h1 {
+		text-transform: uppercase;
+		padding-top: 20px;
+	}
+}
+
+#RandomWordFooter {
+	font-size: $type-size-7;
+}

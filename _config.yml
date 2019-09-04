@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -167,6 +167,8 @@ include:
   - _resources
   - _includes
   - _communications
+  - _dictionary
+
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -206,6 +208,10 @@ collections:
     permalink: /:collection/:path/
 
   communications:
+    output: true
+    permalink: /:collection/:path/
+
+  dictionary:
     output: true
     permalink: /:collection/:path/
 
@@ -332,3 +338,12 @@ defaults:
       author_profile: true
       share: true
       related: true
+  # _dictionary
+  - scope:
+      path: ""
+      type: dictionary
+    values:
+      term: true
+      layout: single-dictionary
+      share: true
+      author_profile: true
