@@ -1,6 +1,6 @@
 ---
-Title : conviviality
-Date: 2019-08-31
+title: conviviality
+date: 2019-08-31
 dictionary-picture: false
 ---
 

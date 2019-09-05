@@ -1,6 +1,6 @@
 ---
-Title : in vivo
-Date: 2019-08-30
+title: in vivo
+date: 2019-08-30
 dictionary-picture: false
 ---
 

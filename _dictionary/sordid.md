@@ -1,6 +1,6 @@
 ---
-Title : sordid
-Date: 2019-08-31
+title: sordid
+date: 2019-08-31
 dictionary-picture: false
 ---
 

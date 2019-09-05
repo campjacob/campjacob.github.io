@@ -1,6 +1,6 @@
 ---
-Title : hackneyed
-Date: 2019-08-27
+title: hackneyed
+date: 2019-08-27
 dictionary-picture: false
 ---
 

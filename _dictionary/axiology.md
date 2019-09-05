@@ -1,6 +1,6 @@
 ---
-Title : Axiology
-Date: 2019-08-24
+title: axiology
+date: 2019-08-24
 dictionary-picture: false
 ---
 

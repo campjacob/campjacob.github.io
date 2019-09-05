@@ -1,6 +1,6 @@
 ---
-Title : in vitro
-Date: 2019-08-30
+title: in vitro
+date: 2019-08-30
 dictionary-picture: false
 ---
 

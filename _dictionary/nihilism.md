@@ -1,6 +1,6 @@
 ---
-Title : nihilism
-Date: 2019-09-02
+title: nihilism
+date: 2019-09-02
 dictionary-picture: false
 ---
 

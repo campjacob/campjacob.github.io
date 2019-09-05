@@ -1,6 +1,6 @@
 ---
-Title : ontology
-Date: 2019-08-24
+title : ontology
+date: 2019-08-24
 dictionary-picture: false
 ---
 

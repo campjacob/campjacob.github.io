@@ -1,6 +1,6 @@
 ---
-Title : hermeneutics
-Date: 2019-08-30
+title: hermeneutics
+date: 2019-08-30
 dictionary-picture: false
 ---
 

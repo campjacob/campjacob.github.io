@@ -1,6 +1,6 @@
 ---
-Title : epistemology
-Date: 2019-08-24
+title: epistemology
+date: 2019-08-24
 dictionary-picture: false
 ---
 

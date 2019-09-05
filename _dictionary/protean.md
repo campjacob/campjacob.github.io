@@ -1,6 +1,6 @@
 ---
-Title : protean
-Date: 2019-08-07
+title: protean
+date: 2019-08-07
 dictionary-picture: false
 ---
 
