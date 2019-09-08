@@ -16,7 +16,7 @@ This project is just a little bit of fun for me. You can see [The of the Blog Po
     <div class="card" style="float: left;">
         <div class="card-header">
             {% if term.dictionary-picture %}
-            <img src="/assets/media/new-words-screenshot-{{ term.title }}.jpg" alt="word" style="background-size: cover;">
+            <img src="/assets/media/{{ dictionary-picture-file }}" alt="word" style="background-size: cover;">
             {% endif %}
         </div>
         <div class="card-text">
