@@ -19,7 +19,7 @@ exerpt: "Fetal alcohol spectrum disorder (FASD), is a continuum of birth defects
 
 You can read a downloadable version of this article: [Fetal Alcohol Spectrum Disorder: _Developing a Case for Prevention_][1]
 
-   [1]: /assets/media/fasd-developing-case-prevention.pdf
+   [1]: /assets/media/fasd-research-paper.pdf
 
 Fetal alcohol spectrum disorder (FASD) is an umbrella term that defines a range of effects of prenatal consumption of alcohol. This spectrum refers to such conditions as; fetal alcohol syndrome (FAS), fetal alcohol effects (FAE), alcohol-related neurodevelopmental disorder (ARND), and alcohol-related birth defects (ARBD). Babies born with FASD cost the nation an estimated $4 billion per year. (FASD Center for Excellence Home Page, 2006) FASD is completely preventable, yet is an issue that plagues America. There is a need in America to find suitable means of prevention to FASD.
 
