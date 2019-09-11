@@ -4,7 +4,7 @@ layout: single
 
 {{ content }}
 
-{% for email in site.communications | group_by: "group" %}
+{% for email in site.communications | group_by: "email.group" %}
 <h2>{{ email.group }}</h2>
 <ul>
     <li><a href="{{ email.url }}">{{ email.title }}</a></li>  
