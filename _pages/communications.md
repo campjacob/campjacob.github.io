@@ -9,7 +9,7 @@ I have started to track the various emails that I send out to groups. A listing 
 
 {% assign items_grouped = site.communications | group_by: 'group' %}
 {% for group in items_grouped %}
-<h2>{{group}}</h2>
+<h2>{{group.name}}</h2>
 <ul>
 {% for item in group.items %}
 <li><a href="{{ item.url }}">{{ item.title }}</a></li>
