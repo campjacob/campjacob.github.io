@@ -4,13 +4,12 @@ layout: single
 
 {{ content }}
 
-
 {% assign items_grouped = site.communications | group_by: 'group' %}
-{% for group in items_grouped %}
-<h2>{{ group.group }}</h2>
-    {% for email in group.emails %}
-    <ul>
-        <li><a href="{{ email.url }}">{{ email.title }}</a></li>  
-    </ul>
+    {% for group in items_grouped %}
+    <h3>{{group.group}}</h3>
+        {% for item in group.items %}
+            <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+        {% endfor %}
     {% endfor %}
-{% endfor %}
+
+
