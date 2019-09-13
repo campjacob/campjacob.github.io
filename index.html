@@ -1,7 +1,7 @@
 ---
 title: Jacob Campbell
 layout: default
-excerpt: "Jacob is a lot of things."
+excerpt: "Jacob is a lot of things"
 permalink: /
 ---
 
@@ -9,15 +9,15 @@ permalink: /
   style="background-color: #000; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/media/cobble-stone-florence.jpg');">
     <div class="wrapper">
       <h1 id="page-title" class="page__title" itemprop="headline">Who is this Jacob?</h1>  
-    <p class="page__lead">I do a lot of things. This website is a bit like my home base on the internet. You can find me on some different social media. I like being able to talk to new people and connect. You can <a href="/contact/">contact me</a>. You can also read more about this website and everything that is here. Kind of like the cobble stone in the photo, there are many different parts of my life. Some of it is here for you to see.</p>
-    <p><a href="/about-site/" class="btn btn--light-outline btn--large">About</a>
-</div>
-<span class="page__hero-caption">Photo of Coble Stone by <strong>Jacob Campbell</strong> taken while I was in Florence</span>
+        <p class="page__lead">I do a lot of things. This website is a bit like my home base on the internet. You can find me on some different social media. I like being able to talk to new people and connect. You can <a href="/contact/">contact me</a>. You can also read more about this website and everything that is here. Kind of like the cobble stone in the photo, there are many different parts of my life. Some of it is here for you to see.</p>
+        <p><a href="/about-site/" class="btn btn--light-outline btn--large">About</a></p>
+    </div>
+    <span class="page__hero-caption">Photo of Coble Stone by <strong>Jacob Campbell</strong> taken while I was in Florence</span>
 </div>
 
 <div style="margin:20px;">
-<h1>Snapshots: My Blog</h1>
-<p>The hub of this website is my blog. I have a lot of things that I put onto my blog. Some of it is from my various travels, some of it is about my work and doing social work, or other rambling thoughts that I have. As well, I've been working on posting videos and you can find those there as well.</p>
+  <h1>Snapshots: My Blog</h1>
+  <p>The hub of this website is my blog. I have a lot of things that I put onto my blog. Some of it is from my various travels, some of it is about my work and doing social work, or other rambling thoughts that I have. As well, I've been working on posting videos and you can find those there as well.</p>
   <h4 class="page__related-title">My most recent posts are</h4>
   <div class="grid__wrapper">
     {% for post in site.posts limit:4 %}
@@ -33,9 +33,47 @@ permalink: /
   style="background-color: #000; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/media/ross-sneddon-798471-unsplash.jpg');">
     <div class="wrapper">
       <h1 id="page-title" class="page__title" itemprop="headline">Speaking and Teaching</h1>  
-    <p class="page__lead">I am really passionate about professional development and teaching for adults. I teach as an adjunct faculty for Heritage University. I've been privileged to be given the opportunity to speak at a number of conferences and events as well as doing professional development as a part of my role at the school district.</p>
-    <p><a href="/cv/" class="btn btn--light-outline btn--large">See my CV</a>
+      <p class="page__lead">I am really passionate about professional development and teaching for adults. I teach as an adjunct faculty for Heritage University. I've been privileged to be given the opportunity to speak at a number of conferences and events as well as doing professional development as a part of my role at the school district.</p>
+      <p><a href="/cv/" class="btn btn--light-outline btn--large">See my CV</a></p>
+    </div>
+    <span class="page__hero-caption">Photo credit: <strong><a href="https://unsplash.com/photos/d-66ejdDbPk">Ross Sneddon</a></strong> on <a href="https://unsplash.com/">Unsplash</a></span>
 </div>
-<span class="page__hero-caption">Photo credit: <strong><a href="https://unsplash.com/photos/d-66ejdDbPk">Ross Sneddon</a></strong> on <a href="https://unsplash.com/">Unsplash</a>
-</span>
+
+<div style="margin:20px;">
+<h1>Presentations</h1>
+<p>I post many of <a href="https://presentations.jacobrcampbell.com/">my presentations</a> here for readers who are interested. If you look at the slides view of each presentation, it includes the notes along with references for sources cited in the presentation.</p>
+  <h4 class="page__related-title">My most recent presentations are</h4>
+
+<div class="feature__wrapper">
+
+{% for outside in site.data.notist.data %}
+{% for inside in outside.relationships.data limit:3 %}
+
+  {% capture presentation_id %}{{ inside.id | split:'pr_' }}{% endcapture %}
+
+  {% capture presentation_title %}{{ inside.attributes.title }}{% endcapture %}
+
+{% for images in inside.attributes.image.src %}
+
+  {% capture presentation_img_src %}{{ images }}{% endcapture %}
+
+
+<div class="feature__item">
+    <div class="archive__item">
+        <div class="archive__item-teaser">
+            <a href="https://presentations.jacobrcampbell.com/{{ presentation_id }}"><img src="{{ presentation_img_src }}" alt="{{ presentation_title }}" /></a>
+        </div>
+        <div class="archive__item-body">
+         <div class="archive__item-excerpt">
+              <p>
+                  <a href="https://presentations.jacobrcampbell.com/{{ presentation_id }}" class="btn btn--small">View</a> <a href="https://presentations.jacobrcampbell.com/{{ presentation_id }}/slides" class="btn btn--inverse btn--small">Slides</a> <a href="https://presentations.jacobrcampbell.com/{{ presentation_id }}/present" class="btn btn--inverse btn--small">Presenter</a>
+              </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+{% endfor %}
+{% endfor %}
+</div>
 </div>
