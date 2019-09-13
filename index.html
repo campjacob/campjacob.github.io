@@ -38,3 +38,31 @@ permalink: /
     </div>
     <span class="page__hero-caption">Photo credit: <strong><a href="https://unsplash.com/photos/d-66ejdDbPk">Ross Sneddon</a></strong> on <a href="https://unsplash.com/">Unsplash</a></span>
 </div>
+
+<div style="margin:20px;">
+<h1>Presentations</h1>
+<p>I post many of <a href="https://presentations.jacobrcampbell.com/">my presentations</a> here for readers who are interested. If you look at the slides view of each presentation, it includes the notes along with references for sources cited in the presentation.</p>
+  <h4 class="page__related-title">My most recent presentations are</h4>
+
+<div class="feature__wrapper">
+
+{% assign block_list = site.data.notist.presentations | reverse %}
+{% for block in block_list limit:3 %}
+
+<div class="feature__item">
+    <div class="archive__item">
+        <div class="archive__item-teaser">
+            <a href="https://presentations.jacobrcampbell.com/{{ block.presentation_id }}"><img src="{{ block.presentation_img_src }}" alt="{{ block.presentation_title }}" /></a>
+        </div>
+        <div class="archive__item-body">
+         <div class="archive__item-excerpt">
+              <p>
+                  <a href="https://presentations.jacobrcampbell.com/{{ block.presentation_id }}" class="btn btn--small">View</a> <a href="https://presentations.jacobrcampbell.com/{{ block.presentation_id }}/slides" class="btn btn--inverse btn--small">Slides</a> <a href="https://presentations.jacobrcampbell.com/{{ block.presentation_id }}/present" class="btn btn--inverse btn--small">Presenter</a>
+              </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+</div>
+</div>
