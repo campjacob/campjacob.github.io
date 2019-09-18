@@ -16,7 +16,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/media/jonnelle-yankovich-VY3c6CfZNSY-unsplash.jpeg
-  teaser: /assets/media/img-path-500x300.jpg
+  teaser: /assets/media/creative-inquiry-and-the-phd-lens-in-focus.png
   caption: "Photo credit: Photo by [Jonnelle Yankovich](https://unsplash.com/@jey_photography) on [Unsplash](https://unsplash.com/photos/VY3c6CfZNSY)"
 excerpt: "I posted an essay about creative inquiry and this post describes what creative inquiry is and links to it."
 ---
