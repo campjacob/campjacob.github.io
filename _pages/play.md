@@ -4,8 +4,9 @@ permalink: /play/
 layout: single
 ---
 
-<div class="email-octopus-form-wrapper">
-    <h2 class="email-octopus-heading">Subscribe to Locus of Transformation</h2>
+<h1>Subscribe to the Transformation Support Email List for <sub>Jacob Campbell and & The Locus of Transformation</sub></h1>
+
+
     <p class="email-octopus-success-message"></p>
     <p class="email-octopus-error-message"></p>
 
@@ -51,7 +52,7 @@ layout: single
     
     <div class="email-octopus-rewards">
         Powered by <a href="https://emailoctopus.com/?urli=6v4df&amp;utm_medium=user_referral&amp;utm_source=builder" target="_blank">EmailOctopus</a>
-    </div>
+
 
 </div>
 
