@@ -4,6 +4,8 @@ title: Thanks for Signing Up for my Email List
 date: 2019-09-19 21.22.30
 permalink: /email-signup-thank-you/
 author_profile: true
+layout: single
+related: true
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
