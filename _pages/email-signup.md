@@ -18,12 +18,11 @@ excerpt: "Consider signing up for my email list."
 
 I'm still figuring out exactly what I want to do with this email list, but I'm hoping that you will join in a bit of journey with me. I'm hoping to send out a monthly newsletter about stuff that I am either finding interesting, things that I'm doing, or just for sharing updates from here to keep people up to date about some of the things that I'm doing. I hope that you find it interesting. All you have to do is fill out this form, and click sign up and your name will be added to the list. Then the next time that I send out an email, you will get it.
 
-
+<h1>Subscribe to the Transformation Support Email List for <sub>Jacob Campbell and & The Locus of Transformation</sub></h1>
 
 <link rel="stylesheet" href="https://emailoctopus.com/bundles/emailoctopuslist/css/formEmbed.css">
 
 <div class="email-octopus-form-wrapper">
-    <h2 class="email-octopus-heading">Subscribe to Locus of Transformation</h2>
     <p class="email-octopus-success-message"></p>
     <p class="email-octopus-error-message"></p>
 
