@@ -9,6 +9,8 @@ main:
     url: /about-site/
   - title: "CV"
     url: /cv/
+  - title: "Email List"
+    url: /email-signup/
 
 resources:
   - title: Research Methods
