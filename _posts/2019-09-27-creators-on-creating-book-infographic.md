@@ -14,8 +14,8 @@ categories:
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/media/creators-on-creating-infographic-900x400.jpg
-  teaser: /assets/media/creators-on-creating-infographic-500x300.png
+  overlay_image: /assets/media/creators-on-creating-infographic-900x400.png
+  teaser: /assets/media/creators-on-creating-infographic-500x300.jpg
   caption: "Photo credit: Image created by [**Jacob Campbell**](/contact)."
   actions:
     - label: "Find the Book on Amazon"
@@ -24,6 +24,6 @@ excerpt: "An infographic that I created reviewing some of the Barron, Montuori, 
 classes: wide
 ---
 
-The following is an infographic that I created based on Barron, Montuori, and Barron's 1997 book Creators on Creating: Awakening and Cultivating the Imaginative Mind. Its a pretty interesting book. They took 39 creative people talking about their creative processes. You can by the book on [Amazon](https://www.amazon.com/Creators-Creating-Cultivating-Imaginative-Consciousness/dp/0874778549/). You can download a [PDF Version of the Infographic - Creators on Creating](/assets/media/creators-on-creating-infographic.pdf). I made all of the graphics using Keynote, it's amazing how powerful it is, then I exported the slides as images and combined them into a single PDF / jpeg. You can download the [Keynote Version of Creators on Creating](/assets/media/creators-on-creating-infographic.key) as well.
+The following is an infographic that I created based on Barron, Montuori, and Barron's 1997 book Creators on Creating: Awakening and Cultivating the Imaginative Mind. Its a pretty interesting book. They took 39 creative people talking about their creative processes. You can by the book on [Amazon](https://www.amazon.com/Creators-Creating-Cultivating-Imaginative-Consciousness/dp/0874778549/). You can download a [PDF Version of the Infographic - Creators on Creating](/assets/media/creators-on-creating-infographic.pdf).
 
 ![Creators on Creating Infographic](/assets/media/creators-on-creating-infographic.jpg "Creators on Creating Infographic")
