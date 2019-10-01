@@ -34,5 +34,5 @@ The presentation slides can be viewed through [Notist on my website](https://pre
 
 This week, the following assignments are due:
 
-- Assignment 07: literature review annotated bibliography is due **Sunday 10/06/19**{style="color:red;} at 11:55 PM via My Heritage
+- Assignment 07: literature review annotated bibliography is due **Sunday 10/06/19**{: style="color:red;} at 11:55 PM via My Heritage
 - Assignment 02: reading quiz for chapter four is due at 5:30 PM prior to class via My Heritage
