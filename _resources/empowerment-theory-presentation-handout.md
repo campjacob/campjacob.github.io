@@ -9,6 +9,7 @@ tags:
     - Resources
     - Empowerment Theory
     - TCCH BHS
+    - Handout
 excerpt: "A handout created to go along with a presentation regarding empowerment theory."
 ---
 

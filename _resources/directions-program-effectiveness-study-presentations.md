@@ -11,6 +11,7 @@ tags:
     - SlideShare
     - Microsoft PowerPoint
     - Directions Program Evaluation
+    - Presentation
 excerpt: "During the Directions Program Evaluation, my team and I completed two presentations.  One presentation was meant as a type of pitch regarding completing the project and the other presenting the data collected."
 toc: false
 ---

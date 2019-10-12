@@ -1,5 +1,5 @@
 ---
-title: Essay Resources
+title: Academic Resources
 layout: single
 permalink: /resources/essays/
 sidebar:
@@ -13,7 +13,7 @@ I have written a number of different essays that that can be viewed. They are on
 <ul>
 {% for resource in articles %}
 <li>
-    <a href="%20resource.url%20">%20resource.title%20</a>
+    <a href="{{ resource.url }}">{{  resource.title  }}</a>
 </li>  
 {% endfor %}
 </ul>
