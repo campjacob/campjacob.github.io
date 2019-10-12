@@ -1,5 +1,5 @@
 ---
-title: Academic Resources
+title: Academic Essays
 layout: single
 permalink: /resources/essays/
 sidebar:
