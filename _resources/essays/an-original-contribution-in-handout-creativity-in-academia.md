@@ -1,6 +1,6 @@
 ---
 name: an-original-contribution-in-handout-creativity-in-academia.md
-title: "An Original Contribution in Handout: Creativity in Academia"
+title: "An Original Contribution: Creativity in Academia"
 date: 2019-09-15
 categories:
     - Essay
