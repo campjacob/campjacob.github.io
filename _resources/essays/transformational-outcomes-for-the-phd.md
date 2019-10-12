@@ -3,8 +3,6 @@ name: transformational-outcomes-for-the-phd.md
 title: "Transformational Outcomes for the Ph.D."
 date: 2019-09-21
 categories:
-    - Article
-    - Informational
     - Essay
 tags:
     - Personality Tests
@@ -28,7 +26,6 @@ Topic: | Transformational Outcomes
 
 ---
 
----
 
 The way in which we label and think about our world along with the ways that we think about ourselves seems to be impactful and important for us to evaluate and think about. In a social constructivist fashion, Gergen (2015) would argue that "understand the world in terms of mental categories, or construals. This is to say, we construct the world in our own terms" (p. 28). This carries over into both how we see ourselves poset degree and our personality types.
 
