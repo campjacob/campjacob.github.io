@@ -9,13 +9,14 @@ tags:
     - Academia
     - Ph.D.
     - Transformation
-exerpt: "A look into self care, the cocept of deep work, and my personality in completing the Ph.D. Program."
+exerpt: "A look into self care, the concept of deep work, and my personality in completing the Ph.D. Program."
 Course ID: TSD 8005  
 Course Title: Introduction to Transformative Studies  
 Course Session: Week 03  
 Location: Personal Journal Space  
-Topic: | Transformational Outcomes  
-
+Topic: |
+  Transformational Outcomes  
+  
   Post in personal journal space answers to Handout questions on Your Transformational Outcomes & MBTI
   
   A. Look at Lesley Jackson’s dissertation: The Implications of Self-Creation and Self-Care in Higher Education- A Transdisciplinary Inquiry. You don’t need to read the whole thing unless you want to, but make sure that you get a sense of what it’s about, what her question was, what her conclusions are, and specifically, what did you learn about self-creation and self-care?
@@ -23,7 +24,6 @@ Topic: | Transformational Outcomes
   B. As you review the summary and video on Deep Work consider what it takes for you to honor what is required of you personally to be a productive creative scholar/academic/researcher. How does the skill of deep work resonate with your capacities and habits now.  When you complete the Ph.D. you will be able put Dr. in front of your name. Think about what the following adjectives mean to you: Intellectual, Scholar, Academic, Researcher, Expert, Thought Leader, Creative Scholar. Do they have positive or negative connotations for you? Will you identify with any of them? What expectations do you have of a person with a Ph.D.? What do you think are academia’s expectations are of a person with a Ph.D.? 
   
   C. In this section you’ll have an opportunity to assess certain personality factors through the MBTI, and explore your identity as a doctoral student and then as a Ph.D. Take the MBTI, and focus on the individual dimensions—Thinking, Feeling, Perceiving, etc.—and not the result as a whole, say INTP. Look at the individual components and think about how each one might give you insights into your approach to inquiry, and some potential blind-spots. If you show up as ENFJ, then remember to think of each dimension in relation to its complementary one, which would mean Sensation/Intuition, Thinking/Feeling, Extroversion/Introversion, Judging/Perceiving. 
-
 ---
 
 
