@@ -12,7 +12,7 @@ Course ID: TSD 8125
 Course Title: Creative Inquiry - Scholarship for the 21st Century  
 Course Session: Week 02  
 Location: Large Group Discussion  
-Topic: Discussion of readings: Sept 4 to Sept 15  
+Topic: "Discussion of readings: Sept 4 to Sept 15"
 ---
 
 I really enjoyed reading three articles. I find the idea of creative inquiry, and how we bring together the mind the heart interesting. For this discussion, I thought that I would post more about an interesting facet. It's been enjoyable to read so many papers by Montuori (see Montuori 2006, 2008, 2012; Montuori and Donnelly,  2013). The understanding I get from his description and definition of creative inquiry is that, that I don't remember him directly saying but seems to be implied, is that there is this continuum between a more reproductive style and a more narcissistic style with creative inquiry being placed to flow in the middle between the two. His writing really seems to embody this concept of writing with a high caliber of academic rigor and yet creative and imaginative word pictures.
