@@ -25,9 +25,9 @@ For a final phrase that stood out to me was Montuori (2006) description of a ima
 
 I also figured I would share a couple of things. First I'm attaching two versions (pdf and image) of the Mind Map I created in reading the articles to help me synthize the them for my paper. I use an app called mind node and I like to keep things digitally... but I find Mind Mapping to be incredibly useful however you do it. It is really more just my notes, so don't judge me for typos and misspellings. I will also attach my paper I submitted which is a little more focused than my rambling discussion of three things that stood out to me in one of the required readings.
 
-![Mind Map from Mindnode for Articles](/assets/media//assets/media/2019-sythisis-paper-mind-map-creative-inquiry.pdf "Mind Map from Mindnode for Articles")
+![Mind Map from Mindnode for Articles](/assets/media/assets/media/2019-sythisis-paper-mind-map-creative-inquiry.pdf "Mind Map from Mindnode for Articles")
 
-You can calso download a PDF version of the [2019 Sythisis Paper Mind Map for Creative Inquiry Assignment](2019-sythisis-paper-mind-map-creative-inquiry.pdf) which is what I used to plan my longer form paper about this topic. You can find that posting [The Ph.D. and Creative Inquiry: A Short Synthesis Paper](/resources/essays/the-phd-and-creative-inquiry/).
+You can calso download a PDF version of the [2019 Sythisis Paper Mind Map for Creative Inquiry Assignment](/assets/media/2019-sythisis-paper-mind-map-creative-inquiry.pdf) which is what I used to plan my longer form paper about this topic. You can find that posting [The Ph.D. and Creative Inquiry: A Short Synthesis Paper](/resources/essays/the-phd-and-creative-inquiry/).
 
 <div style="text-align: center" markdown="1">
 Reference
