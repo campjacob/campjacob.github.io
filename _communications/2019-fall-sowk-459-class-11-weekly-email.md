@@ -43,4 +43,6 @@ You can see, for my independent and dependent variables (and it might be useful 
 
 You can see the slides for this weeks presentation. 
 
+<p data-notist="campjacob/gIgNcq" data-ratio="4:3">View <a href="https://presentations.jacobrcampbell.com/gIgNcq">Week 11 - Research Questions - Developing a Focus for a Study</a>.</p><script async src="https://on.notist.cloud/embed/002.js"></script>
+
 I hope that gives a useful example for you to think about. You need to submit your paper to My Heritage by this Sunday evening (11/03/19).
