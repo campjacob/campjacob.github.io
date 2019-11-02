@@ -32,7 +32,7 @@ review-block:
   rating_description: "A great book, well worth the read."
 ---
 
-{% include review_block %}
+{% include review-block %}
 
 I'm a little bit buried with school work, teaching work, and my new job. One of my assignments this week is to write an amazon style book review. I listened to this book two times now, and have been reading thought it again. I've really enjoyed it. I didn't want to post just a couple of paragraphs on Amazon, but wanted to write something here at the same time... so this is a little bit shorter than some of my other [book reviews](/tags/#book-review)
 
