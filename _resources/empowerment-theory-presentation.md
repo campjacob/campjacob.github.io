@@ -8,6 +8,7 @@ categories:
 tags:
     - Resources
     - Empowerment Theory
+    - Presentation
 excerpt: "The presentation that I put together regarding empowerment theory."
 toc: false
 ---

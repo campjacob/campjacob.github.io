@@ -1,7 +1,7 @@
 ---
 title: Mileage Tracking Form and Launch Center Pro
 date: 2014-08-30 20:55
-permalink: /blog/2014/11/tracking-trainings-using-dafts-and-launch-center-pro
+permalink: /blog/2014/8/mileage-tracking-form-and-launch-center-pro
 tags:
   - Technology
   - Personal

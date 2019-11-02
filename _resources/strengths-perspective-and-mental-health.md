@@ -8,6 +8,7 @@ tags:
     - Resources
     - Strengths Perspective
     - Clinical
+    - Other
 excerpt: "Information regarding strengths perspective and it's use in mental health and social work."
 ---
 
