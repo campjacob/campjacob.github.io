@@ -20,8 +20,8 @@ header:
 excerpt: "A short book review of Zolli and  Healy (2012) _Resilience: Why things bounce back_"
 review-block:
   class: "align-left"
-  image_path: "/assets/resilience-why-thinks-bounce-back-book-cover.jpg"
-  th_image_path: "/assets/resilience-why-thinks-bounce-back-book-coverx300.jpg"
+  image_path: "/assets/media/resilience-why-things-bounce-back-book-cover.jpg"
+  th_image_path: "/assets/media/resilience-why-things-bounce-back-book-cover-x300.jpg"
   alt: "Book Cover for Zolli and  Healy (2012) Resilience: Why things bounce back"
   review_title: "Resilience: Why Things Bounce Back"
   review_author: "[Andrew Zolli](http://andrewzolli.com/) and [Ann Marie Healy](https://www.simonandschuster.com/authors/Ann-Marie-Healy/403285317)"
