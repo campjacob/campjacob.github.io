@@ -51,7 +51,7 @@ Reference
 
 Mani, L. (2013). _The integral nature of things: Critical reflections on the present_. New Delhi: Routledge.
 
-Mani, L. , & Goswami, A. [PublicTexts]. (2014 Feb 4). PublicTexts@IIHS | The integral nature of things | Lata Mani [Video File]. _YouTube_. Retrieved from https://www.youtube.com/watch?v=wKuj2mFx7XQ
+Mani, L. , & Goswami, A. [PublicTexts]. (2014 Feb 4). PublicTexts@IIHS - The integral nature of things - Lata Mani [Video File]. _YouTube_. Retrieved from https://www.youtube.com/watch?v=wKuj2mFx7XQ
 
 </div>
 
