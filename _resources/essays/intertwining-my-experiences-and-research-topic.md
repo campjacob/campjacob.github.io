@@ -9,11 +9,13 @@ tags:
     - Trauma
     - Resilience
 exerpt: "Our lives and the directions that we go during our lifetime is highly related to both the perspectives in which we see the world and the experiences we have had. This is no different when a scholar examines the reasons for their choices of research topics. This essay looks at the research topics of trauma, trauma-informed care, and resilience as related to my experiences and what has moved me towards this area of interest. These life experiences deal with the personal traumas, finding direction for my future career post high school graduation, and experiences within my practice and field of study."
+
 ---
 
 You can read a downloadable version of this article: [The Path to the Ph.D.: Intertwining My Experiences and Research Topic](/assets/media/intertwining-my-experiences-and-research-topic.pdf)
 
 # Abstract 
+
 Our lives and the directions that we go during our lifetime is highly related to both the perspectives in which we see the world and the experiences we have had. This is no different when a scholar examines the reasons for their choices of research topics. This essay looks at the research topics of trauma, trauma-informed care, and resilience as related to my experiences and what has moved me towards this area of interest. These life experiences deal with the personal traumas, finding direction for my future career post high school graduation, and experiences within my practice and field of study.
 
 **Keywords**: Social Work Practice, Trauma, Resilience
