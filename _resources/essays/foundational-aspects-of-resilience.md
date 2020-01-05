@@ -3,22 +3,21 @@ name: foundational-aspects-of-resilience.md
 title: "My Dissertation: Foundational Aspects of Resilience"
 date: 2019-11-08
 categories:
-    - Essay
+  - Essay
 tags:
-    - Dissertation
-    - Psychological Trauma
-    - Complex Trauma
-    - Resilience
-exerpt: "Understanding the layout of the academic community is an important task in moving towards completing a Ph.D. and the required dissertation. It views resiliences related to disciplines, seminal works, institutions, and journals focused on resilience."
+  - Dissertation
+  - Psychological Trauma
+  - Complex Trauma
+  - Resilience
+excerpt: "Understanding the layout of the academic community is an important task in moving towards completing a Ph.D. and the required dissertation. It views resiliences related to disciplines, seminal works, institutions, and journals focused on resilience."
 Course ID: TSD 8125  
 Course Title: Creative Inquiry - Scholarship for the 21st Century  
 Course Session: Week 10  
-Date: 
 Location: Paper  
 Topic: | 
   My Dissertation Part A  
   My Dissertation paper: Part 1- Overview
-Nov 5–Nov 11: Engage in online discussion regarding potential dissertation topics. Begin working on the “My Dissertations” assignment.  You may or may not have come to the TSD program with a developed idea for a dissertation topic. You will be encouraged as you go along to identify your area of interest and the topics for which you have a strong passion. Sometimes it is possible to have more than one area of interest or topics that hold your attention. This assignment is going to ask you to begin articulating your interests and expressing them in the following way:
+  Nov 5–Nov 11: Engage in online discussion regarding potential dissertation topics. Begin working on the “My Dissertations” assignment.  You may or may not have come to the TSD program with a developed idea for a dissertation topic. You will be encouraged as you go along to identify your area of interest and the topics for which you have a strong passion. Sometimes it is possible to have more than one area of interest or topics that hold your attention. This assignment is going to ask you to begin articulating your interests and expressing them in the following way:
   Write a two-part paper. The overall topic is “My Dissertations.”  The first part, call it A, or part 1, is about the dissertation you have been thinking about as you entered TSD. This part of the paper should about 5-7 pages in length. Part A, or 1, is due November 11.  
   You should consider and include: The name of the topic and/or main idea; The fields of inquiry, or disciplines, where this topic is most often encountered; Seminal works, books, or articles that address the topic; Schools or institutions throughout the world that may be interested in the topic; The academic journals in each of the fields of disciplines; it is important to begin identifying the academic journals in your field as early as possible; Relevant references to your topic or inquiry in dissertation abstracts in CIIS library; Why are you interested in this topic and why it fits for you?
 ---
