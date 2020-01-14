@@ -6,12 +6,12 @@ tags:
   - YouTube
   - Family Fun
   - Quik
- - L-- Tri-Cities Washington
+  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:
   - Personal Blog
-  - Professional Blog
+  - YouTube Videos
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
