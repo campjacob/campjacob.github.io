@@ -1,5 +1,5 @@
 ---
-name: 2020-01-13-lets-go-sledding---throwback-youtube-video-from-february-2019.md
+name: 2020-01-13-lets-go-sledding-throwback-youtube-video-from-february-2019.md
 title: Lets Go Sledding - Throwback YouTube Video from February 2019 
 date: 2020-01-13 21.13.37
 tags:
@@ -20,11 +20,10 @@ header:
   actions:
     - label: "Watch Video"
       url: "https://youtu.be/cRd5zyZsZeI"
-  video:
-    id: cRd5zyZsZeI
-    provider: youtube
 excerpt: "A short video of going sledding with some of my kids last year (2019)."
 ---
+
+{% include video id="cRd5zyZsZeI" provider="youtube" %}
 
 With the bit of snow that we've gotten today, I'm actually kind of excited for the winter weather. It should be nice and I'm hoping for some more snow to come. I made a couple of videos last February (2019), and I realized I didn't post them to YouTube / my website.
 
