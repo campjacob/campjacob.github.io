@@ -15,8 +15,8 @@ categories:
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/media/img-path-1600x400.jpg
-  teaser: /assets/media/img-path-500x300.jpg
+  overlay_image: /assets/media/2019-lets-go-sledding-masthead.png
+  teaser: /assets/media/2019-lets-go-sledding-thumbnail.png
   actions:
     - label: "Watch Video"
       url: "https://youtu.be/cRd5zyZsZeI"
