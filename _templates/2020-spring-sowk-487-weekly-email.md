@@ -1,19 +1,19 @@
 ---
-name: 2020-spring-sowk-460-class-xx-weekly-email.md
-title: Spring 2020 SOWK 460 Class xx Weekly Email
+name: 2020-spring-sowk-487-class-xx-weekly-email.md
+title: Spring 2020 SOWK 487 Class xx Weekly Email
 date: 2020-01-16 00.17.20
-group: SOWK 460
+group: SOWK 487
 semester: Spring 2020
-excerpt: "Update for Week xx of SOWK 460"
+excerpt: "Update for Week xx of SOWK 487"
 ---
 
-![SOWK 460 Class Header](https://jacobrcampbell.com/assets/media/class-header-sowk-program-evaluation.png "SOWK 486 Class Header")
+![SOWK 487 Class Header](https://jacobrcampbell.com/assets/media/2020-class-header-sowk-theories-of-practice-ii.png "SOWK 487 Class Header")
 
 General info to share 
 
-To be prepared for class, you should complete the weekly reading prior to class this week. Don't forget to complete the reading quiz found on the MyHeritage class forum. This week the reading is:
+To be prepared for class, you should complete the weekly reading prior to class this week. This week the reading is:
 
-- Kapp and Anderson (2010) __Chapter 1__
+- Garvin et al (2017) __Chapter 1__
 
 During class, the following are topics that we will be covering:
 
@@ -23,4 +23,3 @@ The presentation slides can be viewed through [Notist on my website](https://pre
 
 This week, the following assignments are due:
 
-- Weekly reading quiz

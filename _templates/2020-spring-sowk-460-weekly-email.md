@@ -7,7 +7,7 @@ semester: Spring 2020
 excerpt: "Update for Week xx of SOWK 460"
 ---
 
-![SOWK 460 Class Header](https://jacobrcampbell.com/assets/media/class-header-sowk-program-evaluation.png "SOWK 486 Class Header")
+![SOWK 460 Class Header](https://jacobrcampbell.com/assets/media/class-header-sowk-program-evaluation.png "SOWK 460 Class Header")
 
 General info to share 
 
