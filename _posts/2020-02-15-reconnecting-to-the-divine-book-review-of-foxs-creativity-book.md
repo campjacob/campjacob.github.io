@@ -35,7 +35,7 @@ My history and connection with God have gone through different phases over the y
 {% include figure image_path="/assets/media/jubilee-youth-ranch-cross.jpg" alt="A photo of the cross at the top of the hill overlooking Jubilee Youth Ranch" caption="A photo of the cross at the top of the hill overlooking Jubilee Youth Ranch by <a href='https://world.wng.org/2014/09/growing_on_the_farm'>Sophia Lee</a>" %}
 
 <figure>
-<img src="/assets/media/jacob-preaching-goma-congo.jpg" width=300px class="align-left" alt="A photo of me preaching in the City of Goma in the Congo" />
+<img src="/assets/media/jacob-preaching-goma-congo.jpg" width="300" class="align-left" alt="A photo of me preaching in the City of Goma in the Congo" />
 <figcaption>A photo of me preaching in the City of Goma in the Congo in 2002</figcaption>
 </figure>
  
