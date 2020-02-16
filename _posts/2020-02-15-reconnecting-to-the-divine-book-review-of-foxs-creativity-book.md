@@ -28,15 +28,17 @@ review-block:
   amazon: "https://www.amazon.com/gp/product/1585421782"
   rating: "<i class='fas fa-thumbs-up'></i>"
   rating_description: "If you are interested in creativity and spirituality, it's a great book"
-
 ---
-
 
 My history and connection with God have gone through different phases over the years. This article is ostensibly a book review for Matthew Fox's Creativity: Where the Divine and Human Meet published in 2002, but I find that I have to start with where I am at in my life currently, which requires the context of where I've been. Growing up with my mom, I went to mass with my mom at [Christ the King in Richland](http://www.ckparish.org/content/142.htm). As I got into High School, I got pretty lost in using drugs and alcohol. I lost interest in being involved in church. My mom even started paying cash (which unknown to her at the time I used to buy drugs) me to attend mass with her. After staying on in high school for the fifth year and being homeless, couch surfing, I ended up going to Jubilee Youth Ranch. At Jubilee, I had a pretty transformative experience based on accepting God into my life. You can read [some of my story](https://jacobrcampbell.com/testimony/) about going to Jubilee and some of the pain and difficulty I had a youth. Jubilee is no longer around in the form that it was when I graduated from High School there in 2001, but they still have a [Facebook Page](https://www.facebook.com/JubileeYouthRanch/). Hagar (2008) writes about some of the [effects of Jubilee shutting down](https://www.union-bulletin.com/news/education/jubilee-closure-news-felt-deeply/article_a92bf8f6-da44-11e8-a5a5-f73fcbf424de.html). It appears that it has been taken over by [West Master's Ranch](https://schoolforboys.com) where you can still see the same facilities and what seems to be a reasonably similar program.
 
 {% include figure image_path="/assets/media/jubilee-youth-ranch-cross.jpg" alt="A photo of the cross at the top of the hill overlooking Jubilee Youth Ranch" caption="A photo of the cross at the top of the hill overlooking Jubilee Youth Ranch by <a href='https://world.wng.org/2014/09/growing_on_the_farm'>Sophia Lee</a>" %}
 
-{% include figure image_path="/assets/media/jacob-preaching-goma-congo.jpg" alt="A photo of me preaching in the City of Goma in the Congo" caption="A photo of me preaching in the City of Goma in the Congo in 2002" %}{: .align-left}
+<figure>
+ <img src="/assets/media/jacob-preaching-goma-congo.jpg" width=300px class="align-right" alt="A photo of me preaching in the City of Goma in the Congo"> 
+ <figcaption>A photo of me preaching in the City of Goma in the Congo in 2002</figcaption>
+</figure>
+ 
 
 At Jubilee, I ended up having a decidedly radical conversion experience and desire to start following after God. I remember getting close to graduation and not being sure what I was supposed to do with my life. I was committed to wanting to find what God wanted for my life, and I remember the experience of fasting and going up to the top of this hill that overlooks the boy's ranch to spend time praying and meditating over what I should do next. That summer, soon after graduation, I went with a group on a mission trip to Africa. I ended up enrolling in a program called the Master's Commission. Before I started, I ended up going to Africa on a Mission Trip. It was a leadership training/discipleship school (kind of like a bible college but focused on service). My program was at [Victory Faith Church](https://www.victoryfaith.org/church), and while they don't have a page talking about the Masters Commission anymore, they do still have a [VF School of Leadership](https://www.victoryfaith.org/schoolofleadership). I wrote about my experience some in an essay, [The Path to the Ph.D.: Intertwining My Experiences and Research Topic](https://jacobrcampbell.com/resources/essays/intertwining-my-experiences-and-research-topic/).
 
@@ -47,6 +49,7 @@ During the time that I was in the Master's Commission, I had a strong faith that
 
 I was still very connected to my faith community at this point. My blog during those days was called "My Life Crucified," and I mostly wrote about some of my experiences, working, being in school, and other things that I found interesting. Many of the posts were about faith. As I moved away from the Tri-Cities and living on campus at [Eastern Washington University](https://www.ewu.edu/css/social-work/social-work/) in their Social Work program, I became less involved in a specific religious community. After earning my BASW and my MSW, I ended up traveling through [South America](https://jacobrcampbell.com/tags/#jaunt-down-south-2010). I moved back to the Tri-Cities, but for years I've not been involved in church or related activities much for many years. Sometimes I go to mass with my family or with my mom, but that is about it.
 
+{% include review-block %}
 
 As a part of my coursework for [Creativity and Personal Transformation](https://www.ciis.edu/academics/course-descriptions/creativity-and-personal-transformation) at [California Institute of Integral Studies](https://www.ciis.edu), I recently finished reading Creativity: Where the Divine and Human Meet. It was a pretty compelling book. When I am around people talking about spirituality, I tend not to get very involved in the conversation. I'm kind of in a place where I'm not sure exactly where my faith is at currently. I'm not going to say this book has changed my perspectives or been life-changing or anything like that. I did find it engaging.
 
