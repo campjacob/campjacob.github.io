@@ -18,7 +18,7 @@ header:
   caption: "Photo by [**Jacob Campbell**](/contact/) taken at the park at sunset, inside a tunnel slide."
 excerpt: "The start of a book review on Fox's Creativity, but more of a dive into my history in faith and my current standing."
 review-block:
-  class: "align-left"
+  class: "align-right"
   image_path: "/assets/media/matthew-foxs-creativity-where-the-divine-and-human-meet.jpg"
   th_image_path: "/assets/media/matthew-foxs-creativity-where-the-divine-and-human-meetx300.jpg"
   alt: "Matthew Fox's Creativity: Where the Divine and Human Meet"
@@ -35,8 +35,8 @@ My history and connection with God have gone through different phases over the y
 {% include figure image_path="/assets/media/jubilee-youth-ranch-cross.jpg" alt="A photo of the cross at the top of the hill overlooking Jubilee Youth Ranch" caption="A photo of the cross at the top of the hill overlooking Jubilee Youth Ranch by <a href='https://world.wng.org/2014/09/growing_on_the_farm'>Sophia Lee</a>" %}
 
 <figure>
- <img src="/assets/media/jacob-preaching-goma-congo.jpg" width=300px class="align-right" alt="A photo of me preaching in the City of Goma in the Congo"> 
- <figcaption>A photo of me preaching in the City of Goma in the Congo in 2002</figcaption>
+<img src="/assets/media/jacob-preaching-goma-congo.jpg" width=300px class="align-left" alt="A photo of me preaching in the City of Goma in the Congo" />
+<figcaption>A photo of me preaching in the City of Goma in the Congo in 2002</figcaption>
 </figure>
  
 
