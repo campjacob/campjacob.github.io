@@ -41,5 +41,5 @@ The presentation slides for last week can also be viewed:
 
 We talked about Grounding Techniques in class. This comes from Lisa M. Najavits (2002) workbook on [seeking safety](https://www.treatment-innovations.org/seeking-safety.html). Winona State University offers a helpful worksheet that discusses the skills. You can see the [Grounding Worksheet](https://www.winona.edu/resilience/Media/Grounding-Worksheet.pdf).
 
-I also shared in class the curriculum that I adapted called the [Dragon Slayers Trauma Focused Teen / Pre-Teen Group Curriculum](/assets/media/dragon-slayers-trauma-focused-teen-pre-teen-group-curriculum), and you can look at that as well.
+I also shared in class the curriculum that I adapted called the [Dragon Slayers Trauma Focused Teen / Pre-Teen Group Curriculum](/assets/media/dragon-slayers-trauma-focused-teen-pre-teen-group-curriculum.pdf), and you can look at that as well.
 
