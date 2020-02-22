@@ -8,7 +8,7 @@ Course ID: TSD 8005
 Course Title: Introduction to Transformative Studies  
 Course Session: Week 11   
 Location: Small Group Discussion  
-Topic: Transdisciplinarity is directly related to a more holistic, systemic view of the world. Consider an example of a topic that is approached holistically or systemically: why, specifically, would it require a transdisciplinary view?  
+Topic: "Transdisciplinarity is directly related to a more holistic, systemic view of the world. Consider an example of a topic that is approached holistically or systemically: why, specifically, would it require a transdisciplinary view?" 
 ---
 
 As I was reading through program material for the Transformational Studies Program, the concept of transdisciplinarity was a fresh term to me. In social work and K-12 education, the concept of interdisciplinary or multidisciplinary is frequently used. Especially related as a genre for meetings. When I participate in an Individual Education Plan (IEP) meeting, they are multidisciplinary team meetings that include an administrator, the special education teacher, a general education teacher, the school psychologist, the parent, sometimes the student, myself as a social worker, and other potential professionals. One of the benefits of these types of meetings is each of the participants has a different viewpoint and area of understanding around the topic. Bronstein and Abramson  (2017) describe ten competencies for effective interdisciplinary teamwork. These competencies revolve around the group structures and format that allow groups to work productively together by having shared values, clear roles and processes.

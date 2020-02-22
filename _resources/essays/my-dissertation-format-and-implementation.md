@@ -12,7 +12,7 @@ Course ID: TSD 8125
 Course Title: Creative Inquiry - Scholarship for the 21st Century  
 Course Session: Week 12  
 Location: Large Group Discussion  
-Topic: My Dissertation paper: Part B Discussion  
+Topic: "My Dissertation paper: Part B Discussion"
 ---
 
 It has been a good process going through and writing both parts A and B of this assignment. For me, of all of the doubts I have... probably the doubt that is the strongest is about the actual format of my dissertation. While I know that I don't likely need to have that nailed down currently, it still feels very top of mind.
