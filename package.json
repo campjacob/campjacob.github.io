@@ -1,8 +1,0 @@
-{
-  "name": "jacob-campbell-staticman",
-  "description": "Staticman instance for Jacob Campbell's Website",
-  "version": "1.0.0",
-  "engines": {
-    "node": "12.13.0"
-  }
-}
