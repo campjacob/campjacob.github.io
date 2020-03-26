@@ -30,7 +30,6 @@ excerpt: "Have you wondered what implementing a strengths perspective is and how
 
 Strengths-Based Engagement with Families
 
-You can see this video on my website, at [Strengths-Based Engagement with Families]()
 {% include video id="_wvlE97hd1o" provider="youtube" %}
 
 In working with individuals and families, following a strengths-based approach is a best practice, and it is contrasted with a traditional problem-solving strategy. Following some of Kirst-Ashman and Hull's (2015) strategies, we can both understand the conventional problem-solving approach and a strength-based approach to solving problems.
