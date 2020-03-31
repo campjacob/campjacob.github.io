@@ -46,7 +46,7 @@ With the quarantine and everything going on, it seemed like a good idea to do a 
 
 We made a stop motion video by taking photos with my GoPro and processing them through [Stop Motion Pro App](https://www.cateater.com). It was pretty easy to do and fun to go through and plan, set up, and implement. The final product turned out great as well.
 
-![The Set Up for the Stop Motion Video](/assets/media/2020-stop-motion-video-gopro-meta.jpg)
+![The Set Up for the Stop Motion Video](/assets/media/2020-stop-motion-video-gopro-meta.jpeg)
 
 The music is included in the app and called Mister Exposition.
 
