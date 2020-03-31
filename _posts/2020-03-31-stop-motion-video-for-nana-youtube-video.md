@@ -34,8 +34,8 @@ gallery:
     image_path: /assets/media/2020-mateo-construction-hat-building-fort.jpg
     alt: "Mateo in a construction hat"
     title: "Mateo in a construction hat"
-  - url: /assets/images/2020-twins-building-fort.jpg
-    image_path: /assets/2020-twins-building-fort.jpg
+  - url: /assets/media/2020-twins-building-fort.jpg
+    image_path: /assets/media/2020-twins-building-fort.jpg
     alt: "The Twins putting the fort together"
     title: "The twins putting the fort together"
 ---
@@ -56,6 +56,6 @@ We also built a fort in the back yard. It was fun to put together. You can see a
 
 {% include gallery caption="The kids building their fort in the back yard out of some old wood." %}
 
-<video controls="controls" src="/assets/media/2020-inside-the-fort-snapchat.mp4">
+<video controls="controls" src="/assets/media/2020-inside-the-fort-snapchat.MP4">
     Your browser does not support the HTML5 Video element.
 </video>
