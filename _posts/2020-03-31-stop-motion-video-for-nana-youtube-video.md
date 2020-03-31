@@ -26,16 +26,16 @@ header:
     provider: youtube
 excerpt: "A stop motion film that I made for my mom with my kids as an activity during quarantine."
 gallery:
-  - url: /assets/media/2020-arianna-construction-hat-building-fort.jpg
-    image_path: /assets/media/2020-arianna-construction-hat-building-fort.jpg
+  - url: /assets/media/2020-arianna-construction-hat-building-fort.jpeg
+    image_path: /assets/media/2020-arianna-construction-hat-building-fort.jpeg
     alt: "Arianna in a construction hat"
     title: "Arianna in a construction hat"
-  - url: /assets/media/2020-mateo-construction-hat-building-fort.jpg
-    image_path: /assets/media/2020-mateo-construction-hat-building-fort.jpg
+  - url: /assets/media/2020-mateo-construction-hat-building-fort.jpeg
+    image_path: /assets/media/2020-mateo-construction-hat-building-fort.jpeg
     alt: "Mateo in a construction hat"
     title: "Mateo in a construction hat"
-  - url: /assets/media/2020-twins-building-fort.jpg
-    image_path: /assets/media/2020-twins-building-fort.jpg
+  - url: /assets/media/2020-twins-building-fort.jpeg
+    image_path: /assets/media/2020-twins-building-fort.jpeg
     alt: "The Twins putting the fort together"
     title: "The twins putting the fort together"
 ---
