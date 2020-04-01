@@ -11,11 +11,11 @@ excerpt: "Update for Week 12 of SOWK 487."
 
 I hope that you are all doing well and staying safe. Just a reminder that we have class tonight at 5:30 pm. I think it should be a good class, and I have some activities related to working with families that will hopefully help support you all. 
 
-Last week we spent some time discussing using strengths perspective with families. I also made a video and posted it to YoutTube for all of you. Sorry to be so slow at getting these out for you you, but it takes me a long time to make these, and I hope it's useful for you.
+Last week we spent some time discussing using strengths perspective with families. I also made a video, [Strengths-Based Engagement with Families](https://jacobrcampbell.com/blog/2020/03/strengths-based-engagement-with-families-youtube-video/), and posted it to YoutTube for all of you. Sorry to be so slow at getting these out for you you, but it takes me a long time to make these, and I hope it's useful for you.
 
-[![Strengths-Based Engagement with Families [YouTube Video]](https://jacobrcampbell.com/assets/media/strengths-based-engagement-with-families-youtube-video-500x300.png "Strengths-Based Engagement with Families [YouTube Video]")](https://jacobrcampbell.com/blog/2020/03/strengths-based-engagement-with-families-youtube-video/)
+[![Strengths-Based Engagement with Families - YouTube Video](https://jacobrcampbell.com/assets/media/strengths-based-engagement-with-families-youtube-video-500x300.png "Strengths-Based Engagement with Families [YouTube Video]")](https://jacobrcampbell.com/blog/2020/03/strengths-based-engagement-with-families-youtube-video/)
 
-This week we will be spending some time talking about skills that we might use to teach families, and we are going to be talking a little bit about Operant Conditioning. I made a video - Changing Problematic Behaviors, Principles of Operant Conditioning a while back about this topic, and you might benefit from seeing it as well. 
+This week we will be spending some time talking about skills that we might use to teach families, and we are going to be talking a little bit about Operant Conditioning. I made a video - [Changing Problematic Behaviors, Principles of Operant Conditioning](https://jacobrcampbell.com/blog/2019/01/changing-problematic-behaviors-principles-operant-conditioning/) a while back about this topic, and you might benefit from seeing it as well. 
 
 [![Operant Conditioning Video on YouTube](https://jacobrcampbell.com/assets/media/punishment-reinforcement-operant-conditioning-500x300.png "Changing Problematic Behaviors, Principles of Operant Conditioning")](https://jacobrcampbell.com/blog/2019/01/changing-problematic-behaviors-principles-operant-conditioning/)
 
@@ -47,6 +47,6 @@ And from this week:
 
 <p data-notist="campjacob/UtmCGr" data-ratio="4:3">View <a href="https://presentations.jacobrcampbell.com/UtmCGr">Week 12 - Lab Day - Working with Families</a>.</p><script async src="https://on.notist.cloud/embed/002.js"></script>
 
-If you are interested, I also made a fun stop motion video with my kids. I thought I would share it here as well:
+If you are interested, I also made a fun stop motion video with my kids. I thought I would share it here as well. It's called [Stop Motion Video for Nana](https://jacobrcampbell.com/blog/2020/03/stop-motion-video-for-nana-youtube-video/)
 
 [![Stop Motion Video for Nana - YouTube Video](https://jacobrcampbell.com/assets/media/stop-motion-video-for-nana-youtube-video-500x300.png "Stop Motion Video for Nana - YouTube Video")](https://jacobrcampbell.com/blog/2020/03/stop-motion-video-for-nana-youtube-video/)
