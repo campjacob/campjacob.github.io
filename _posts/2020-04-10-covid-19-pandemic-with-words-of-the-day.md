@@ -18,119 +18,119 @@ header:
   caption: "Photo credit: Images by [**LookUp**](https://apps.apple.com/us/app/lookup-english-dictionary/id872564448) used in each of their words of the day."
 excerpt: "Some creative writing using the last 27's words of the day from the Look Up app to talk about the current COVID-19 pandemic."
 gallery:
-- url: /assets/media/2020-words-of-the-day-guffaw.png
+  - url: /assets/media/2020-words-of-the-day-guffaw.png
     image_path: /assets/media/2020-words-of-the-day-guffaw.png
     alt: "Definition from LookUp for guffaw"
     title: "guffaw"
-- url: /assets/media/2020-words-of-the-day-repudiate.png
+  - url: /assets/media/2020-words-of-the-day-repudiate.png
     image_path: /assets/media/2020-words-of-the-day-repudiate.png
     alt: "Definition from LookUp for repudiate"
     title: "repudiate"
-- url: /assets/media/2020-words-of-the-day-tempest.png
+  - url: /assets/media/2020-words-of-the-day-tempest.png
     image_path: /assets/media/2020-words-of-the-day-tempest.png
     alt: "Definition from LookUp for tempest"
     title: "tempest"
-- url: /assets/media/2020-words-of-the-day-bloviate.png
+  - url: /assets/media/2020-words-of-the-day-bloviate.png
     image_path: /assets/media/2020-words-of-the-day-bloviate.png
     alt: "Definition from LookUp for bloviate"
     title: "bloviate"
-- url: /assets/media/2020-words-of-the-day-unerring.png
+  - url: /assets/media/2020-words-of-the-day-unerring.png
     image_path: /assets/media/2020-words-of-the-day-unerring.png
     alt: "Definition from LookUp for unerring"
     title: "unerring"
-- url: /assets/media/2020-words-of-the-day-cessation.png
+  - url: /assets/media/2020-words-of-the-day-cessation.png
     image_path: /assets/media/2020-words-of-the-day-cessation.png
     alt: "Definition from LookUp for cessation"
     title: "cessation"
-- url: /assets/media/2020-words-of-the-day-zephyr.png
+  - url: /assets/media/2020-words-of-the-day-zephyr.png
     image_path: /assets/media/2020-words-of-the-day-zephyr.png
     alt: "Definition from LookUp for zephyr"
     title: "zephyr"
-- url: /assets/media/2020-words-of-the-day-percipient.png
+  - url: /assets/media/2020-words-of-the-day-percipient.png
     image_path: /assets/media/2020-words-of-the-day-percipient.png
     alt: "Definition from LookUp for percipient"
     title: "percipient"
-- url: /assets/media/2020-words-of-the-day-exaction.png
+  - url: /assets/media/2020-words-of-the-day-exaction.png
     image_path: /assets/media/2020-words-of-the-day-exaction.png
     alt: "Definition from LookUp for exaction"
     title: "exaction"
-- url: /assets/media/2020-words-of-the-day-rescind.png
+  - url: /assets/media/2020-words-of-the-day-rescind.png
     image_path: /assets/media/2020-words-of-the-day-rescind.png
     alt: "Definition from LookUp for rescind"
     title: "rescind"
-- url: /assets/media/2020-words-of-the-day-accretion.png
+  - url: /assets/media/2020-words-of-the-day-accretion.png
     image_path: /assets/media/2020-words-of-the-day-accretion.png
     alt: "Definition from LookUp for accretion"
     title: "accretion"
-- url: /assets/media/2020-words-of-the-day-phlegmatic.png
+  - url: /assets/media/2020-words-of-the-day-phlegmatic.png
     image_path: /assets/media/2020-words-of-the-day-phlegmatic.png
     alt: "Definition from LookUp for phlegmatic"
     title: "phlegmatic"
-- url: /assets/media/2020-words-of-the-day-repast.png
+  - url: /assets/media/2020-words-of-the-day-repast.png
     image_path: /assets/media/2020-words-of-the-day-repast.png
     alt: "Definition from LookUp for repast"
     title: "repast"
-- url: /assets/media/2020-words-of-the-day-stentor.png
+  - url: /assets/media/2020-words-of-the-day-stentor.png
     image_path: /assets/media/2020-words-of-the-day-stentor.png
     alt: "Definition from LookUp for stentor"
     title: "stentor"
-- url: /assets/media/2020-words-of-the-day-precarious.png
+  - url: /assets/media/2020-words-of-the-day-precarious.png
     image_path: /assets/media/2020-words-of-the-day-precarious.png
     alt: "Definition from LookUp for precarious"
     title: "precarious"
-- url: /assets/media/2020-words-of-the-day-panegyric.png
+  - url: /assets/media/2020-words-of-the-day-panegyric.png
     image_path: /assets/media/2020-words-of-the-day-panegyric.png
     alt: "Definition from LookUp for panegyric"
     title: "panegyric"
-- url: /assets/media/2020-words-of-the-day-daub.png
+  - url: /assets/media/2020-words-of-the-day-daub.png
     image_path: /assets/media/2020-words-of-the-day-daub.png
     alt: "Definition from LookUp for daub"
     title: "daub"
-- url: /assets/media/2020-words-of-the-day-quotidian.png
+  - url: /assets/media/2020-words-of-the-day-quotidian.png
     image_path: /assets/media/2020-words-of-the-day-quotidian.png
     alt: "Definition from LookUp for quotidian"
     title: "quotidian"
-- url: /assets/media/2020-words-of-the-day-ruddy.png
+  - url: /assets/media/2020-words-of-the-day-ruddy.png
     image_path: /assets/media/2020-words-of-the-day-ruddy.png
     alt: "Definition from LookUp for ruddy"
     title: "ruddy"
-- url: /assets/media/2020-words-of-the-day-stasis.png
+  - url: /assets/media/2020-words-of-the-day-stasis.png
     image_path: /assets/media/2020-words-of-the-day-stasis.png
     alt: "Definition from LookUp for stasis"
     title: "stasis"
-- url: /assets/media/2020-words-of-the-day-concinnity.png
+  - url: /assets/media/2020-words-of-the-day-concinnity.png
     image_path: /assets/media/2020-words-of-the-day-concinnity.png
     alt: "Definition from LookUp for concinnity"
     title: "concinnity"
-- url: /assets/media/2020-words-of-the-day-ovoid.png
+  - url: /assets/media/2020-words-of-the-day-ovoid.png
     image_path: /assets/media/2020-words-of-the-day-ovoid.png
     alt: "Definition from LookUp for ovoid"
     title: "ovoid"
-- url: /assets/media/2020-words-of-the-day-erudite.png
+  - url: /assets/media/2020-words-of-the-day-erudite.png
     image_path: /assets/media/2020-words-of-the-day-erudite.png
     alt: "Definition from LookUp for erudite"
     title: "erudite"
-- url: /assets/media/2020-words-of-the-day-fractious.png
+  - url: /assets/media/2020-words-of-the-day-fractious.png
     image_path: /assets/media/2020-words-of-the-day-fractious.png
     alt: "Definition from LookUp for fractious"
     title: "fractious"
-- url: /assets/media/2020-words-of-the-day-evocative.png
+  - url: /assets/media/2020-words-of-the-day-evocative.png
     image_path: /assets/media/2020-words-of-the-day-evocative.png
     alt: "Definition from LookUp for evocative"
     title: "evocative"
-- url: /assets/media/2020-words-of-the-day-spume.png
+  - url: /assets/media/2020-words-of-the-day-spume.png
     image_path: /assets/media/2020-words-of-the-day-spume.png
     alt: "Definition from LookUp for spume"
     title: "spume"
-- url: /assets/media/2020-words-of-the-day-potable.png
+  - url: /assets/media/2020-words-of-the-day-potable.png
     image_path: /assets/media/2020-words-of-the-day-potable.png
     alt: "Definition from LookUp for potable"
     title: "potable"
-- url: /assets/media/2020-words-of-the-day-pangram.png
+  - url: /assets/media/2020-words-of-the-day-pangram.png
     image_path: /assets/media/2020-words-of-the-day-pangram.png
     alt: "Definition from LookUp for pangram"
     title: "pangram"
-- url: /assets/media/2020-words-of-the-day-jaunt.png
+  - url: /assets/media/2020-words-of-the-day-jaunt.png
     image_path: /assets/media/2020-words-of-the-day-jaunt.png
     alt: "Definition from LookUp for jaunt"
     title: "jaunt"
