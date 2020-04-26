@@ -1,0 +1,18 @@
+---
+name: 2020-spring-sowk-460-final-presentations-information.md
+title: Spring 2020 SOWK 460 Final Presentation and paper Information
+date: 2020-04-25 21.01.05
+group: SOWK 460
+semester: Spring 2020
+excerpt: "Info about the final presentation and papers for SOWK 460"
+---
+
+![SOWK 460 Class Header](https://jacobrcampbell.com/assets/media/class-header-sowk-program-evaluation.png "SOWK 460 Class Header")
+
+I hope you are all doing well. I'm doing alright. I'm feeling a lot better this weekend, but I had a couple of pretty difficult days this last week with my health. A couple of updates. I've heard a couple of people say they've had some difficulty with Chalk and Wire. I don't really have a way to test it or to try doing things with it. It worked in my other class when I set it up the same way, but for some reason it's not working for everybody here. Remember, there is an assignment available, [Assignment 04d: Group Final Paper](https://myheritage.heritage.edu/ICS/Academics/SOWK/SOWK_460W/1920_SP-SOWK_460W-1/Coursework.jnz?portlet=Coursework&screen=AssignmentDetailView&screenType=change&id=ec08c6af-d5aa-4824-955b-363ac9849b19) that I previously had said to post if you completed the original assignment. If you are not overly concerned with having the assignment in your portfolio through Chalk and Wire, and it is not working... then don't worry about it.
+
+I had a couple of people ask about the due dates. The paper and the presentation are both due on this Monday (04/27/20) before the end of the night (e.g., at 11:55 PM). One group member will post in the forums giving a bit of a description of the project, who completed it and links to the presentation and the paper for all of the class to be be able to review. Then Friday (05/01/20) at the end of the day (which is also the last day of potential classwork for Heritage) everybody should have gone through and checked out the other groups presentations and made at least two comments on other groups posts. 
+
+I'll go through each of the group posts and will be able to give grades to everybody in the group from that one post.  I figured that I would give some resources for how to do some of the technical parts of creating this. These are just the help articles from Zoom and PowerPoint, but often times just searching what you want to do in YouTube is a great way to learn how to do new things. To share your [PowerPoint presentation](https://support.office.com/en-us/article/share-your-powerpoint-presentation-with-others-a6308d9d-a0a8-443b-8e1c-0f4983f0afd1) or your [final paper](https://support.office.com/en-us/article/Share-a-document-d39f3cd8-0aa0-412f-9a35-1abba926d354) you can upload it to the cloud and share a link. I think a video is the most dynamic way to share your slides and have an audio portion to it. You all have access to zoom accounts, and you can share it to [the cloud](https://support.zoom.us/hc/en-us/articles/203741855-Cloud-recording) or [your computer](https://support.zoom.us/hc/en-us/articles/201362473-Local-recording) (although if you do the local sharing, you will have to upload the video to PanOpto, YouTube, or some online location to share it). I think many of you are just planning on recording audio and [embedding it into your PowerPoint slides](https://support.office.com/en-us/article/Add-or-delete-audio-in-your-PowerPoint-presentation-C3B2A9FD-2547-41D9-9182-3DFAA58F1316) and that works as well.
+
+Anyways, I'm looking forward to seeing all of them.
