@@ -13,7 +13,7 @@ locations:
   - Tri-Cities Washington
 categories:
   - Personal Blog
- - YouTube Videos
+  - YouTube Videos
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
