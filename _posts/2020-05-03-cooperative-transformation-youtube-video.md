@@ -26,7 +26,7 @@ header:
   video:
     id: nQ2NFbhkn9c
     provider: youtube
-excerpt: "A creative encourage people through these difficult times"
+excerpt: "A creative encouragement for people to be cooperative through these difficult times"
 ---
 
 I created this video, [Cooperative Transformation](https://youtu.be/nQ2NFbhkn9c) as a part of my class at [CIIS TSD](https://www.ciis.edu/academics/graduate-programs/transformative-studies)'s [Creativity and Personal Transformation](https://www.ciis.edu/academics/course-descriptions/creativity-and-personal-transformation) course. The class has been a wonderful experience to have taken this semester. Not only have I been able to learn more about creativity, myself, and transformation, but it has been personally useful to me as we are going through all of the stuff regarding this pandemic.
@@ -65,10 +65,10 @@ Together we can!
 
 You can see my set up for filming the microgreens growing. 
 
-{% include figure image_path="/assets/media/cooperative-transformation-photo-micro-green-camera-setup.jpg" alt="A photo of lighting setup for filming timelapse of microgreens growing." caption="A photo of lighting setup for filming timelapse of microgreens growing." %}
+{% include figure image_path="/assets/media/cooperative-transformation-photo-micro-green-camera-setup.jpeg" alt="A photo of lighting setup for filming timelapse of microgreens growing." caption="A photo of lighting setup for filming timelapse of microgreens growing." %}
 
 Along with a photo of the script I wrote in the [Camera Suite](https://www.camerasuite.org) app on my Mac, I used to connect to my GoPro. Speaking of this, its pretty awesome software, and even though my GoPro isn't supported and isn't supposed to help this type of implementation, it still worked.
 
-{% include figure image_path="/assets/media/cooperative-transformation-photo-camera-suite-script.jpg" alt="A photo showing the camera suite app and the script used to record my timelapse video" caption="Camera Suite's script for filming my timelapse." %}
+{% include figure image_path="/assets/media/cooperative-transformation-photo-camera-suite-script.jpeg" alt="A photo showing the camera suite app and the script used to record my timelapse video" caption="Camera Suite's script for filming my timelapse." %}
 
 I recorded my voice using a [ZOOM H4n Pro](https://www.zoom-na.com/products/field-video-recording/field-recording/h4n-pro-handy-recorder) and edited it all together using [LumaFusion](https://luma-touch.com/lumafusion-for-ios-2/) on my iPad.
