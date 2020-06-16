@@ -1,17 +1,16 @@
 ---
 name: the-what-and-the-why-of-a-different-framework-for-thinking-about-inquiry.md
 title: "Transdisciplinarity: The What and the Why of a Different Framework for Thinking About Inquiry"
-date: 02/16/20  
+date: 2020-02-16  
 categories:
     - Essay
 tags:
     - Transisciplinarity
     - Frameworks
 Course ID: TSD 8130  
-Course Title: Transdisciplinarity  
-Date: 2020-02-16  
+Course Title: Transdisciplinarity    
 Location: Large Group Discussion  
-Topic: What is transdisciplinarity and why is it important.  
+Topic: What is transdisciplinarity and why is it important  
 ---
 
 Transdisciplinarity as a framework for both conducting an inquiry and as a methodology for considering complex thoughts is not new. Throughout history, there have been many scholars that have embodied transdisciplinarity even prior to it being a specific methodology. Martin (2017) describes Leonardo da Vinci as a transdisciplinary thinker as an engineer, inventor, anatomist, and artist. In their writing, Bacon, Descartes, Leibniz, Kant, Hegel, and Comte all discuss the fragmentation of scientific knowledge just as a practitioner of transdisciplinarity would. As an articulated concept, transdisciplinarity goes back to the 70s Piaget, Lichnerowicz, and Jantsch all provided some conceptualization of transdisciplinary and ideas that went beyond interdisciplinary concepts (Klein, 2013; Klein, 2014; Martin, 2017). While the notion has is more than 50 years old now and has gained significant attraction by many scholars, it is not considered a mainstream mode of thinking. Marin (2017) describes how the term is not included in the English Oxford Dictionary. As I am writing this short essay, the spell check in my writing app on my iPad does not recognize either transdisciplinary or transdisciplinarity as words with correct spelling.
