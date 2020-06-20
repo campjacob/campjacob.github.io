@@ -15,8 +15,8 @@ categories:
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/media/be-free-releasing-sheldon-1200-500.jpg
-  teaser: /assets/media/be-free-releasing-sheldon-500x300.jpg
+  overlay_image: /assets/media/be-free-releasing-sheldon-1200-500.jpeg
+  teaser: /assets/media/be-free-releasing-sheldon-500x300.jpeg
   caption: "Photo credit: Photo by [**Jacob Campbell**](/contact/) at Columbia Park where we released Sheldon."
   actions:
     - label: "Watch Video"
