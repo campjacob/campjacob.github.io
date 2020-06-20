@@ -21,7 +21,7 @@ header:
   actions:
     - label: "Watch Video"
       url: "https://youtu.be/QVmqsixwrM0"
-excerpt: "Line description"
+excerpt: "Story about releasing our pet turtle."
 ---
 
 {% include video id="QVmqsixwrM0" provider="youtube" %}
