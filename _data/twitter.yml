@@ -3,9 +3,9 @@ tweets:
     tweet_created: "2020-06-23 21:10"
     tweet_url: "http://twitter.com/campjacob/status/1275642504235429889"
     tweet_text: "If only I had three fingers to cross..."
+    tweet_embed: {<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If only I had three fingers to cross...</p>&mdash; Jacob Campbell (@campjacob) <a href="https://twitter.com/campjacob/status/1275642504235429889?ref_src=twsrc%5Etfw">June 24, 2020</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>}
   - tweet_id: "tweet-2020-06-24-00:33"
     tweet_created: "2020-06-24 00:33"
     tweet_url: "http://twitter.com/campjacob/status/1275693590962978816"
     tweet_text: "We went out for a walk the other day it was fun and I think this photo turned out pretty great. (https://t.co/P9h8rxkVHh) https://t.co/f5w22C7gWr"
-    tweet_embed: '<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We went out for a walk the other day it was fun and I think this photo turned out pretty great. (<a href="https://t.co/P9h8rxkVHh">https://t.co/P9h8rxkVHh</a>) <a href="https://t.co/f5w22C7gWr">pic.twitter.com/f5w22C7gWr</a></p>&mdash; Jacob Campbell (@campjacob) <a href="https://twitter.com/campjacob/status/1275693590962978816?ref_src=twsrc%5Etfw">June 24, 2020</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>'
-
+    tweet_embed: { <blockquote class="twitter-tweet"><p lang="en" dir="ltr">We went out for a walk the other day it was fun and I think this photo turned out pretty great. (<a href="https://t.co/P9h8rxkVHh">https://t.co/P9h8rxkVHh</a>) <a href="https://t.co/f5w22C7gWr">pic.twitter.com/f5w22C7gWr</a></p>&mdash; Jacob Campbell (@campjacob) <a href="https://twitter.com/campjacob/status/1275693590962978816?ref_src=twsrc%5Etfw">June 24, 2020</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> }
