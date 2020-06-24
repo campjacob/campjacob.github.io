@@ -18,5 +18,4 @@ tweets:
     tweet_created: "2020-06-24 11:38"
     tweet_url: "http://twitter.com/campjacob/status/1275860764675518464"
     tweet_text: "Sunset (https://t.co/VmriNVQMj2) https://t.co/ncamTTWAi0"
-    tweet_embed: {<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Sunset (<a href="https://t.co/VmriNVQMj2">https://t.co/VmriNVQMj2</a>) <a href="https://t.co/ncamTTWAi0">pic.twitter.com/ncamTTWAi0</a></p>&mdash; Jacob Campbell (@campjacob) <a href="https://twitter.com/campjacob/status/1275860764675518464?ref_src=twsrc%5Etfw">June 24, 2020</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>}
+    tweet_embed: no
