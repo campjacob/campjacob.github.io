@@ -18,4 +18,9 @@ tweets:
     tweet_created: "2020-06-24 11:38"
     tweet_url: "http://twitter.com/campjacob/status/1275860764675518464"
     tweet_text: "Sunset (https://t.co/VmriNVQMj2) https://t.co/ncamTTWAi0"
-    tweet_embed: no
+    tweet_embed: no  - tweet_id: "tweet-2020-06-24-18:29"
+    tweet_created: "2020-06-24 18:29"
+    tweet_url: "http://twitter.com/campjacob/status/1275964312603856896"
+    tweet_text: "Coronavirus VIII: Prisons &amp; Jails: Last Week Tonight with John Oliver (HBO) https://t.co/Fr7ajPqEof via @YouTube"
+    tweet_embed: {<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Coronavirus VIII: Prisons &amp; Jails: Last Week Tonight with John Oliver (HBO) <a href="https://t.co/Fr7ajPqEof">https://t.co/Fr7ajPqEof</a> via <a href="https://twitter.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a></p>&mdash; Jacob Campbell (@campjacob) <a href="https://twitter.com/campjacob/status/1275964312603856896?ref_src=twsrc%5Etfw">June 25, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>}
