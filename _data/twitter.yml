@@ -47,3 +47,9 @@ tweets:
     tweet_text: "Finished Cycle with #cyclemeter, on a new route, time 46:36, distance 5.48 miles, see https://t.co/uR8PW8tU1M, average 7.05."
     tweet_embed: >
         <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Finished Cycle with <a href="https://twitter.com/hashtag/cyclemeter?src=hash&amp;ref_src=twsrc%5Etfw">#cyclemeter</a>, on a new route, time 46:36, distance 5.48 miles, see <a href="https://t.co/uR8PW8tU1M">https://t.co/uR8PW8tU1M</a>, average 7.05.</p>&mdash; Jacob Campbell (@campjacob) <a href="https://twitter.com/campjacob/status/1278183565100867584?ref_src=twsrc%5Etfw">July 1, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+  - tweet_id: "tweet-"
+    tweet_created: ""
+    tweet_url: ""
+    tweet_text: ""
+    tweet_embed: >
+        
