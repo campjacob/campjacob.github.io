@@ -1,7 +1,7 @@
 ---
 name: social-virtuosity-practice-and-covid-19.md
 title: "Social Virtuosity, Practice and COVID-19"
-Date: 2020-04-05  
+date: 2020-04-05  
 categories:
     - Essay
 tags:
@@ -12,7 +12,7 @@ tags:
 Course ID: TSD 8014  
 Course Title: Creativity and Personal Transformation  
 Location: Small Group Discussion  
-Topic: "Social Virtuosity" and Practice  
+Topic: "Social Virtuosity and Practice"  
 ---
 
 "Jazz/Zen Improvisation" (2013) gives discussion regarding Hershock's (1996) proposal of "social virtuosity," and it's relationship and connection to practice. This concept is described as an attunement to the needs of others and being able and willing to respond. This response can be spontaneous and allow for harmony in social discourse.
