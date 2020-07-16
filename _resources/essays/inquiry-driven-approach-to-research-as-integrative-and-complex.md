@@ -1,7 +1,7 @@
 ---
 name: inquiry-driven-approach-to-research-as-integrative-and-complex.md
-title: "Inquiry-Driven Approach to Research as Integrative and Complex "
-date: 02/23/20  
+title: "Inquiry-Driven Approach to Research as Integrative and Complex"
+date: 2020-02-23  
 categories:
     - Essay
 tags:
@@ -10,9 +10,8 @@ tags:
     - Transdisciplinary
 Course ID: TSD 8130  
 Course Title: Transdisciplinarity  
-Date: 2020-02-23  
 Location: Large Group Discussion  
-Topic: Guiding Inquiry: What makes inquiry driven research unique?  
+Topic: "Guiding Inquiry: What makes inquiry driven research unique?"  
 ---
 
 Throughout much of scientific history, exploration of a topic has been developed and completed within disciplinary silos. Researchers have followed paradigmatic and methodological investigations within their respective fields. While consensus regarding what exactly makes transdisciplinarity research. One component that is widely accepted is the transcendence of disciplinary boundaries through an inquiry-driven form of understanding the topic versus this siloed disciplinary approach (Martin, 2017).

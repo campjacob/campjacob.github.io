@@ -141,6 +141,7 @@ include:
   - _includes
   - _communications
   - _dictionary
+  - _microposts
 
 exclude:
   - "*.sublime-project"
@@ -182,12 +183,15 @@ collections:
 
   communications:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:name/
 
   dictionary:
     output: true
     permalink: /:collection/:path/
 
+  microposts:
+    output: true
+    permalink: /:collection/:path/
 
 # Conversion
 markdown: kramdown
@@ -318,5 +322,13 @@ defaults:
     values:
       term: true
       layout: single-dictionary
+      share: true
+      author_profile: true
+  # _microposts
+  - scope:
+      path: ""
+      type: microposts
+    values:
+      layout: single
       share: true
       author_profile: true
