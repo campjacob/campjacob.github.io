@@ -4,6 +4,9 @@ title: "Pacific City Beach Trip: Rituals are Good"
 date: 2020-07-21 01.11.51
 tags:
   - L-- Pacific City Oregon
+  - Family Fun
+  - Beach
+  - Flickr Photos
 locations: 
   - Pacific City Oregon
 categories:
@@ -26,7 +29,7 @@ Even  now, I like to change things up in my life and "salir de la rutina." New p
 
 We stayed in a [pretty decent VRBO](https://www.vrbo.com/1298126), although they lack in amenities (who doesn't even have salt/pepper or other basics.. as well there was some general disrepair in the home). We are just outside of [Pacific City](https://en.wikipedia.org/wiki/Pacific_City%2C_Oregon). I'm not sure if I am getting older, but I have some significant longing for the warmer oceans in Mexico and other more tropical habitats. I know as a youth loved being in any sea. I could spend all day, and I don't think I ever thought it was cold. This year, I waded in to be close to the kids that I could go after them if needed, but the idea of swimming around in the cold water was more than I could bear. Maybe just need a wet suit.
 
-{% include figure image_path="/assets/media/younger-years-photo-cousin-jacob-beach.jpeg" alt="photo of kids on the beach" caption="Photo from when I was a child with my cousin on the Oregon Coast." %}
+{% include figure image_path="/assets/media/younger-years-photo-cousin-jacob-beach.JPG" alt="photo of kids on the beach" caption="Photo from when I was a child with my cousin on the Oregon Coast." %}
 
 We made the reservation for the trip back in February. It was before we had any idea what has happened with COVID-19. We tried to stay as safe as possible, using masks when around other people. We did end up at [Cape Kiwanda State Natural Area](https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=130) and hung out at the Pacific City Beach, but spent most of our beach-going time in the almost private beach in front of our home. We also went to a restaurant for the first time since the quarantine started. We worked up an appetite climbing the giant dune and looking at the breathtaking views of the ocean against rock. We ate pizza at [Doryland Pizza](https://www.capekiwandarvresort.com/Doryland_Pizza.html).
 
