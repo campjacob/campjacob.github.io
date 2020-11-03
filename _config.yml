@@ -329,6 +329,6 @@ defaults:
       path: ""
       type: microposts
     values:
-      layout: single
+      layout: single-micropost
       share: true
       author_profile: true

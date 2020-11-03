@@ -2,8 +2,8 @@
 date: "2020-05-31T02:30:39+00:00"
 id: CA1eYDInCZ_
 title: Instagram Post
-instagram_url: "https://www.instagram.com/p/CA1eYDInCZ_/"
-instagram_caption: "Went for a walk down the railroad track the other day."
+post_url: "https://www.instagram.com/p/CA1eYDInCZ_/"
+post_text: "Went for a walk down the railroad track the other day."
 instagram_image: "2020-05-31-CA1eYDInCZ_.jpeg"
 categories: "instagram"
 ---

@@ -1,9 +1,10 @@
 ---
+title: "<i class='fab fa-instagram'></i> New experiences can be a bit scary. Chewy yesterday waiting for his shots."
 date: "2020-10-30 15:33"
-insta_url: "https://instagr.am/p/CG_A2wlHHDr/"
-insta_caption: "New experiences can be a bit scary. Chewy yesterday waiting for his shots."
+post_url: "https://instagr.am/p/CG_A2wlHHDr/"
+post_text: "New experiences can be a bit scary. Chewy yesterday waiting for his shots."
 categories: "instagram"
-media-files:
+media-files: 
   - 123119243_2857626964510076_6062491919936187686_n.jpg
 ---
 
