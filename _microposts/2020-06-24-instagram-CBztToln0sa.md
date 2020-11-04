@@ -1,7 +1,7 @@
 ---
 date: "2020-06-24T06:34:02+00:00"
-instagram_url: "https://www.instagram.com/p/CBztToln0sa/"
-instagram_caption: "We went out for a walk the other day it was fun and I think this photo turned out pretty great."
+post_url: "https://www.instagram.com/p/CBztToln0sa/"
+post_text: "We went out for a walk the other day it was fun and I think this photo turned out pretty great."
 instagram_image: 2020-06-24-CBztToln0sa.jpeg
 categories: "instagram"
 ---

@@ -1,7 +1,7 @@
 ---
 date: "2020-06-11T22:17:54+00:00"
-instagram_url: "https://www.instagram.com/p/CBT6_a3nEDh/"
-instagram_caption: "Preschool drive up graduation..."
+post_url: "https://www.instagram.com/p/CBT6_a3nEDh/"
+post_text: "Preschool drive up graduation..."
 instagram_image: "2020-06-24-CBztToln0sa.jpeg"
 categories: "instagram"
 ---
