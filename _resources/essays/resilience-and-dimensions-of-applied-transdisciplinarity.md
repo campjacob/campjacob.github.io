@@ -1,0 +1,76 @@
+---
+name: resilience-and-dimensions-of-applied-transdisciplinarity.md
+title: "Resilience and Dimensions of Applied Transdisciplinarity"
+date: 2020-05-11
+categories:
+    - Essay
+tags:
+    - Transdiciplinaryity
+    - Resilience
+exerpt: "Many scholars are discussing the current pandemic related to COVID-19. Along with medical professionals writing about the specifics related to the actual disease and treatment, many publications are considering the impact on the world. Holmes et al. (2020) describe the importance of international collaboration as a part of the recommendations for mental health researchers. Smith et al. (2020) discuss the compassion and resilience they see in nursing. Taking transdisciplinary strategies and practices to solve the current public health crisis and safety problems is a very relevant conversation currently (Jacobsen, 2020). The novel coronavirus and its impact on the world set the stage for an increase in transdisciplinary scholarship. The topic of resilience is also incredibly important. There have been papers published looking at the resilience of systems, such as the Spanish health care system (Legido-Quigley et al., 2020). Many studies will likely focus on psychological resilience, shared trauma, and this pandemic in the coming years."
+Course ID: TSD 8130  
+Course Title: Transdisciplinarity  
+Location: Paper  
+Topic: | 
+  Final Paper  
+  Using the five dimensions of transdisciplinarity as outlined by Montuori, please submit a final paper that incorporates these dimensions as they relate to your research topic.  
+---
+
+
+Many scholars are discussing the current pandemic related to COVID-19. Along with medical professionals writing about the specifics related to the actual disease and treatment, many publications are considering the impact on the world. Holmes et al. (2020) describe the importance of international collaboration as a part of the recommendations for mental health researchers. Smith et al. (2020) discuss the compassion and resilience they see in nursing. Taking transdisciplinary strategies and practices to solve the current public health crisis and safety problems is a very relevant conversation currently (Jacobsen, 2020). The novel coronavirus and its impact on the world set the stage for an increase in transdisciplinary scholarship. The topic of resilience is also incredibly important. There have been papers published looking at the resilience of systems, such as the Spanish health care system (Legido-Quigley et al., 2020). Many studies will likely focus on psychological resilience, shared trauma, and this pandemic in the coming years. 
+
+Jacobs and Nienaber (2011) describe that applying transdisciplinarity to practice requires having interlinked levels of reality, different types and forms of information, knowledge produced by multiple actors, acknowledging complexity, and context-specific knowledge. Research addressing the continuum of stress (e.g., from acute to chronic), developing and building resilience-oriented systems, and integrating resilience principles into a broader workforce benefit from a transdisciplinary approach.  This approach requires an integrated understanding (Acosta et al., 2017). Integrating knowledge is a theme of transdisciplinary inquiry and a byproduct of the inquiry-driven approach. The intentionality of bringing know-how and expertise from various sources adds a greater depth to inquiry driven work. These integrations are necessarily complex, rely on context, and are interconnected components. Within the scientific community, research is frequently completed through a disciplinary-specific framework (Martin, 2017).
+
+Resilience is a complex topic that spans multiple disciplines. It fits well within a transdisciplinary approach.  Montuori (2012) proposes five dimensions of applied transdisciplinarity. These include (1) inquiry-based rather than discipline-driven; (2) trans-paradigmatic rather than intra-paradigmatic; (3) complex thinking rather than reductive-disjunctive thinking; (4) integration of the inquirer rather than “objective” elimination of inquirer; and (5) creative inquiry rather than reproductive inquiry. This paper explores the dimensions of a transdisciplinary approach and its intersection with resilience.
+
+# Applied Transdisciplinarity and Resilience
+
+Resilience is a burgeoning area of research that spans many different academic disciplines. When Sumbul et al. (2019) applied a transdisciplinary lens in arguing for a conceptual framework of resilience, they describe research from related fields such as social work, transcultural psychology, anthropology, public health, sociology, medicine, and nursing. Their framework considers resilience in regard to an embodiment (the experience of stressors, inequities, wellness, belonging, and love intersect with the self) and historical oppression (experiences with contemporary, past trauma, and structural violence). It also looks at structural vulnerability (individual’s or a group being at risk for adverse health outcomes due to systematic factors), entitlement (a sense of coherence related to how we construct our value and right to exist), and capacity (the characteristics and traits that allow an individual to manage trauma and hardship without detrimental outcomes).
+
+This disciplinarity can be seen in its focus as a way of compartmentalizing knowledge within a specific field of study. When a researcher moves to a more transdisciplinary method of thinking about a particular topic, they move away from a siloed disciplinary approach to understanding that inquiry. That transdisciplinary approach also moves the researcher to examine how they can integrate knowledge regarding their academic question from sources that are both from multiple academic disciplines and non-academic participants (Martin, 2017).
+
+Transdisciplinarity challenges the conventional model of scientific inquiry.  It is an integrative inquiry-driven exercise versus a siloed disciplinary-specific process. Montuori (2013b) discusses his connection with having cross-disciplinary connections, but that there can be a dark side to it. Sometimes scholars suffer for this focus on making broader connections. The more established method for understanding a given topic is to use methodologies and conceptualizations from within a specific discipline. Research for a given topic would look for other scholars within the same subject and would build the concept leaning on their field of study and within its constrained setting. Transdisciplinarity seeks to integrate knowledge and understanding from various areas of practice and research into a more comprehensive understanding of the topic itself. The question becomes expanded beyond just one discipline and their particular methods, and that allows for the integration of other areas (Martin, 2017).
+
+Along with transdisciplinarity being focused on an inquiry-specific approach, Montuori (2012) describes four other dimensions that assist in understanding transdisciplinarity. A transdisciplinary approach can be contrasted with a disciplinary approach in how it understands paradigms. The difference between looking at intra-paradigmatic verses trans-paradigmatic gives transdisciplinarity the ability to transcend individual paradigms. In my academic practice, I am very grounded in social work. Social work has a set of models and ways that it sees and understands the world. There has been discussion within social work education to move towards a transdisciplinary model of teaching evidence-based behavioral practices. This model looks at decision making and connects it with population, resources, available research, and understanding of the environment (Bellamy et al., 2013). In taking a transdisciplinary approach, I have to appreciate my framing and understanding. To examine a topic, such as resilience, I might have to understand other disciplines and their approaches additionally. With my interest in the group aspect of resilience and how an individual’s resilience interacts and connects with the group or organization, I can start to also explore paradigms within organizational management or education to integrate a complete understanding of resilience and its interplay.
+
+The third dimension of transdisciplinarity, Montuori (2012), relates to thinking processes. A transdisciplinary approach will use complex thinking and move away from disjunctive or reductive thinking. Adding in paradigms from other branches of study adds a much higher level of complexity to evaluating a topic. The additive understandings from multiple disciplines provide context for connections and agreements that would not be considered within the discipline-specific model. All the latest information generates layers of contextual relationships. Montuori (2013c) discusses the challenges related to developing transdisciplinary literature. He describes that:
+
+> Here we see a theme I will return to, namely the fractal nature of the organization of knowledge. We see certain principles recurring at a number of different system levels: from the way knowledge is organized in and by an individual’s thinking, to the way the same principles show up in the organization of institutions of learning. (p. 4)
+
+To draw out the interplay of individual group members’ resilient qualities and how that impacts the group starts to look at and understand the world from a more ecological perspective. Not only does one have to follow what resilience is, what types of qualities that increase resilience, and the individual factors related to that individual. I will also have to examine group dynamics and how interactions are understood. Each step forward in understanding more about a topic becomes layers that get dissected and analyzed.
+
+Another dimension that Montuori (2012) describes is related to the inquiry being creative versus reproductive. Transdisciplinarity is about pushing multiple fields of study towards a greater understanding of a particular topic. It becomes a generative activity that integrates knowledge from many traditional viewpoints through a collaborative process. Morin made many considerable contributions to fields such as ecology, sociology, and cinema. He describes some patterns that connect them. “The quest for a generative way of approaching the subject matter that accounts for its complexity, for what is woven together, for patterns, relationships, interactions, disorder, and noise” (Montuori, 2013, p. 13). Considering using a program evaluation as a method for understanding resilience provides a metric for this. Program evaluation is, by its nature, a complicated task with many variables to address and understand. Developing a method for evaluating programs to determine resilience will require a great deal of creative problem-solving.
+
+Finally, the last dimension of transdisciplinarity is related to the inclusion of the inquirer in the inquiry. Many long-established methodologies try to pull the researcher out of the research (Montuori, 2012). From a more extreme positivist approach, they might pontificate that they can be completely objective or that researchers ought to have total objectivity. That there is no reason to engage or interact with who or why they are studying. Transdisciplinarity looks to have the researcher understand themselves and how they relate to the system they are studying. Along with being reflective about our engagement within the study, we also must possess the skills necessary for conducting a transdisciplinary approach. Augsburg (2014) describes some characteristics, virtues, and abilities that a transdisciplinary researcher needs.
+
+# Reference
+
+Augsburg, T. (2014). Becoming transdisciplinary: The emergence of the transdisciplinary individual. _World Futures, 70_(3-4), 233-247. [https://doi.org/10.1080/02604027.2014.934639](https://doi.org/10.1080/02604027.2014.934639)
+
+Bellamy, J. L., Mullen, E. J., Satterfield, J. M., Newhouse, R. P., Ferguson, M., Brownson, R. C., & Spring, B. (2013). Implementing evidence-based practice education in social work: A transdisciplinary approach. _Research on Social Work Practice, 23_(4), 426–436. [https://doi.org/10.1177/1049731513480528](https://doi.org/10.1177/1049731513480528)
+
+Holmes, E. A., O’Connor, R. C., Perry, V. H., Tracey, I., Wessely, S., Arseneault, L., & Bullmore, E. (2020). Multidisciplinary research priorities for the COVID-19 pandemic: a call for action for mental health science. _The Lancet Psychiatry_, S2215036620301681. https://doi.org/10.1016/S2215-0366(20)30168-1
+
+Jacobs, I., & Nienaber, S. (2011). Waters without borders: Transboundary water governance and the role of the ‘transdisciplinary individual’ in Southern Africa. _Water SA, 37_(5), 665-678. [https://doi.org/10.4314/wsa.v37i5.4](https://doi.org/10.4314/wsa.v37i5.4)
+
+Jacobsen, K. H. (2020). Will COVID-19 generate global preparedness? _The Lancet, 395_(10229), 1013-1014. [https://doi.org/10.1016/S0140-6736(20)30559-6](https://doi.org/10.1016/S0140-6736(20)30559-6)
+
+Legido-Quigley, H., Mateos-Garcia, J. T., Campos, V. R., Gea-Sanchez, M., Muntaner, C., & McKee, M. (2020). The resilience of the Spanish health system against the COVID-19 pandemic. _The Lancet Public Health, 5_(5), e251-e252. [https://doi.org/10.1016/S2468-2667(20)30060-8](https://doi.org/10.1016/S2468-2667(20)30060-8)
+
+Martin, V. (2017). _Transdisciplinarity revealed: What librarians need to know_. Santa Barbara, California: Libraries Unlimited, an imprint of ABC-CLIO, LLC.
+
+Montuori, A. (2012, August 20). _Five dimensions of applied transdisciplinarity_. Integral Leadership Review. Retrieved from [http://integralleadershipreview.com/7518-transdisciplinary-reflections-2/](http://integralleadershipreview.com/7518-transdisciplinary-reflections-2/)
+
+Montuori, A. (2013a). Complex thought: An overview of Edgar Morin’s intellectual journey. In _Resource Paper_ (p. 25). MetaIntegral Foundation.
+
+Montuori, A. (2013b). Complexity and transdisciplinarity: Reflections on theory and practice. _World Futures, 69_(4–6), 200–230. [https://doi.org/10.1080/02604027.2013.803349](https://doi.org/10.1080/02604027.2013.803349)
+
+Montuori, A. (2013c). The Complexity of Transdisciplinary Literature Reviews. _An International Journal of Complexity and Education, 10_(1), 45-55. [https://doi.org/10.1080/02604027.2013.803349](https://doi.org/10.1080/02604027.2013.803349)
+
+Smith, G. D., Ng, F., & Ho Cheung Li, W. (2020). COVID19: Emerging compassion, courage, and resilience in the face of misinformation and adversity. _Journal of Clinical Nursing, 29_(9-10), 1425-1428. [https://doi.org/10.1111/jocn.15231](https://doi.org/10.1111/jocn.15231)
+
+Sumbul, T., Spellen, S., & McLemore, M. R. (2019). A transdisciplinary conceptual framework of contextualized resilience for reducing adverse birth outcomes. _Qualitative Health Research, 3_(I), 105–118. [https://doi.org/10.1177/1049732319885369](https://doi.org/10.1177/1049732319885369)
+
+# Author Note
+
+The following essay was submitted as a paper for TSD 8130 - Transdisciplinarity as a part of my Ph.D. Studies in Transformative Studies at the California Institute of Integral Studies.
