@@ -1,167 +1,287 @@
-<!doctype html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Simple Transactional Email</title>
-    <style>
-    /* -------------------------------------
-        INLINED WITH htmlemail.io/inline
-    ------------------------------------- */
-    /* -------------------------------------
-        RESPONSIVE AND MOBILE FRIENDLY STYLES
-    ------------------------------------- */
-    @media only screen and (max-width: 620px) {
-      table[class=body] h1 {
-        font-size: 28px !important;
-        margin-bottom: 10px !important;
-      }
-      table[class=body] p,
-            table[class=body] ul,
-            table[class=body] ol,
-            table[class=body] td,
-            table[class=body] span,
-            table[class=body] a {
-        font-size: 16px !important;
-      }
-      table[class=body] .wrapper,
-            table[class=body] .article {
-        padding: 10px !important;
-      }
-      table[class=body] .content {
-        padding: 0 !important;
-      }
-      table[class=body] .container {
-        padding: 0 !important;
-        width: 100% !important;
-      }
-      table[class=body] .main {
-        border-left-width: 0 !important;
-        border-radius: 0 !important;
-        border-right-width: 0 !important;
-      }
-      table[class=body] .btn table {
-        width: 100% !important;
-      }
-      table[class=body] .btn a {
-        width: 100% !important;
-      }
-      table[class=body] .img-responsive {
-        height: auto !important;
-        max-width: 100% !important;
-        width: auto !important;
-      }
+---
+permalink: /email-template/
+---
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>{{title}}</title>
+
+  <style type="text/css">
+    
+    /* CLIENT-SPECIFIC STYLES */
+    body,
+    table,
+    td,
+    a {
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
     }
 
-    /* -------------------------------------
-        PRESERVE THESE STYLES IN THE HEAD
-    ------------------------------------- */
-    @media all {
-      .ExternalClass {
-        width: 100%;
-      }
-      .ExternalClass,
-            .ExternalClass p,
-            .ExternalClass span,
-            .ExternalClass font,
-            .ExternalClass td,
-            .ExternalClass div {
-        line-height: 100%;
-      }
-      .apple-link a {
-        color: inherit !important;
-        font-family: inherit !important;
-        font-size: inherit !important;
-        font-weight: inherit !important;
-        line-height: inherit !important;
-        text-decoration: none !important;
-      }
-      #MessageViewBody a {
-        color: inherit;
-        text-decoration: none;
-        font-size: inherit;
-        font-family: inherit;
-        font-weight: inherit;
-        line-height: inherit;
-      }
-      .btn-primary table td:hover {
-        background-color: #34495e !important;
-      }
-      .btn-primary a:hover {
-        background-color: #34495e !important;
-        border-color: #34495e !important;
-      }
+    table,
+    td {
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
     }
-    </style>
-  </head>
-  <body class="" style="background-color: #f6f6f6; font-family: sans-serif; -webkit-font-smoothing: antialiased; font-size: 14px; line-height: 1.4; margin: 0; padding: 0; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
-    <table border="0" cellpadding="0" cellspacing="0" class="body" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background-color: #f6f6f6;">
-      <tr>
-        <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;">&nbsp;</td>
-        <td class="container" style="font-family: sans-serif; font-size: 14px; vertical-align: top; display: block; Margin: 0 auto; max-width: 580px; padding: 10px; width: 580px;">
-          <div class="content" style="box-sizing: border-box; display: block; Margin: 0 auto; max-width: 580px; padding: 10px;">
 
-            <!-- START CENTERED WHITE CONTAINER -->
-            <span class="preheader" style="color: transparent; display: none; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden; width: 0;">This is preheader text. Some clients will show this text as a preview.</span>
-            <table class="main" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background: #ffffff; border-radius: 3px;">
+    img {
+      -ms-interpolation-mode: bicubic;
+    }
 
-              <!-- START MAIN CONTENT AREA -->
-              <tr>
-                <td class="wrapper" style="font-family: sans-serif; font-size: 14px; vertical-align: top; box-sizing: border-box; padding: 20px;">
-                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
-                    <tr>
-                      <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;">
-                        <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;">Hi there,</p>
-                        <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;">Sometimes you just want to send a simple HTML email with a simple design and clear call to action. This is it.</p>
-                        <table border="0" cellpadding="0" cellspacing="0" class="btn btn-primary" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; box-sizing: border-box;">
-                          <tbody>
-                            <tr>
-                              <td align="left" style="font-family: sans-serif; font-size: 14px; vertical-align: top; padding-bottom: 15px;">
-                                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: auto;">
-                                  <tbody>
-                                    <tr>
-                                      <td style="font-family: sans-serif; font-size: 14px; vertical-align: top; background-color: #3498db; border-radius: 5px; text-align: center;"> <a href="http://htmlemail.io" target="_blank" style="display: inline-block; color: #ffffff; background-color: #3498db; border: solid 1px #3498db; border-radius: 5px; box-sizing: border-box; cursor: pointer; text-decoration: none; font-size: 14px; font-weight: bold; margin: 0; padding: 12px 25px; text-transform: capitalize; border-color: #3498db;">Call To Action</a> </td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                        <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;">This is a really simple email template. Its sole purpose is to get the recipient to click the button with no distractions.</p>
-                        <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;">Good luck! Hope it works.</p>
-                      </td>
-                    </tr>
-                  </table>
+    /* RESET STYLES */
+    img {
+      border: 0;
+      outline: none;
+      text-decoration: none;
+    }
+
+    table {
+      border-collapse: collapse !important;
+    }
+
+    body {
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 100% !important;
+      font-family: 'Average Sans', sans-serif;
+      font-size: 14px;
+    }
+
+    pre {
+      padding: 16px;
+      font-size: 85%;
+      line-height: 1.45;
+      border-radius: 3px;
+    }
+
+    code {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+      font-size: 85%;
+      margin: 0;
+      padding: 0.2em 0;
+      border-radius: 3px;
+    }
+
+    blockquote {
+      padding: 0 1em;
+      color: #6a737d;
+      border-left: 0.25em solid #dfe2e5;
+    }
+
+    
+    h1, h2, h3, h4 {
+      font-family: sans-serif;
+      font-weight: 500;
+      margin: 0;
+    }
+    
+    h1 {
+      font-size: 200%;
+
+    }
+
+    h1 a {
+      text-decoration: none
+    }
+
+    h2 {
+
+        font-size: 125%;
+    }
+
+   h3, h4 {
+
+        font-size: 115%;
+    }
+
+
+    .lead {
+        font-size: 16px;
+        font-weight: 300;
+        margin: 0;
+    }
+
+    /* iOS BLUE LINKS */
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+
+    li {
+        font-size: 100%;
+    }
+
+    /* ANDROID CENTER FIX */
+    div[style*="margin: 16px 0;"] {
+      margin: 0 !important;
+    }
+
+@-webkit-keyframes intro {
+    0% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}@keyframes intro {
+    0% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}.btn, #goog-wm-sb {
+    display: inline-block;
+    margin-bottom: 0.25em;
+    padding: 0.5em 1em;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-size: .75em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-width: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn .icon, #goog-wm-sb .icon {
+    margin-right: 0.5em;
+}
+.btn .icon+.hidden, #goog-wm-sb .icon+.hidden {
+    margin-left: -0.5em;
+}
+
+.btn--info {
+    background-color: #3b9cba;
+    color: #fff;
+}
+.btn--info:visited {
+    background-color: #3b9cba;
+    color: #fff;
+}
+.btn--info:hover {
+    background-color: #2f7d95;
+    color: #fff;
+}
+  </style>
+</head>
+
+<body style="margin:0; padding:0; background-color:#F2F2F2;">
+  <center>
+    <div style="background-color:#F2F2F2; max-width: 640px; margin: auto;">
+      <!--[if mso]>
+    <table role="presentation" width="640" cellspacing="0" cellpadding="0" border="0" align="center">
+    <tr>
+    <td>
+    <![endif]-->
+
+      <table width="640" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:640px; width:100%;"
+        bgcolor="#FFFFFF">
+        <tr>
+          <td align="center" valign="top" style="padding:10px;">
+
+            <table width="600" cellspacing="0" cellpadding="0" border="0" align="center"
+              style="max-width:600px; width:100%;">
+              <tr bgcolor="#eee">
+                <td align="center" valign="top" style="padding:10px;">
+                  <a class="site-logo" href="https://jacobrcampbell.com/"><img src="https://jacobrcampbell.com/assets/src/jacob-campbell-logo.svg" alt="Jacob Campbell Logo" width="400px" style="display: block; margin-left: auto; margin-right: auto;" /></a>
+                  <p class="lead">Developing a place where resilience can grow and trasformation can happen and supporting the helpers who make it happen</p>
                 </td>
               </tr>
 
-            <!-- END MAIN CONTENT AREA -->
+              <tr>
+                <td align="left" valign="top" style="padding:10px;">
+                  <img src="https://jacobrcampbell.com/assets/media/2020-class-header-sowk-theories-of-practice-ii.png" width="100%;">
+                  <div style="background-color: #3b9cba; width: 100%;">
+                    <a href="" class="btn btn--info">MyHeritage Class</a>
+                    <a href="https://presentations.jacobrcampbell.com"class="btn btn--info">Presentaitons</a>
+                    <a href="https://jacobrcampbell.com/communications/"class="btn btn--info">Archive of Emails</a>
+                    <a href=""class="btn btn--info">Syllabus</a>
+                  </div>
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+
+                  <h2>Unit Introduction and What You Will Learn</h2>
+
+                  <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
+
+                  <h2>Unit Resources</h2>
+
+                  <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+
+                  <h2>Unit Assignments</h2>
+
+                  <p> Morbi id purus convallis diam feugiat semper. Pellentesque ac viverra elit, ac vehicula metus. Aliquam rutrum, lectus sed mattis pellentesque, sapien urna accumsan risus, a facilisis purus velit vel augue. Vivamus id faucibus lectus. Quisque posuere ligula at erat placerat, sit amet auctor arcu pretium. Integer dignissim aliquam lorem. Duis feugiat vehicula lectus, at vehicula lacus cursus vitae. Quisque hendrerit, ipsum sed auctor venenatis, tellus velit convallis leo, eu ultricies justo tellus in quam. Donec non erat vel diam posuere fermentum nec quis tortor. Nulla aliquam augue et viverra venenatis. Integer luctus lectus eget enim hendrerit tristique ut et odio. Integer sit amet venenatis nulla, in efficitur nulla. Vestibulum et diam mi. Aenean a rutrum urna.</p>
+
+                  <p>Quisque pretium, quam eu bibendum varius, turpis erat maximus orci, id ornare erat augue sit amet sem. Aenean at pharetra leo. Nulla facilisi. In enim erat, tincidunt at felis ac, venenatis dapibus est. Integer faucibus purus nec efficitur aliquet. Sed dapibus congue est, eget pretium felis laoreet nec. Etiam quis ullamcorper enim. Vivamus in ligula tempor, maximus nisi ac, facilisis lorem. Nunc blandit malesuada ante, vel porttitor urna euismod vitae. Etiam cursus facilisis lacus, eu tristique elit tempor eu. Aliquam sem orci, facilisis eget dolor eget, fringilla feugiat ipsum. Etiam dapibus varius urna. Phasellus eu ex mauris. Etiam eget bibendum turpis. Phasellus et scelerisque augue. Sed efficitur rhoncus congue.</p>
+
+                  <h2>To Do Lists</h2>
+                  <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Vestibulum ornare leo non velit varius elementum.</li>
+                    <li>Morbi sed ligula in risus ultricies tempus eu non felis.</li>
+                    <li>Aliquam gravida justo eget dolor mollis gravida.</li>
+                    <li>Aliquam non est eu mi egestas tincidunt cursus eu nulla.</li>
+                  </ul>
+
+ 
+                  <h1>Blog Posts</h1>
+                  <ul>
+                    <li><a href="/">Blog Post Title</a> was really good. I hope that you liked it.</li>
+                  </ul>
+                  <h1>Social Media Posts</h1>
+                  <p>I've posted a bunch on social media.</p>
+
+<figure>
+  <img src="https://jacobrcampbell.com/_microposts/instagram/123857221_463542964623881_33717561973554159_n.jpg" width="90%;" />
+  <figcaption>Today feels like a day that is ripe with possibility and new doors open. <a href="https://www.instagram.com/campjacob/">@campjacob</a>(<a href="https://instagr.am/p/CHQXgkdnG4N/">original</a> or <a href="https://jacobrcampbell.com/microposts/2020-11-06-instagram-CHQXgkdnG4N/">website</a>) </figcaption>
+</figure>
+ 
+
+<p>I also really like posting tweets on Twitter. You can see an example of this.</p>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/CARROT_app?ref_src=twsrc%5Etfw">@CARROT_app</a> Notification screen (macOS Big Sur, M1 MacBook Air), the options to give permission to the app doesn’t show so that it can seen. Do I select red, blue, or pink? Doesn’t seem to be resizable… <a href="https://t.co/R5QqATM9V9">pic.twitter.com/R5QqATM9V9</a></p>&mdash; Jacob Campbell (@campjacob) <a href="https://twitter.com/campjacob/status/1340916726683189249?ref_src=twsrc%5Etfw">December 21, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+
+
+                  {{email_content}}
+                </td>
+              </tr>
             </table>
 
-            <!-- START FOOTER -->
-            <div class="footer" style="clear: both; Margin-top: 10px; text-align: center; width: 100%;">
-              <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
-                <tr>
-                  <td class="content-block" style="font-family: sans-serif; vertical-align: top; padding-bottom: 10px; padding-top: 10px; font-size: 12px; color: #999999; text-align: center;">
-                    <span class="apple-link" style="color: #999999; font-size: 12px; text-align: center;">Company Inc, 3 Abbey Road, San Francisco CA 94102</span>
-                    <br> Don't like these emails? <a href="http://i.imgur.com/CScmqnj.gif" style="text-decoration: underline; color: #999999; font-size: 12px; text-align: center;">Unsubscribe</a>.
-                  </td>
-                </tr>
-                <tr>
-                  <td class="content-block powered-by" style="font-family: sans-serif; vertical-align: top; padding-bottom: 10px; padding-top: 10px; font-size: 12px; color: #999999; text-align: center;">
-                    Powered by <a href="http://htmlemail.io" style="color: #999999; font-size: 12px; text-align: center; text-decoration: none;">HTMLemail</a>.
-                  </td>
-                </tr>
-              </table>
-            </div>
-            <!-- END FOOTER -->
+          </td>
+        </tr>
+      </table>
 
-          <!-- END CENTERED WHITE CONTAINER -->
-          </div>
-        </td>
-        <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;">&nbsp;</td>
-      </tr>
+      <!--[if mso]>
+    </td>
+    </tr>
     </table>
-  </body>
+    <![endif]-->
+    </div>
+    <p style="border-top: 1px solid #c6c6c6; color: #a9a9a9; margin-top: 50px; padding-top: 20px;font-size:13px; margin-bottom: 13px;">
+      <a class="site-logo" href="https://jacobrcampbell.com/"><img src="https://jacobrcampbell.com/assets/src/transformation.support-logo.svg" alt="Jacob Campbell Logo" width="200px" style="display: block; margin-left: auto; margin-right: auto;"/></a>
+      <div style="background-color: #3b9cba; width: 100%;">
+        <a href="https://twitter.com/campjacob" class="btn btn--info">Twitter</a>
+        <a href="https://instagram.com/campjacob"class="btn btn--info">Instagram</a>
+        <a href="https://www.snapchat.com/add/campjacob1982"class="btn btn--info">Snapchat</a>
+        <a href="https://www.youtube.com/user/campjacob/"class="btn btn--info">YouTube</a>
+      </div>
+      You received this email because you are subscribed to our list.
+      {% raw %} 
+      You can <a href="{{UnsubscribeURL}}" style="color:#a9a9a9;" target="_blank">unsubscribe</a> at any time or read more about the <a href="https://jacobrcampbell.com/email-signup/">newsletter sign-up</a>.</p>
+      <p style="color: #a9a9a9;margin-bottom: 13px;font-size:13px;">{{SenderInfoLine}}</p>
+      <p style="color: #a9a9a9;margin-bottom: 13px;font-size:13px;">Powered by <a href="{{RewardsURL}}" style="color:#a9a9a9;" target="_blank">EmailOctopus</a>.</p>
+     {% endraw %}
+  </center>
+</body>
+
 </html>
