@@ -9,6 +9,8 @@ excerpt: "Update for Week xx of SOWK 487"
 
 ![SOWK 487 Class Header](https://jacobrcampbell.com/assets/media/2020-class-header-sowk-theories-of-practice-ii.png "SOWK 487 Class Header")
 
+
+
 General info to share 
 
 To be prepared for class, you should complete the weekly reading prior to class this week. This week the reading is:
