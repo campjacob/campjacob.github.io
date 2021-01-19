@@ -46,6 +46,19 @@ layout: default
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
+
+{% if page.micropost_type == "tweet" %}
+      <section>
+
+        <button onclick="showHide()" class=".btn .btn--info .btn--large">Show Text</button>
+        <button onclick="copy()" class=".btn .btn--info .btn--large">Copy text</button>
+
+<textarea id="textarea" style="display:none;">
+{{ page.content }} 
+</textarea>
+      </section>
+{% endif %}
+
 {% if page.media-files %}
       <section>
 
@@ -54,10 +67,14 @@ layout: default
 
 <textarea id="textarea" style="display:none;">
 {% for item in page.media-files %}
-![Instagram Image](/assets/media/{{ item.name }})
-<caption>{{ page.post_text }} <a href="https://www.instagram.com/campjacob/">@campjacob</a>(<a href="{{ page.post_url }}">original</a>) </caption>
+<figure>
+  <img src="https://jacobrcampbell.com/_microposts/instagram/{{ item.name }}" width="90%;" />
+  <figcaption>{{ page.post_text }} <a href="https://www.instagram.com/campjacob/">@campjacob</a> (<a href="{{ page.post_url }}">original</a> or <a href="https://jacobrcampbell.com{{ page.url }}">website</a>) </figcaption>
+</figure>
  {% endfor %}
 </textarea>
+      </section>
+{% endif %}
 
         <script>
         function copy() {
@@ -75,8 +92,6 @@ layout: default
         }
         </script>
 
-      </section>
-{% endif %}
 
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
