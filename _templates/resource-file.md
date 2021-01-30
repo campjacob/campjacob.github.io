@@ -2,7 +2,7 @@
 name: 
 title: ""
 permalink:
-date:
+date: 
 categories:
     - Article
     - Informational
