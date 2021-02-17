@@ -32,8 +32,6 @@ You **need to read** Garvin et al. (2017) Chapter 7
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/O_D4Igcxgic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-{% include figure image_path="https://jacobrcampbell.com/assets/media/mutual-aid-boat-teaser-500x300.png" %}
-
 The presentation slides can be viewed through [Notist on my website](https://presentations.jacobrcampbell.com), where you can download them and follow along during class. [SOWK 487 Week 06 - Group Practice Models: Mutual Aid](https://presentations.jacobrcampbell.com/suRjoI)
 
 <p data-notist="campjacob/suRjoI" data-ratio="4:3">View <a href="https://presentations.jacobrcampbell.com/suRjoI">SOWK 487 Week 06 - Group Practice Models - Mutual Aid</a>.</p><script async src="https://on.notist.cloud/embed/002.js"></script>
