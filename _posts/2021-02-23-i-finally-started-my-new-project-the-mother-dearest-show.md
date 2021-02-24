@@ -28,7 +28,7 @@ Growing up in this way cemented my appreciation of the spoken word. I recently f
 
 I also listen to a lot of podcasts. In 2014, I wrote [Jump in The Stream, Favorite Podcasts](https://jacobrcampbell.com/blog/2014/4/jump-in-the-stream-favorite-podcasts) where I shared some of my favorite podcasts at the time. I still listen to most of the podcasts on that list, but the number of different podcasts I listen to has grown along, and which ones get priority.  Maybe at some point, I will write up something about my current listening habits.  If you are looking for some great shows, I value the [Relay FM](https://www.relay.fm/) network and all of the great shows. 
 
-{% include figure image_path="/assets/media/2021-too-many-shows-to-listen-to.jpeg alt= "A graphic of headphones and text - currently I have 21 shows With episodes I'd like to listen to… too many subscriptions" caption= "Maybe I'm subscribed to too many podcasts" %}
+{% include figure image_path="/assets/media/2021-too-many-shows-to-listen-to.jpeg" alt="A graphic of headphones and text - currently I have 21 shows With episodes I'd like to listen to... too many subscriptions" caption="Maybe I'm subscribed to too many podcasts" %}
 
 I have also been trying to get my kids interested in listening to audio. We have listened to some audiobooks. They enjoyed [_The Wizard of Oz_](https://www.goodreads.com/book/show/236093), which was one of the first books I got them to listen to on the way to a camping trip a couple of years back. They have also enjoyed [WOW in the World](https://tinkercast.com/shows/wow-in-the-world/) and [Circle Round](https://www.wbur.org/circleround). Lately, every time we get into the car, even if we are only going five minutes away, they say to put on the [Mother Dearest Show](https://motherdearest.show). When I have put it on, they always get reticent and listen, but afterward, they tell me that I should make it less boring. They figure the way to make it less boring would be for them to be on it.
 
@@ -38,7 +38,7 @@ What is this, you might be asking yourself, how would they get on to the podcast
 
 So far, we have done two episodes, and it has been enjoyable. The general premise is me talking with my mom about a subject. If you know my mom, you know that she is a pretty amazing woman. She helped start a couple of non-profits. The last couple of years, I have had her come in and speak to the students in my Social Work Classes. She always gets them excited, and they tell about how great her time was with them.
 
-{% include figure image_path="/assets/media/2021-mom-presenting-at-heritage.jpeg." alt= "Photo of Judy Dirks Teaching in 2017 at Heritage University" caption= "A photo of my mom presenting in 2017 for one my classes at Heritage University" %}
+{% include figure image_path="/assets/media/2021-mom-presenting-at-heritage.jpeg" alt= "Photo of Judy Dirks Teaching in 2017 at Heritage University" caption= "A photo of my mom presenting in 2017 for one my classes at Heritage University" %}
 
 To start each episode, we have been drawing tarot-style cards and connecting with the topic. The first card was from my Zen Deck and was going with the flow and the second one was from My mom's Oracle Divination Cards and the Yang card. It has been fascinating to see how each episode how it connects with the topics. We have explored some counseling practices, my mom being in the convent, and some other interesting conversations. I figure the topics will range from areas that we have some shared interest or family interest.
 
