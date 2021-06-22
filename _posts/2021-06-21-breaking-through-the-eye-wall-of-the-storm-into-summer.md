@@ -38,9 +38,9 @@ This start of summer has been filled as well. One inspiring thing is our oldest 
 
 To give some context to my breaking through the eyewall of the storm, last Saturday was a graduation ceremony, some family visits, and a graduation party. Then, I had a couple of days focused on finishing up my work at the school district, and Wednesday was my last day of school for myself and my kids. I got the opportunity on Thursday to spend time with some colleagues and have our annual end-of-the-year BBQ. On Friday, my family all went to [Silverwood Theme Park](https://www.silverwoodthemepark.com). Growing up, I got the opportunity to go to Silverwood many times. It has always been a lot of fun. I love roller coasters, although I can't handle anything that spins. I have a lot of great memories of visiting the theme park, even in college.
 
-{% include figure image_path="/assets/media/2005-07-25-silverwood-jumping.jpg" alt="Photo of my friends and I jumping up and clicking our heels." caption="Photo of some of my friends when I was working on my AA all trying to jump up and click our heels at the same time. It is actually a lot harder than it looks to be synchronized." %}
+{% include figure image_path="/assets/media/2005-07-25-silverwood-jumping.jpeg" alt="Photo of my friends and I jumping up and clicking our heels." caption="Photo of some of my friends when I was working on my AA all trying to jump up and click our heels at the same time. It is actually a lot harder than it looks to be synchronized." %}
 
-[![Weather During our Trip](/assets/media/2021-06-siIverwood-weather-IMG_0330.jpeg){: width=35% .align-left}](/assets/media/2021-06-siIverwood-weather-IMG_0330.jpeg)
+![Weather During our Trip](/assets/media/2021-06-siIverwood-weather-IMG_0330.jpeg){: width=35% .align-left}
 
 Two years ago, we took the kids to Silverwood. It was a fun trip, but we ended up being there during a storm that included massive amounts of rain and even hail. It meant that the lines were really short for rides, but we didn't stay as much as we would have liked. This year, the weather was beautiful, and we spent about half of our time at [Boulder Beach](https://www.silverwoodthemepark.com/rides/boulder-beach.php), which is perfect when the weather is in the high 80 and sunny. The kids all seemed to enjoy themselves as well.
 
