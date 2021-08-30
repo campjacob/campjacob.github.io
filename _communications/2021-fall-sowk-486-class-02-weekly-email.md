@@ -7,7 +7,7 @@ semester: Fall 2021
 excerpt: "Update for Week 02 of SOWK 486"
 ---
 
-![SOWK 487 Class Header](https://jacobrcampbell.com/assets/media/2020-class-header-sowk-theories-of-practice-ii.png "SOWK 487 Class Header")
+![SOWK 486 Class Header](https://jacobrcampbell.com/assets/media/2020-fall-sowk-486-class-header.png)
 
 <div style="background-color: #3b9cba; width: 100%;" markdown="1">
 
