@@ -38,7 +38,7 @@ Dr. Beverly Ford describes the assessment process that gives some insight into w
 
 Some of the apps that I share and use when I am talking about my documentation are as follows:
 
-- [Drafts | Where Text Starts](https://getdrafts.com/) on iOS and macOS
+- [Drafts: Where Text Starts](https://getdrafts.com/) on iOS and macOS
 - [TextExpander](https://smilesoftware.com/) on iOS, macOS, and Windows
 - [Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios)
 
