@@ -24,6 +24,8 @@ header:
 excerpt: "A remembrance video for my concuñada Patricia del Villar Martinez"
 ---
 
+{% include video id="47StxnEzypI" provider="youtube" %}
+
 My concuñada (sister-in-law[^1]) passed away recently. They asked me to put together a remembrance video for her. I ended creating the photos with the various bible verses and quotes/information in Keynote and exporting them as images. Many of the images used are from Unsplash or from Wikipedia Commons. I used the SetApp app [PullTube](https://setapp.com/apps/pulltube) to download the songs from YouTube. Then I added everything to Final Cut, made some Ken Burns effects and transitions. The song list is as follows:
 
 1. [Inolvidable Amor - Los Yonics](https://youtu.be/2EerWuUel4k) 4:05
