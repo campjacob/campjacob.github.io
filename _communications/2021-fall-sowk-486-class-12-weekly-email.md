@@ -66,7 +66,7 @@ Attend class
  
 ## A–02: Reading Quiz
 
-Read chapters 17 and 18 and complete a [reading quiz]((https://myheritage.heritage.edu/ICS/Academics/SOWK/SOWK_486W/2122_FA-SOWK_486W-3/Coursework.jnz?portlet=Coursework&screen=AssignmentDetailView&screenType=change&id=38c1cead-5e1b-414a-a9d4-3e5d7df8cd06) before class _via My Heritage_  
+Read chapters 17 and 18 and complete a [reading quiz](https://myheritage.heritage.edu/ICS/Academics/SOWK/SOWK_486W/2122_FA-SOWK_486W-3/Coursework.jnz?portlet=Coursework&screen=AssignmentDetailView&screenType=change&id=38c1cead-5e1b-414a-a9d4-3e5d7df8cd06) before class _via My Heritage_  
 
 ## To Do Lists
 
