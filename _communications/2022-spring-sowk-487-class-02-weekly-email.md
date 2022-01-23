@@ -2,7 +2,7 @@
 name: 2022-spring-sowk-487-class-02-weekly-email.md
 title: Spring 2022 SOWK 487 Class 02 Weekly Email
 date: 2022-01-23 13:16:48
-group: SOWK 322
+group: SOWK 487
 semester: Spring 2022
 excerpt: "Update for Week 02 of SOWK 487"
 ---
