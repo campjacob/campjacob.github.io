@@ -18,7 +18,7 @@ excerpt: "Update for Week 02 of SOWK 487"
 
 </div>
 
-I hope that you are all doing well and excited to start going through the process for this class. we still have a lot of unknowns as we get start this semester. Just know I will communicate with you what the plan is and be supportive of making sure that everybody can successful and have the most engaging learning activities we can. Just a reminder that we are meeting via zoom this week, the link on the main course page.
+I hope that you are all doing well and excited to start going through the process for this class. we still have a lot of unknowns as we get start this semester. Just know I will communicate with you what the plan is and be supportive of making sure that everybody can successful and have the most engaging learning activities we can. Just a reminder that we are meeting via zoom this week, the link on the main course page. Also, please remember that if you would like to receive these weekly emails somewhere else, you can email me or fill out the Google Form <https://forms.gle/gnSt3nxqsfaTebg17>
 
 ## Unit Introduction and What You Will Learn
 
