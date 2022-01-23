@@ -1,18 +1,18 @@
 ---
-name: 2022-spring-sowk-322-class-xx-weekly-email.md
-title: Spring 2022 SOWK 322 Class xx Weekly Email
-date: 2022-01-22 16:04:49
+name: 2022-spring-sowk-487-class-xx-weekly-email.md
+title: Spring 2022 SOWK 487 Class xx Weekly Email
+date: 2022-01-23 13:16:48
 group: SOWK 322
 semester: Spring 2022
-excerpt: "Update for Week xx of SOWK 322"
+excerpt: "Update for Week xx of SOWK 487"
 ---
 
-![SOWK 322 Class Header](https://jacobrcampbell.com/assets/media/2022-spring-sowk-322-class-header.png)
+![SOWK 487 Class Header](https://jacobrcampbell.com/assets/media/2020-class-header-sowk-theories-of-practice-ii.png)
 
 <div style="background-color: #3b9cba; width: 100%;" markdown="1">
 
-[MyHeritage](https://myheritage.heritage.edu/ICS/Academics/SOWK/SOWK_322/2122_SP-SOWK_322-0/){: .btn .btn--info}
-[Syllabus](https://jacobrcampbell.com/assets/media/2022-spring-sowk-322-syllabus.pdf){: .btn .btn--info}
+[MyHeritage](https://myheritage.heritage.edu/ICS/Academics/SOWK/SOWK_487W/2122_SP-SOWK_487W-2/){: .btn .btn--info}
+[Syllabus](https://jacobrcampbell.com/assets/media/2022-spring-sowk-487-syllabus.pdf){: .btn .btn--info}
 [Presentations](https://presentations.jacobrcampbell.com){: .btn .btn--info}
 [Emails](https://jacobrcampbell.com/communications/){: .btn .btn--info}
 
