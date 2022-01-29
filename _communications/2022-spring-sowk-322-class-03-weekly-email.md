@@ -32,7 +32,7 @@ In week three we continue to learn about the disability rights movement in the U
 
 ## Unit Resources
 
-This week, you will be doing [A-02: Disability Rights Quiz](https://myheritage.heritage.edu/ICS/Academics/SOWK/SOWK_322/2122_SP-SOWK_322-0/Assignments.jnz?portlet=Coursework&screen=AssignmentDetailView&screenType=change&id=475f4cb2-14eb-46c4-9b93-dde39fabdce1), which is all about the American with Disabilities Act (ADA, 1990). Mid-Atlantic ADA Center (n.d.) has a two-page, very brief and concise handout that includes all of the information you need to pass the quiz. The handout is [An Overview of the Americans with Disabilities Act](https://adata.org/sites/adata.org/files/files/ADA_Overview_2015-handout.pdf). Netflix Film Club (2020) has a good film that talks about ADA law, [How the ADA Changed the Built World | Crip Camp | Netflix](https://youtu.be/5aiFVhXSvgc) that is good.
+This week, you will be doing [A-02: Disability Rights Quiz](https://myheritage.heritage.edu/ICS/Academics/SOWK/SOWK_322/2122_SP-SOWK_322-0/Assignments.jnz?portlet=Coursework&screen=AssignmentDetailView&screenType=change&id=475f4cb2-14eb-46c4-9b93-dde39fabdce1), which is all about the American with Disabilities Act (ADA, 1990). Mid-Atlantic ADA Center (n.d.) has a two-page, very brief and concise handout that includes all of the information you need to pass the quiz. The handout is [An Overview of the Americans with Disabilities Act](https://adata.org/sites/adata.org/files/files/ADA_Overview_2015-handout.pdf). Netflix Film Club (2020) has a good film that talks about ADA law, [How the ADA Changed the Built World / Crip Camp / Netflix](https://youtu.be/5aiFVhXSvgc) that is good.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5aiFVhXSvgc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -68,7 +68,7 @@ Individuals with disabilities education act, 20 U.S.C. § 1400 (2004).
 
 Mid-Atlantic ADA Center (n.d.) An Overview of the Americans with Disabilities Act. <https://adata.org/sites/adata.org/files/files/ADA_Overview_2015-handout.pdf>
 
-Netflix Film Club. (2020, July 25) How the ADA changed the built world | Crip Camp | Netflix [Video]. _YouTube_ <https://youtu.be/5aiFVhXSvgc>
+Netflix Film Club. (2020, July 25) How the ADA changed the built world / Crip Camp / Netflix [Video]. _YouTube_ <https://youtu.be/5aiFVhXSvgc>
 
 Research & Training Center on Independent Living. (2014). Ed Roberts: His words, his vision [Video]. _YouTube_. <https://youtu.be/ivaJsJ-mnm8>
 
@@ -83,7 +83,7 @@ Rothman, J. (2018). _Social work practice across disability_ (2nd ed.). Routledg
 - Read chapter Rothman (2018) chapter three, The Disability Rights Movement in the United States
 - Review the handout [An Overview of the Americans with Disabilities Act](https://adata.org/sites/adata.org/files/files/ADA_Overview_2015-handout.pdf) for the quiz
 - Watch my lecture video, [Week 03 - Special Education Services in Schools](https://heritage.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=62716fc8-513b-4865-bc6d-ae2c016a36a1).
-- Watch the videos included in the unit resources section; [How the ADA Changed the Built World | Crip Camp | Netflix](https://youtu.be/5aiFVhXSvgc), [Individuals with Disabilities Education Act: 40 Years Later](https://youtu.be/rgwstMsPvd4), [Ed Roberts: His Words, His Vision](https://youtu.be/ivaJsJ-mnm8)
+- Watch the videos included in the unit resources section; [How the ADA Changed the Built World / Crip Camp / Netflix](https://youtu.be/5aiFVhXSvgc), [Individuals with Disabilities Education Act: 40 Years Later](https://youtu.be/rgwstMsPvd4), [Ed Roberts: His Words, His Vision](https://youtu.be/ivaJsJ-mnm8)
 
 **A-01: Asynchronous Participation and Engagement**
 
