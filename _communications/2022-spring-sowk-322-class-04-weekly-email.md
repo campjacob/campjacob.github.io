@@ -77,9 +77,9 @@ Mackelprang, R., & Salsgiver, R. (2016). Chapter 2 - Human development and disab
 
 Rothman, J. (2018). _Social work practice across disability_ (2nd ed.). Routledge.
 
-TEDx Talks (2017, January 18) Sexuality and disability: Forging identity in a world that leaves you out | Gaelynn Lea | TEDxYale [Video]. _YouTube_. <https://youtu.be/akGYugciSVw>
+TEDx Talks (2017, January 18) Sexuality and disability: Forging identity in a world that leaves you out / Gaelynn Lea / TEDxYale [Video]. _YouTube_. <https://youtu.be/akGYugciSVw>
 
-TEDx Talks (2018, July 16) Uncovering: an Empowering pathway to disability identity | Heather Evans | TEDxUofW. [
+TEDx Talks (2018, July 16) Uncovering: an Empowering pathway to disability identity / Heather Evans / TEDxUofW. [
 Video] _YouTube_. <https://youtu.be/WQsA_ItnGeg>
 
 </div>
