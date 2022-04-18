@@ -22,7 +22,7 @@ The end of the semester is coming quick. I'm excited for class this week. We hav
 
 ## What you Will Learn Week 14
 
-Week 14 is getting close to the end of the semester. We will start class with a painting activity that I find can be useful in facilitating groups. The readings for this week include Córdova et al. (2017) write about substance abuse prevention groups. Next, I will present a TED talk [Everything you think you know about addiction is wrong | Johann Hari](https://youtu.be/PY9DcIMGxMs), and we will spend some time talking about the concept of addiction. Saunders (2017) is another of the week's readings, and he talks about partner abuse groups. We will spend time in class practicing assertiveness skills and groups. Finally, we will go through an activity that I picked up while living on Campus at Eastern Washington University and as a part of the residential hall association.
+Week 14 is getting close to the end of the semester. We will start class with a painting activity that I find can be useful in facilitating groups. The readings for this week include Córdova et al. (2017) write about substance abuse prevention groups. Next, I will present a TED talk [Everything you think you know about addiction is wrong / Johann Hari](https://youtu.be/PY9DcIMGxMs), and we will spend some time talking about the concept of addiction. Saunders (2017) is another of the week's readings, and he talks about partner abuse groups. We will spend time in class practicing assertiveness skills and groups. Finally, we will go through an activity that I picked up while living on Campus at Eastern Washington University and as a part of the residential hall association.
 
 <div style="text-align: center" markdown="1">
 Reference
@@ -44,7 +44,7 @@ TED. (2015). Everything you think you know about addiction is wrong, Johann Hari
 
 You **need to read** Garvin et al. (2017) 17, 18, and 20
 
-If you are interested in the video we watch, it is found at [Everything you think you know about addiction is wrong | Johann Hari](https://youtu.be/PY9DcIMGxMs). The [Speed Hating - A Date with Discrimination](https://myheritage.heritage.edu/ICS/Portlets/ICS/Handoutportlet/viewhandler.ashx?handout_id=a455fe02-00c9-401d-843f-f61a99b13242) activity is also something you can download and look at.
+If you are interested in the video we watch, it is found at [Everything you think you know about addiction is wrong / Johann Hari](https://youtu.be/PY9DcIMGxMs). The [Speed Hating - A Date with Discrimination](https://myheritage.heritage.edu/ICS/Portlets/ICS/Handoutportlet/viewhandler.ashx?handout_id=a455fe02-00c9-401d-843f-f61a99b13242) activity is also something you can download and look at.
 
 The presentation slides can be viewed through [Notist on my website](https://presentations.jacobrcampbell.com), where you can download them and follow along during class. The presentation [Spring 2022 SOWK 487 Week 14 - Group Work Approaches Related to Setting II](https://presentations.jacobrcampbell.com/cU4lO2).
 
