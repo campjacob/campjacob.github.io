@@ -18,7 +18,7 @@ excerpt: "Update for Week 01 of SOWK 430"
 
 </div>
 
-Hey, Welcome to the first week of class!
+Welcome to the first week of class!
 
 ## Unit Introduction and What You Will Learn
 
