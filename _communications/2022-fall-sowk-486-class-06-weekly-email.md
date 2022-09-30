@@ -1,7 +1,7 @@
 ---
 name: 2022-fall-sowk-486-class-06-weekly-email.md
 title: Fall 2022 SOWK 486 Class 06 Weekly Email
-date: 2022-08-20 15:53:00
+date: 2022-09-29 22:48:47
 group: SOWK 486
 semester: Fall 2022
 excerpt: "Update for Week 06 of SOWK 486"
