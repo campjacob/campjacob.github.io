@@ -26,12 +26,12 @@ The following is the info:
 
 ## A Professional Learning Community for Developing Trauma-Informed Practices Using Participatory Action Methods: Transforming School Culture for Students with Emotional and Behavioral Disabilities
 
-Friday, March 3, 2023 at 8:15am PST via Zoom
+Friday, March 3, 2023 at 8:15am PST via Zoom  
 Join Zoom Meeting: <https://ciis.zoom.us/j/92596720803>
  
-Dissertation Committee Chair:  Michael Raffanti, Ed.D., J.D.
-Dissertation Committee Member:  Kerubo Abuya, Ph.D.
-Dissertation Committee External Member:  Douglas Judge, Ph.D.
+Dissertation Committee Chair:  Michael Raffanti, Ed.D., J.D.  
+Dissertation Committee Member:  Kerubo Abuya, Ph.D.  
+Dissertation Committee External Member:  Douglas Judge, Ph.D.  
 
 
 Students with emotional and behavioral disabilities (EBD) endure adverse childhood experiences (ACEs) and other traumatic experiences at higher rates than their non-disabled peers. Staff who work with these students can experience compassion fatigue, contributing to staff attrition and burnout. Trauma-informed care practices show promise in supporting staff and students. The primary method generally used for teaching about these practices is workshop-style training methods. The professional learning community (PLC) presents a learning model directed by its team but is currently centered around teachers and academic curriculum discourse.
