@@ -1,7 +1,7 @@
 ---
 name: 2023-fall-sowk-486-class-09-weekly-email.md
 title: Fall 2023 SOWK 486w Class 09 Weekly Email
-date: 2023-08-27 23:31:29
+date: 2023-10-15 23:33:42
 group: SOWK 486
 semester: Fall 2023
 excerpt: "Update for Week 09 of SOWK 486"
