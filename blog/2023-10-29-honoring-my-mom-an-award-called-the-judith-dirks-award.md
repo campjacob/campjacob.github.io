@@ -37,6 +37,6 @@ They are a very worthy cause. Even if you didn't go to their Benefit Breakfast, 
 
 My mom talked briefly about starting Elijah Family Homes and a few other organizations during [Episode 6: The Right People at the Right Time](https://motherdearest.show/6). At the Breakfast this year, my mom got an award named after her called the "The Judith Dirks Award," which is meant to be given to people who have shown outstanding service, sacrifice, initiative, and perseverance in the community and towards EFHs. She was the first award recipient, but in future years, it will be given to other worthy candidates.
 
-{% include figure image_path="/assets/media/2023-10-29-Judy-receiving-2023-Judith-Dirks-award.jpeg alt="Judy Holding the 2023 Judith Dirks Award" caption="My mom holding her award, the 2023 Judith Dirks Award." %}
+{% include figure image_path="/assets/media/2023-10-29-Judy-receiving-2023-Judith-Dirks-award.jpeg" alt="Judy Holding the 2023 Judith Dirks Award" caption="My mom holding her award, the 2023 Judith Dirks Award." %}
 
 I am so proud of her, and she is very deserving of having an award named after her. For many years I have wondered [what will be carried on after I am dead and gone](https://jacobrcampbell.com/blog/2008/9/what-major-events-make-up-my-life). I can only hope as I continue my path working in and serving the community, that I can make some of the similar types of impacts she has made.
