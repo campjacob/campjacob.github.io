@@ -12,7 +12,7 @@ excerpt: "Update for Week xx of SOWK 486"
 <div style="background-color: #3b9cba; width: 100%;" markdown="1">
 
 [MyHeritage](https://myheritage.heritage.edu/ICS/Academics/SOWK/SOWK_486W/2324_FA-SOWK_486W-1/){: .btn .btn--info}
-[Syllabus](https://jacobrcampbell.com/assets/media/2023-fall-sowk-486w-1-course-syllabus.pdf){: .btn .btn--info}
+[Syllabus](){: .btn .btn--info}
 [Presentations](https://presentations.jacobrcampbell.com){: .btn .btn--info}
 [Emails](https://jacobrcampbell.com/communications/){: .btn .btn--info}
 

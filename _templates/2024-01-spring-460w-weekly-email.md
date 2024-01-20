@@ -12,7 +12,7 @@ excerpt: "Update for Week xx of SOWK 460w"
 <div style="background-color: #3b9cba; width: 100%;" markdown="1">
 
 [MyHeritage](https://myheritage.heritage.edu/ICS/Academics/SOWK/SOWK_460W/2324_SP-SOWK_460W-1/){: .btn .btn--info}
-[Syllabus](){: .btn .btn--info}
+[Syllabus](https://jacobrcampbell.com/assets/media/2024-spring-sowk-460w-1-course-syllabus-campbell.pdf){: .btn .btn--info}
 [Presentations](https://presentations.jacobrcampbell.com){: .btn .btn--info}
 [Emails](https://jacobrcampbell.com/communications/){: .btn .btn--info}
 
