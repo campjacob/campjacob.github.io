@@ -90,7 +90,7 @@ You can find the lecture video recording for this class in the [lecture videos](
 
 <iframe src="https://heritage.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=2f17fcd2-db63-4de5-b08d-b0fd0178f953&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player"></iframe>
 
-In my presentation, I share a short video clip (see [TikTok I showed](https://www.tiktok.com/t/ZTRpGwX6f/)). There is a company video that is about five minutes I'd like for you to check out - [Our Company Video | Bitty & Beau's Coffee](https://youtu.be/lLylj_Gj6y4)
+In my presentation, I share a short video clip (see [TikTok I showed](https://www.tiktok.com/t/ZTRpGwX6f/)). There is a company video that is about five minutes I'd like for you to check out - [Our Company Video - Bitty & Beau's Coffee](https://youtu.be/lLylj_Gj6y4)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lLylj_Gj6y4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
