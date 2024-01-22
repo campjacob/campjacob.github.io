@@ -37,7 +37,7 @@ Attend Class
 
 **A-02: Chapter Reading Quiz**
 
-Complete the reading quiz, [W-02 A-02 for Kapp and Anderson (2009) chapter(s) 01 and 02](https://myheritage.heritage.edu/ICS/Academics/SOWK/SOWK_460W/2324_SP-SOWK_460W-1/Assignments.jnz?portlet=Coursework&screen=AssignmentDetailView&screenType=change&id=fbf69000-e107-499f-bdbe-13712fc0dff5).
+Complete the reading quiz, [W-02 A-02 for Kapp and Anderson (2010) chapter(s) 01 and 02](https://myheritage.heritage.edu/ICS/Academics/SOWK/SOWK_460W/2324_SP-SOWK_460W-1/Assignments.jnz?portlet=Coursework&screen=AssignmentDetailView&screenType=change&id=fbf69000-e107-499f-bdbe-13712fc0dff5).
 
 ## Unit Resources
 
@@ -64,4 +64,4 @@ National Association of Social Workers. (2021). NASW code of ethics. <https://ww
 
 - Read Kapp and Anderson (2010) Chapters one and two
 - Attend class in RM SWL 106  Monday at 5:30 PM
-- Complete [W-02 A-02 for Kapp and Anderson (2009) chapter(s) 01 and 02](https://myheritage.heritage.edu/ICS/Academics/SOWK/SOWK_460W/2324_SP-SOWK_460W-1/Assignments.jnz?portlet=Coursework&screen=AssignmentDetailView&screenType=change&id=fbf69000-e107-499f-bdbe-13712fc0dff5)
+- Complete [W-02 A-02 for Kapp and Anderson (2010) chapter(s) 01 and 02](https://myheritage.heritage.edu/ICS/Academics/SOWK/SOWK_460W/2324_SP-SOWK_460W-1/Assignments.jnz?portlet=Coursework&screen=AssignmentDetailView&screenType=change&id=fbf69000-e107-499f-bdbe-13712fc0dff5)
