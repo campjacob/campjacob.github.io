@@ -7,7 +7,7 @@ semester: Spring 2024
 excerpt: "Update for Week xx of SOWK 322"
 ---
 
-![SOWK 322 Class Header](https://jacobrcampbell.com/assets/media/2024-01-19-sowk-322-email-header-image.jpg)
+![](https://jacobrcampbell.com/assets/media/2024-01-19-sowk-322-email-header-image.jpg)
 
 <div style="background-color: #3b9cba; width: 100%;" markdown="1">
 
