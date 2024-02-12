@@ -69,12 +69,14 @@ If you are interested in connecting with me in social media, here is a list of l
 
 The places I use most frequently are:
 
-- <i class="fab fa-twitter"></i> [@campjacob on Twitter][3]
+- <i class="fa-solid fa-graduation-cap"></i> [Google Scholar Profile](https://scholar.google.com/citations?user=Zdwm8rMAAAAJ&hl=en)
+- <i class="fa-brands fa-mastodon"></i> [@Jacob@social.vsp.ink](https://social.vsp.ink/@Jacob)
 - <i class="fab fa-snapchat-ghost"></i> [@campjacob1982 on Snapchat][4]
 - <i class="fab fa-youtube"></i> [My Channel YouTube][5]
 
 I also use a bit less frequently
 
+- <span style="text-decoration:line-through;"><i class="fab fa-twitter"></i> [@campjacob on Twitter][3]</span>
 - <i class="fab fa-facebook"></i> [Personal Facebook][6]
 - <i class="fab fa-instagram"></i> [@campjacob Instagram][7]
 - <i class="fab fa-pinterest"></i> [Pintrest][8]
