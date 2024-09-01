@@ -1,5 +1,5 @@
 ---
-name: 2024-fall-sowk-581.0-class-03-weekly-email.md
+name: 2024-fall-sowk-581-0-class-03-weekly-email.md
 title: Fall 2024 SOWK 581.0 Class 03 Weekly Email
 date: 2024-09-01 13:17:09
 group: SOWK 581
