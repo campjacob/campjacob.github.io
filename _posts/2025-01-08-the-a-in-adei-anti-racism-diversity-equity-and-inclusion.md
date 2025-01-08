@@ -22,7 +22,7 @@ header:
   actions:
     - label: "Read the Full Newsletter"
       url: "https://heritage.edu/wp-content/uploads/2025/01/SWN-Fall-2024.pdf"
-excerpt: "I wrote one of the articles for Heritage University's inaugural newsletter for coming out for Fall 2024. You should look at the whole issue, as there is a some warm messages, we highlight a faculty, student, and practicum supervisor and more."
+excerpt: "I had the privilege of contributing an article to Heritage University's inaugural newsletter for Fall 2024! The whole issue is packed with warm messages, highlights of faculty, students, and practicum supervisors, and much more. Be sure to check it out!"
 ---
 
 The National Association of Social Workers (NASW, 2021) code of ethics defines six values: service, social justice, dignity and worth of the person, importance of human relationships, integrity, and competence. The ethical principle commissioning social workers to challenge injustice runs at the core of being a social worker. 
@@ -46,7 +46,7 @@ There is no middle ground or space for apathy. In our everyday actions are we do
 <div style="text-align: center" markdown="1">
 Reference
 </div>
-Council on Social Work Education. (2022). 2022 EPAS: Educational policy and accreditation standards for baccalaureate and master’s social work programs. <https://www.cswe.org/accreditation/policies-process/2022epas/>
+Council on Social Work Education. (2022). 2022 EPAS: Educational policy and accreditation standards for baccalaureate and master's social work programs. <https://www.cswe.org/accreditation/policies-process/2022epas/>
 
 Kendi, I. X. (2023). _How to be an antiracist_. One World.
 
