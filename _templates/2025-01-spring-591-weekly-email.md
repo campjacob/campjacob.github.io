@@ -7,7 +7,7 @@ semester: Spring 2025
 excerpt: "Update for Week xx of SOWK 591"
 ---
 
-![SOWK 460w Class Header](https://jacobrcampbell.com/assets/media/2024-01-19-sowk-460w-email-header-image.jpg)
+![SOWK 591 Class Header](https://jacobrcampbell.com/assets/media/2025-sowk-591-email-header-image.jpg)
 
 <div style="background-color: #3b9cba; width: 100%;" markdown="1">
 
