@@ -1,7 +1,11 @@
 ---
 title: concomitant
-date: 2014-08-03
-dictionary-picture: false
+date: 2025-03-10
+dictionary-picture: true
+dictionary-picture-file: 2025-03-10-new-words-screenshot-concomitant.jpeg
+dictionary-story: “I went to post this word, imagining that I hadn’t ever posted it before. It turns that that I did in August third of 2014. Now I have a screenshot that I can add to this entry from a current read.”
+source-reference: “Jarolmen, J., & Bautista-Thomas, C. (2023). _School social work: A direct practice guide_ (2nd ed.). Waveland Press.”
+source-author: “Jarolmen and Bautista-Thomas (2023)”
 ---
 
 # concomitant
