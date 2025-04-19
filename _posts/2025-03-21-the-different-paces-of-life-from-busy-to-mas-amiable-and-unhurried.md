@@ -6,6 +6,7 @@ tags:
   - Travel Troubles
   - Beach
   - Family
+  - 2025 Vejar al Mexico Spring Break
   - L-- Puerto Vallarta Mexico
   - L-- Mexico City Mexico
   - L-- Jungapeo Mexico
