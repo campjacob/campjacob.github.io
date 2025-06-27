@@ -32,11 +32,10 @@ For this example, if you could imagine somebody dropping a single dollar every s
 * For **$1,000,000,000** (one billion) it would take **31 years 249 days 1 hour 46 minutes and 40 seconds**
 * For **$1,000,000,000,000** (one trillion) it would take **316 centuries 88 years 32 days 1 hour 46 minutes and 40 seconds**
 
-This [Adobe Flash Video][4] that I created (nothing too amazing)
+See the [Adobe Flash Video][4] that I created (nothing too amazing).
 
    [4]: /assets/media/money-pit-flash-demo.swf
 
- 
-<object width=550 height=400 data="/assets/media/money-pit-flash-demo.swf" type="application/x-shockwave-flash"><param name=src value="/assets/media/money-pit-flash-demo.swf"></param></object>
+**Updated 06/26/25**: Back in 2020, Flash was officially discontinued and this hasn't been able to be seen for a number of years. I used a tool to convert it to a GIF so that it can be shared again.
 
-
+![A graphic origionally I origionally made in Flash to show dollars being dropped one per second.](/assets/media/2025-money-pit.gif "Money Pit")
