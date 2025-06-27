@@ -38,4 +38,4 @@ See the [Adobe Flash Video][4] that I created (nothing too amazing).
 
 **Updated 06/26/25**: Back in 2020, Flash was officially discontinued and this hasn't been able to be seen for a number of years. I used a tool to convert it to a GIF so that it can be shared again.
 
-![A graphic origionally I origionally made in Flash to show dollars being dropped one per second.](/assets/media/2025-money-pit.gif "Money Pit")
+![A graphic origionally I origionally made in Flash to show dollars being dropped one per second.](/assets/media/2025-money-pit-infinite.gif "Money Pit")
