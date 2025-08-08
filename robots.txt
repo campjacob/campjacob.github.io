@@ -1,0 +1,9 @@
+# Allow all crawlers full access
+User-agent: *
+Disallow:
+
+# Algolia verification
+# Algolia-Crawler-Verif: EBF59D1C049AA6CC
+
+# Sitemap location
+Sitemap: https://jacobrcampbell.com/sitemap.xml
