@@ -1,6 +1,6 @@
 ---
 title: elucidate
-date: 2015-03-25
+added_to_project: 2015-03-25
 dictionary-picture: false
 ---
 

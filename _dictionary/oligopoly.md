@@ -1,6 +1,6 @@
 ---
 title: oligopoly
-date: 2014-04-24
+added_to_project: 2014-04-24
 dictionary-picture: false
 ---
 

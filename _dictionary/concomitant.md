@@ -1,6 +1,6 @@
 ---
 title: concomitant
-date: 2025-03-10
+added_to_project: 2025-03-10
 dictionary-picture: true
 dictionary-picture-file: 2025-03-10-new-words-screenshot-concomitant.jpeg
 dictionary-story: "I went to post this word, imagining that I hadn’t ever posted it before. It turns that that I did in August third of 2014. Now I have a screenshot that I can add to this entry from a current read."

@@ -1,6 +1,6 @@
 ---
 title: synecdoche
-date: 2020-03-14
+added_to_project: 2020-03-14
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-synecdoche.jpg
 ---

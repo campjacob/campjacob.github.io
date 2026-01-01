@@ -1,6 +1,6 @@
 ---
 title: pernicious
-date: 2014-11-26
+added_to_project: 2014-11-26
 dictionary-picture: false
 ---
 

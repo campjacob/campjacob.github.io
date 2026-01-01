@@ -1,6 +1,6 @@
 ---
 title: centrifugal versus centripetal
-date: 2019-11-03
+added_to_project: 2019-11-03
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-centrifugal versus centripetal.jpg
 dictionary-story: "This paradox between things that drive you to the center and away at the same time is an interesting description. "

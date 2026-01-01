@@ -1,6 +1,6 @@
 ---
 title: apraxia
-date: 2014-10-31
+added_to_project: 2014-10-31
 dictionary-picture: false
 ---
 

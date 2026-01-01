@@ -1,6 +1,6 @@
 ---
 title: proletariat
-date: 2020-05-22
+added_to_project: 2020-05-22
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-proletariat.jpg
 ---

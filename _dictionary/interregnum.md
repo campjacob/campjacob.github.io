@@ -1,6 +1,6 @@
 ---
 title: interregnum
-date: 2019-11-22
+added_to_project: 2019-11-22
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-interregnum.jpg
 dictionary-story: "Here is to hoping that there is a quickly closing time in-between this administration and the next."

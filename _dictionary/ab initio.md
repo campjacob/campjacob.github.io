@@ -1,6 +1,6 @@
 ---
 title: ab initio
-date: 2019-09-07
+added_to_project: 2019-09-07
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-ab initio.jpg
 dictionary-story: "Latin terms are always so interesting and useful. Lets start this one at the begining...."

@@ -1,6 +1,6 @@
 ---
 title: paroxysm
-date: 2019-08-31
+added_to_project: 2019-08-31
 dictionary-picture: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: deus ex machina
-date: 2014-07-26
+added_to_project: 2014-07-26
 dictionary-picture: false
 ---
 

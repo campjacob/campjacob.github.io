@@ -1,6 +1,6 @@
 ---
 title: ebullient
-date: 2014-02-27
+added_to_project: 2014-02-27
 dictionary-picture: false
 ---
 

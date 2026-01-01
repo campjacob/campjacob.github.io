@@ -1,6 +1,6 @@
 ---
 title: myopic
-date: 2019-09-26
+added_to_project: 2019-09-26
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-myopic.jpg
 dictionary-story: "The idea of seeing the forest from the trees, it is so hard to see further than what is right in front of us sometimes."

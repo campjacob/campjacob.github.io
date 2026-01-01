@@ -1,6 +1,6 @@
 ---
 title: elucidation
-date: 2014-03-28
+added_to_project: 2014-03-28
 dictionary-picture: false
 ---
 

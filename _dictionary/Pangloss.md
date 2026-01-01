@@ -1,6 +1,6 @@
 ---
 title: Pangloss
-date: 2020-03-17
+added_to_project: 2020-03-17
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-Pangloss.jpg
 ---

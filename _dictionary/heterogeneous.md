@@ -1,6 +1,6 @@
 ---
 title: heterogeneous
-date: 2014-08-03
+added_to_project: 2014-08-03
 dictionary-picture: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: peccadillo
-date: 2020-02-07
+added_to_project: 2020-02-07
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-peccadillo.jpg
 dictionary-story: "I always find words from Spanish that make their way into English interesting. "

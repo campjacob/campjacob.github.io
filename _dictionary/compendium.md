@@ -1,6 +1,6 @@
 ---
 title: compendium
-date: 2014-09-12
+added_to_project: 2014-09-12
 dictionary-picture: false
 ---
 

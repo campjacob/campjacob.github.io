@@ -1,6 +1,6 @@
 ---
 title: zygote
-date: 2014-07-27
+added_to_project: 2014-07-27
 dictionary-picture: false
 ---
 

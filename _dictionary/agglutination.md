@@ -1,6 +1,6 @@
 ---
 title: agglutination
-date: 2015-03-15
+added_to_project: 2015-03-15
 dictionary-picture: false
 ---
 

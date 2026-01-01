@@ -1,6 +1,6 @@
 ---
 title: chattel
-date: 2019-10-04
+added_to_project: 2019-10-04
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-chattel.jpg
 dictionary-story: "I hadn't ever heard this term. It is still so crazy to think of people being possessions."

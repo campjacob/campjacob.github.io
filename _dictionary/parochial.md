@@ -1,6 +1,6 @@
 ---
 title: parochial
-date: 2014-08-07
+added_to_project: 2014-08-07
 dictionary-picture: false
 ---
 

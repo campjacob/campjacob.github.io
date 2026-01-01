@@ -1,6 +1,6 @@
 ---
 title: elephantine
-date: 2014-12-02
+added_to_project: 2014-12-02
 dictionary-picture: false
 ---
 

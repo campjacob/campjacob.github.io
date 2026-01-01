@@ -1,6 +1,6 @@
 ---
 title: Kafkaesque
-date: 2020-02-09
+added_to_project: 2020-02-09
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-Kafkaesque.jpg
 dictionary-story: "I guess I have heard of Kafka, but never read anything by him.  "

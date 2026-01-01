@@ -1,6 +1,6 @@
 ---
 title: paradigmatic
-date: 2016-01-01
+added_to_project: 2016-01-01
 dictionary-picture: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: kotow
-date: 2015-01-01
+added_to_project: 2015-01-01
 dictionary-picture: false
 ---
 

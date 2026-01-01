@@ -1,6 +1,6 @@
 ---
 title: proxemics
-date: 2014-09-23
+added_to_project: 2014-09-23
 dictionary-picture: false
 ---
 

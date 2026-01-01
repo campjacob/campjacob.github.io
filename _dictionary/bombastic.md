@@ -1,6 +1,6 @@
 ---
 title: bombastic
-date: 2014-11-22
+added_to_project: 2014-11-22
 dictionary-picture: false
 ---
 

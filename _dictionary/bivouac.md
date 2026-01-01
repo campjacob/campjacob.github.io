@@ -1,6 +1,6 @@
 ---
 title: bivouac
-date: 2019-09-20
+added_to_project: 2019-09-20
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-bivouac.jpg
 dictionary-story: "Emergency military housing. I would not have guessed this was the meaning from the context. "

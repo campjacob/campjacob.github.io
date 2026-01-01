@@ -1,7 +1,6 @@
 ---
 title: idiosyncratic
-layout: single-dictionary
-author_profile: true
+dictionary-picture: false
 ---
 # idiosyncratic
 

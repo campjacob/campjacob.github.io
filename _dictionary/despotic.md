@@ -1,6 +1,6 @@
 ---
 title: despotic
-date: 2019-11-02
+added_to_project: 2019-11-02
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-despotic.jpg
 ---

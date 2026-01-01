@@ -1,6 +1,6 @@
 ---
 title: hegemony
-date: 2020-02-08
+added_to_project: 2020-02-08
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-hegemony.jpg
 dictionary-story: "Discussion about oppression and power is important to have. Several of my readings today are about decentralizing western culture. "

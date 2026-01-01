@@ -1,6 +1,6 @@
 ---
 title: deleterious
-date: 2019-10-11
+added_to_project: 2019-10-11
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-deleterious.jpg
 dictionary-story: "Learning to be able to process things in a context related to both genders can be challenging."

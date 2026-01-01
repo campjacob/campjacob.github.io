@@ -1,6 +1,6 @@
 ---
 title: gentrification
-date: 2014-06-10
+added_to_project: 2014-06-10
 dictionary-picture: false
 ---
 

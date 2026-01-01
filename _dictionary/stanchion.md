@@ -1,6 +1,6 @@
 ---
 title: stanchion
-date: 2018-01-31
+added_to_project: 2018-01-31
 dictionary-picture: false
 ---
 

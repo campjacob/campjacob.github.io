@@ -1,6 +1,6 @@
 ---
 title: basilar
-date: 2020-05-05
+added_to_project: 2020-05-05
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-basilar.jpg
 ---

@@ -1,6 +1,6 @@
 ---
 title: progenitor
-date: 2014-10-28
+added_to_project: 2014-10-28
 dictionary-picture: false
 ---
 

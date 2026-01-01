@@ -1,6 +1,6 @@
 ---
 title: jeremiad
-date: 2019-10-26
+added_to_project: 2019-10-26
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-jeremiad.jpg
 dictionary-story: "There are so many things that we can lament about, what can we do to bring hope?"

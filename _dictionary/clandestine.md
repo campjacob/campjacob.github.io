@@ -1,6 +1,6 @@
 ---
 title: clandestine
-date: 2014-07-22
+added_to_project: 2014-07-22
 dictionary-picture: false
 ---
 

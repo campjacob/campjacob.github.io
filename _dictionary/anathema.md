@@ -1,6 +1,6 @@
 ---
 title: anathema
-date: 2015-02-22
+added_to_project: 2015-02-22
 dictionary-picture: false
 ---
 

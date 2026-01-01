@@ -1,6 +1,6 @@
 ---
 title: valence
-date: Garvin, C. D., Gutierrez, L. M., & Galinsky, M. J. (Eds.). (2017). Handbook of Social Work with Groups. The Guilford Press.
+added_to_project: Garvin, C. D., Gutierrez, L. M., & Galinsky, M. J. (Eds.). (2017). Handbook of Social Work with Groups. The Guilford Press.
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-valence.jpg
 ---

@@ -1,6 +1,6 @@
 ---
 title: quixotic
-date: 2025-06-04
+added_to_project: 2025-06-04
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-quixotic.jpg
 ---

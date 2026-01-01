@@ -1,6 +1,6 @@
 ---
 title: panoptic
-date: 2025-07-01
+added_to_project: 2025-07-01
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-panoptic.jpg
 dictionary-story: "I want to be able to take a panoptic view in life."

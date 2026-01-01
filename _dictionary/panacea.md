@@ -1,6 +1,6 @@
 ---
 title: panacea
-date: 2015-08-21
+added_to_project: 2015-08-21
 dictionary-picture: false
 ---
 

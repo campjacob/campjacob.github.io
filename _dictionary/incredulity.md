@@ -1,6 +1,6 @@
 ---
 title: incredulity
-date: 2019-09-18
+added_to_project: 2019-09-18
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-incredulity.jpg
 dictionary-story: "The list of ways in which white Americans avoid facing their unhealed trauma is interesting. It can be easy to have this doubt that he describes."

@@ -1,6 +1,6 @@
 ---
 title: fennel
-date: 2014-12-20
+added_to_project: 2014-12-20
 dictionary-picture: false
 ---
 

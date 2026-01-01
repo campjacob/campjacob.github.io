@@ -1,6 +1,6 @@
 ---
 title: equipoise
-date: 2014-02-26
+added_to_project: 2014-02-26
 dictionary-picture: false
 ---
 # equipoise

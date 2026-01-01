@@ -1,6 +1,6 @@
 ---
 title: armature
-date: 2017-09-20
+added_to_project: 2017-09-20
 dictionary-picture: false
 ---
 

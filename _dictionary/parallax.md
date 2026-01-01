@@ -1,6 +1,6 @@
 ---
 title: parallax
-date: 2014-06-15
+added_to_project: 2014-06-15
 dictionary-picture: false
 ---
 

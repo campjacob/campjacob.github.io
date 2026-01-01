@@ -1,6 +1,6 @@
 ---
 title: epicurean
-date: 2014-03-01
+added_to_project: 2014-03-01
 dictionary-picture: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: envisage
-date: 2019-10-12
+added_to_project: 2019-10-12
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-envisage.jpg
 dictionary-story: "The idea of looking at things we can't quite see yet is interesting."

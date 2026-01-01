@@ -1,6 +1,6 @@
 ---
 title: pusillanimity
-date: 2020-02-07
+added_to_project: 2020-02-07
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-pusillanimity.jpg
 dictionary-story: "I hope to not fall prey to this too frequently. Id like to develop a higher level of courage in my life. "

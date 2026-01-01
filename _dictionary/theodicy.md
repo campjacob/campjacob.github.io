@@ -1,6 +1,6 @@
 ---
 title: theodicy
-date: 2019-11-22
+added_to_project: 2019-11-22
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-theodicy.jpg
 dictionary-story: "I'm finding this book interesting. The idea of people not necessarily being evil is a topic I'm pretty interested in."

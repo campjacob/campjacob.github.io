@@ -1,6 +1,6 @@
 ---
 title: eros
-date: 2025-11-23
+added_to_project: 2025-11-23
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-eros.jpg
 dictionary-story: "When I was reading Coats, I was very taken with discussion and focus on the body. While not the same context it is connected. "

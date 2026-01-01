@@ -1,6 +1,6 @@
 ---
 title: rhizome
-date: 2020-02-14
+added_to_project: 2020-02-14
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-rhizome.jpg
 dictionary-story: "This is a great concept for thinking about transdisplinarity (Td). I'm actually really enjoying diving into Td as a topic, and excited to use some Td methods for my research. While not the same thing, pretty pic of [Washington's Tree of Life](http://seattlerefined.com/travel/photos-visiting-the-tree-of-life-is-your-next-weekend-trip)"

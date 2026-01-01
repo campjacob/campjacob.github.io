@@ -1,6 +1,6 @@
 ---
 title: hackneyed
-date: 2019-08-27
+added_to_project: 2019-08-27
 dictionary-picture: false
 ---
 

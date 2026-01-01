@@ -1,6 +1,6 @@
 ---
 title: pedagogy
-date: 2014-03-15
+added_to_project: 2014-03-15
 dictionary-picture: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: exogenous
-date: 2020-02-16
+added_to_project: 2020-02-16
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-exogenous.jpg
 dictionary-story: "The contrast of exogenous and endogenous is a good description for many things. Being able to identify whether something originates internally or externally is often the first step at determining how to deal with it."

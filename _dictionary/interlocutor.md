@@ -1,6 +1,6 @@
 ---
 title: Interlocutor
-date: 2019-09-12
+added_to_project: 2019-09-12
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-Interlocutor.jpg
 dictionary-story: "Great word for being a participant in a dialog. Makes me think of being in the middle, very participatory. "

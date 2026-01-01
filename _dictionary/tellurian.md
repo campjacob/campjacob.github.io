@@ -1,6 +1,6 @@
 ---
 title: tellurian
-date: 2019-11-02
+added_to_project: 2019-11-02
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-tellurian.jpg
 dictionary-story: "It is always such a small feeling to imagine the cosmos."

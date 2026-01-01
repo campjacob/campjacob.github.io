@@ -1,6 +1,6 @@
 ---
 title: pastiche
-date: 2015-03-08
+added_to_project: 2015-03-08
 dictionary-picture: false
 ---
 

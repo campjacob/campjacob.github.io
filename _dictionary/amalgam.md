@@ -1,6 +1,6 @@
 ---
 title: amalgam
-date: 2015-02-23
+added_to_project: 2015-02-23
 dictionary-picture: false
 ---
 

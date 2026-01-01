@@ -1,4 +1,6 @@
-No
+---
+title: anachronistic
+dictionary-picture: false
 ---
 
 

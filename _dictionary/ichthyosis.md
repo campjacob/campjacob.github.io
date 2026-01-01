@@ -1,6 +1,6 @@
 ---
 title: ichthyosis
-date: 2014-04-02
+added_to_project: 2014-04-02
 dictionary-picture: false
 ---
 

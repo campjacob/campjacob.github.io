@@ -1,6 +1,6 @@
 ---
 title: cocksure
-date: 2020-03-06
+added_to_project: 2020-03-06
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-cocksure.jpg
 ---

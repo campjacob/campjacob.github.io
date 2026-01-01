@@ -1,6 +1,6 @@
 ---
 title: vermiform
-date: 2019-09-12
+added_to_project: 2019-09-12
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-vermiform.jpg
 dictionary-story: "I find some of the word choices and the descriptive phrases that Montuori uses both wonderful and funny."

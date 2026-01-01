@@ -1,6 +1,6 @@
 ---
 title: spindrift
-date: 2019-09-05
+added_to_project: 2019-09-05
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-spindrift.png
 dictionary-story: "This word ellicits such a great picture. I really like it."

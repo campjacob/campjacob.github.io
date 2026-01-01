@@ -1,6 +1,6 @@
 ---
 title: exegesis
-date: 2014-09-19
+added_to_project: 2014-09-19
 dictionary-picture: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: patois
-date: 2025-11-18
+added_to_project: 2025-11-18
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-patois.jpg
 dictionary-story: "While I love words I don’t know much about regional ideas"

@@ -1,6 +1,6 @@
 ---
 title: anapaest
-date: 2015-02-16
+added_to_project: 2015-02-16
 dictionary-picture: false
 ---
 

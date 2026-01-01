@@ -1,6 +1,6 @@
 ---
 title: perseverate
-date: 2014-03-05
+added_to_project: 2014-03-05
 dictionary-picture: false
 ---
 

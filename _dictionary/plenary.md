@@ -1,6 +1,6 @@
 ---
 title: plenary
-date: 2014-07-23
+added_to_project: 2014-07-23
 dictionary-picture: false
 ---
 

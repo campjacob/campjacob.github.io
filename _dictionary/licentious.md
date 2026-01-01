@@ -1,6 +1,6 @@
 ---
 title: licentious
-date: 2025-11-06
+added_to_project: 2025-11-06
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-licentious.jpg
 

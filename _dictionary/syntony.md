@@ -1,6 +1,6 @@
 ---
 title: syntony
-date: 2014-06-30
+added_to_project: 2014-06-30
 dictionary-picture: false
 ---
 

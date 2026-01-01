@@ -1,6 +1,6 @@
 ---
 title: germane
-date: 2014-04-16
+added_to_project: 2014-04-16
 dictionary-picture: false
 ---
 

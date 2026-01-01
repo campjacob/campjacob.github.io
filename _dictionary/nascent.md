@@ -1,6 +1,6 @@
 ---
 title: nascent
-date: 2019-10-27
+added_to_project: 2019-10-27
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-nascent.jpg
 dictionary-story: "This is an interesting thought yo think about how ideas are born. "

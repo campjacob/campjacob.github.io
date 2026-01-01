@@ -1,6 +1,6 @@
 ---
 title: gossamer
-date: 2016-09-22
+added_to_project: 2016-09-22
 dictionary-picture: false
 ---
 

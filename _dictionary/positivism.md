@@ -1,6 +1,6 @@
 ---
 title: positivism
-date: 2018-07-22
+added_to_project: 2018-07-22
 dictionary-picture: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: laudable
-date: 2015-01-02
+added_to_project: 2015-01-02
 dictionary-picture: false
 ---
 

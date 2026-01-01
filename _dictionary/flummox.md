@@ -1,6 +1,6 @@
 ---
 title: flummox
-date: 2015-09-07
+added_to_project: 2015-09-07
 dictionary-picture: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: promulgate
-date: 2019-11-08
+added_to_project: 2019-11-08
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-promulgate.jpg
 dictionary-story: "Maybe its the authoratiative nature of this word, but makes me think of pummeling ."

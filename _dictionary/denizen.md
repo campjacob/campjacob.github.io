@@ -1,6 +1,6 @@
 ---
 title: denizen
-date: 2015-03-22
+added_to_project: 2015-03-22
 dictionary-picture: false
 ---
 

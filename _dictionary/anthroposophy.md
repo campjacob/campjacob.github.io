@@ -1,6 +1,6 @@
 ---
 title: anthroposophy
-date: 2021-07-05
+added_to_project: 2021-07-05
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-anthroposophy.jpg
 ---

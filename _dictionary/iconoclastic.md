@@ -1,6 +1,6 @@
 ---
 title: iconoclastic
-date: 2019-09-18
+added_to_project: 2019-09-18
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-iconoclastic.jpg
 dictionary-story: "Such a relevant word for these times."

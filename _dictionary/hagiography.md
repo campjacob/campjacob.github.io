@@ -1,6 +1,6 @@
 ---
 title: hagiography
-date: 2015-03-26
+added_to_project: 2015-03-26
 dictionary-picture: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: haberdasher
-date: 2014-12-16
+added_to_project: 2014-12-16
 dictionary-picture: false
 ---
 

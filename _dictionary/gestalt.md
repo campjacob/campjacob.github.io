@@ -1,6 +1,6 @@
 ---
 title: gestalt
-date: 2019-09-16
+added_to_project: 2019-09-16
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-gestalt.jpg
 dictionary-story: "I guess I didn’t realize the photos made of other photos were called gestalt.  Interesting term and connects well with synergy."

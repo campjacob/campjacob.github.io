@@ -1,10 +1,12 @@
 ---
 title: polemic
-date: 2019-09-25
+added_to_project: 2019-09-25
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-polemic.jpg
 dictionary-story: "The idea of have having these separate poles to so much in our world is interesting, but can be so dividing.  "
-source-reference: "Montuori, A. (2014). Un choc des mentalities: Incertitude, créativité et complexité en temps de crise. (A clash of mentalities. Uncertainty, creativity and complexity in a time of crisis. _Communications. 95_(2), 179-198."
+source-reference: "Montuori, A. (2014). Un choc des mentalities: Incertitude, créativité et complexité en 
+temps de crise. (A clash of mentalities. Uncertainty, creativity and complexity in a time 
+of crisis. _Communications. 95_(2), 179-198."
 source-author: Montuori (2014)
 
 ---

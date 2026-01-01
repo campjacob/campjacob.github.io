@@ -1,6 +1,6 @@
 ---
 title: hermeneutics
-date: 2019-08-30
+added_to_project: 2019-08-30
 dictionary-picture: false
 ---
 

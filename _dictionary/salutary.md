@@ -1,6 +1,6 @@
 ---
 title: salutary
-date: 2025-07-02
+added_to_project: 2025-07-02
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-salutary.jpg
 dictionary-story: "The new oxford dictionary also includes that it is often related to something negative.  I wonder if we can call something like traumatic growth salutary."

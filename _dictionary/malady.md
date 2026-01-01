@@ -1,7 +1,7 @@
 ---
 title: malady
 dictionary-picture: false
-date: 2014-02-25
+added_to_project: 2014-02-25
 ---
 # malady
 

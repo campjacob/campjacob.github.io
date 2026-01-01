@@ -1,6 +1,6 @@
 ---
 title: chauvinism
-date: 2019-09-16
+added_to_project: 2019-09-16
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-chauvinism.jpg
 dictionary-story: "The concept of fanaticism is interesting. In some contexts I guess it can be a good thing. Pretty sure the authors didn’t mean the second definition. "

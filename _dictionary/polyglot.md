@@ -1,6 +1,6 @@
 ---
 title: polyglot
-date: 2020-02-08
+added_to_project: 2020-02-08
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-polyglot.jpg
 dictionary-story: "I guess I'm am one of these... although I almost feel like it should be reserved for people who know more than two languages."

@@ -1,6 +1,6 @@
 ---
 title: anthropocentric
-date: 2019-10-11
+added_to_project: 2019-10-11
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-anthropocentric.jpg
 dictionary-story: "Isn't pretty much anything that most people do human centered? Not saying that's how it should be, but more an observation."

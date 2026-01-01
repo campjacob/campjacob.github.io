@@ -1,6 +1,6 @@
 ---
 title: spastic
-date: 2015-02-24
+added_to_project: 2015-02-24
 dictionary-picture: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: nihilism
-date: 2019-09-02
+added_to_project: 2019-09-02
 dictionary-picture: false
 ---
 

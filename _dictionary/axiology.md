@@ -1,6 +1,6 @@
 ---
 title: axiology
-date: 2019-08-24
+added_to_project: 2019-08-24
 dictionary-picture: false
 ---
 

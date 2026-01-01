@@ -1,6 +1,6 @@
 ---
 title: inculcate
-date: 2018-07-09
+added_to_project: 2018-07-09
 dictionary-picture: false
 ---
 

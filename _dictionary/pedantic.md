@@ -1,6 +1,6 @@
 ---
 title: pedantic
-date: 2014-05-06
+added_to_project: 2014-05-06
 dictionary-picture: false
 ---
 
