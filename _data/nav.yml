@@ -1,0 +1,57 @@
+default: 
+  links:
+    - { title: Contact,   url: /contact/ }
+    - { title: Blog,      url: /blog/ }
+    - { title: Resources, url: /resources/ }
+    - { title: About,     url: /about-site/ }
+    - { title: Projects,  url: /projects/ }
+    - { title: CV,        url: /cv/ }
+
+dictionary:
+  header_text: Dictionary
+  header_url: /dictionary/
+  links:
+    - title: Contact
+      url: /contact/
+    - title: Blog
+      url: /blog/
+    - title: Resources
+      url: /resources/
+    - title: About
+      url: /about-site/
+    - title: Projects
+      url: /projects/
+      active: true
+    - title: CV
+      url: /cv/
+
+projects:
+  header_text: Projects
+  header_url: /projects/
+  links:
+    - { title: Contact,   url: /contact/ }
+    - { title: Blog,      url: /blog/ }
+    - { title: Resources, url: /resources/ }
+    - { title: About,     url: /about-site/ }
+    - { title: CV,        url: /cv/ }
+
+about:
+  header_text: About
+  header_url: /about-site/
+  links:
+    - { title: Contact,   url: /contact/ }
+    - { title: Blog,      url: /blog/ }
+    - { title: Resources, url: /resources/ }
+    - { title: Projects,  url: /projects/ }
+    - { title: CV,        url: /cv/ }
+
+presentations:
+  header_text: Presentations
+  header_url: https://presentations.jacobrcampbell.com
+  links:
+    - { title: Contact,   url: https://jacobrcampbell.com/contact/ }
+    - { title: Blog,      url: https://jacobrcampbell.com/blog/ }
+    - { title: Resources, url: https://jacobrcampbell.com/resources/ }
+    - { title: About,     url: https://jacobrcampbell.com/about-site/ }
+    - { title: Projects,  url: https://jacobrcampbell.com/projects/ }
+    - { title: CV,        url: https://jacobrcampbell.com/cv/ }

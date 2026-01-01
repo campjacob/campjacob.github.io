@@ -1,0 +1,362 @@
+---
+layout: foundation
+---
+<h1 class="fw-bolder text-center">{{ page.title }}</h1>
+
+{{ content }}
+
+  <div class="container my-4" id="dictionary-archive">
+  <div class="btn-toolbar flex-wrap gap-3 mb-3" role="toolbar" aria-label="Dictionary controls">
+
+    <!-- Sort group -->
+    <div class="d-flex align-items-center gap-2" role="group" aria-label="Sort">
+      <span class="toolbar-label">Sort:</span>
+      <div class="btn-group" role="group" aria-label="Sort options">
+        <button type="button" class="btn btn-outline-secondary" data-action="sort-date">Date</button>
+        <button type="button" class="btn btn-outline-secondary" data-action="alpha">Alphabetic</button>
+      </div>
+    </div>
+
+    <!-- Filter group -->
+    <div class="d-flex align-items-center gap-2" role="group" aria-label="Filter">
+      <span class="toolbar-label">Filter:</span>
+      <div class="btn-group" role="group" aria-label="Filter options">
+        <button type="button" class="btn btn-outline-secondary active" data-action="all">All Entries</button>
+        <button type="button" class="btn btn-outline-secondary" data-action="has-photo">with Image</button>
+        <button type="button" class="btn btn-outline-secondary" data-action="has-story">with Story</button>
+      </div>
+    </div>
+
+    <!-- View group -->
+    <div class="d-flex align-items-center gap-2" role="group" aria-label="View">
+      <span class="toolbar-label">View:</span>
+      <div class="btn-group" role="group" aria-label="View options">
+        <button type="button" class="btn btn-outline-secondary" data-action="show-refs">List of References</button>
+      </div>
+    </div>
+
+  </div>
+
+{%- comment -%} Build the set of available first letters (A–Z or '#') {%- endcomment -%}
+{%- assign avail = "" | split: "" -%}
+{%- for e in site.dictionary -%}
+  {%- assign t = e.title | strip -%}
+  {%- if t != "" -%}
+    {%- assign fl = t | slice: 0, 1 | upcase -%}
+    {%- if fl >= "A" and fl <= "Z" -%}
+      {%- assign avail = avail | push: fl -%}
+    {%- else -%}
+      {%- assign avail = avail | push: "#" -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign avail = avail | uniq -%}
+
+{%- assign alphabet = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z" | split: "," -%}
+
+<div id="alpha-toolbar" class="d-flex flex-wrap gap-1 mt-2 mb-3">
+  <button type="button" class="btn btn-sm btn-outline-secondary active" data-letter="ALL">All</button>
+  {%- for L in alphabet -%}
+    <button type="button"
+            class="btn btn-sm btn-outline-secondary{% unless avail contains L %} disabled{% endunless %}"
+            data-letter="{{ L }}"{% unless avail contains L %} disabled{% endunless %}>
+      {{ L }}
+    </button>
+  {%- endfor -%}
+  <button type="button"
+          class="btn btn-sm btn-outline-secondary{% unless avail contains '#' %} disabled{% endunless %}"
+          data-letter="#"{% unless avail contains "#" %} disabled{% endunless %}>
+    #
+  </button>
+</div>
+
+  {% assign dictionary_image_base = site.dictionary_image_base | default: "/assets/media/" %}
+
+  <!-- Entries -->
+  <ul id="dict-list" class="row list-unstyled g-3">
+{%- assign entries = site.dictionary | sort: "title" -%}
+{%- assign sorted_entries = "" | split: "" -%}
+{%- assign titles = entries | map: "title" | uniq -%}
+{%- assign sorted_titles = titles | sort_natural -%}
+
+{%- for t in sorted_titles -%}
+  {%- for e in entries -%}
+    {%- if e.title == t -%}
+      {%- assign sorted_entries = sorted_entries | push: e -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+
+{%- assign entries = sorted_entries -%}
+    {%- for entry in entries -%}
+      {%- assign entry_date = entry.added_to_project | default: nil -%}
+      {%- assign has_photo = entry.dictionary-picture | default: false -%}
+      {%- assign has_story = entry.dictionary-story | default: false -%}
+      {%- assign img_file = entry.dictionary-picture-file | default: "" -%}
+      {%- assign img_src = img_file -%}
+      {%- if img_src and img_src != "" and img_src contains "://" -%}
+        {# absolute URL already #}
+      {%- elsif img_src and img_src != "" -%}
+        {%- assign img_src = dictionary_image_base | append: img_src -%}
+      {%- endif -%}
+
+      <li class="col-12 col-md-6 col-lg-4"
+        data-title="{{ entry.title | escape }}"
+        data-date="{% if entry_date %}{{ entry_date }}{% endif %}"
+        data-has-photo="{% if entry.dictionary-picture %}true{% else %}false{% endif %}"
+        data-has-story="{% if entry.dictionary-story and entry.dictionary-story != '' %}true{% else %}false{% endif %}">
+    <article class="card h-100 shadow-sm">
+          {%- if has_photo and img_src and img_src != "" -%}
+            <a href="{{ entry.url | relative_url }}" class="ratio ratio-16x9">
+              <img src="{{ img_src | relative_url }}"
+                   alt="{{ entry.title | escape }}"
+                   class="card-img-top object-fit-cover">
+            </a>
+          {%- endif -%}
+          <div class="card-body">
+            <h3 class="h5 card-title mb-2">
+              <a href="{{ entry.url | relative_url }}" class="stretched-link">{{ entry.title }}</a>
+            </h3>
+            <p class="card-text mb-0">
+              {%- if has_story -%}
+                {{ entry.dictionary-story | strip_html | truncate: 140 }}
+              {%- else -%}
+                {{ entry.content | strip_html | truncate: 140 }}
+              {%- endif -%}
+            </p>
+            <div class="mb-2 d-flex">
+              {%- if entry_date or has_story or has_photo -%}
+              {%- if entry_date -%}
+                <span class="text-muted small">Added {{ entry_date | date: "%m/%d/%y" }}</span>
+              {%- endif -%}
+              {%- if has_story or has_photo -%}
+                <span class="text-muted small">&nbsp;and includes:</span>
+              {%- endif -%}
+              {%- if has_story -%}
+                &nbsp;<span class="badge bg-secondary small">Story</span>
+              {%- endif -%}
+              {%- if has_photo -%}
+                &nbsp;<span class="badge bg-secondary small">Image</span>
+              {%- endif -%}
+              {% endif %}
+            </div>
+          </div>
+        </article>
+      </li>
+    {%- endfor -%}
+  </ul>
+
+<!-- References view -->
+<section id="dict-refs" class="mt-4" style="display:none;">
+  <h2 class="h5 mb-3">References</h2>
+
+  {%- comment -%}
+    Build an array of strings: "ref_text|||term_title|||term_url"
+  {%- endcomment -%}
+  {%- assign all_refs = "" | split: "" -%}
+  {%- for entry in entries -%}
+    {%- if entry.source-reference and entry.source-reference != "" -%}
+      {%- assign combined = entry.source-reference
+        | append: "|||"
+        | append: entry.title
+        | append: "|||"
+        | append: entry.url
+      -%}
+      {%- assign all_refs = all_refs | push: combined -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- comment -%}
+    Get unique reference texts only (for grouping)
+  {%- endcomment -%}
+  {%- assign seen_refs = "" | split: "" -%}
+  {%- assign unique_ref_texts = "" | split: "" -%}
+  {%- for item in all_refs -%}
+    {%- assign parts = item | split: "|||" -%}
+    {%- assign ref_text = parts[0] -%}
+    {%- unless seen_refs contains ref_text -%}
+      {%- assign seen_refs = seen_refs | push: ref_text -%}
+      {%- assign unique_ref_texts = unique_ref_texts | push: ref_text -%}
+    {%- endunless -%}
+  {%- endfor -%}
+
+  {%- comment -%}
+    Sort unique references alphabetically
+  {%- endcomment -%}
+  {%- assign sorted_ref_texts = unique_ref_texts | sort_natural -%}
+
+  <div style="margin: 0 0 0 2em; text-indent: -2em;">
+    {%- for ref_text in sorted_ref_texts -%}
+
+      {%- comment -%}
+        Print the reference once
+      {%- endcomment -%}
+      <div class="mb-3">
+        <p>
+          {{ ref_text | markdownify | remove: '<p>' | remove: '</p>' | strip }}
+        </p>
+
+        {%- comment -%}
+          Then list ALL entries that used this ref_text
+        {%- endcomment -%}
+        <div class="text-muted small" style="margin-left: 1.5em; text-indent: 0;">
+          used in:&nbsp;
+          {%- assign first = true -%}
+          {%- for item in all_refs -%}
+            {%- assign parts = item | split: "|||" -%}
+            {%- assign item_ref = parts[0] -%}
+            {%- if item_ref == ref_text -%}
+              {%- assign term_title = parts[1] -%}
+              {%- assign term_url = parts[2] -%}
+              {%- unless first -%}, {% endunless -%}
+              <a href="{{ term_url | relative_url }}">{{ term_title }}</a>
+              {%- assign first = false -%}
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+      </div>
+
+    {%- endfor -%}
+  </div>
+</section>
+<!-- End References view -->
+</div> <!-- End id="dictionary-archive" -->
+
+<script>
+  // Dictionary Archive Sort and Filter
+    (function () {
+      document.addEventListener('DOMContentLoaded', function () {
+        const root = document.getElementById('dictionary-archive');
+        if (!root) return;
+
+        const btns  = root.querySelectorAll('[data-action]');
+        const list  = root.querySelector('#dict-list');
+        const items = Array.from(list ? list.querySelectorAll('li') : []);
+        const refs  = root.querySelector('#dict-refs');
+    const alphaBar = root.querySelector('#alpha-toolbar'); // now rendered by Liquid
+
+    if (alphaBar) {
+      alphaBar.addEventListener('click', (e) => {
+        const btn = e.target.closest('button[data-letter]');
+        if (!btn || btn.disabled) return;
+
+        alphaBar.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        selectedLetter = btn.dataset.letter; // 'ALL' | 'A'..'Z' | '#'
+        applyFiltersAndSort();
+      });
+    }
+
+    // State
+    let selectedLetter = 'ALL';
+    let currentFilter  = 'all';  // 'all' | 'sort-date' | 'has-photo' | 'has-story' | 'show-refs'
+    let dateSortMode   = 'desc'; // 'desc' or 'asc'
+    let alphaSortMode = 'asc'; // 'asc' or 'desc'
+
+    // Show/hide main views
+    function showEntries() { if (list) list.style.display = ''; if (refs) refs.style.display = 'none'; }
+    function showRefs()    { if (list) list.style.display = 'none'; if (refs) refs.style.display = ''; }
+
+    function activate(btn) {
+      btns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    }
+
+    // Letter utils
+    function norm(str) {
+      return (str || '').toString().normalize('NFD').replace(/[\u0300-\u036f]/g, '').trim();
+    }
+    function firstLetter(str) {
+      const s = norm(str).toUpperCase();
+      const m = s.match(/[A-Z]/);
+      return m ? m[0] : '#';
+    }
+
+    // Filter check
+    function itemMatches(li) {
+      const title = li.getAttribute('data-title') || '';
+      const fl = firstLetter(title);
+      const letterOk = (selectedLetter === 'ALL') ? true : (fl === selectedLetter);
+
+      let attrOk = true;
+      if (currentFilter === 'has-photo') {
+        attrOk = ((li.getAttribute('data-has-photo') || '').toLowerCase() === 'true');
+      } else if (currentFilter === 'has-story') {
+        attrOk = ((li.getAttribute('data-has-story') || '').toLowerCase() === 'true');
+      }
+      return letterOk && attrOk;
+    }
+
+    // Apply filters and optional sort
+    function applyFiltersAndSort() {
+      if (currentFilter === 'show-refs') { showRefs(); return; }
+      showEntries();
+
+      items.forEach(li => {
+        li.style.display = itemMatches(li) ? '' : 'none';
+      });
+
+      if (currentFilter === 'alpha' && list) {
+        const visible = items.filter(li => li.style.display !== 'none');
+        const hidden  = items.filter(li => li.style.display === 'none');
+
+        visible.sort((a,b) => {
+          const at = (a.getAttribute('data-title') || '').toLowerCase();
+          const bt = (b.getAttribute('data-title') || '').toLowerCase();
+          if (alphaSortMode === 'asc') return at.localeCompare(bt);
+          else return bt.localeCompare(at);
+        });
+
+        [...visible, ...hidden].forEach(el => list.appendChild(el));
+      }
+
+      if (currentFilter === 'sort-date' && list) {
+        const visible = items.filter(li => li.style.display !== 'none');
+        const hidden  = items.filter(li => li.style.display === 'none');
+
+        visible.sort((a,b) => {
+          const ad = a.getAttribute('data-date') || '';
+          const bd = b.getAttribute('data-date') || '';
+          if (!ad && !bd) return 0;
+          if (!ad) return dateSortMode === 'desc' ? 1 : -1;
+          if (!bd) return dateSortMode === 'desc' ? -1 : 1;
+          return dateSortMode === 'desc' ? new Date(bd) - new Date(ad) : new Date(ad) - new Date(bd);
+        });
+
+        [...visible, ...hidden].forEach(el => list.appendChild(el));
+      }
+    }
+
+    
+
+    // Button Listener
+    btns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const action = btn.getAttribute('data-action');
+
+        if (action === 'alpha') {
+          if (currentFilter === 'alpha') {
+            // Toggle sort order on repeat click
+            alphaSortMode = (alphaSortMode === 'asc') ? 'desc' : 'asc';
+          } else {
+            alphaSortMode = 'asc'; // default first click
+          }
+        }
+
+        if (action === 'sort-date') {
+          if (currentFilter === 'sort-date') {
+            dateSortMode = (dateSortMode === 'desc') ? 'asc' : 'desc';
+          } else {
+            dateSortMode = 'desc';
+          }
+        }
+
+        currentFilter = action;
+        activate(btn);
+        applyFiltersAndSort();
+      });
+    });
+      });
+    })();
+</script>

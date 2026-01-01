@@ -1,0 +1,21 @@
+<div class="accordion accordion-flush container-lg" id="accordionFlushPresentationPages">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed fw-lighter" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        <i class="fa-solid fa-compass"></i>
+        &nbsp; About Pages
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushPresentationPages">
+      <div class="container-lg">
+        <ul class="list-group list-group-horizontal small fw-lighter text-decoration-none text-center">
+          <li class="list-group-item{% if page.url == '/about-site/' | relative_url %} active{% endif %}"><a href="{{ '/about-site/' | relative_url }}">About</a></li>
+          <li class="list-group-item{% if page.url == '/contact/' | relative_url %} active{% endif %}"><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+          <li class="list-group-item{% if page.url == '/testimony/' | relative_url %} active{% endif %}"><a href="{{ '/testimony/' | relative_url }}">Testimony</a></li>
+          <li class="list-group-item{% if page.url == '/sitemap/' | relative_url %} active{% endif %}"><a href="{{ '/sitemap/' | relative_url }}">Sitemap</a></li>
+          <li class="list-group-item{% if page.url == '/search/' | relative_url %} active{% endif %}"><a href="{{ '/search/' | relative_url }}">Search</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

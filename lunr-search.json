@@ -1,0 +1,45 @@
+---
+layout: none
+---
+[
+{% assign first = true %}
+
+{%- comment -%} Pages {%- endcomment -%}
+{% for page in site.pages %}
+  {% if page.search_exclude != true and page.content != "" %}
+    {% unless first %},{% endunless %}{% assign first = false %}
+    {
+      "title": {{ page.title | default: page.name | jsonify }},
+      "url": {{ page.url | absolute_url | jsonify }},
+      "content": {{ page.content | strip_html | normalize_whitespace | jsonify }},
+      "type": {{ page.search_type | default: "Page" | jsonify }}
+    }
+  {% endif %}
+{% endfor %}
+
+{%- comment -%} Blog posts {%- endcomment -%}
+{% for post in site.posts %}
+  {% unless first %},{% endunless %}{% assign first = false %}
+  {
+    "title": {{ post.title | jsonify }},
+    "url": {{ post.url | absolute_url | jsonify }},
+    "content": {{ post.content | strip_html | normalize_whitespace | jsonify }},
+    "type": {{ post.search_type | default: "Blog Post" | jsonify }},
+    "date": {{ post.date | date: "%Y-%m-%d" | jsonify }}
+  }
+{% endfor %}
+
+{%- comment -%} Dictionary collection {%- endcomment -%}
+{% if site.dictionary %}
+{% for entry in site.dictionary %}
+  {% unless first %},{% endunless %}{% assign first = false %}
+  {
+    "title": {{ entry.title | jsonify }},
+    "url": {{ entry.url | absolute_url | jsonify }},
+    "content": {{ entry.content | strip_html | normalize_whitespace | jsonify }},
+    "type": {{ entry.search_type | default: "Dictionary" | jsonify }},
+    "term": {{ entry.title | default: entry.title | jsonify }}
+  }
+{% endfor %}
+{% endif %}
+]

@@ -1,0 +1,410 @@
+---
+---
+/* ==========================================================================
+   Global Image and Link Styling
+   ========================================================================== */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: var(--bs-link-color);
+  text-decoration-color: var(--bs-link-color);
+}
+
+a:hover {
+  color: var(--bs-link-hover-color);
+  text-decoration-color: var(--bs-link-hover-color);
+}
+
+/* ==========================================================================
+   Bootstrap Custom Properties
+   ========================================================================== */
+:root {
+  --bs-primary: #fd7e14;
+  --bs-link-color: var(--bs-primary);
+  --bs-link-hover-color: #e85c00;
+
+  --bs-nav-link-color: var(--bs-link-color);
+  --bs-nav-link-hover-color: var(--bs-link-hover-color);
+  --bs-nav-tabs-link-active-color: var(--bs-primary);
+  --bs-nav-tabs-link-hover-border-color: var(--bs-primary);
+  --bs-nav-tabs-link-active-border-color: var(--bs-primary);
+}
+
+/* ==========================================================================
+   Typography and Utility Classes
+   ========================================================================== */
+.orange {
+  color: var(--bs-primary) !important;
+}
+
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+.btn-primary {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--bs-link-hover-color);
+  border-color: var(--bs-link-hover-color);
+  color: #fff;
+}
+
+.btn-outline-primary {
+  color: #fd7e14;
+  border-color: #fd7e14;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  color: #fff;
+  background-color: #fd7e14;
+  border-color: #fd7e14;
+}
+
+/* ==========================================================================
+   Navigation Links and Tabs
+   ========================================================================== */
+.nav-link {
+  color: var(--bs-nav-link-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--bs-nav-link-hover-color);
+}
+
+.nav-tabs .nav-link.active {
+  color: var(--bs-nav-tabs-link-active-color);
+  border-color: var(--bs-nav-tabs-link-active-border-color) var(--bs-nav-tabs-link-active-border-color) #fff;
+  background-color: #fff7f0;
+}
+
+/* Base SVG size and default color for all icons in the navbar */
+nav svg.theme-icon-active,
+nav .dropdown-menu svg {
+  width: 1rem;
+  height: 1rem;
+  fill: currentColor; /* Let the icon follow the text color */
+  color: inherit; /* Useful fallback */
+}
+
+/* Optional: Make all icons slightly transparent to match Bootstrap style */
+nav .dropdown-menu svg.opacity-50 {
+  opacity: 0.5;
+}
+
+/* Dark mode: force icon color to white */
+@media (prefers-color-scheme: dark) {
+  nav svg.theme-icon-active,
+  nav .dropdown-menu svg {
+    color: #fff;
+    fill: #fff;
+  }
+}
+
+/* ==========================================================================
+   Navigation Search
+   ========================================================================== */
+/* collapsed input */
+#navbar-search .search-input {
+  width: 0;
+  opacity: 0;
+  transition: width 0.25s ease, opacity 0.2s ease, padding 0.2s ease, border-color 0.2s ease;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+
+/* expanded */
+#navbar-search.active .search-input {
+  width: 220px;              /* adjust as needed */
+  opacity: 1;
+  background: var(--bs-body-bg, #fff);
+  border: 1px solid rgba(0,0,0,.15);
+  padding: .25rem .5rem;
+  margin-left: .5rem;
+}
+
+/* results dropdown */
+#navbar-search { position: relative; }
+#navbar-search .search-results {
+  position: absolute;
+  top: 100%;
+  left: 28px;                /* lines up under input; tweak for your icon width */
+  right: 0;
+  max-height: 60vh;
+  overflow: auto;
+  margin-top: .25rem;
+  padding: .25rem 0;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  border: 1px solid rgba(0,0,0,.125);
+  z-index: 1050;             /* above navbar */
+}
+
+#navbar-search .search-results li {
+  list-style: none;
+}
+
+#navbar-search .search-results a {
+  display: block;
+  padding: .35rem .75rem;
+  text-decoration: none;
+}
+
+#navbar-search .search-results a:hover,
+#navbar-search .search-results a:focus {
+  background: rgba(0,0,0,.05);
+  outline: none;
+}
+
+/* no results */
+#navbar-search .search-results .empty {
+  padding: .35rem .75rem;
+  color: #6c757d;
+  pointer-events: none;
+}
+
+.search-badge {
+  display: inline-block;
+  font-size: .7rem;
+  line-height: 1;
+  padding: .2rem .4rem;
+  margin-right: .35rem;
+  border-radius: .25rem;
+  background: rgba(0,0,0,.075);
+  color: #555;
+}
+
+/* ==========================================================================
+   List Groups
+   ========================================================================== */
+.list-group-item a {
+  color: var(--bs-link-color);
+  text-decoration-color: var(--bs-link-color);
+}
+
+.list-group-item a:hover {
+  color: var(--bs-link-hover-color);
+  text-decoration-color: var(--bs-link-hover-color);
+}
+
+/* ==========================================================================
+   Accordion Styling
+   ========================================================================== */
+.accordion-button:not(.collapsed) {
+  --bs-accordion-active-bg: #fd7e14;
+}
+
+
+/* ==========================================================================
+   Dictionary Box (tab-box)
+   ========================================================================== */
+.tab-box {
+  background-color: #fff7f0;
+  border: 1px solid var(--bs-border-color, #dee2e6);
+}
+
+/* ==========================================================================
+   Bio Section
+   ========================================================================== */
+
+/* Offset sticky blocks to sit below your fixed/sticky navbar */
+.author-sticky {
+  top: 6rem;                /* ~96px; adjust to taste */
+}
+
+/* (Optional) keep the card scrollable if it’s taller than the viewport */
+@media (min-width: 992px) {  /* only matters on lg+ where it shows */
+  .author-sticky {
+    max-height: calc(100vh - 6rem - 1rem); /* viewport minus offset and a bit */
+    overflow: auto;
+  }
+}
+
+/* ==========================================================================
+   Truncated Bio Section
+   ========================================================================== */
+/* Hide the checkbox accessibly (labels still toggle it) */
+.toggle-bio {
+  position: absolute;
+  left: -9999px;
+}
+
+/* Truncate bio by default */
+.bio-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  transition: all .25s ease;
+}
+
+/* "Read more" label text */
+.read-more::after {
+  content: "Read more";
+  color: #fd7e14;            /* Bootstrap orange-ish */
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* When the checkbox is checked anywhere inside this card... */
+.card:has(#toggle-bio:checked) .bio-text {
+  -webkit-line-clamp: unset;
+  overflow: visible;
+}
+.card:has(#toggle-bio:checked) .read-more::after {
+  content: "Show less";
+}
+
+/* Tighten vertical spacing */
+.bio-text.small { margin-bottom: .25rem; }
+.read-more.small { margin-bottom: .25rem; }
+
+/* Optional: make the first li (Read more) look like plain text, not a list-group item */
+.hstack .list-group-item:first-child {
+  border: 0;
+  padding: 0;
+}
+
+
+
+/*
+.bio-container {
+  position: relative;
+}
+
+.toggle-bio {
+  display: none;
+}
+
+.bio-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.read-more::after {
+  content: "Read more";
+  color: #fd7e14;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.toggle-bio:checked ~ .bio-text {
+  -webkit-line-clamp: unset;
+  overflow: visible;
+}
+
+.toggle-bio:checked ~ .read-more::after {
+  content: "Show less";
+}
+
+*/ 
+/* ==========================================================================
+   Dark Mode Theme Overrides
+   ========================================================================== */
+:root[data-bs-theme="dark"] {
+  --bs-link-color-rgb: #000;
+  --bs-link-opacity: #adb5bd;
+}
+
+:root[data-bs-theme="dark"] .accordion-button:not(.collapsed) {
+  --bs-accordion-active-bg: #ffcc99;
+  color: #000;
+}
+
+:root[data-bs-theme="dark"] .list-group-item.active {
+  --bs-list-group-active-bg: #ffcc99;
+  color: #000;
+}
+
+:root[data-bs-theme="dark"] .tab-box {
+  background-color: #1e1e1e;
+  border-color: #444;
+}
+
+:root[data-bs-theme="dark"] .btn-outline-primary {
+  color: #ffb480;
+  border-color: #ffb480;
+}
+
+:root[data-bs-theme="dark"] .btn-outline-primary:hover,
+:root[data-bs-theme="dark"] .btn-outline-primary:focus {
+  background-color: #ffb480;
+  color: #000;
+  border-color: #ffb480;
+}
+
+[data-bs-theme="dark"] .nav-tabs .nav-link.active {
+    color: var(--bs-primary);
+    background-color: #1e1e1e; /* Darker background to contrast active state */
+    border-color: var(--bs-primary) var(--bs-primary) #1e1e1e;
+}
+
+
+
+/* ==========================================================================
+   Light Mode Specific Enhancements (Optional)
+   ========================================================================== */
+:root[data-bs-theme="light"] .accordion-button:not(.collapsed) {
+  --bs-accordion-active-bg: #fd7e14;
+  color: #fff;
+}
+
+:root[data-bs-theme="light"] .list-group-item.active {
+  --bs-list-group-active-bg: #fd7e14;
+  --bs-link-color-rgb: #fff;
+  --bs-link-opacity: #adb5bd;
+}
+
+:root[data-bs-theme="light"] .list-group-item.active a {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+
+/* ==========================================================================
+   Dictionary Entries
+   ========================================================================== */
+/* Scope this to your dictionary content to avoid changing all lists */
+.dictionary-entry ul li > ul {
+  display: inline;           /* put the nested list on the same line */
+  padding-left: 0;
+  margin-left: .25em;
+}
+
+/* Insert a colon before the nested list so it reads: "Synonyms: ..." */
+.dictionary-entry ul li > ul::before {
+  content: ": ";
+}
+
+/* Make the nested items inline and comma-separated */
+.dictionary-entry ul li > ul > li {
+  display: inline;
+  list-style: none;          /* remove inner bullets */
+}
+
+/* Add commas between nested items, but not after the last one */
+.dictionary-entry ul li > ul > li::after {
+  content: ", ";
+}
+.dictionary-entry ul li > ul > li:last-child::after {
+  content: "";
+}
+
+#dictionary-archive {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* horizontally center all children */
+}

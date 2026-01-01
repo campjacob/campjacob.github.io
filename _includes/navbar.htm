@@ -1,0 +1,119 @@
+{%- assign group_key = page.nav_group | default: "default" -%}
+{%- assign nav = site.data.nav[group_key] -%}
+
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+
+    <!-- Logo -->
+    <a class="navbar-brand" href="https://jacobrcampbell.com">
+      <span class="h2 orange">| </span>
+      <span class="h2 fw-bolder">Jacob </span>
+      <span class="h2 text-body-secondary">Campbell, </span>
+      <span class="h2 align-bottom orange">...</span>
+    </a>
+
+    {%- if nav -%}
+      <!-- Section Header -->
+      <a class="navbar-brand text-uppercase fw-bold" href="{{ nav.header_url | relative_url }}">
+        {{ nav.header_text }}
+      </a>
+    {%- endif -%}
+
+    <!-- Toggler button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse ms-auto" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+        {%- if nav and nav.links -%}
+          {%- for item in nav.links -%}
+            {%- assign item_url = item.url | relative_url -%}
+            {%- assign is_active = item.active | default: false -%}
+
+            <li class="nav-item">
+              <a class="nav-link{% if is_active %} text-decoration-underline fw-bold{% endif %}" href="{{ item_url }}">
+                {{ item.title }}
+              </a>
+            </li>
+          {%- endfor -%}
+        {%- endif -%}
+
+        <!-- Search -->
+        <li class="nav-item d-flex align-items-center position-relative" id="navbar-search">
+          <i class="fa-solid fa-magnifying-glass search-toggle" role="button" aria-label="Toggle search"></i>
+          <input
+            id="search-box"
+            type="search"
+            class="form-control form-control-sm search-input"
+            placeholder="Search…"
+            aria-label="Search">
+          <ul id="search-results" class="search-results dropdown-menu show" style="display:none;"></ul>
+        </li>
+
+        <!-- Light/Dark Mode Selection -->
+        <li class="nav-item dropdown">
+          <button class="btn btn-link nav-link px-0 px-lg-2 py-2 dropdown-toggle d-flex align-items-center"
+            id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static"
+            aria-label="Toggle theme (auto)">
+            <svg class="bi my-1 theme-icon-active" aria-hidden="true"><use href="#circle-half"></use></svg>
+            <span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme-text">
+            <li>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+                <svg class="bi me-2 opacity-50" aria-hidden="true"><use href="#sun-fill"></use></svg>
+                Light
+                <svg class="bi ms-auto d-none" aria-hidden="true"><use href="#check2"></use></svg>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+                <svg class="bi me-2 opacity-50" aria-hidden="true"><use href="#moon-stars-fill"></use></svg>
+                Dark
+                <svg class="bi ms-auto d-none" aria-hidden="true"><use href="#check2"></use></svg>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+                <svg class="bi me-2 opacity-50" aria-hidden="true"><use href="#circle-half"></use></svg>
+                Auto
+                <svg class="bi ms-auto d-none" aria-hidden="true"><use href="#check2"></use></svg>
+              </button>
+            </li>
+          </ul>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<hr class="shadow opacity-50">
+
+{%- if page.nav_group == "presentations" or page.layout contains "presentation" -%}
+<div class="accordion accordion-flush container-lg" id="accordionFlushPresentationPages">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed fw-lighter" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        <i class="fa-solid fa-person-chalkboard"></i>
+        &nbsp; Presentation's Pages
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushPresentationPages">
+      <div class="container-lg">
+        <ul class="list-group list-group-horizontal small fw-lighter text-decoration-none text-center">
+          <li class="list-group-item{% if page.url == '/' | relative_url %} active{% endif %}"><a href="{{ '/' | relative_url }}">Presentation Home</a></li>
+          <li class="list-group-item{% if page.url == '/bio/' | relative_url %} active{% endif %}"><a href="{{ '/bio/' | relative_url }}">About Presentations</a></li>
+          <li class="list-group-item{% if page.url == '/all-presentations/' | relative_url %} active{% endif %}"><a href="{{ '/all-presentations/' | relative_url }}">All Presentations</a></li>
+          <li class="list-group-item{% if page.url == '/presentation-tags/' | relative_url %} active{% endif %}"><a href="{{ '/presentation-tags/' | relative_url }}">Presentations by Tags</a></li>
+          <li class="list-group-item{% if page.url == '/all-videos/' | relative_url %} active{% endif %}"><a href="{{ '/all-videos/' | relative_url }}">Presentations with Videos</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+{%- endif -%}

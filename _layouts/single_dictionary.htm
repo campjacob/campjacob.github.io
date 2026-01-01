@@ -1,0 +1,170 @@
+---
+layout: foundation
+---
+{%- assign dictionary = site.dictionary | sort_natural: "path" -%}
+{%- assign letters = '' | split: '' -%}
+{%- for entry in dictionary -%}
+  {%- assign first_letter = entry.title | slice: 0 | upcase -%}
+  {%- unless letters contains first_letter -%}
+    {%- assign letters = letters | push: first_letter -%}
+  {%- endunless -%}
+{%- endfor -%}
+
+<article>
+
+{%- if page.dictionary-picture or page.dictionary-picture-file or page.dictionary-story or page.source-reference or page.source-author -%}
+
+<!-- Personalized Definition Content -->
+<section>
+<h1 class="fw-bolder text-center">{{ page.title }}</h1>
+{%- if page.dictionary-story -%}
+    <p>{% if page.source-author %} While reading {{ page.source-author }}, {% endif %} I came across <em>{{ page.title }}</em> as a new word. {{ page.dictionary-story | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+{%- endif -%}
+{%- if page.dictionary-picture-file -%}
+	<figure>
+		<a href="/assets/media/{{ page.dictionary-picture-file }}">
+			<img src="/assets/media/{{ page.dictionary-picture-file | uri_escape | escape_once }}" alt="Screenshot of context where '{{ page.title }}' was found">
+    	</a>
+		<figcaption>An image of where I read {{ page.title }}.</figcaption>
+	</figure>
+
+{%- endif -%}
+
+</section>
+<!-- End Personalized Definition Content -->
+
+{%- endif -%}
+
+<!-- Definition -->
+<section class="dictionary-entry">
+{{ content }}
+</section>
+<!-- End Definition -->
+
+<!-- Words in Dictionary -->
+<section>
+
+
+<div class="card tab-box">
+  <div class="card-body">
+  	<p>There are <a href="/dictionary/">{{ site.dictionary | size }} definitions</a> in the project. Most definitions were taken from <a href="https://agiletortoise.com/terminology/"><strong>Te</strong>rminology app</a>, which is based on the Princeton University's <a href="https://wordnet.princeton.edu">WordNet lexical database</a>. The following is a listing of all of the terms included.</p>
+    <ul class="nav nav-tabs" id="alphaTabs" role="tablist">
+  	{% for letter in letters %}
+    <li class="nav-item" role="presentation">
+      <button class="nav-link {% if forloop.first %}active{% endif %}" id="tab-{{ letter }}" data-bs-toggle="tab" data-bs-target="#panel-{{ letter }}" type="button" role="tab">
+        {{ letter }}
+      </button>
+    </li>
+  	{% endfor %}
+	</ul>
+  </div>
+  <div class="card-body">
+	<div class="tab-content mt-3">
+	  {% for letter in letters %}
+	    <div class="tab-pane fade {% if forloop.first %}show active{% endif %}" id="panel-{{ letter }}" role="tabpanel">
+	      <ul class="list-inline">
+	        {% for entry in dictionary %}
+	          {% assign first_letter = entry.title | slice: 0 | upcase %}
+	          {% if first_letter == letter %}
+	            <li class="list-inline-item"><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+	          {% endif %}
+	        {% endfor %}
+	      </ul>
+	    </div>
+	  {% endfor %}
+	</div>
+  </div>
+</div>
+</section>
+<!-- End Words in Dictionary -->
+
+<div class="mb-5"></div>
+
+<!-- Definition Metadata -->
+{% if page.added_to_project or page['source-author'] or page['source-reference'] %}
+<section>
+	<div class="card border-secondary small mb-3 col-md-6">
+		<div class="card-body text-secondary">
+			<h5 class="card-title">Dictionary Entry Information</h5>
+			{% if page.added_to_project %}
+			<p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Added to Project:</strong> <time datetime="{{ page.added_to_project | date_to_xmlschema }}">{{ page.added_to_project | date: "%B %d, %Y" }}</time></p>
+			{% endif %}				
+			{% if page.source-author %}
+			<p class="card-text"><strong><i class="fas fa-user" aria-hidden="true"></i> Reference Author:</strong> {{ page.source-author }}</p>
+			{% endif %}
+			{% if page.source-reference %}
+			<p class="card-text"><strong><i class="fas fa-book" aria-hidden="true"></i> Reference Citation:</strong></p><div style="margin: 0 0 0 2em; text-indent: -2em;">{{ page.source-reference | markdownify }}</div>
+			{% endif %}
+	  </div>
+	</div>
+</section>
+{% endif %}
+<!-- End Definition Metadata -->
+
+<!-- Article Tools -->
+<section>
+
+<!-- Share -->
+<div class="text-center">
+  <p class="small mb-0">Share This</p>
+  <ul class="list-inline share-buttons">
+    <li class="list-inline-item">
+      <a href="https://toot.kytta.dev/?text={{ page.url | absolute_url }}" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-mastodon fa-2x" style="color: #6364FF;"></i>
+        <span class="sr-only">Share on Mastodon</span>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" target="_blank" title="Share on Facebook">
+        <i class="fab fa-facebook-square fa-2x" style="color: #1877F2;"></i>
+        <span class="sr-only">Share on Facebook</span>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a href="https://twitter.com/intent/tweet?source={{ page.url | absolute_url }}" target="_blank" title="Tweet">
+        <i class="fab fa-twitter-square fa-2x" style="color: #1DA1F2;"></i>
+        <span class="sr-only">Tweet</span>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a href="http://pinterest.com/pin/create/button/?url={{ page.url | absolute_url }}" target="_blank" title="Pin it">
+        <i class="fab fa-pinterest-square fa-2x" style="color: #E60023;"></i>
+        <span class="sr-only">Pin it</span>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}" target="_blank" title="Share on LinkedIn">
+        <i class="fab fa-linkedin fa-2x" style="color: #0A66C2;"></i>
+        <span class="sr-only">Share on LinkedIn</span>
+      </a>
+    </li>
+  </ul>
+</div>
+<!-- Share -->
+
+<!-- Pagination Next/Previous  -->
+{% if page.previous or page.next %}
+  <nav class="d-flex justify-content-between my-4">
+    {% if page.previous %}
+      <a href="{{ page.previous.url | relative_url }}" class="btn btn-lg btn-outline-primary">
+        &larr; Previous
+      </a>
+    {% else %}
+      <span class="btn btn-lg btn-outline-secondary disabled">&larr; Previous</span>
+    {% endif %}
+
+    {% if page.next %}
+      <a href="{{ page.next.url | relative_url }}" class="btn btn-lg btn-outline-primary">
+        Next &rarr;
+      </a>
+    {% else %}
+      <span class="btn btn-lg btn-outline-secondary disabled">Next &rarr;</span>
+    {% endif %}
+  </nav>
+{% endif %}
+<!-- End Pagination Next/Previous  -->
+
+</section>
+<!-- End Article Tools -->
+
+</article>

@@ -23,6 +23,7 @@ description              : "This site is my home for all of my stuff. I am a sch
 url                      : "https://jacobrcampbell.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "campjacob/campjacob.github.io"
+github_username:  campjacob
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/src/jacob-campbell-logo.svg"
 masthead_title           : " "
@@ -61,7 +62,7 @@ facebook:
   username               : jacobshouse
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/media/2025-og-site-wide-fallback.jpg"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -139,8 +140,7 @@ include:
   - _data
   - _resources
   - _includes
-  - _communications
-  - _dictionary
+  - _communications # I think the collections are going to have to be removed from this.
   - _microposts
 
 exclude:
@@ -234,6 +234,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-redirect-from
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -243,7 +244,7 @@ whitelist:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-
+  - jekyll-redirect-from
 
 # Archives
 #  Type
@@ -321,9 +322,10 @@ defaults:
       type: dictionary
     values:
       term: true
-      layout: single-dictionary
+      layout: single_dictionary
       share: true
-      author_profile: true
+      author_sidebar: true
+      nav_group: dictionary
   # _microposts
   - scope:
       path: ""
