@@ -4,13 +4,18 @@
 {%- assign seo_title = seo_title | markdownify | strip_html | strip_newlines | escape_once -%}
 {%- assign canonical_url = page.canonical_url | default: page.url | replace: "/embed/", "/" | replace: "/slides/", "/" | replace: "/present/", "/" | absolute_url -%}
 
-{%- if page.presentation_id -%}
-  {%- assign page_teaser_image = page.presentation_id | append: "/" | append: page.header.teaser | absolute_url | escape -%}
+{%- if page.dictionary-picture-file and page.dictionary-picture-file != "" -%}
+  {%- assign page_teaser_image = "/assets/media/" | append: page.dictionary-picture-file | absolute_url -%}
+  {%- assign page_large_image  = page_teaser_image -%}
+{%- elsif page.presentation_id -%}
+  {%- assign page_teaser_image = page.presentation_id | append: "/" | append: page.header.teaser | absolute_url -%}
+  {%- assign page_large_image  = page.header.og_image | default: page.header.overlay_image | default: page.header.image | absolute_url -%}
 {%- else -%}
-  {%- assign page_large_image = page.header.og_image | default: page.header.overlay_image | default: page.header.image | absolute_url | escape -%}
-  {%- assign page_teaser_image = page.header.teaser | absolute_url | escape -%}
+  {%- assign page_teaser_image = page.header.teaser | absolute_url -%}
+  {%- assign page_large_image  = page.header.og_image | default: page.header.overlay_image | default: page.header.image | absolute_url -%}
 {%- endif -%}
-{%- assign site_og_image = site.og_image | absolute_url | escape -%}
+
+{%- assign site_og_image = site.og_image | absolute_url -%}
 
 {%- assign raw_description = seo_description | default: page.description | default: page.presentation_description | default: page.presentation_description_md | default: page.excerpt | default: site.description -%}
 {%- assign seo_description = raw_description | strip_html | strip_newlines | normalize_whitespace | escape_once -%}
@@ -59,31 +64,26 @@
 <meta property="article:publisher" content="https://jacobrcampbell.com">
 <meta property="og:locale" content="en_US">
 <meta property="og:description" content="{{ seo_description | truncate: 150 }}">
-{%- if page_teaser_image -%}
-<meta property="og:image" content="{{ page_teaser_image | absolute_url }}">
-{%- elsif page_large_image -%}
-<meta property="og:image" content="{{ page_large_image | absolute_url }}">
-{%- else -%}
-<meta property="og:image" content="{{ site.og_image | absolute_url }}">
-{%- endif -%}
+<meta property="og:image" content="{{ page_teaser_image | default: page_large_image | default: site_og_image }}">
 <meta property="og:url" content="{{ canonical_url }}">
 <meta property="og:type" content="{{ og_type }}">
 
 <!-- Twitter Card Tags -->
 <meta name="twitter:creator" content="@campjacob">
 <meta name="twitter:title" content="{{ page_title }}">
-<meta name="twitter:description" content="{{ seo_description | truncate: 150  }}">
+<meta name="twitter:description" content="{{ seo_description | truncate: 150 }}">
 <meta name="twitter:url" content="{{ canonical_url }}">
 {%- if page_large_image -%}
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{{ page_large_image | absolute_url }}--Extra">
+<meta name="twitter:image" content="{{ page_large_image }}">
 {%- elsif page_teaser_image -%}
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="{{ page_teaser_image | absolute_url }}">
+<meta name="twitter:image" content="{{ page_teaser_image }}">
 {%- else -%}
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="{{ site.og_image | absolute_url }}">
-{% endif %}
+<meta name="twitter:image" content="{{ site_og_image }}">
+{%- endif -%}
+
 
 <!-- Favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/src/apple-touch-icon.png' | relative_url }}">
