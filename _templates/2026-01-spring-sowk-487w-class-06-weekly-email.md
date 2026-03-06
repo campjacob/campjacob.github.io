@@ -1,0 +1,69 @@
+---
+name: 2026-01-spring-sowk-487w-class-06-weekly-email.md
+title: Spring 2026 SOWK 487w Class 06 Weekly Email
+date: 2026-02-21 15:52:11
+group: SOWK 487
+semester: Spring 2026
+excerpt: "Update for Week 06 of SOWK 487w"
+---
+
+![SOWK 487w Class Header](https://jacobrcampbell.com/assets/media/2024-01-19-sowk-487w-email-header-image.jpg)
+
+<div style="background-color: #3b9cba; width: 100%;" markdown="1">
+
+[MyHeritage](https://myheritage.heritage.edu/ICS/Academics/SOWK/SOWK_487W/2526_SP-SOWK_487W-2/){: .btn .btn--info}
+[Syllabus](https://jacobrcampbell.com/assets/media/2026-01-spring-sowk-487w-theories-of-practice-ii-course-syllabus.pdf){: .btn .btn--info}
+[Presentations](https://presentations.jacobrcampbell.com){: .btn .btn--info}
+[Emails](https://jacobrcampbell.com/communications/){: .btn .btn--info}
+
+</div>
+
+Remember, we do not have in-person classes this week. Have a wonderful week!
+
+## Unit Introduction and What You Will Learn
+
+Week six is asynchronous and focuses on online group work and on using technology to create groups. Cabiati (2021) provides the example of an online support group with social workers as the participants. Barak et al. (2008) provide some context for enhancing empowerment for online support groups. Students will also listen to a podcast episode exploring the use of virtual reality in social work. The forums for this week provide space for students to consider the week's content and discuss their planned use of technology in their practice.
+
+## Unit Assignments
+
+**Read/Listen**
+
+- Read Cabiati (2021) and Barak et al. (2008)
+- Listen to Bakk et al. (2023)
+
+**W-06 A-01: Asynchronous Class Engagement and Attendance**
+
+There are three forums for students to participate in. Students are to make at least **three replies** across the forums. Two of the replies should be your own response to the prompts in the forums, and the third can be a meaningful response to one of your peers' replies. The following are the forums for this week:
+
+- [Reflection on Week Six Content](https://myheritage.heritage.edu/ICS/Academics/SOWK/SOWK_487W/2526_SP-SOWK_487W-2/💻_W-06_223-31.jnz?portlet=Group_Discussion_Forums&screen=PostView&screenType=change&id=ff7e662b-411d-49f8-884f-dea468fb5122) provides a space to reflect on the content shared this week.
+- [Current Apps or Online Tools](https://myheritage.heritage.edu/ICS/Academics/SOWK/SOWK_487W/2526_SP-SOWK_487W-2/💻_W-06_223-31.jnz?portlet=Group_Discussion_Forums&screen=PostView&screenType=change&id=e589ff5c-b385-4ad2-ad4a-195c9a5ba1c0) encourages students to consider technology-mediated groups and to share resources they find or their experience reviewing an online group.
+- [Personal Reflection on Technology](https://myheritage.heritage.edu/ICS/Academics/SOWK/SOWK_487W/2526_SP-SOWK_487W-2/💻_W-06_223-31.jnz?portlet=Group_Discussion_Forums&screen=PostView&screenType=change&id=bb752811-d294-4413-b66e-72d571fa4c74) gives students a platform to be introspective and reflective about how they see themselves using and engaging with technology in social work.
+
+
+**A-02: Reading Engagement**
+
+[W-06 A-02 Reading Questions](https://myheritage.heritage.edu/ICS/Academics/SOWK/SOWK_487W/2526_SP-SOWK_487W-2/Assignments.jnz?portlet=Coursework&screen=AssignmentDetailView&screenType=change&id=064e2238-4f94-420d-983f-125ea73543f6) due before by Monday 3/2, 8:00 AM.
+
+## Unit Resources
+
+The University of Buffalo has a wonderful podcast, [inSocialWork](https://www.insocialwork.org) that you might consider subscribing to. They frequently have episodes related to technology in social work, and you can browse a [curated list of episodes](https://www.insocialwork.org/category/technology-in-social-work/page/3/) if that is interesting to you. This week, I wanted to expose you to an episode they published about using virtual reality in social work. You can find the episode on their website [See me, feel me, touch me, heal me: Virtual reality and social work](https://www.insocialwork.org/see-me-feel-me-touch-me-heal-me-virtual-reality-and-social-work/) or on [Apple Podcast App](https://podcasts.apple.com/us/podcast/see-me-feel-me-touch-me-heal-me-virtual-reality-and/id1587709652?i=1000605165044), [Overcast](https://overcast.fm/+07s-L-eow). You can also just search in your podcast player.
+
+<div style="text-align: center" markdown="1">
+Reference
+</div>
+<div style="margin: 0 0 0 2em; text-indent: -2em;" markdown="1">
+
+Bakk, L. (Host), Sperlich, M. (Host), & Sturman, S. (Host) (2023, March 21) See me, feel me, touch me, heal me: Virtual reality and social work [Audio Podcast Episode]. In _inSocialWork_. University of Buffalo School of Social Work. <https://www.insocialwork.org/see-me-feel-me-touch-me-heal-me-virtual-reality-and-social-work/>
+
+Barak, A., Boniel-Nissim, M., &amp; Suler, J. (2008). Fostering empowerment in online support groups. *Computers in Human Behavior, 24*(5), 1867-1883. <https://doi.org/10.1016/j.chb.2008.02.004>
+
+Cabiati, E. (2021). Social workers helping each other during the COVID-19 pandemic: Online mutual support groups. *International Social Work, 64*(5), 676-688. <https://doi.org/10.1177/0020872820975447>
+
+</div>
+
+## To-Do Lists
+
+- Read Cabiati (2021) and Barak et al. (2008)
+- Listen to Bakk et al. (2023)
+- Submit at least three replies across the forums 
+- Complete your reading engagement questions
