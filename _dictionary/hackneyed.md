@@ -1,7 +1,12 @@
 ---
 title: hackneyed
-added_to_project: 2019-08-27
-dictionary-picture: false
+added_to_project: 2026-06-22
+dictionary-picture: true
+dictionary-picture-file: new-words-screenshot-hackneyed.jpg
+dictionary-story: "I kind of wonder if this term is like hacking or modifying something, but done so much that it it is overused. Also, I origionally added this word in August 27th of 2019. I tried adding it again and it failed (because it was already here). Now I have picture and source (not sure the first source though)."
+source-reference: "Frankl, V. E. (1992). Man’s search for meaning (Ein Psychologe erlebt das Konzentrationslager) (I. Lasch, Trans.). Beacon Press."
+source-author: Frankl (1992)
+
 ---
 
 # hackneyed
