@@ -65,6 +65,6 @@ We went to [Paradise](https://www.nps.gov/mora/planyourvisit/paradise.htm), and 
 
 After some overpriced ice cream and a rest, we also went to the overlook for [Bench Lake](https://www.wta.org/go-hiking/hikes/bench-and-snow-lakes). All in all, even though I'm still a bit sore, I'm so glad to have gone. You can see some photos from this as well. 
 
-<iframe src="https://vsp.ink/embed/o3t" width="100%" height="800" frameborder="0" style="width: 100%; max-width: 100%; height: 800px; border: none;" loading="lazy" allowfullscreen title="2026 Mt. Rainier Day Hike"></iframe>
+<iframe src="https://vsp.ink/embed/okm" width="100%" height="800" frameborder="0" style="width: 100%; max-width: 100%; height: 800px; border: none;" loading="lazy" allowfullscreen title="2026 Mt. Rainier Day Hike"></iframe>
 
 I'm glad to be able to go and do these things, but I hope that getting to take my kids gives me an opportunity to teach them to be trustworthy, loyal, helpful, friendly, courteous, kind, obedient, cheerful, thrifty, brave, clean, and reverent (just like scouting).
