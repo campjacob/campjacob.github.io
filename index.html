@@ -44,27 +44,43 @@ permalink: /
 <p>I post many of <a href="https://presentations.jacobrcampbell.com/">my presentations</a> here for readers who are interested. If you look at the slides view of each presentation, it includes the notes along with references for sources cited in the presentation.</p>
   <h4 class="page__related-title">My most recent presentations are</h4>
 
-<div class="feature__wrapper">
+<div class="feature__wrapper" id="recent-presentations"></div>
 
-{% assign block_list = site.data.notist.presentations | reverse %}
-{% for block in block_list limit:3 %}
+<script>
+(function () {
+  var container = document.getElementById('recent-presentations');
+  fetch('https://presentations.jacobrcampbell.com/presentations.json')
+    .then(function (response) { return response.json(); })
+    .then(function (presentations) {
+      presentations.slice(0, 3).forEach(function (presentation) {
+        var wrapper = document.createElement('div');
+        wrapper.className = 'feature__item';
 
-<div class="feature__item">
-    <div class="archive__item">
-        <div class="archive__item-teaser">
-            <a href="https://presentations.jacobrcampbell.com/{{ block.presentation_id }}"><img src="{{ block.presentation_img_src }}" alt="{{ block.presentation_title }}" /></a>
-        </div>
-        <div class="archive__item-body">
-         <div class="archive__item-excerpt">
-              <p>
-                  <a href="https://presentations.jacobrcampbell.com/{{ block.presentation_id }}" class="btn btn--small">View</a> <a href="https://presentations.jacobrcampbell.com/{{ block.presentation_id }}/slides" class="btn btn--inverse btn--small">Slides</a> <a href="https://presentations.jacobrcampbell.com/{{ block.presentation_id }}/present" class="btn btn--inverse btn--small">Presenter</a>
-              </p>
-            </div>
-        </div>
-    </div>
-</div>
-{% endfor %}
-</div>
+        var archiveItem = document.createElement('div');
+        archiveItem.className = 'archive__item';
+
+        var teaser = document.createElement('div');
+        teaser.className = 'archive__item-teaser';
+
+        var link = document.createElement('a');
+        link.href = presentation.url;
+
+        var img = document.createElement('img');
+        img.src = presentation.image;
+        img.alt = presentation.image_alt || presentation.title;
+
+        link.appendChild(img);
+        teaser.appendChild(link);
+        archiveItem.appendChild(teaser);
+        wrapper.appendChild(archiveItem);
+        container.appendChild(wrapper);
+      });
+    })
+    .catch(function (error) {
+      console.error('Could not load recent presentations:', error);
+    });
+})();
+</script>
 </div>
 
 <div class="page__hero--overlay"
