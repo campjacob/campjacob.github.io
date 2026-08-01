@@ -1,0 +1,142 @@
+# Single source of truth for the Teaching section of /cv/.
+#
+# The course tables AND the summary counts on the CV are both rendered from
+# this list, so they cannot drift apart. Add or change a course here once and
+# every number on the page follows.
+#
+# Fields:
+#   title       Course name as it should display
+#   number      Catalog number(s). Slash form is used where a course was
+#               renumbered and counts as a single distinct course.
+#   level       graduate | undergraduate
+#   year_start  First year taught
+#   year_end    Most recent year taught; omit for a single-year course
+#   sections    Class sections taught to date. LEAVE UNSET IF UNKNOWN --
+#               the page omits the section total until every course has one.
+#               Do not guess; an invented number defeats the purpose of
+#               deriving the totals from this file.
+
+# --- Graduate (MSW) ---
+
+- title: Foundations of Social Work Practice I
+  number: SOWK 530
+  level: graduate
+  year_start: 2025
+  sections: 1
+
+- title: Foundations of Social Work Practice II
+  number: SOWK 531
+  level: graduate
+  year_start: 2026
+  sections: 1
+
+- title: Social Work Practice with Individuals, Families &amp; Groups
+  number: SOWK 581
+  level: graduate
+  year_start: 2024
+  year_end: 2025
+  sections: 3
+
+- title: Social Work in Schools
+  number: SOWK 587
+  level: graduate
+  year_start: 2025
+  year_end: 2026
+  sections: 2
+
+- title: Advanced Policy Practice
+  number: SOWK 588
+  level: graduate
+  year_start: 2025
+  year_end: 2026
+  sections: 2
+
+- title: Advanced Seminar I
+  number: SOWK 590
+  level: graduate
+  year_start: 2024
+  year_end: 2025
+  sections: 2
+
+- title: Advanced Seminar II
+  number: SOWK 591
+  level: graduate
+  year_start: 2025
+  year_end: 2026
+  sections: 2
+
+- title: Advanced Practicum I
+  number: SOWK 595
+  level: graduate
+  year_start: 2024
+  year_end: 2025
+  sections: 2
+
+- title: Advanced Practicum II
+  number: SOWK 596
+  level: graduate
+  year_start: 2025
+  year_end: 2026
+  sections: 2
+
+# --- Undergraduate (BASW) ---
+
+- title: Theories of Practice I
+  number: SOWK 486W
+  level: undergraduate
+  year_start: 2014
+  year_end: 2025
+  sections: 14
+
+- title: Theories of Practice II
+  number: SOWK 487W
+  level: undergraduate
+  year_start: 2015
+  year_end: 2026
+  sections: 14
+
+- title: Practice with Persons with Special Needs
+  number: SOWK 322
+  level: undergraduate
+  year_start: 2017
+  year_end: 2024
+  sections: 6
+
+- title: Social Programs &amp; Evaluation
+  number: SOWK 460W
+  level: undergraduate
+  year_start: 2020
+  year_end: 2026
+  sections: 4
+
+- title: Case Management
+  number: SOWK 304 / 390
+  level: undergraduate
+  year_start: 2013
+  year_end: 2016
+  sections: 4
+
+- title: Social Science Research Methods
+  number: SOWK 459W
+  level: undergraduate
+  year_start: 2019
+  sections: 2
+
+- title: Social Policy I
+  number: SOWK 316
+  level: undergraduate
+  year_start: 2015
+  year_end: 2016
+  sections: 2
+
+- title: History of Social Work &amp; Ethics in Practice
+  number: SOWK 430
+  level: undergraduate
+  year_start: 2022
+  sections: 1
+
+- title: Introduction to Case Management
+  number: PSY 244
+  level: undergraduate
+  year_start: 2017
+  sections: 1
