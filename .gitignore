@@ -3,8 +3,13 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 .DS_Store
-.DS_Store
 /.bundle/
 /vendor/
 *.sublime-project
 *.sublime-workspace
+
+# Editor state
+.nova/
+*.bbprojectd/
+.vscode/
+.idea/
