@@ -52,7 +52,7 @@ teaching_since: 2013
 Curriculum Vitae
 {: .lead .text-secondary .mb-4}
 
-I am a social work educator and licensed independent clinical social worker. I approach social work from generalist lens, with a broad and diverse set of expertise. My mission is to develop a place where resilience can grow, transformation can happen, and support the helpers who work for the same.
+I am a social work educator and licensed independent clinical social worker. I approach social work from a generalist lens, with a broad and diverse set of expertise. My mission is to develop a place where resilience can grow, transformation can happen, and support the helpers who work for the same.
 
 
 <div class="card mb-4">
