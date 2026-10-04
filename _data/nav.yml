@@ -1,57 +1,26 @@
-default: 
-  links:
-    - { title: Contact,   url: /contact/ }
-    - { title: Blog,      url: /blog/ }
-    - { title: Resources, url: /resources/ }
-    - { title: About,     url: /about-site/ }
-    - { title: Projects,  url: /projects/ }
-    - { title: CV,        url: /cv/ }
+# Navigation for the foundation layout.
+#
+# `links` is every top-level destination, listed ONCE. `sections` are the
+# areas of the site that show a context label next to the logo; the key
+# matches a page's `nav_group` in its front matter.
+#
+# The template hides whichever link points at the current section's
+# header_url, so "you are already here" is derived rather than maintained
+# by hand. Adding a destination is one line in `links`; adding a section
+# with its own label is one line in `sections`.
+#
+# A page with no `nav_group` gets the full link list and no context label.
 
-dictionary:
-  header_text: Dictionary
-  header_url: /dictionary/
-  links:
-    - title: Contact
-      url: /contact/
-    - title: Blog
-      url: /blog/
-    - title: Resources
-      url: /resources/
-    - title: About
-      url: /about-site/
-    - title: Projects
-      url: /projects/
-      active: true
-    - title: CV
-      url: /cv/
+links:
+  - { title: Contact,   url: /contact/ }
+  - { title: Blog,      url: /blog/ }
+  - { title: Resources, url: /resources/ }
+  - { title: About,     url: /about-site/ }
+  - { title: Projects,  url: /projects/ }
+  - { title: CV,        url: /cv/ }
 
-projects:
-  header_text: Projects
-  header_url: /projects/
-  links:
-    - { title: Contact,   url: /contact/ }
-    - { title: Blog,      url: /blog/ }
-    - { title: Resources, url: /resources/ }
-    - { title: About,     url: /about-site/ }
-    - { title: CV,        url: /cv/ }
-
-about:
-  header_text: About
-  header_url: /about-site/
-  links:
-    - { title: Contact,   url: /contact/ }
-    - { title: Blog,      url: /blog/ }
-    - { title: Resources, url: /resources/ }
-    - { title: Projects,  url: /projects/ }
-    - { title: CV,        url: /cv/ }
-
-presentations:
-  header_text: Presentations
-  header_url: https://presentations.jacobrcampbell.com
-  links:
-    - { title: Contact,   url: https://jacobrcampbell.com/contact/ }
-    - { title: Blog,      url: https://jacobrcampbell.com/blog/ }
-    - { title: Resources, url: https://jacobrcampbell.com/resources/ }
-    - { title: About,     url: https://jacobrcampbell.com/about-site/ }
-    - { title: Projects,  url: https://jacobrcampbell.com/projects/ }
-    - { title: CV,        url: https://jacobrcampbell.com/cv/ }
+sections:
+  dictionary:    { header_text: Dictionary,    header_url: /dictionary/ }
+  projects:      { header_text: Projects,      header_url: /projects/ }
+  about:         { header_text: About,         header_url: /about-site/ }
+  presentations: { header_text: Presentations, header_url: / }

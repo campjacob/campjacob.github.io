@@ -186,6 +186,15 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
 
+    // Below the lg breakpoint the input is always visible and the magnifier is
+    // hidden, so the toggle click never fires. Load the index on focus too,
+    // otherwise search looks available there but has nothing to search.
+    input.addEventListener("focus", () => {
+      loadIndexOnce().catch(() => {
+        showResultsHtml(`<li class="empty">Search unavailable</li>`);
+      });
+    });
+
     // Close on Escape/outside click
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape" && container.classList.contains("active")) {

@@ -42,6 +42,17 @@ a:hover {
 }
 
 /* ==========================================================================
+   Dropdowns
+   ========================================================================== */
+/* Active item uses the site orange rather than Bootstrap's blue. Text stays
+   dark: white on #fd7e14 is only 2.57:1, which fails WCAG AA. Dark is 6.0:1. */
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: var(--bs-primary);
+  color: #212529;
+}
+
+/* ==========================================================================
    Buttons
    ========================================================================== */
 .btn-primary {
@@ -408,3 +419,63 @@ nav .dropdown-menu svg.opacity-50 {
   flex-direction: column;
   align-items: center; /* horizontally center all children */
 }
+
+/* ==========================================================================
+   Collapsed Navbar (below the lg expand breakpoint)
+   Menu items read as centered buttons, and search sits last, already open.
+   ========================================================================== */
+@media (max-width: 991.98px) {
+  /* Full width on the narrowest screens, then capped so the buttons stop
+     growing on tablets. 23rem matches the width they reach on a phone. */
+  .navbar-collapse .navbar-nav .nav-item {
+    width: 100%;
+    max-width: 23rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Theme menu items sit centered like the buttons they drop out of. */
+  .navbar-collapse .navbar-nav .dropdown-menu .dropdown-item {
+    justify-content: center;
+  }
+
+  .navbar-collapse .navbar-nav .nav-item > .nav-link {
+    display: block;
+    text-align: center;
+    border: 1px solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    padding: .4rem 1rem;
+    margin-bottom: .4rem;
+  }
+
+  .navbar-collapse .navbar-nav .nav-item > .nav-link:hover,
+  .navbar-collapse .navbar-nav .nav-item > .nav-link:focus {
+    border-color: var(--bs-primary);
+  }
+
+  /* The theme switcher is a .btn.d-flex with px-0; both are !important in
+     Bootstrap, so it needs its own rule to match the other buttons. */
+  .navbar-collapse .navbar-nav .nav-item > .nav-link.dropdown-toggle {
+    width: 100%;
+    justify-content: center;
+    padding: .4rem 1rem !important;
+  }
+
+  /* Search is always expanded here, so the magnifier toggle is redundant.
+     scripts.js also loads the index on focus, since the toggle never fires. */
+  #navbar-search { width: 100%; max-width: 23rem; margin-left: auto; margin-right: auto; }
+  #navbar-search .search-toggle { display: none; }
+  #navbar-search .search-input,
+  #navbar-search.active .search-input {
+    width: 100%;
+    opacity: 1;
+    background: var(--bs-body-bg, #fff);
+    border: 1px solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    padding: .4rem .75rem;
+    margin-left: 0;
+    text-align: center;
+  }
+  #navbar-search .search-results { left: 0; }
+}
+
