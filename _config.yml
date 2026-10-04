@@ -312,7 +312,9 @@ defaults:
       path: ""
       type: communications
     values:
-      layout: communication
+      layout: communication_foundation
+      nav_group: communications
+      author_sidebar: true
       author_profile: true
       share: true
       related: true

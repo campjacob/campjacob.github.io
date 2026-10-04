@@ -1,0 +1,123 @@
+---
+layout: foundation
+---
+{%- comment -%}
+  Single class email in the Bootstrap "foundation" style.
+  Previous/next stay within the same group (course), ordered by date.
+  The old Minimal Mistakes layout is still in _layouts/communication.html.
+{%- endcomment -%}
+{%- assign group_items = site.communications | where: "group", page.group | sort: "date" -%}
+{%- assign group_size = group_items | size -%}
+{%- for item in group_items -%}
+  {%- if item.url == page.url -%}
+    {%- assign idx = forloop.index0 -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign prev_idx = idx | minus: 1 -%}
+{%- assign next_idx = idx | plus: 1 -%}
+{%- assign group_anchor = page.group | slugify -%}
+
+<article class="communication">
+
+<!-- Email Header -->
+<header class="my-4">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb small mb-2">
+      <li class="breadcrumb-item"><a href="/communications/">Communications</a></li>
+      <li class="breadcrumb-item active" aria-current="page"><a href="/communications/#{{ group_anchor }}">{{ page.group }}</a></li>
+    </ol>
+  </nav>
+  <h1 class="fw-bolder">{{ page.title }}</h1>
+  <p class="text-body-secondary mb-0">
+    <i class="fas fa-paper-plane" aria-hidden="true"></i>
+    Email sent on <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+    to {{ page.group }}
+    {%- if page.semester %} <span class="badge text-bg-secondary ms-1">{{ page.semester }}</span>{% endif %}
+  </p>
+  <button type="button" class="btn btn-sm btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#communicationEmailPreview"><i class="fas fa-eye" aria-hidden="true"></i> Preview as Email</button>
+</header>
+<!-- End Email Header -->
+
+<!-- Email Content -->
+<section class="communication-content">
+{{ content }}
+</section>
+<!-- End Email Content -->
+
+<!-- Source for the email preview: the HTML as sent through EmailOctopus (hidden) -->
+<textarea id="communication-email-html" hidden readonly>{% include communication-email-template.htm %}</textarea>
+
+<!-- Email preview modal -->
+<div class="modal fade" id="communicationEmailPreview" tabindex="-1" aria-labelledby="communicationEmailPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header py-2">
+        <h2 class="modal-title fs-6 text-body-secondary" id="communicationEmailPreviewLabel"><i class="fas fa-envelope-open-text" aria-hidden="true"></i> Email preview</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body p-0">
+        <!-- Mock mail-client header (placeholder addresses) -->
+        <div class="border-bottom px-4 py-3 bg-body-tertiary small">
+          <div class="fs-5 fw-semibold mb-2 text-body">{{ page.title }}</div>
+          <div class="d-flex align-items-start gap-3">
+            <div class="rounded-circle d-flex align-items-center justify-content-center text-white fw-bold flex-shrink-0" style="width: 2.5rem; height: 2.5rem; background-color: #3b9cba;">JC</div>
+            <div class="flex-grow-1">
+              <div><strong>Jacob Campbell</strong></div>
+              <div class="text-body-secondary">To: {{ page.group }} Students</div>
+            </div>
+            <div class="text-body-secondary text-nowrap">{{ page.date | date: "%a, %b %-d, %Y" }}</div>
+          </div>
+        </div>
+        <!-- The HTML as sent, rendered in an isolated frame so its styles don't mix with the site's -->
+        <iframe id="communication-email-frame" title="Email as sent" class="w-100 border-0 d-block" style="min-height: 70vh; background: #F2F2F2;"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var modal = document.getElementById("communicationEmailPreview");
+  if (!modal) return;
+  modal.addEventListener("shown.bs.modal", function () {
+    var frame = document.getElementById("communication-email-frame");
+    if (!frame.dataset.loaded) {
+      frame.addEventListener("load", function () {
+        var doc = frame.contentDocument;
+        if (doc && doc.body) {
+          frame.style.height = (doc.documentElement.scrollHeight + 20) + "px";
+          doc.querySelectorAll("a").forEach(function (a) { a.setAttribute("target", "_blank"); });
+        }
+      });
+      // Fill EmailOctopus merge tags with placeholders (preview only; the copied HTML keeps the real tags)
+      var html = document.getElementById("communication-email-html").value
+        .replace(/\{\{SenderInfoLine\}\}/g, "Jacob Campbell &middot; Sender address appears here when sent")
+        .replace(/\{\{(UnsubscribeURL|RewardsURL)\}\}/g, "#");
+      frame.srcdoc = html;
+      frame.dataset.loaded = "1";
+    }
+  });
+});
+</script>
+
+<!-- Pagination within this group -->
+<nav class="d-flex justify-content-between align-items-center my-4" aria-label="{{ page.group }} emails">
+  {%- if idx > 0 -%}
+    {%- assign prev = group_items[prev_idx] -%}
+    <a href="{{ prev.url | relative_url }}" class="btn btn-outline-primary text-start" title="{{ prev.title }}">&larr; Previous<span class="d-none d-md-inline small text-body-secondary"><br>{{ prev.title | truncate: 45 }}</span></a>
+  {%- else -%}
+    <span class="btn btn-outline-secondary disabled">&larr; Previous</span>
+  {%- endif -%}
+
+  <a href="/communications/#{{ group_anchor }}" class="btn btn-link small">All {{ page.group }} emails ({{ group_size }})</a>
+
+  {%- if next_idx < group_size -%}
+    {%- assign nxt = group_items[next_idx] -%}
+    <a href="{{ nxt.url | relative_url }}" class="btn btn-outline-primary text-end" title="{{ nxt.title }}">Next &rarr;<span class="d-none d-md-inline small text-body-secondary"><br>{{ nxt.title | truncate: 45 }}</span></a>
+  {%- else -%}
+    <span class="btn btn-outline-secondary disabled">Next &rarr;</span>
+  {%- endif -%}
+</nav>
+<!-- End Pagination -->
+
+</article>

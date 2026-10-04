@@ -24,3 +24,4 @@ sections:
   projects:      { header_text: Projects,      header_url: /projects/ }
   about:         { header_text: About,         header_url: /about-site/ }
   presentations: { header_text: Presentations, header_url: / }
+  communications: { header_text: Communications, header_url: /communications/ }

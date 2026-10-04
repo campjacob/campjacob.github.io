@@ -3,7 +3,7 @@ name: 2021-01-spring-sowk-487-class-15-weekly-email.md
 title: Spring 2021 SOWK 487 Class 15 Weekly Email
 date: 2021-04-21 15:58:27
 group: SOWK 487
-semester: Srping 2021
+semester: Spring 2021
 excerpt: "Update for Week 15 of SOWK 487"
 ---
 

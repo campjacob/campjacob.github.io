@@ -3,7 +3,7 @@ name: 2021-01-spring-sowk-487-class-04-weekly-email.md
 title: Spring 2021 SOWK 487 Class 04 Weekly Email
 date: 2021-01-31 19:07:45
 group: SOWK 487
-semester: Srping 2021
+semester: Spring 2021
 excerpt: "Update for Week 04 of SOWK 487"
 ---
 
