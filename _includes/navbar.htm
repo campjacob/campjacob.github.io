@@ -5,15 +5,24 @@
 
     <!-- Logo -->
     <a class="navbar-brand text-nowrap me-2" href="https://jacobrcampbell.com">
-      <!-- Full name from sm up -->
-      <span class="d-none d-sm-inline">
+      {%- if section %}
+      {%- assign full_from = section.full_name_from | default: 576 -%}
+      <!-- With a section label, the full name shows only where it fits on one line (nav.yml full_name_from) -->
+      <style>
+        @media (max-width: {{ full_from | minus: 0.02 }}px) { .brand-full { display: none; } }
+        @media (min-width: {{ full_from }}px) { .brand-initials { display: none; } }
+      </style>
+      {%- endif %}
+      <span class="brand-full">
         <span class="h2 orange">| </span>
         <span class="h2 fw-bolder">Jacob </span>
         <span class="h2 text-body-secondary">Campbell, </span>
         <span class="h2 align-bottom orange">...</span>
       </span>
-      <!-- Initials on phones only, so the section header and toggler stay on one line -->
-      <span class="d-sm-none"><span class="h2 orange">| </span><span class="h2 fw-bolder">J</span><span class="h2 text-body-secondary">C</span><span class="h2 align-bottom orange">...</span></span>
+      {%- if section %}
+      <!-- Initials on narrow screens, so the section label and menu button stay on one line -->
+      <span class="brand-initials"><span class="h2 orange">| </span><span class="h2 fw-bolder">J</span><span class="h2 text-body-secondary">C</span><span class="h2 align-bottom orange">...</span></span>
+      {%- endif %}
     </a>
 
     {%- if section -%}

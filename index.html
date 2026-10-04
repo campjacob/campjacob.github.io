@@ -1,94 +1,169 @@
 ---
 title: Jacob Campbell
-layout: default
+layout: foundation
 excerpt: "Jacob is a lot of things"
 permalink: /
 ---
+{%- comment -%}
+  Home page in the foundation (Bootstrap) layout. Sections, top to bottom:
+  hero, latest blog posts, speaking and teaching, recent presentations (from
+  _stream/presentations, refreshed by scripts/import-stream.py), mailing list, and from the stream (latest post beside a grid
+  of recent photos).
+  The foundation layout puts content inside .container > .row, so the full-width bands
+  use .home-band to break out to the window edges.
+{%- endcomment -%}
+{%- assign stream = site.stream | sort: "date" | reverse -%}
+{%- assign latest_photos = "" | split: "" -%}
+{%- for p in stream -%}
+  {%- if p.source == "pixelfed" and p.media -%}{%- assign latest_photos = latest_photos | push: p -%}{%- endif -%}
+  {%- if latest_photos.size >= 6 -%}{%- break -%}{%- endif -%}
+{%- endfor -%}
+{%- assign latest_others = "" | split: "" -%}
+{%- assign other_sources = "youtube,tiktok,fitpub" | split: "," -%}
+{%- for src in other_sources -%}
+  {%- for p in stream -%}{%- if p.source == src -%}{%- assign latest_others = latest_others | push: p -%}{%- break -%}{%- endif -%}{%- endfor -%}
+{%- endfor -%}
+{%- assign latest_others = latest_others | sort: "date" | reverse -%}
+{%- assign latest_presentations = stream | where: "source", "presentations" -%}
+{%- assign latest_note = "" -%}
+{%- for p in stream -%}{%- if p.source == "mastodon" -%}{%- assign latest_note = p -%}{%- break -%}{%- endif -%}{%- endfor -%}
 
-<div class="page__hero--overlay"
-  style="background-color: #000; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/media/cobble-stone-florence.jpg');">
-    <div class="wrapper">
-      <h1 id="page-title" class="page__title" itemprop="headline">Who is this Jacob?</h1>  
-        <p class="page__lead">I do a lot of things. This website is a bit like my home base on the internet. You can find me on some different social media. I like being able to talk to new people and connect. You can <a href="/contact/">contact me</a>. You can also read more about this website and everything that is here. Kind of like the cobble stone in the photo, there are many different parts of my life. Some of it is here for you to see.</p>
-        <p><a href="/about-site/" class="btn btn--light-outline btn--large">About</a></p>
-    </div>
-    <span class="page__hero-caption">Photo of Coble Stone by <strong>Jacob Campbell</strong> taken while I was in Florence</span>
-</div>
+<style>
+body { overflow-x: clip; }   /* the bands are 100vw, which includes any scrollbar; clip on body, since main is the narrower .container */
+.home-band { position: relative; flex: 0 0 100vw; max-width: 100vw; width: 100vw; margin-left: calc(50% - 50vw); padding: 0; color: #fff; background: #000 center / cover no-repeat; }
+.home-hero { margin-top: -1rem; }   /* sit right on the line under the navbar (its <hr> has a 1rem bottom margin) */
+.home-band::before { content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, .5); }
+.home-band > .container { position: relative; padding-top: 5rem; padding-bottom: 5rem; }
+.home-band .lead { max-width: 46rem; }
+.home-band-caption { position: absolute; right: .75rem; bottom: .5rem; font-size: .75rem; color: rgba(255,255,255,.75); }
+.home-band-caption a { color: inherit; }
+.home-band a.btn-outline-light { color: #fff !important; }
+.home-band a.btn-outline-light:hover { color: #000 !important; }
+.home-section { width: 100%; padding-top: 3rem; padding-bottom: 1rem; }
+.home-card-img { aspect-ratio: 5 / 3; object-fit: cover; }
+.home-photos { display: grid; grid-template-columns: repeat(3, 1fr); gap: .35rem; }
+.home-photos a { display: block; aspect-ratio: 1; overflow: hidden; border-radius: var(--bs-border-radius); background: var(--bs-tertiary-bg); }
+.home-photos img { width: 100%; height: 100%; object-fit: cover; transition: transform .2s; }
+.home-photos a:hover img { transform: scale(1.04); }
+</style>
 
-<div style="margin:20px;">
-  <h1>Snapshots: My Blog</h1>
-  <p>The hub of this website is my blog. I have a lot of things that I put onto my blog. Some of it is from my various travels, some of it is about my work and doing social work, or other rambling thoughts that I have. As well, I've been working on posting videos and you can find those there as well.</p>
-  <h4 class="page__related-title">My most recent posts are</h4>
-  <div class="grid__wrapper">
-    {% for post in site.posts limit:4 %}
-      {% if post.id == page.id %}
-        {% continue %}
-      {% endif %}
-      {% include archive-single.html type="grid" %}
-    {% endfor %}
+<!-- Hero -->
+<section class="home-band home-hero mb-2" style="background-image: url('/assets/media/cobble-stone-florence.jpg');">
+  <div class="container">
+    <h1 class="display-5 fw-bolder">Who is this Jacob?</h1>
+    <p class="lead">I do a lot of things. This website is a bit like my home base on the internet. You can find me on some different social media. I like being able to talk to new people and connect. You can <a href="/contact/" class="link-light">contact me</a>. You can also read more about this website and everything that is here. Kind of like the cobble stone in the photo, there are many different parts of my life. Some of it is here for you to see.</p>
+    <a href="/about-site/" class="btn btn-outline-light btn-lg mt-2">About</a>
   </div>
-</div>
+  <span class="home-band-caption">Photo of cobblestone by <strong>Jacob Campbell</strong>, taken in Florence</span>
+</section>
 
-<div class="page__hero--overlay"
-  style="background-color: #000; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/media/ross-sneddon-798471-unsplash.jpg');">
-    <div class="wrapper">
-      <h1 id="page-title" class="page__title" itemprop="headline">Speaking and Teaching</h1>  
-      <p class="page__lead">I am really passionate about professional development and teaching for adults. I teach as an adjunct faculty for Heritage University. I've been privileged to be given the opportunity to speak at a number of conferences and events as well as doing professional development as a part of my role at the school district.</p>
-      <p><a href="/cv/" class="btn btn--light-outline btn--large">See my CV</a></p>
+<!-- Blog -->
+<section class="home-section">
+  <div class="d-flex flex-wrap justify-content-between align-items-baseline gap-2 mb-2">
+    <h2 class="fw-bolder mb-0">Snapshots: My Blog</h2>
+    <a href="/blog/" class="text-nowrap">All posts &rarr;</a>
+  </div>
+  <p class="text-body-secondary">The hub of this website is my blog. I write about my travels, my work and doing social work, and other rambling thoughts. I've also been posting videos, and you can find those there as well.</p>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3">
+    {%- for post in site.posts limit: 4 -%}
+    <div class="col">
+      <a href="{{ post.url | relative_url }}" class="card h-100 shadow-sm text-decoration-none text-body">
+        {%- if post.header.teaser -%}<img src="{{ post.header.teaser | relative_url }}" class="card-img-top home-card-img" alt="" loading="lazy">{%- endif -%}
+        <div class="card-body">
+          <h3 class="h6 fw-bold card-title">{{ post.title }}</h3>
+          <p class="small text-body-secondary mb-0">{{ post.excerpt | strip_html | truncate: 110 }}</p>
+        </div>
+        <div class="card-footer bg-transparent border-0 small text-body-secondary pt-0">{{ post.date | date: "%b %-d, %Y" }}</div>
+      </a>
     </div>
-    <span class="page__hero-caption">Photo credit: <strong><a href="https://unsplash.com/photos/d-66ejdDbPk">Ross Sneddon</a></strong> on <a href="https://unsplash.com/">Unsplash</a></span>
-</div>
+    {%- endfor -%}
+  </div>
+</section>
 
-<div style="margin:20px;">
-<h1>Presentations</h1>
-<p>I post many of <a href="https://presentations.jacobrcampbell.com/">my presentations</a> here for readers who are interested. If you look at the slides view of each presentation, it includes the notes along with references for sources cited in the presentation.</p>
-  <h4 class="page__related-title">My most recent presentations are</h4>
+<!-- Speaking and Teaching -->
+<section class="home-band my-5" style="background-image: url('/assets/media/ross-sneddon-798471-unsplash.jpg');">
+  <div class="container">
+    <h2 class="display-6 fw-bolder">Speaking and Teaching</h2>
+    <p class="lead">I'm passionate about developing places where resilience can grow, transformation can happen, and supporting the helpers who do the same. I am an associate professor at Heritage University, where I regularly teach social work courses. I provide consultation and professional development and frequently speak at conferences and events. Reach out to discuss how we can partner.</p>
+    <a href="/cv/" class="btn btn-outline-light btn-lg mt-2 me-2">See my CV</a>
+    <a href="/contact/" class="btn btn-outline-light btn-lg mt-2">Contact Me</a>
+  </div>
+  <span class="home-band-caption">Photo: <a href="https://unsplash.com/photos/d-66ejdDbPk">Ross Sneddon</a> on <a href="https://unsplash.com/">Unsplash</a></span>
+</section>
 
-<div class="feature__wrapper" id="recent-presentations"></div>
-
-<script>
-(function () {
-  var container = document.getElementById('recent-presentations');
-  fetch('https://presentations.jacobrcampbell.com/presentations.json')
-    .then(function (response) { return response.json(); })
-    .then(function (presentations) {
-      presentations.slice(0, 3).forEach(function (presentation) {
-        var wrapper = document.createElement('div');
-        wrapper.className = 'feature__item';
-
-        var archiveItem = document.createElement('div');
-        archiveItem.className = 'archive__item';
-
-        var teaser = document.createElement('div');
-        teaser.className = 'archive__item-teaser';
-
-        var link = document.createElement('a');
-        link.href = presentation.url;
-
-        var img = document.createElement('img');
-        img.src = presentation.image;
-        img.alt = presentation.image_alt || presentation.title;
-
-        link.appendChild(img);
-        teaser.appendChild(link);
-        archiveItem.appendChild(teaser);
-        wrapper.appendChild(archiveItem);
-        container.appendChild(wrapper);
-      });
-    })
-    .catch(function (error) {
-      console.error('Could not load recent presentations:', error);
-    });
-})();
-</script>
-</div>
-
-<div class="page__hero--overlay"
-  style="background-color: #000; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/media/my-life-through-a-lens-bq31L0jQAjU-unsplash.jpg');">
-    <div class="wrapper">
-      <h1 id="page-title" class="page__title" itemprop="headline">Sign Up for My Mailing List</h1>  
-      <p class="page__lead">Lets create something great together. Follow along with me as I am on this journey. Sign up for my email list. I won't spam you (and if you want to stop recieving the email you can at any time). </p>
-      <p><a href="/email-signup/" class="btn btn--light-outline btn--large">Join Mailing List</a></p>
+<!-- Presentations -->
+<section class="home-section">
+  <div class="d-flex flex-wrap justify-content-between align-items-baseline gap-2 mb-2">
+    <h2 class="fw-bolder mb-0">Presentations</h2>
+    <a href="https://presentations.jacobrcampbell.com/" class="text-nowrap">All presentations &rarr;</a>
+  </div>
+  <p class="text-body-secondary">I post many of my presentations for anyone who is interested. The slides view of each one includes my notes along with references for the sources cited.</p>
+  <div class="row row-cols-1 row-cols-md-3 g-3">
+    {%- for p in latest_presentations limit: 3 -%}
+    <div class="col">
+      <a href="{{ p.post_url }}" class="card h-100 shadow-sm text-decoration-none text-body">
+        <img src="{{ p.presentation.image }}" class="card-img-top home-card-img" alt="{{ p.presentation.image_alt | escape }}" loading="lazy">
+        <div class="card-body">
+          <h3 class="h6 fw-bold mb-1">{{ p.title }}</h3>
+          <div class="small text-body-secondary">{{ p.date | date: "%b %-d, %Y" }}</div>
+        </div>
+      </a>
     </div>
-    <span class="page__hero-caption">Photo credit: <strong><a href="https://unsplash.com/@bamagal">My Life Through A Lens</a></strong> on <a href="https://unsplash.com/photos/bq31L0jQAjU/">Unsplash</a></span>
-</div>
+    {%- endfor -%}
+  </div>
+</section>
+
+
+<!-- Mailing list -->
+<section class="home-band my-5" style="background-image: url('/assets/media/my-life-through-a-lens-bq31L0jQAjU-unsplash.jpg');">
+  <div class="container">
+    <h2 class="display-6 fw-bolder">Sign Up for My Mailing List</h2>
+    <p class="lead">Let's create something great together. Follow along with me on this journey by signing up for my email list. I won't spam you, and you can stop receiving the emails at any time.</p>
+    <a href="/email-signup/" class="btn btn-outline-light btn-lg mt-2">Join Mailing List</a>
+  </div>
+  <span class="home-band-caption">Photo: <a href="https://unsplash.com/@bamagal">My Life Through A Lens</a> on <a href="https://unsplash.com/photos/bq31L0jQAjU/">Unsplash</a></span>
+</section>
+
+<!-- From the stream -->
+<section class="home-section">
+  <div class="d-flex flex-wrap justify-content-between align-items-baseline gap-2 mb-2">
+    <h2 class="fw-bolder mb-0">From the Stream</h2>
+    <a href="/stream/" class="text-nowrap">The whole stream &rarr;</a>
+  </div>
+  <p class="text-body-secondary">What I've been posting lately on Mastodon, Pixelfed, YouTube, TikTok, and FitPub.</p>
+  <div class="row g-4">
+    <div class="col-lg-7">
+      <h3 class="h6 fw-bold text-body-secondary text-uppercase small">Latest post</h3>
+      {%- if latest_note != "" -%}{% include stream-card.htm post=latest_note %}{%- endif -%}
+      <a href="https://social.vsp.ink/@Jacob" class="small d-inline-block" rel="noopener">More on Mastodon &rarr;</a>
+    </div>
+    <div class="col-lg-5">
+      <h3 class="h6 fw-bold text-body-secondary text-uppercase small">Recent photos</h3>
+      <div class="home-photos">
+        {%- for p in latest_photos -%}
+        {%- assign m = p.media | first -%}
+        <a href="{{ p.url | relative_url }}" title="{{ p.title | escape }}"><img src="{{ m.preview_url | default: m.url }}" alt="{{ m.alt | default: p.title | escape }}" loading="lazy"></a>
+        {%- endfor -%}
+      </div>
+      <a href="https://media.vsp.ink/photos" class="small d-inline-block mt-2" rel="noopener">More on Pixelfed &rarr;</a>
+    </div>
+  </div>
+
+  {%- comment -%} The newest item from each other source: title links to its page here, then the source {%- endcomment -%}
+  <h3 class="h6 fw-bold text-body-secondary text-uppercase small mt-4">Elsewhere</h3>
+  <ul class="list-unstyled mb-0">
+    {%- for p in latest_others -%}
+    {%- case p.source -%}
+      {%- when "youtube" -%}{%- assign icon = "fab fa-youtube" -%}{%- assign label = "YouTube" -%}{%- assign profile = "https://www.youtube.com/@JacobCampbell82" -%}
+      {%- when "tiktok" -%}{%- assign icon = "fab fa-tiktok" -%}{%- assign label = "TikTok" -%}{%- assign profile = "https://www.tiktok.com/@campjacob1982" -%}
+      {%- when "fitpub" -%}{%- assign icon = "fas fa-person-running" -%}{%- assign label = "FitPub" -%}{%- assign profile = "https://fitpub.social/@campjacob" -%}
+      {%- when "presentations" -%}{%- assign icon = "fas fa-person-chalkboard" -%}{%- assign label = "Presentations" -%}{%- assign profile = "https://presentations.jacobrcampbell.com/" -%}
+    {%- endcase -%}
+    <li class="d-flex flex-wrap align-items-baseline column-gap-2 py-2 border-bottom border-light-subtle">
+      <i class="{{ icon }} fa-fw text-body-secondary" aria-hidden="true"></i>
+      <a href="{% if p.source == 'presentations' %}{{ p.post_url }}{% else %}{{ p.url | relative_url }}{% endif %}" class="me-auto">{{ p.title }}</a>
+      <span class="small text-body-secondary text-nowrap">{{ p.date | date: "%b %-d, %Y" }} &middot; <a href="{{ profile }}" class="text-body-secondary" rel="noopener">View on {{ label }}</a></span>
+    </li>
+    {%- endfor -%}
+  </ul>
+</section>

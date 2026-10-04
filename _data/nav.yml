@@ -19,10 +19,15 @@ links:
   - { title: Projects,  url: /projects/ }
   - { title: CV,        url: /cv/ }
 
+# full_name_from: narrowest screen (px) where the full "Jacob Campbell, ..." logo, the label,
+# and the menu button still fit on one line (measured 10/03/26, plus ~8px of slack). Below it
+# the logo shortens to "JC...". Re-measure if you add a section or change the label text.
+# Keep in mind that from 576-767px Bootstrap's .container is only 540px wide: a label that
+# needs more than that (Communications) has to wait for 768.
 sections:
-  dictionary:    { header_text: Dictionary,    header_url: /dictionary/ }
-  projects:      { header_text: Projects,      header_url: /projects/ }
-  about:         { header_text: About,         header_url: /about-site/ }
-  presentations: { header_text: Presentations, header_url: / }
-  communications: { header_text: Communications, header_url: /communications/ }
-  stream:        { header_text: Stream,        header_url: /stream/ }
+  dictionary:     { header_text: Dictionary,     header_url: /dictionary/,     full_name_from: 480 }
+  projects:       { header_text: Projects,       header_url: /projects/,       full_name_from: 450 }
+  about:          { header_text: About,          header_url: /about-site/,     full_name_from: 400 }
+  presentations:  { header_text: Presentations,  header_url: /,                full_name_from: 536 }
+  communications: { header_text: Communications, header_url: /communications/, full_name_from: 768 }
+  stream:         { header_text: Stream,         header_url: /stream/,         full_name_from: 420 }
