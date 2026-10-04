@@ -1,0 +1,168 @@
+# Written by scripts/import-stream.py; do not edit by hand.
+# Key = where the original lives (pixelfed:<id>, site:<path>); value = the cross-posts.
+# The stream card and, later, blog posts show these as "Also on" links.
+"fitpub:b7d9a66d-0365-458e-b56d-af7a0be0b0d5":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@campjacob@fitpub.social/117265917589874293"
+"pixelfed:794398311611957303":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/113977452823641471"
+"pixelfed:795510345518161976":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@photos@media.vsp.ink/113994711902652113"
+"pixelfed:797346277070581903":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@photos@media.vsp.ink/114023398645119879"
+"pixelfed:797688343284343008":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@photos@media.vsp.ink/114028742353721410"
+"pixelfed:800943959286079790":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/114080604686898691"
+"pixelfed:804218579965272448":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@photos@media.vsp.ink/114130777251146304"
+"pixelfed:804551540559643010":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@photos@media.vsp.ink/114135985409972503"
+"pixelfed:814184952405946413":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/114286539505647370"
+"pixelfed:817923614805295188":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@photos@media.vsp.ink/114344918901416384"
+"pixelfed:819714051897262199":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@photos@media.vsp.ink/114372895239548368"
+"pixelfed:821936976566005882":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@photos@media.vsp.ink/114407627548708587"
+"pixelfed:825556924093247612":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@photos@media.vsp.ink/114464189276289748"
+"pixelfed:836035185325084800":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@photos@media.vsp.ink/114627915400961100"
+"pixelfed:838948943350444163":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@photos@media.vsp.ink/114673439651858939"
+"pixelfed:841893994095931525":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@photos@media.vsp.ink/114719458025627409"
+"pixelfed:844609835196698760":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@photos@media.vsp.ink/114761890887610479"
+"pixelfed:845145835113488524":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@photos@media.vsp.ink/114770266514932752"
+"pixelfed:850127006609039502":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@photos@media.vsp.ink/114848100397368181"
+"pixelfed:860980796249587859":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@photos@media.vsp.ink/115017688079057939"
+"pixelfed:861647269933211797":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@photos@media.vsp.ink/115028100960724921"
+"pixelfed:871903107744305303":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@photos@media.vsp.ink/115188350643296785"
+"pixelfed:875637365118292122":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@photos@media.vsp.ink/115246697543625848"
+"pixelfed:878048336961122502":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@photos@media.vsp.ink/115284372054121195"
+"pixelfed:878812426631999688":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@photos@media.vsp.ink/115296309176856793"
+"pixelfed:879104333841608906":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/115300892379780729"
+"pixelfed:882022561467941068":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@photos@media.vsp.ink/115346468056905914"
+"pixelfed:895920612921528563":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@photos@media.vsp.ink/115563622598988388"
+"pixelfed:981771951022956545":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@photos@media.vsp.ink/116905048760816811"
+"site:/blog/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/112601091157679899"
+"site:/blog/2009/1/do-you-really-understand/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/114752565167979983"
+"site:/blog/2019/10/creation-of-annual-report-for-ceus-for-licsw/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/113330809222211819"
+"site:/blog/2023/06/the-first-leg-sand-dunes-and-family-fun/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/110626243558277001"
+"site:/blog/2023/07/beaches-parks-and-broken-down-cars/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/110677433085076869"
+"site:/blog/2023/10/honoring-my-mom-an-award-called-the-judith-dirks-award/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/111322260452894076"
+"site:/blog/2025/01/the-a-in-adei-anti-racism-diversity-equity-and-inclusion/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/113795694572220249"
+"site:/blog/2025/03/building-services-for-my-students/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/114088442793301552"
+"site:/blog/2025/03/recuredos-back-to-vallarta-and-excursions/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/114180235281687518"
+"site:/blog/2025/03/the-different-paces-of-life-from-busy-to-mas-amiable-and-unhurried/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/114202640001482292"
+"site:/blog/2025/04/2025-parade-de-bendito-juarez-en-jungapeo-youtube-video/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/114367088473901155"
+"site:/blog/2025/06/making-my-own-tools-shortcut-to-convert-letter-grade-to-gpa/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/114639205245798849"
+"site:/blog/2026/07/my-msw-program-earned-accreditation/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/117019139708264691"
+"site:/blog/2026/07/summer-camping-and-hiking-getting-out-into-nature/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/116868531973512360"
+"site:/blog/2026/09/touching-grass-summer-self-care/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/117203093235039258"
+"site:/blog/2026/10/pushing-myself-more-the-2026-chelanathon/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/117379208328304638"
+"site:/dictionary/delouse/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/116797833642388802"
+"site:/dictionary/eros/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/115602528638867878"
+"site:/dictionary/hackneyed/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/116797774807461891"
+"site:/dictionary/modicum/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/116010865589443859"
+"site:/dictionary/panoptic/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/114781599704477577"
+"site:/dictionary/patois/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/115574885798617161"
+"site:/dictionary/patrilocality/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/111849373564590191"
+"site:/dictionary/quixotic/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/114637805336178931"
+"site:/dictionary/salutary/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/114785236609019758"
+"site:/dictionary/syllogism/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/114731393361612681"

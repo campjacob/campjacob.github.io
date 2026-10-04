@@ -1,0 +1,97 @@
+{%- comment -%}
+  One stream item (Mastodon / Pixelfed / YouTube / TikTok), used by the /stream/ timeline
+  and the single-item layout. Pass the item as include.post; include.single drops the
+  permalink. No embeds or iframes: plain text and <img> only, so the same markup works in
+  a newsletter email. Cross-posts come from _data/stream_crossposts.yml ("Also on" links).
+{%- endcomment -%}
+{%- assign p = include.post -%}
+{%- case p.source -%}
+  {%- when "mastodon" -%}{%- assign icon = "fab fa-mastodon" -%}{%- assign label = "Mastodon" -%}
+  {%- when "pixelfed" -%}{%- assign icon = "fas fa-camera-retro" -%}{%- assign label = "Pixelfed" -%}
+  {%- when "youtube" -%}{%- assign icon = "fab fa-youtube" -%}{%- assign label = "YouTube" -%}
+  {%- when "tiktok" -%}{%- assign icon = "fab fa-tiktok" -%}{%- assign label = "TikTok" -%}
+  {%- when "fitpub" -%}{%- assign icon = "fas fa-person-running" -%}{%- assign label = "FitPub" -%}
+  {%- else -%}{%- assign icon = "fas fa-comment" -%}{%- assign label = "Post" -%}
+{%- endcase -%}
+{%- assign media_count = p.media | size -%}
+{%- assign xkey = p.source | append: ":" | append: p.post_id -%}
+{%- assign also = site.data.stream_crossposts[xkey] -%}
+<article class="stream-item card shadow-sm mb-3" data-source="{{ p.source }}" data-kind="{{ p.kind }}">
+  <div class="card-body">
+    <div class="d-flex justify-content-between align-items-baseline small text-body-secondary mb-2">
+      <span><i class="{{ icon }} fa-fw" aria-hidden="true"></i> {{ label }}</span>
+      {%- if include.single -%}
+      <time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%b %-d, %Y" }}</time>
+      {%- else -%}
+      <a href="{{ p.url | relative_url }}" class="text-body-secondary text-decoration-none"><time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%b %-d, %Y" }}</time></a>
+      {%- endif -%}
+    </div>
+
+    {%- if p.show_title -%}<h3 class="h5 fw-semibold mb-2">{{ p.title }}</h3>{%- endif -%}
+
+    {%- if p.video -%}
+    <a href="{{ p.post_url }}" class="stream-video stream-video-{{ p.source }} d-block position-relative mb-2" rel="noopener">
+      <img src="{{ p.video.thumbnail | relative_url }}" alt="{{ p.title | escape }}" loading="lazy" decoding="async">
+      <span class="stream-play" aria-hidden="true"><i class="fas fa-play"></i></span>
+      {%- if p.video.duration > 0 -%}
+      {%- assign mins = p.video.duration | divided_by: 60 -%}{%- assign secs = p.video.duration | modulo: 60 -%}
+      <span class="stream-duration">{{ mins }}:{% if secs < 10 %}0{% endif %}{{ secs }}</span>
+      {%- endif -%}
+    </a>
+    {%- endif -%}
+
+    {%- if p.activity -%}
+    {%- assign a = p.activity -%}
+    {%- assign hrs = a.duration_s | divided_by: 3600 -%}{%- assign mins = a.duration_s | modulo: 3600 | divided_by: 60 -%}{%- assign secs = a.duration_s | modulo: 60 -%}
+    <ul class="stream-stats list-inline small mb-2">
+      <li class="list-inline-item"><strong>{{ a.type }}</strong></li>
+      {%- if a.distance_m > 0 -%}
+      <li class="list-inline-item">{% if a.type == "Swim" %}{{ a.distance_m }} m{% else %}{{ a.distance_m | divided_by: 1609.34 | round: 2 }} mi{% endif %}</li>
+      {%- endif -%}
+      <li class="list-inline-item">{% if hrs > 0 %}{{ hrs }}:{% if mins < 10 %}0{% endif %}{% endif %}{{ mins }}:{% if secs < 10 %}0{% endif %}{{ secs }}</li>
+      {%- if a.elevation_m > 0 -%}<li class="list-inline-item">{{ a.elevation_m | times: 3.28084 | round }} ft climb</li>{%- endif -%}
+      {%- if a.location -%}<li class="list-inline-item text-body-secondary"><i class="fas fa-location-dot fa-xs" aria-hidden="true"></i> {{ a.location | remove: ", United States" }}</li>{%- endif -%}
+    </ul>
+    <a href="{{ p.post_url }}" class="stream-activity d-block mb-2" rel="noopener"><img src="{{ a.image }}" alt="Route map for {{ p.title | escape }}" loading="lazy" decoding="async"></a>
+    {%- endif -%}
+
+    {%- if include.single or p.source != "youtube" -%}
+    <div class="stream-content">{{ p.content_html }}</div>
+    {%- else -%}
+    <div class="stream-content text-body-secondary small">{{ p.post_text | strip_newlines | truncate: 200 }}</div>
+    {%- endif -%}
+
+    {%- if media_count > 0 -%}
+    <div class="stream-media stream-media-{% if media_count > 4 %}4{% else %}{{ media_count }}{% endif %} mt-2">
+      {%- for m in p.media -%}
+      {%- if m.type == "image" -%}
+      <a href="{{ m.url }}" rel="noopener"><img src="{{ m.preview_url | default: m.url }}" alt="{{ m.alt | escape }}" loading="lazy" decoding="async"{% if m.width %} width="{{ m.width }}" height="{{ m.height }}"{% endif %}></a>
+      {%- else -%}
+      <video src="{{ m.url }}" poster="{{ m.preview_url }}" controls preload="none" playsinline{% if m.type == "gifv" %} loop muted{% endif %} aria-label="{{ m.alt | escape }}"></video>
+      {%- endif -%}
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+
+    {%- if p.link_card -%}
+    <a href="{{ p.link_card.url }}" class="stream-link-card card mt-2 text-decoration-none text-body overflow-hidden" rel="noopener">
+      <div class="d-flex">
+        {%- if p.link_card.image -%}<img src="{{ p.link_card.image }}" alt="" loading="lazy" class="flex-shrink-0">{%- endif -%}
+        <div class="p-2 small">
+          <div class="fw-semibold">{{ p.link_card.title }}</div>
+          {%- if p.link_card.description != "" -%}<div class="text-body-secondary">{{ p.link_card.description | truncate: 140 }}</div>{%- endif -%}
+          {%- assign host = p.link_card.url | split: "/" -%}
+          <div class="text-body-secondary">{{ host[2] | remove: "www." }}</div>
+        </div>
+      </div>
+    </a>
+    {%- endif -%}
+
+    {%- comment -%} "View on my site · Pixelfed · Mastodon": the first is this post's page here, then the original, then cross-posts {%- endcomment -%}
+    <div class="stream-links small mt-2 text-end text-body-secondary">View on
+      {%- unless include.single %} <a href="{{ p.url | relative_url }}" class="text-body-secondary">my site</a>{% endunless -%}
+      {%- if p.post_url -%}{%- unless include.single %} &middot;{% endunless %} <a href="{{ p.post_url }}" class="text-body-secondary" rel="noopener">{{ label }}</a>{%- endif -%}
+      {%- for x in also %} &middot; <a href="{{ x.url }}" class="text-body-secondary" rel="noopener">{{ x.label }}</a>{%- endfor %}
+    </div>
+  </div>
+</article>

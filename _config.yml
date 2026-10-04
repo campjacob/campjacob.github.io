@@ -142,6 +142,7 @@ include:
   - _includes
   - _communications # I think the collections are going to have to be removed from this.
   - _microposts
+  - _stream
 
 exclude:
   - "*.sublime-project"
@@ -169,6 +170,7 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - scripts
 keep_files:
   - .git
   - .svn
@@ -190,6 +192,10 @@ collections:
     permalink: /:collection/:path/
 
   microposts:
+    output: true
+    permalink: /:collection/:path/
+
+  stream:
     output: true
     permalink: /:collection/:path/
 
@@ -328,6 +334,14 @@ defaults:
       share: true
       author_sidebar: true
       nav_group: dictionary
+  # _stream (imported by scripts/import-stream.py)
+  - scope:
+      path: ""
+      type: stream
+    values:
+      layout: stream_item
+      nav_group: stream
+      author_sidebar: true
   # _microposts
   - scope:
       path: ""

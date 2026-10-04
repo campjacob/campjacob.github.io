@@ -1,0 +1,142 @@
+---
+layout: foundation
+---
+{%- comment -%}
+  Single stream item (imported by scripts/import-stream.py).
+  Legacy Twitter/TikTok microposts keep _layouts/single-micropost.html.
+  Older/Newer run through the whole stream by date.
+{%- endcomment -%}
+{%- assign posts = site.stream | sort: "date" -%}
+{%- assign total = posts | size -%}
+{%- for p in posts -%}{%- if p.url == page.url -%}{%- assign idx = forloop.index0 -%}{%- endif -%}{%- endfor -%}
+{%- assign prev_idx = idx | minus: 1 -%}
+{%- assign next_idx = idx | plus: 1 -%}
+
+<div class="stream my-4" style="max-width: 42rem;">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb small mb-3">
+      <li class="breadcrumb-item"><a href="/stream/">Stream</a></li>
+      <li class="breadcrumb-item active" aria-current="page">{{ page.date | date: "%B %-d, %Y" }}</li>
+    </ol>
+  </nav>
+
+  {% include stream-card.htm post=page single=true %}
+
+  {%- comment -%} ---------- Share: link, embed code, and portable content (HTML / Markdown) ---------- {%- endcomment -%}
+  {%- assign p = page -%}
+  {%- assign share_url = page.url | absolute_url -%}
+  {%- assign site_origin = site.url | default: "https://jacobrcampbell.com" -%}
+  {%- assign date_text = page.date | date: "%b %-d, %Y" -%}
+  {%- if page.source == "youtube" -%}
+    {%- assign share_text = page.post_text | strip_newlines | truncate: 200 -%}
+    {%- capture share_html_text %}<p style="margin:0 0 8px;">{{ share_text | escape }}</p>{% endcapture -%}
+  {%- else -%}
+    {%- assign share_text = page.post_text -%}
+    {%- assign share_html_text = page.content_html | replace: 'class="invisible"', 'style="display:none"' | replace: ' class="ellipsis"', '' -%}
+  {%- endif -%}
+  {%- if page.video or page.activity -%}{%- assign embed_height = 620 -%}{%- elsif page.media -%}{%- assign embed_height = 680 -%}{%- else -%}{%- assign embed_height = 280 -%}{%- endif -%}
+  {%- capture nl %}
+{% endcapture -%}
+  {%- capture nl_quote %}  
+> {% endcapture -%}
+
+  {%- capture share_html -%}
+<blockquote style="margin:1em 0;padding:12px 16px;border:1px solid #dddddd;border-radius:8px;max-width:550px;font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;font-size:16px;line-height:1.45;color:#222222;">
+{%- if page.show_title %}<p style="margin:0 0 8px;font-weight:600;">{{ page.title | escape }}</p>{% endif -%}
+{%- if page.activity %}<a href="{{ page.post_url }}"><img src="{{ page.activity.image }}" alt="Route map for {{ page.title | escape }}" style="display:block;width:100%;height:auto;border:0;border-radius:6px;margin-bottom:8px;"></a>{% endif -%}
+{%- if page.video %}<a href="{{ page.post_url }}"><img src="{{ page.video.thumbnail | absolute_url }}" alt="{{ page.title | escape }}" style="display:block;width:100%;{% if page.source == 'tiktok' %}max-width:280px;{% endif %}height:auto;border:0;border-radius:6px;margin-bottom:8px;"></a>{% endif -%}
+{{ share_html_text }}
+{%- for m in page.media %}{% if m.type == "image" %}{% assign m_src = m.url %}{% else %}{% assign m_src = m.preview_url %}{% endif %}<a href="{{ m.url }}"><img src="{{ m_src }}" alt="{{ m.alt | escape }}" style="display:block;width:100%;height:auto;border:0;border-radius:6px;margin-top:8px;"></a>{% endfor -%}
+{%- if page.link_card %}<p style="margin:8px 0 0;font-size:14px;"><a href="{{ page.link_card.url }}">{{ page.link_card.title | escape }}</a></p>{% endif %}
+<p style="margin:10px 0 0;font-size:13px;color:#666666;">&mdash; Jacob Campbell on <a href="{{ page.post_url }}" style="color:#666666;">{{ label }}</a>, {{ date_text }} &middot; <a href="{{ share_url }}" style="color:#666666;">jacobrcampbell.com</a></p>
+</blockquote>
+  {%- endcapture -%}
+
+  {%- capture share_md -%}
+{%- if page.show_title %}> **{{ page.title }}**
+>
+{% endif -%}
+{%- if page.activity %}> [![Route map for {{ page.title }}]({{ page.activity.image }})]({{ page.post_url }})
+>
+{% endif -%}
+{%- if page.video %}> [![{{ page.title }}]({{ page.video.thumbnail | absolute_url }})]({{ page.post_url }})
+>
+{% endif -%}
+{%- if share_text != "" %}> {{ share_text | strip | replace: nl, nl_quote }}
+>
+{% endif -%}
+{%- for m in page.media %}{% if m.type == "image" %}{% assign m_src = m.url %}{% else %}{% assign m_src = m.preview_url %}{% endif %}> [![{{ m.alt }}]({{ m_src }})]({{ m.url }})
+>
+{% endfor -%}
+> &mdash; Jacob Campbell on [{{ label }}]({{ page.post_url }}), {{ date_text }} · [jacobrcampbell.com]({{ share_url }})
+  {%- endcapture -%}
+
+  {%- capture share_embed -%}
+<iframe src="{{ share_url }}?embed=1" title="Jacob Campbell on {{ label }}" data-jrc-stream style="width:100%;max-width:550px;border:0;" height="{{ embed_height }}" loading="lazy"></iframe>
+<script>addEventListener("message",function(e){if(e.origin!=="{{ site_origin }}"||!e.data||!e.data.jrcStreamHeight)return;document.querySelectorAll("iframe[data-jrc-stream]").forEach(function(f){if(f.contentWindow===e.source)f.style.height=e.data.jrcStreamHeight+"px";});});</script>
+  {%- endcapture -%}
+
+  <section class="stream-share card mb-3" aria-labelledby="stream-share-heading">
+    <div class="card-body py-3">
+      <h2 class="h6 fw-bold mb-2" id="stream-share-heading"><i class="fas fa-share-nodes me-1" aria-hidden="true"></i> Share this post</h2>
+      <div class="d-flex flex-wrap gap-2">
+        <button type="button" class="btn btn-sm btn-outline-primary" data-copy="share-link"><i class="fas fa-link me-1" aria-hidden="true"></i> Copy link</button>
+        <button type="button" class="btn btn-sm btn-outline-primary" data-copy="share-embed"><i class="fas fa-code me-1" aria-hidden="true"></i> Copy embed code</button>
+        <button type="button" class="btn btn-sm btn-outline-primary" data-copy="share-html"><i class="fas fa-file-code me-1" aria-hidden="true"></i> Copy content (HTML)</button>
+        <button type="button" class="btn btn-sm btn-outline-primary" data-copy="share-md"><i class="fab fa-markdown me-1" aria-hidden="true"></i> Copy content (Markdown)</button>
+      </div>
+      <p class="small text-body-secondary mt-2 mb-0" id="share-hint">Embed code shows this post live on another site. Content is a self-contained copy (text, images, and a credit line) for a blog post or newsletter.</p>
+      <textarea id="share-link" hidden readonly>{{ share_url }}</textarea>
+      <textarea id="share-embed" hidden readonly>{{ share_embed | strip | escape }}</textarea>
+      <textarea id="share-html" hidden readonly>{{ share_html | strip | escape }}</textarea>
+      <textarea id="share-md" hidden readonly>{{ share_md | strip | escape }}</textarea>
+    </div>
+  </section>
+
+  <script>
+  (function () {
+    // Copy buttons
+    document.querySelectorAll(".stream-share [data-copy]").forEach(function (b) {
+      b.addEventListener("click", function () {
+        var text = document.getElementById(b.dataset.copy).value, html = b.innerHTML;
+        function done() { b.innerHTML = '<i class="fas fa-check me-1" aria-hidden="true"></i> Copied'; setTimeout(function () { b.innerHTML = html; }, 1800); }
+        if (navigator.clipboard) { navigator.clipboard.writeText(text).then(done); }
+        else { var t = document.createElement("textarea"); t.value = text; document.body.appendChild(t); t.select(); document.execCommand("copy"); t.remove(); done(); }
+      });
+    });
+
+    // Embed mode (?embed=1, flagged early in head.htm): keep only the card and report its height
+    if (!document.documentElement.classList.contains("embed")) return;
+    document.addEventListener("DOMContentLoaded", function () {
+      var card = document.querySelector(".stream-item");
+      var links = card.querySelector(".stream-links");
+      if (links) links.firstChild.after(document.createRange().createContextualFragment(' <a href="' + location.origin + location.pathname + '" class="text-body-secondary">jacobrcampbell.com</a> &middot; '));
+      document.body.innerHTML = "";
+      document.body.appendChild(card);
+      card.classList.remove("shadow-sm", "mb-3");
+      card.querySelectorAll("a").forEach(function (a) { a.target = "_blank"; a.rel = "noopener"; });
+      document.body.style.cssText = "background:transparent;margin:0;padding:1px;visibility:visible;";
+      function send() { parent.postMessage({ jrcStreamHeight: Math.ceil(card.getBoundingClientRect().height) + 2 }, "*"); }
+      send();
+      addEventListener("load", send);
+      if (window.ResizeObserver) new ResizeObserver(send).observe(card);
+    });
+  })();
+  </script>
+
+  <nav class="d-flex justify-content-between align-items-center my-4" aria-label="Stream">
+    {%- if idx > 0 -%}
+      {%- assign prev = posts[prev_idx] -%}
+      <a href="{{ prev.url | relative_url }}" class="btn btn-outline-primary btn-sm">&larr; Older</a>
+    {%- else -%}
+      <span class="btn btn-outline-secondary btn-sm disabled">&larr; Older</span>
+    {%- endif -%}
+    <a href="/stream/" class="btn btn-link btn-sm">Whole stream</a>
+    {%- if next_idx < total -%}
+      {%- assign nxt = posts[next_idx] -%}
+      <a href="{{ nxt.url | relative_url }}" class="btn btn-outline-primary btn-sm">Newer &rarr;</a>
+    {%- else -%}
+      <span class="btn btn-outline-secondary btn-sm disabled">Newer &rarr;</span>
+    {%- endif -%}
+  </nav>
+</div>

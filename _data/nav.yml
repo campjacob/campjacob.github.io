@@ -25,3 +25,4 @@ sections:
   about:         { header_text: About,         header_url: /about-site/ }
   presentations: { header_text: Presentations, header_url: / }
   communications: { header_text: Communications, header_url: /communications/ }
+  stream:        { header_text: Stream,        header_url: /stream/ }

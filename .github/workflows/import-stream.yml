@@ -1,0 +1,64 @@
+# Pull new posts from Mastodon, Pixelfed, YouTube, TikTok, and FitPub into _stream/
+# (scripts/import-stream.py), commit them, and rebuild the site.
+#
+# Secret: PIXELFED_TOKEN (read-scope token from media.vsp.ink Settings > Applications).
+# Run by hand from the Actions tab with "Run workflow".
+name: Import stream
+
+on:
+  schedule:
+    - cron: "17 */4 * * *"   # every 4 hours
+  workflow_dispatch:
+
+permissions:
+  contents: write   # commit new posts
+  pages: write      # request a Pages build
+
+concurrency:
+  group: import-stream
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    env:
+      TZ: America/Los_Angeles   # post dates and file names in local time, like a run on the Mac
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install yt-dlp
+        run: pip install --quiet yt-dlp
+
+      - name: Import new posts
+        id: run
+        env:
+          PIXELFED_TOKEN: ${{ secrets.PIXELFED_TOKEN }}
+        # A failed source (TikTok often blocks GitHub's IPs) shows as a warning, not a failed run.
+        run: |
+          python3 scripts/import-stream.py all || echo "::warning::One or more stream sources failed; see the log above."
+
+      - name: Commit and push
+        id: commit
+        run: |
+          git add _stream _data/stream_crossposts.yml assets/media/stream
+          if git diff --cached --quiet; then
+            echo "No new posts."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Import new stream posts"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      # Pushes made with GITHUB_TOKEN don't trigger the Pages build, so ask for one.
+      - name: Rebuild GitHub Pages
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds"

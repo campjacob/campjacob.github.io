@@ -141,3 +141,7 @@
 
 <!-- Lunr -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css/themes/satellite.css">
+
+<!-- Stream embeds (?embed=1): hide the page until _layouts/stream_item.htm strips it to the card -->
+<script>if (/[?&]embed=1(&|$)/.test(location.search)) document.documentElement.classList.add("embed");</script>
+<style>html.embed body { visibility: hidden; }</style>
