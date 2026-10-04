@@ -522,3 +522,7 @@ nav .dropdown-menu svg.opacity-50 {
 .stream-activity { border-radius: var(--bs-border-radius); overflow: hidden; }
 .stream-activity img { width: 100%; display: block; height: auto; }
 .stream-stats .list-inline-item:not(:last-child) { margin-right: .75rem; }
+.stream-teaser { border-radius: var(--bs-border-radius); overflow: hidden; }
+.stream-teaser img { width: 100%; display: block; aspect-ratio: 5 / 3; object-fit: cover; }
+.stream-slide { border-radius: var(--bs-border-radius); overflow: hidden; border: 1px solid var(--bs-border-color-translucent); }
+.stream-slide img { width: 100%; display: block; aspect-ratio: 16 / 9; object-fit: contain; background: var(--bs-tertiary-bg); }

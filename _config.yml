@@ -329,11 +329,18 @@ defaults:
       path: ""
       type: dictionary
     values:
+      source: dictionary   # for /stream/ (the entry's date there is added_to_project)
       term: true
       layout: single_dictionary
       share: true
       author_sidebar: true
       nav_group: dictionary
+  # Blog posts also appear in /stream/; `source` lets the stream card and filters treat them as one more site
+  - scope:
+      path: ""
+      type: posts
+    values:
+      source: blog
   # _stream (imported by scripts/import-stream.py)
   - scope:
       path: ""

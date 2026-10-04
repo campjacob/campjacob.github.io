@@ -12,6 +12,7 @@ Sources and what they become (the `kind` field):
   youtube   @JacobCampbell82           video
   tiktok    @campjacob1982             video
   fitpub    @campjacob@fitpub.social   activity
+  presentations  presentations.jacobrcampbell.com  presentation
 
 Usage (from the repo root):
   python3 scripts/import-stream.py all                # everything new, every source
@@ -31,6 +32,10 @@ Requirements:
     which follows @campjacob@fitpub.social and keeps public copies of what it receives (so
     only activities federated after the follow appear). Each one's details and route-map
     image come from FitPub's public /api/activities/<id>.
+  - Presentations come from presentations.jacobrcampbell.com/presentations.json. Unlike the
+    others, that folder is rewritten on every run (so title fixes come through) and files for
+    decks no longer listed are deleted. Their pages here only redirect to the deck
+    (redirect_to), since the presentations site is already mine.
   - YouTube and TikTok are read with yt-dlp (`yt-dlp` on PATH, else `uvx yt-dlp`). Neither
     has a usable API: YouTube's RSS feed 404s and TikTok has none.
 
@@ -39,7 +44,8 @@ Choices the code can't explain on its own:
     my own servers or stable CDN URLs, and plain <img> works in email newsletters. TikTok is
     the exception: its thumbnail URLs expire, so a small JPEG goes to
     assets/media/stream/tiktok/.
-  - Skipped: replies (including self-replies in threads) and boosts. A boost of my own Pixelfed
+  - Replies are imported too, with an in_reply_to block so the card can say what they answer
+    (my own earlier post, or someone else's). Boosts are skipped; a boost of my own Pixelfed
     or FitPub post is recorded as a cross-post instead (see below).
   - Cross-posts (a Mastodon post linking to my Pixelfed post, blog, or site) are imported like
     any other post, and also recorded in _data/stream_crossposts.yml so the original shows an
@@ -76,7 +82,8 @@ YTDLP = {
     "tiktok": {"url": "https://www.tiktok.com/@campjacob1982", "label": "TikTok"},
 }
 FITPUB = {"via": "https://social.vsp.ink", "acct": "campjacob@fitpub.social", "base": "https://fitpub.social"}
-SOURCES = [*FEDIVERSE, *YTDLP, "fitpub"]
+PRESENTATIONS = "https://presentations.jacobrcampbell.com/presentations.json"
+SOURCES = [*FEDIVERSE, *YTDLP, "fitpub", "presentations"]
 
 
 # ---------------------------------------------------------------- helpers
@@ -176,7 +183,9 @@ def statuses(src, token):
 
 
 def crosspost_target(src, status):
-    """If this Mastodon post shares something of mine published elsewhere, return its key."""
+    """If this Mastodon post shares something of mine published elsewhere, return its key:
+    pixelfed:<id>, presentations:<id>, fitpub:<uuid>, youtube:<id> (my videos only), or
+    site:<path> for anything on jacobrcampbell.com (blog posts, dictionary words, ...)."""
     if src != "mastodon":
         return None
     links = re.findall(r'href="([^"]+)"', status["content"] or "")
@@ -186,12 +195,20 @@ def crosspost_target(src, status):
         m = re.search(r"media\.vsp\.ink/(?:p/photos|i/web/post)/(\d+)", u)
         if m:
             return f"pixelfed:{m.group(1)}"
+        m = re.search(r"presentations\.jacobrcampbell\.com/([A-Za-z0-9]{6})(?:/|$)", u)
+        if m:
+            return f"presentations:{m.group(1)}"
+        m = re.search(r"fitpub\.social/activities/([0-9a-f-]{36})", u)
+        if m:
+            return f"fitpub:{m.group(1)}"
+        m = re.search(r"(?:youtu\.be/|youtube\.com/(?:watch\?v=|shorts/))([\w-]{11})", u)
+        if m and m.group(1) in existing_ids("youtube"):   # only my own videos
+            return f"youtube:{m.group(1)}"
         m = re.search(r"//(?:www\.)?jacobrcampbell\.com(/[^?#\s]*)", u)
         if m:
             path = m.group(1) if m.group(1).endswith("/") else m.group(1) + "/"
             return f"site:{path}"
-        if "media.vsp.ink" in u or "fitpub.social" in u:
-            return "other"
+
     return None
 
 
@@ -209,6 +226,16 @@ def fediverse_fields(src, s):
         f"post_text: {yq(text)}",
         f"content_html: {yq(s['content'] or '')}",
     ]
+    if s.get("in_reply_to_id"):
+        parent_acct = s.get("in_reply_to_account_id")
+        mine = parent_acct == s["account"]["id"]
+        acct = s["account"]["acct"] if mine else next(
+            (m["acct"] for m in s.get("mentions", []) if m["id"] == parent_acct), "")
+        lines += ["in_reply_to:",
+                  f"  id: {yq(s['in_reply_to_id'])}",
+                  f"  self: {'true' if mine else 'false'}",
+                  f"  acct: {yq(acct)}",
+                  f"  url: {yq(cfg['base'] + '/@' + acct + '/' + s['in_reply_to_id']) if acct else yq('')}"]
     tags = [t["name"] for t in s.get("tags", [])]
     if tags:
         lines += ["tags_fediverse:", *[f"  - {yq(t)}" for t in tags]]
@@ -237,7 +264,7 @@ def fediverse_fields(src, s):
 def run_fediverse(src, args):
     token = token_for(src)
     have = existing_ids(src)
-    c = {"new": 0, "exists": 0, "replies": 0, "not public": 0, "boosts": 0}
+    c = {"new": 0, "exists": 0, "not public": 0, "boosts": 0}
     n_cross = 0
     crossposts = {}
     for s in statuses(src, token):
@@ -252,8 +279,6 @@ def run_fediverse(src, args):
                 crossposts.setdefault(key, []).append({"label": FEDIVERSE[src]["label"], "url": where})
                 n_cross += 1
             continue
-        if s.get("in_reply_to_id"):
-            c["replies"] += 1; continue
         if s.get("visibility") not in ("public", "unlisted"):
             c["not public"] += 1; continue
         target = crosspost_target(src, s)
@@ -396,6 +421,51 @@ def run_fitpub(args):
     report("fitpub", args, c)
 
 
+# ---------------------------------------------------------------- Presentations
+
+def run_presentations(args):
+    items = get(PRESENTATIONS)[0]
+    folder = os.path.join(OUT, "presentations")
+    before = {f for f in os.listdir(folder)} if os.path.isdir(folder) else set()
+    wanted, c = set(), {"new": 0, "exists": 0, "updated": 0, "removed": 0}
+    for p in items:
+        created = dt.datetime.fromisoformat(p["date"]).astimezone()
+        tags = p.get("tags") or []
+        course = next((t for t in tags if t.startswith("SOWK ")), "")
+        lines = [
+            f"title: {yq(p['title'])}",
+            f"date: {created.strftime('%Y-%m-%d %H:%M:%S %z')}",
+            "source: presentations",
+            "kind: presentation",
+            f"post_id: {yq(p['id'])}",
+            f"post_url: {yq(p['url'])}",
+            f"redirect_to: {yq(p['url'])}",
+            "presentation:",
+            f"  image: {yq(p.get('image'))}",
+            f"  image_alt: {yq(p.get('image_alt') or p['title'])}",
+            f"  course: {yq(course)}",
+            f"  location: {yq(p.get('location'))}",
+        ]
+        name = f"{created.strftime('%Y-%m-%d')}-presentations-{p['id']}.md"
+        wanted.add(name)
+        body = "\n".join(["---", *lines, "---", ""])
+        path = os.path.join(folder, name)
+        old = open(path).read() if os.path.exists(path) else None
+        if old == body:
+            c["exists"] += 1; continue
+        c["updated" if old is not None else "new"] += 1
+        if not args.dry_run:
+            os.makedirs(folder, exist_ok=True)
+            with open(path, "w") as f:
+                f.write(body)
+    for gone in sorted(before - wanted):
+        c["removed"] += 1
+        if not args.dry_run:
+            os.remove(os.path.join(folder, gone))
+    verb = "would add" if args.dry_run else "added"
+    print(f"presentations: {verb} {c['new']} | updated {c['updated']} | removed {c['removed']} | unchanged {c['exists']}")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("source", choices=[*SOURCES, "all"])
@@ -409,6 +479,8 @@ def main():
         try:
             if src == "fitpub":
                 run_fitpub(args)
+            elif src == "presentations":
+                run_presentations(args)
             else:
                 (run_fediverse if src in FEDIVERSE else run_ytdlp)(src, args)
         except Exception as e:  # noqa: BLE001 - report and keep going

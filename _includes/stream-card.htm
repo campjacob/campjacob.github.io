@@ -1,5 +1,5 @@
 {%- comment -%}
-  One stream item (Mastodon / Pixelfed / YouTube / TikTok), used by the /stream/ timeline
+  One stream item (Mastodon / Pixelfed / YouTube / TikTok / FitPub / Presentations / Dictionary, or a blog post), used by the /stream/ timeline
   and the single-item layout. Pass the item as include.post; include.single drops the
   permalink. No embeds or iframes: plain text and <img> only, so the same markup works in
   a newsletter email. Cross-posts come from _data/stream_crossposts.yml ("Also on" links).
@@ -11,23 +11,70 @@
   {%- when "youtube" -%}{%- assign icon = "fab fa-youtube" -%}{%- assign label = "YouTube" -%}
   {%- when "tiktok" -%}{%- assign icon = "fab fa-tiktok" -%}{%- assign label = "TikTok" -%}
   {%- when "fitpub" -%}{%- assign icon = "fas fa-person-running" -%}{%- assign label = "FitPub" -%}
+  {%- when "blog" -%}{%- assign icon = "fas fa-pen-nib" -%}{%- assign label = "Blog" -%}
+  {%- when "presentations" -%}{%- assign icon = "fas fa-person-chalkboard" -%}{%- assign label = "Presentations" -%}
+  {%- when "dictionary" -%}{%- assign icon = "fas fa-book" -%}{%- assign label = "Dictionary" -%}
   {%- else -%}{%- assign icon = "fas fa-comment" -%}{%- assign label = "Post" -%}
 {%- endcase -%}
+{%- if p.source == "dictionary" -%}{%- assign item_date = p.added_to_project -%}{%- else -%}{%- assign item_date = p.date -%}{%- endif -%}
 {%- assign media_count = p.media | size -%}
-{%- assign xkey = p.source | append: ":" | append: p.post_id -%}
+{%- if p.source == "blog" or p.source == "dictionary" -%}{%- assign xkey = "site:" | append: p.url -%}{%- else -%}{%- assign xkey = p.source | append: ":" | append: p.post_id -%}{%- endif -%}
 {%- assign also = site.data.stream_crossposts[xkey] -%}
-<article class="stream-item card shadow-sm mb-3" data-source="{{ p.source }}" data-kind="{{ p.kind }}">
+<article class="stream-item card shadow-sm mb-3" data-source="{{ p.source }}" data-kind="{{ p.kind }}" data-time="{{ item_date | date: '%s' }}" data-year="{{ item_date | date: '%Y' }}">
   <div class="card-body">
     <div class="d-flex justify-content-between align-items-baseline small text-body-secondary mb-2">
       <span><i class="{{ icon }} fa-fw" aria-hidden="true"></i> {{ label }}</span>
       {%- if include.single -%}
-      <time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%b %-d, %Y" }}</time>
+      <time datetime="{{ item_date | date: '%Y-%m-%d' }}">{{ item_date | date: "%b %-d, %Y" }}</time>
       {%- else -%}
-      <a href="{{ p.url | relative_url }}" class="text-body-secondary text-decoration-none"><time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%b %-d, %Y" }}</time></a>
+      <a href="{{ p.url | relative_url }}" class="text-body-secondary text-decoration-none"><time datetime="{{ item_date | date: '%Y-%m-%d' }}">{{ item_date | date: "%b %-d, %Y" }}</time></a>
       {%- endif -%}
     </div>
 
-    {%- if p.show_title -%}<h3 class="h5 fw-semibold mb-2">{{ p.title }}</h3>{%- endif -%}
+    {%- if p.in_reply_to -%}
+    {%- comment -%} Replies: say what they answer. My own earlier post links to its page here when it's in the stream. {%- endcomment -%}
+    {%- assign r = p.in_reply_to -%}
+    <div class="small text-body-secondary mb-1"><i class="fas fa-reply fa-xs me-1" aria-hidden="true"></i>
+      {%- if r.self -%}
+        {%- assign parent = site.stream | where: "post_id", r.id | first -%}
+        {% if parent %}<a href="{{ parent.url | relative_url }}" class="text-body-secondary">Continuing my earlier post</a>{% elsif r.url != "" %}<a href="{{ r.url }}" class="text-body-secondary" rel="noopener">Continuing my earlier post</a>{% else %}Continuing my earlier post{% endif %}
+      {%- else %}
+        Replying to {% if r.url != "" %}<a href="{{ r.url }}" class="text-body-secondary" rel="noopener">@{{ r.acct | split: "@" | first }}</a>{% else %}a post{% endif %}
+      {%- endif -%}
+    </div>
+    {%- endif -%}
+
+    {%- if p.source == "presentations" -%}
+    {%- assign pr = p.presentation -%}
+    <h3 class="h5 fw-semibold mb-2"><a href="{{ p.post_url }}" class="text-body text-decoration-none" rel="noopener">{{ p.title }}</a></h3>
+    {%- if pr.image -%}<a href="{{ p.post_url }}" class="stream-slide d-block mb-2" rel="noopener"><img src="{{ pr.image }}" alt="{{ pr.image_alt | escape }}" loading="lazy" decoding="async"></a>{%- endif -%}
+    {%- capture where -%}{% if pr.course != "" %}{{ pr.course }}{% endif %}{% if pr.course != "" and pr.location %} &middot; {% endif %}{{ pr.location }}{%- endcapture -%}
+    {%- if where != "" -%}<div class="stream-content text-body-secondary small">{{ where }}</div>{%- endif -%}
+    {%- endif -%}
+
+    {%- if p.source == "dictionary" -%}
+    {%- comment -%}
+      Read from the entry's HTML: part of speech is the first <h2>; the definition is the first
+      quoted line, else the first numbered sense, else the first paragraph under the heading.
+    {%- endcomment -%}
+    {%- assign html = p.content | markdownify -%}   {%- comment -%} content may still be raw Markdown when the stream page renders {%- endcomment -%}
+    {%- assign pos = "" -%}
+    {%- if html contains "<h2" -%}{%- assign pos = html | split: "<h2" | slice: 1 | first | split: ">" | slice: 1 | first | split: "<" | first | strip -%}{%- endif -%}
+    {%- if html contains "<blockquote>" -%}{%- assign def = html | split: "<blockquote>" | slice: 1 | first | split: "</blockquote>" | first -%}
+    {%- elsif html contains "<ol>" -%}{%- assign def = html | split: "<ol>" | slice: 1 | first | split: "<li>" | slice: 1 | first | split: "</li>" | first -%}
+    {%- else -%}{%- assign def = html | split: "</h1>" | last | split: "</p>" | first -%}{%- endif -%}
+    {%- assign def = def | strip_html | strip | split: "; “" | first | truncate: 220 -%}
+    <h3 class="h5 fw-semibold mb-1"><a href="{{ p.url | relative_url }}" class="text-body text-decoration-none">{{ p.title }}</a>{% if pos != "" %} <span class="fw-normal fst-italic text-body-secondary small">{{ pos | downcase }}</span>{% endif %}</h3>
+    {%- if def != "" -%}<div class="stream-content">{{ def }}</div>{%- endif -%}
+    {%- if p.source-author -%}<div class="small text-body-secondary mt-1">Came across it reading {{ p.source-author }}</div>{%- endif -%}
+    {%- endif -%}
+
+    {%- if p.show_title or p.source == "blog" -%}<h3 class="h5 fw-semibold mb-2">{% if p.source == "blog" %}<a href="{{ p.url | relative_url }}" class="text-body text-decoration-none">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>{%- endif -%}
+
+    {%- if p.source == "blog" -%}
+    {%- if p.header.teaser -%}<a href="{{ p.url | relative_url }}" class="stream-teaser d-block mb-2"><img src="{{ p.header.teaser | relative_url }}" alt="" loading="lazy" decoding="async"></a>{%- endif -%}
+    <div class="stream-content">{{ p.excerpt | strip_html | truncate: 280 }}</div>
+    {%- endif -%}
 
     {%- if p.video -%}
     <a href="{{ p.post_url }}" class="stream-video stream-video-{{ p.source }} d-block position-relative mb-2" rel="noopener">
@@ -55,7 +102,8 @@
     <a href="{{ p.post_url }}" class="stream-activity d-block mb-2" rel="noopener"><img src="{{ a.image }}" alt="Route map for {{ p.title | escape }}" loading="lazy" decoding="async"></a>
     {%- endif -%}
 
-    {%- if include.single or p.source != "youtube" -%}
+    {%- if p.source == "blog" or p.source == "presentations" or p.source == "dictionary" -%}
+    {%- elsif include.single or p.source != "youtube" -%}
     <div class="stream-content">{{ p.content_html }}</div>
     {%- else -%}
     <div class="stream-content text-body-secondary small">{{ p.post_text | strip_newlines | truncate: 200 }}</div>
@@ -89,8 +137,9 @@
 
     {%- comment -%} "View on my site · Pixelfed · Mastodon": the first is this post's page here, then the original, then cross-posts {%- endcomment -%}
     <div class="stream-links small mt-2 text-end text-body-secondary">View on
-      {%- unless include.single %} <a href="{{ p.url | relative_url }}" class="text-body-secondary">my site</a>{% endunless -%}
-      {%- if p.post_url -%}{%- unless include.single %} &middot;{% endunless %} <a href="{{ p.post_url }}" class="text-body-secondary" rel="noopener">{{ label }}</a>{%- endif -%}
+      {%- unless include.single or p.source == "presentations" or p.source == "dictionary" %} <a href="{{ p.url | relative_url }}" class="text-body-secondary">{% if p.source == "blog" %}my blog{% else %}my site{% endif %}</a>{% endunless -%}
+      {%- if p.source == "dictionary" %} <a href="{{ p.url | relative_url }}" class="text-body-secondary">my dictionary</a>{%- endif -%}
+      {%- if p.post_url -%}{%- unless include.single or p.source == "presentations" %} &middot;{% endunless %} <a href="{{ p.post_url }}" class="text-body-secondary" rel="noopener">{{ label }}</a>{%- endif -%}
       {%- for x in also %} &middot; <a href="{{ x.url }}" class="text-body-secondary" rel="noopener">{{ x.label }}</a>{%- endfor %}
     </div>
   </div>

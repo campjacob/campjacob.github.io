@@ -6,7 +6,8 @@ layout: foundation
   Legacy Twitter/TikTok microposts keep _layouts/single-micropost.html.
   Older/Newer run through the whole stream by date.
 {%- endcomment -%}
-{%- assign posts = site.stream | sort: "date" -%}
+{%- comment -%} Presentations only redirect to the deck, so they're not in Older/Newer {%- endcomment -%}
+{%- assign posts = site.stream | where_exp: "p", "p.source != 'presentations'" | sort: "date" -%}
 {%- assign total = posts | size -%}
 {%- for p in posts -%}{%- if p.url == page.url -%}{%- assign idx = forloop.index0 -%}{%- endif -%}{%- endfor -%}
 {%- assign prev_idx = idx | minus: 1 -%}

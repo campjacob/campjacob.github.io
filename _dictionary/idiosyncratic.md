@@ -1,5 +1,6 @@
 ---
 title: idiosyncratic
+added_to_project: 2019-09-04
 dictionary-picture: false
 ---
 # idiosyncratic

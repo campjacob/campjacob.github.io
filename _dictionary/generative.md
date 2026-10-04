@@ -1,5 +1,6 @@
 ---
 title: generative
+added_to_project: 2019-09-04
 dictionary-picture: true
 dictionary-picture-file: new-words-screenshot-generative.jpg
 source-reference: "Gergen, K. J. (2015). Social Construction: From “What is” to “What Could Be.” _In An Invitation to Social Construction_ (pp. 1–33). SAGE Publications. https://doi.org/https://dx.doi.org/10.4135/9781473921276"

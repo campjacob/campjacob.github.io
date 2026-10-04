@@ -1,6 +1,12 @@
 # Written by scripts/import-stream.py; do not edit by hand.
 # Key = where the original lives (pixelfed:<id>, site:<path>); value = the cross-posts.
 # The stream card and, later, blog posts show these as "Also on" links.
+"fitpub:766e5eb5-4b35-49e7-9c79-5c2aea66979a":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/116939625478156732"
+"fitpub:7beaf331-b865-46c1-b9e6-5c786045e1be":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/117109285576837144"
 "fitpub:b7d9a66d-0365-458e-b56d-af7a0be0b0d5":
   - label: "Mastodon"
     url: "https://social.vsp.ink/@campjacob@fitpub.social/117265917589874293"
@@ -28,6 +34,9 @@
 "pixelfed:814184952405946413":
   - label: "Mastodon"
     url: "https://social.vsp.ink/@Jacob/114286539505647370"
+"pixelfed:817235970726408275":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/114334179866510099"
 "pixelfed:817923614805295188":
   - label: "Mastodon"
     url: "https://social.vsp.ink/@photos@media.vsp.ink/114344918901416384"
@@ -43,12 +52,18 @@
 "pixelfed:836035185325084800":
   - label: "Mastodon"
     url: "https://social.vsp.ink/@photos@media.vsp.ink/114627915400961100"
+"pixelfed:837553769236258946":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/114651645956268552"
 "pixelfed:838948943350444163":
   - label: "Mastodon"
     url: "https://social.vsp.ink/@photos@media.vsp.ink/114673439651858939"
 "pixelfed:841893994095931525":
   - label: "Mastodon"
     url: "https://social.vsp.ink/@photos@media.vsp.ink/114719458025627409"
+"pixelfed:843932740824588423":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/114751336207985230"
 "pixelfed:844609835196698760":
   - label: "Mastodon"
     url: "https://social.vsp.ink/@photos@media.vsp.ink/114761890887610479"
@@ -88,15 +103,58 @@
 "pixelfed:981771951022956545":
   - label: "Mastodon"
     url: "https://social.vsp.ink/@photos@media.vsp.ink/116905048760816811"
+"pixelfed:983974632105488386":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/116939475879147003"
+"presentations:9PyXj0":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/116421314732240573"
+"presentations:GcrJJx":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/117380661260524627"
+"presentations:I0pK2R":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/113859134374651726"
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/113858746039047631"
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/113837113083182052"
+"presentations:KgXe5K":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/113874875303564452"
+"presentations:SWAIHw":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/114356626624639577"
+"presentations:aWNpQx":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/115380318219993958"
+"presentations:liCMyT":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/114057755853293384"
+"presentations:zTpIzB":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/114759419915018420"
 "site:/blog/":
   - label: "Mastodon"
     url: "https://social.vsp.ink/@Jacob/112601091157679899"
 "site:/blog/2009/1/do-you-really-understand/":
   - label: "Mastodon"
     url: "https://social.vsp.ink/@Jacob/114752565167979983"
+"site:/blog/2009/10/delays-couchsurfing-and-boats-oh-my-brazil/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/116752378344867697"
 "site:/blog/2019/10/creation-of-annual-report-for-ceus-for-licsw/":
   - label: "Mastodon"
     url: "https://social.vsp.ink/@Jacob/113330809222211819"
+"site:/blog/2020/02/reconnecting-to-the-divine-book-review-of-foxs-creativity-book/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/113489357876576048"
+"site:/blog/2021/05/envisioning-a-better-future-with-my-kids/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/114180942087221903"
+"site:/blog/2023/06/adding-to-the-ellipsis-after-my-name-earning-my-phd/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/110585908317071225"
 "site:/blog/2023/06/the-first-leg-sand-dunes-and-family-fun/":
   - label: "Mastodon"
     url: "https://social.vsp.ink/@Jacob/110626243558277001"
@@ -136,6 +194,9 @@
 "site:/blog/2026/10/pushing-myself-more-the-2026-chelanathon/":
   - label: "Mastodon"
     url: "https://social.vsp.ink/@Jacob/117379208328304638"
+"site:/dictionary/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/116228899272535533"
 "site:/dictionary/delouse/":
   - label: "Mastodon"
     url: "https://social.vsp.ink/@Jacob/116797833642388802"
@@ -166,3 +227,23 @@
 "site:/dictionary/syllogism/":
   - label: "Mastodon"
     url: "https://social.vsp.ink/@Jacob/114731393361612681"
+"site:/resources/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/110585754011216664"
+"site:/resources/essays/book-review-becoming-an-artist-research-for-mindful-creativity/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/114021093463097895"
+"site:/resources/essays/intertwining-my-experiences-and-research-topic/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/113489348675850201"
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/111910289037035222"
+"site:/resources/essays/the-significance-of-a-story/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/114180940673149582"
+"site:/testimony/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/113489366646565150"
+"youtube:ngj-6gQMuNM":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/114367090470188749"

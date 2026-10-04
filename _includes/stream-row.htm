@@ -1,0 +1,11 @@
+{%- comment -%}
+  One row of the /stream/ list: a year heading when the year changes, then the card.
+  include.date is the item's date (added_to_project for dictionary words). Uses and updates
+  last_year from the calling page.
+{%- endcomment -%}
+{%- assign row_year = include.date | date: "%Y" -%}
+{%- if row_year != last_year -%}
+<h2 class="h6 fw-bold text-body-secondary border-bottom pb-1 mt-4 mb-3 stream-year" data-year="{{ row_year }}">{{ row_year }}</h2>
+{%- assign last_year = row_year -%}
+{%- endif -%}
+{% include stream-card.htm post=include.post %}
