@@ -2,6 +2,7 @@
 name: understanding-disciplinary-specific-content-within-transdisciplinarity.md
 title: "Understanding Disciplinary Specific Content within Transdisciplinarity"
 Date: 2020-03-15  
+date: 2020-03-15
 categories:
     - Essay
 tags:

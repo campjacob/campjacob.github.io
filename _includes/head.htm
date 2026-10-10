@@ -35,7 +35,7 @@
 <meta name="viewport" content="width=device-width{% if page.layout == 'single_embed_slide' %}, shrink-to-fit=no{% endif %}">
 
 <!-- Title and Description -->
-<title>{{ page.title }} - {{ site.title }}</title>
+<title>{{ page.title | escape }} - {{ site.title | escape }}</title>
 <meta name="description" content="{{ seo_description | truncate: 150 }}">
 <meta name="author" content="Jacob Campbell">
 <meta name="fediverse:creator" content="@Jacob@social.vsp.ink">
@@ -97,6 +97,15 @@
 <script src="https://kit.fontawesome.com/1e7b9d9fdb.js" crossorigin="anonymous"></script>
 
 <link rel="stylesheet" href="{{ '/assets/css/foundation.css' | relative_url }}">
+{%- assign nav_section = site.data.nav.sections[page.nav_group] -%}
+{%- if nav_section %}
+{%- assign full_from = nav_section.full_name_from | default: 576 %}
+<!-- With a section label, the logo shows the full name only where it fits on one line (nav.yml full_name_from) -->
+<style>
+  @media (max-width: {{ full_from | minus: 0.02 }}px) { .brand-full { display: none; } }
+  @media (min-width: {{ full_from }}px) { .brand-initials { display: none; } }
+</style>
+{%- endif %}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
 <script src="{{ '/assets/js/bootstrap-auto-dark-mode.js' | relative_url }}"></script>
 {%- if page.layout == 'single_embed_slide' -%}

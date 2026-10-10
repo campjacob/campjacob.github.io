@@ -1,18 +1,11 @@
 {%- assign section = site.data.nav.sections[page.nav_group] -%}
 
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg" aria-label="Main">
   <div class="container">
 
     <!-- Logo -->
     <a class="navbar-brand text-nowrap me-2" href="https://jacobrcampbell.com">
-      {%- if section %}
-      {%- assign full_from = section.full_name_from | default: 576 -%}
-      <!-- With a section label, the full name shows only where it fits on one line (nav.yml full_name_from) -->
-      <style>
-        @media (max-width: {{ full_from | minus: 0.02 }}px) { .brand-full { display: none; } }
-        @media (min-width: {{ full_from }}px) { .brand-initials { display: none; } }
-      </style>
-      {%- endif %}
+      {%- comment -%} The full-name/initials switch point is set in head.htm (nav.yml full_name_from). {%- endcomment -%}
       <span class="brand-full">
         <span class="h2 orange">| </span>
         <span class="h2 fw-bolder">Jacob </span>

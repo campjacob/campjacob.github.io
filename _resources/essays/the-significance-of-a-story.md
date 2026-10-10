@@ -29,7 +29,7 @@ Ingold, J. (Executive Producer), Katzer, L. (Executive Producer), Lawrence, B.(E
 
 Jones, A. (Executive Producer), & Brooker, C. (Executive Producer) (2011 - Present) _Black mirror_ [TV series]. Zeppotron; House of Tomorrow.
 
-NowThis News. (2019 February 16). _Why we need Alexandria Ocasio Cortez’s green new deal | opinions | NowThis [Video]_. YouTube. <https://youtu.be/kZtmwWgIw0k>
+NowThis News. (2019 February 16). _Why we need Alexandria Ocasio Cortez’s green new deal \| opinions \| NowThis_ [Video]. YouTube. <https://youtu.be/kZtmwWgIw0k>
 
 </div>
 

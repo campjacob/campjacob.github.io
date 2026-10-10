@@ -2,6 +2,7 @@
 name: totalitarian-mindset-and-serving-students-with-ebd.md
 title: "The Totalitarian Mindset and Serving Students with Emotional and Behavioral Disabilities"
 Date: 2020-03-17  
+date: 2020-03-17
 categories:
     - Essay
 tags:

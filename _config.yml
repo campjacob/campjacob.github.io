@@ -307,12 +307,11 @@ defaults:
       path: ""
       type: resources
     values:
-      layout: single
+      layout: resource_foundation
+      nav_group: resources
+      author_sidebar: true
+      author_profile: true
       share: true
-      toc: true
-      toc_label: Table of Contents
-      sidebar:
-        nav: "resources"
   # _communications
   - scope:
       path: ""

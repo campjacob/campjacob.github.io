@@ -145,7 +145,7 @@ FASD Center for Excellence Home Page (2006, September 29) Retrieved November 10,
 
 Jean Piaget Society Resources for Students (2006, September 14) Retrieved from [http://www.piaget.org/students.html](http://www.piaget.org/students.html)
 
-Kirst-Ashman, K. K., & Hull, H. G. (2006). _Understanding generalist practice _(4th ed.). Belmont , CA: Thomson Brooks / Cole.
+Kirst-Ashman, K. K., & Hull, H. G. (2006). _Understanding generalist practice_ (4th ed.). Belmont , CA: Thomson Brooks / Cole.
 
 Lupton, C. (2003) The Financial Impact of Fetal Alcohol Syndrome. Retrieved from the Department of Substance Abuse and Mental Health Service Administration an agency of the US Department of Health and Human Services: [http://fasdcenter.samhsa.gov/publications/economicCost.cfm](http://fasdcenter.samhsa.gov/publications/economicCost.cfm)
 

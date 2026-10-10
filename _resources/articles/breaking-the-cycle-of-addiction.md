@@ -42,7 +42,7 @@ Each of the week’s curricula matures from one week to the next in a logical or
 **Week 7**: Juvenile Outreach   
 **Week 8**: "Where do I go From Here?" 
 
-_Week one _is a time for the members to become introduced to the group, to talk about the group’s purpose, and activities. It is also an introduction into creating goals. Goals are taught using the SMART method. The first week also addresses the accountability groups that will be used every week. During every meeting the large group will break up into a small group of two or three members. During the small group discussions they will be asked about their goals, recovery issues, and keeping up with sobriety.
+_Week one_ is a time for the members to become introduced to the group, to talk about the group’s purpose, and activities. It is also an introduction into creating goals. Goals are taught using the SMART method. The first week also addresses the accountability groups that will be used every week. During every meeting the large group will break up into a small group of two or three members. During the small group discussions they will be asked about their goals, recovery issues, and keeping up with sobriety.
 
 _Week two_, the pharmacology of addiction is a presentation and discussion about bio-psycho-social effects of addiction. _Week three_ focus’s on family roles, and the described family roles of dysfunctional families. This session’s deliberate heart is for the members to look both into their past family history, and current family situation. The self evaluative aspect of this week causes the members to see their identity in a new way. The roles that are described are; scapegoat, hero, lost child, and mascot.
 

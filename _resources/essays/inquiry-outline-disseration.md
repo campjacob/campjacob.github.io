@@ -109,7 +109,7 @@ The following are my current thoughts and planned outline for my dissertation. T
 		<ol type="A">
 			<li>Definition of trauma</li>
 			<ol type="1">
-				<li>“Individual trauma results from an **event**, series of events, or set of circumstances that is **experienced** by an individual as physically or emotionally harmful or life-threatening and that has lasting adverse **effects** on the individual's functioning and mental, physical, social, emotional, or spiritual well-being” (p. 7) (Substance Abuse Mental Health Services Administration, 2012)</li>
+				<li>“Individual trauma results from an <strong>event</strong>, series of events, or set of circumstances that is <strong>experienced</strong> by an individual as physically or emotionally harmful or life-threatening and that has lasting adverse <strong>effects</strong> on the individual's functioning and mental, physical, social, emotional, or spiritual well-being” (p. 7) (Substance Abuse Mental Health Services Administration, 2012)</li>
 				<li>There are a number of terms that can be used to understand trauma. These include toxic stress (Shonkoff et al., 2012; Franke, 2014), chronic stress (Evans & Kim, 2012)</li>
 			</ol>
 			<li>Adverse childhood experiences (ACEs)</li>

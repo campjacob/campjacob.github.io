@@ -25,7 +25,7 @@ I created a Powerpoint Presentation, some hand out forms, and some interactive a
 
    [2]: /assets/media/solution-focused-brief-therapy-presentation.pptx
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/AiHN7QF2xvgkSc" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/campjacob/solutionfocused-brief-therapy-powerpoint-presentation" title="Solution-focused Brief Therapy PowerPoint Presentation" target="_blank">Solution-focused Brief Therapy PowerPoint Presentation</a> </strong> from <strong><a href="https://www.slideshare.net/campjacob" target="_blank">Jacob Campbell</a></strong> </div>
+<iframe title="Solution-Focused Brief Therapy presentation slides" src="//www.slideshare.net/slideshow/embed_code/key/AiHN7QF2xvgkSc" width="595" height="485" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/campjacob/solutionfocused-brief-therapy-powerpoint-presentation" title="Solution-focused Brief Therapy PowerPoint Presentation" target="_blank">Solution-focused Brief Therapy PowerPoint Presentation</a> </strong> from <strong><a href="https://www.slideshare.net/campjacob" target="_blank">Jacob Campbell</a></strong> </div>
 
 You can also find a copy of the [Presentation Handout][5] I created for this presentation.
 

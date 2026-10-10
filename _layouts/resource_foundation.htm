@@ -1,0 +1,222 @@
+---
+layout: foundation
+---
+{%- comment -%}
+  Single resource (essay, article, or informational post) in the Bootstrap
+  "foundation" style. The type comes from the folder the file lives in:
+  _resources/essays/ = Essay, _resources/articles/ = Article, anything else
+  in _resources/ = Informational. Previous/next stay within the same type,
+  ordered by date. The old Minimal Mistakes layout is still _layouts/single.html.
+{%- endcomment -%}
+{%- if page.path contains "/essays/" -%}
+  {%- assign rtype = "Essay" -%}{%- assign rlist_url = "/resources/essays/" -%}{%- assign rlist_label = "Academic Essays" -%}{%- assign rfolder = "/essays/" -%}
+{%- elsif page.path contains "/articles/" -%}
+  {%- assign rtype = "Article" -%}{%- assign rlist_url = "/resources/articles/" -%}{%- assign rlist_label = "Articles" -%}{%- assign rfolder = "/articles/" -%}
+{%- else -%}
+  {%- assign rtype = "Informational" -%}{%- assign rlist_url = "/resources/#informational" -%}{%- assign rlist_label = "Informational" -%}{%- assign rfolder = "" -%}
+{%- endif -%}
+
+{%- comment -%} Items of the same type, oldest first, for previous/next. {%- endcomment -%}
+{%- assign same_type = "" | split: "" -%}
+{%- for item in site.resources -%}
+  {%- if rfolder != "" -%}
+    {%- if item.path contains rfolder -%}{%- assign same_type = same_type | push: item -%}{%- endif -%}
+  {%- else -%}
+    {%- unless item.path contains "/essays/" or item.path contains "/articles/" -%}{%- assign same_type = same_type | push: item -%}{%- endunless -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign same_type = same_type | sort: "date" -%}
+{%- assign type_size = same_type | size -%}
+{%- for item in same_type -%}
+  {%- if item.url == page.url -%}{%- assign idx = forloop.index0 -%}{%- endif -%}
+{%- endfor -%}
+{%- assign prev_idx = idx | minus: 1 -%}
+{%- assign next_idx = idx | plus: 1 -%}
+
+{%- assign course_id = page["Course ID"] | strip -%}
+{%- assign course_title = page["Course Title"] | strip -%}
+{%- assign course_topic = page["Topic"] | strip -%}
+
+<article class="resource">
+
+<!-- Resource Header -->
+<header class="my-4">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb small mb-2">
+      <li class="breadcrumb-item"><a href="/resources/">Resources</a></li>
+      <li class="breadcrumb-item active" aria-current="page"><a href="{{ rlist_url }}">{{ rlist_label }}</a></li>
+    </ol>
+  </nav>
+  <h1 class="fw-bolder">{{ page.title | escape }}</h1>
+  <p class="text-body-secondary mb-0">
+    {%- if page.date %}
+    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+    <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+    {%- endif %}
+    <span class="badge text-bg-secondary ms-1">{{ rtype }}</span>
+  </p>
+  {%- comment -%}
+    The summary is skipped when the page text already contains it: many
+    excerpts are the paper's opening sentences, and pages without an excerpt
+    get the first paragraph automatically, so showing it would repeat it.
+  {%- endcomment -%}
+  {%- assign summary = page.excerpt | strip_html | normalize_whitespace | strip -%}
+  {%- comment -%} Compare without quotes/apostrophes: the page body has curly ones, front matter straight ones. {%- endcomment -%}
+  {%- assign summary_probe = summary | remove: "'" | remove: "’" | remove: '"' | remove: "“" | remove: "”" | remove: "&#39;" | truncate: 50, "" -%}
+  {%- assign body_text = content | strip_html | normalize_whitespace | remove: "'" | remove: "’" | remove: '"' | remove: "“" | remove: "”" | remove: "&#39;" | remove: "&rsquo;" | remove: "&ldquo;" | remove: "&rdquo;" | remove: "&quot;" -%}
+  {%- if rtype != "Essay" and summary != "" %}{% unless summary contains "download" or body_text contains summary_probe %}
+  <p class="lead mt-3 mb-0">{{ summary }}</p>
+  {%- endunless %}{% endif %}
+</header>
+<!-- End Resource Header -->
+
+{%- if course_id != "" or course_title != "" %}
+<!-- Course Context (essays written for Ph.D. coursework) -->
+<aside class="card shadow-sm mb-4">
+  <div class="card-body py-3">
+    <p class="mb-1"><i class="fas fa-graduation-cap me-1" aria-hidden="true"></i> Written for <strong>{{ course_id | escape }}{% if course_id != "" and course_title != "" %}: {% endif %}{{ course_title | escape }}</strong>, Ph.D. in Transformative Studies, California Institute of Integral Studies</p>
+    {%- if course_topic != "" %}
+    <details class="small text-body-secondary">
+      <summary>Assignment prompt</summary>
+      <div class="mt-2">{{ course_topic | markdownify }}</div>
+    </details>
+    {%- endif %}
+  </div>
+</aside>
+{%- endif %}
+
+<div class="row">
+  <!-- Resource Content -->
+  <section class="resource-content col-xl-9" id="resource-content">
+  {{ content }}
+  </section>
+  <!-- End Resource Content -->
+
+  <!-- On This Page (filled from the headings by the script below; hidden when there are fewer than three) -->
+  <nav class="col-xl-3 d-none" id="resource-toc" aria-label="On this page">
+    <div class="sticky-top pt-3 small" style="top: 1rem;">
+      <p class="fw-bold text-uppercase text-body-secondary mb-2">On this page</p>
+      <ul class="list-unstyled" id="resource-toc-list"></ul>
+    </div>
+  </nav>
+</div>
+
+{%- if page.tags.size > 0 %}
+<!-- Tags -->
+<p class="mt-4 mb-0">
+  <i class="fas fa-tags text-body-secondary me-1" aria-hidden="true"></i>
+  {%- for tag in page.tags %}
+  {%- unless tag == "Resources" or tag == "Articles" %}
+  <span class="badge rounded-pill text-bg-light border me-1">{{ tag }}</span>
+  {%- endunless %}
+  {%- endfor %}
+</p>
+{%- endif %}
+
+{% include share-buttons.htm title=page.title url=page.url %}
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var content = document.getElementById("resource-content");
+  var toc = document.getElementById("resource-toc");
+  var list = document.getElementById("resource-toc-list");
+  if (!content || !toc || !list) return;
+  var heads = content.querySelectorAll("h1, h2");
+  if (heads.length < 3) return;
+  heads.forEach(function (h, i) {
+    if (!h.id) h.id = "section-" + (i + 1);
+    var li = document.createElement("li");
+    li.className = "mb-1";
+    var a = document.createElement("a");
+    a.href = "#" + h.id;
+    a.className = "text-decoration-none";
+    a.textContent = h.textContent;
+    li.appendChild(a);
+    list.appendChild(li);
+  });
+  toc.classList.remove("d-none");
+  toc.classList.add("d-xl-block");
+  toc.classList.add("d-none");
+});
+</script>
+
+<!-- Pagination within this type -->
+<nav class="d-flex justify-content-between align-items-center my-4" aria-label="{{ rlist_label }}">
+  {%- if idx > 0 -%}
+    {%- assign prev = same_type[prev_idx] -%}
+    <a href="{{ prev.url | relative_url }}" class="btn btn-outline-primary text-start" title="{{ prev.title | escape }}">&larr; Previous<span class="d-none d-md-inline small text-body-secondary"><br>{{ prev.title | truncate: 45 | escape }}</span></a>
+  {%- else -%}
+    <span class="btn btn-outline-secondary disabled">&larr; Previous</span>
+  {%- endif -%}
+
+  <a href="{{ rlist_url }}" class="btn btn-link small">All {{ rlist_label | downcase }} ({{ type_size }})</a>
+
+  {%- if next_idx < type_size -%}
+    {%- assign nxt = same_type[next_idx] -%}
+    <a href="{{ nxt.url | relative_url }}" class="btn btn-outline-primary text-end" title="{{ nxt.title | escape }}">Next &rarr;<span class="d-none d-md-inline small text-body-secondary"><br>{{ nxt.title | truncate: 45 | escape }}</span></a>
+  {%- else -%}
+    <span class="btn btn-outline-secondary disabled">Next &rarr;</span>
+  {%- endif -%}
+</nav>
+<!-- End Pagination -->
+
+{%- comment -%}
+  Recommended resource: the closest match that isn't this page or the
+  previous/next ones above. Same course scores 3, each shared tag 2 (broad
+  tags like "Social Work" only 1; "Resources"/"Articles" none), and same type 1.
+  Ties go to the resource written closest in time to this one. Nothing shows
+  unless it shares the course or a specific (non-broad) tag.
+{%- endcomment -%}
+{%- assign skip_prev = "" -%}{%- assign skip_next = "" -%}
+{%- if idx > 0 -%}{%- assign skip_prev = same_type[prev_idx].url -%}{%- endif -%}
+{%- if next_idx < type_size -%}{%- assign skip_next = same_type[next_idx].url -%}{%- endif -%}
+{%- assign broad_tags = "Social Work|California Institute of Integral Studies|Other|Research" | split: "|" -%}
+{%- assign page_days = page.date | date: "%s" | divided_by: 86400 -%}
+{%- assign rec = nil -%}{%- assign rec_score = 0 -%}{%- assign rec_rank = -1000000 -%}
+{%- assign candidates = site.resources -%}
+{%- for item in candidates -%}
+  {%- if item.url == page.url or item.url == skip_prev or item.url == skip_next -%}{%- continue -%}{%- endif -%}
+  {%- assign score = 0 -%}{%- assign strong = 0 -%}
+  {%- if course_id != "" -%}{%- assign icid = item["Course ID"] | strip -%}{%- if icid == course_id -%}{%- assign score = score | plus: 3 -%}{%- assign strong = 1 -%}{%- endif -%}{%- endif -%}
+  {%- for tag in page.tags -%}
+    {%- unless tag == "Resources" or tag == "Articles" -%}{%- if item.tags contains tag -%}
+      {%- if broad_tags contains tag -%}{%- assign score = score | plus: 1 -%}{%- else -%}{%- assign score = score | plus: 2 -%}{%- assign strong = 1 -%}{%- endif -%}
+    {%- endif -%}{%- endunless -%}
+  {%- endfor -%}
+  {%- if rfolder != "" -%}
+    {%- if item.path contains rfolder -%}{%- assign score = score | plus: 1 -%}{%- endif -%}
+  {%- else -%}
+    {%- unless item.path contains "/essays/" or item.path contains "/articles/" -%}{%- assign score = score | plus: 1 -%}{%- endunless -%}
+  {%- endif -%}
+  {%- assign item_days = item.date | date: "%s" | divided_by: 86400 -%}
+  {%- assign gap = item_days | minus: page_days | abs -%}
+  {%- assign rank = score | times: 100000 | minus: gap -%}
+  {%- if strong == 1 and rank > rec_rank -%}{%- assign rec = item -%}{%- assign rec_score = score -%}{%- assign rec_rank = rank -%}{%- endif -%}
+{%- endfor -%}
+
+{%- if rec %}
+{%- if rec.path contains "/essays/" -%}{%- assign rec_type = "Essay" -%}{%- elsif rec.path contains "/articles/" -%}{%- assign rec_type = "Article" -%}{%- else -%}{%- assign rec_type = "Informational" -%}{%- endif -%}
+{%- assign rec_course = rec["Course ID"] | strip -%}
+{%- assign rec_course_title = rec["Course Title"] | strip -%}
+{%- assign rec_summary = rec.excerpt | strip_html | normalize_whitespace | strip -%}
+<!-- Recommended -->
+<section class="my-4" aria-label="Recommended resource">
+  <p class="small fw-bold text-uppercase text-body-secondary mb-2">Recommended</p>
+  <a href="{{ rec.url | relative_url }}" class="card shadow-sm text-decoration-none">
+    <div class="card-body">
+      <h2 class="h5 fw-bold mb-1">{{ rec.title | escape }}</h2>
+      <p class="small text-body-secondary mb-2">
+        <span class="badge text-bg-secondary me-1">{{ rec_type }}</span>
+        {%- if rec_course != "" %} {{ rec_course | escape }}{% if rec_course_title != "" %}: {{ rec_course_title | escape }}{% endif %} &middot;{% endif %}
+        {{ rec.date | date: "%B %Y" }}
+      </p>
+      {%- if rec_type != "Essay" and rec_summary != "" %}{% unless rec_summary contains "download" %}
+      <p class="small text-body mb-0">{{ rec_summary | truncate: 220 | escape }}</p>
+      {%- endunless %}{% endif %}
+    </div>
+  </a>
+</section>
+<!-- End Recommended -->
+{%- endif %}
+
+</article>

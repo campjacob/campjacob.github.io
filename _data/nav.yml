@@ -31,3 +31,4 @@ sections:
   presentations:  { header_text: Presentations,  header_url: /,                full_name_from: 536 }
   communications: { header_text: Communications, header_url: /communications/, full_name_from: 768 }
   stream:         { header_text: Stream,         header_url: /stream/,         full_name_from: 420 }
+  resources:      { header_text: Resources,      header_url: /resources/,      full_name_from: 480 }

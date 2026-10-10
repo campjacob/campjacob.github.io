@@ -200,7 +200,7 @@ Montuori, A., & Donnelly, G. (2016). The creativity of culture and the culture o
 
 Morin, E. (2001). _Seven complex lessons in education for the future: Education on the move_. Paris: United Nations Educational, Scientific and Cultural Organization.
 
-Newport, C. (2016)._ Deep work: Rules for focused success in a distracted world_ [Audiobook narrated by Jeff Bottoms]. New York, NY: Hachette Audio. Available at [https://catalog.midcolumbialibraries.org/polaris/search/title.aspx?ctx=1.1033.0.0.6&pos=1](https://catalog.midcolumbialibraries.org/polaris/search/title.aspx?ctx=1.1033.0.0.6&pos=1)
+Newport, C. (2016). _Deep work: Rules for focused success in a distracted world_ [Audiobook narrated by Jeff Bottoms]. New York, NY: Hachette Audio. Available at [https://catalog.midcolumbialibraries.org/polaris/search/title.aspx?ctx=1.1033.0.0.6&pos=1](https://catalog.midcolumbialibraries.org/polaris/search/title.aspx?ctx=1.1033.0.0.6&pos=1)
 
 Poole, J. C., Dobson, K. S., & Pusch, D. (2017). Childhood adversity and adult depression: The protective role of psychological resilience. _Child Abuse & Neglect, 64_, 89–100. [https://doi.org/10.1016/j.chiabu.2016.12.012](https://doi.org/10.1016/j.chiabu.2016.12.012)
 

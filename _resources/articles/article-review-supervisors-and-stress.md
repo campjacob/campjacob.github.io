@@ -51,6 +51,6 @@ The research material seems to be needed for practice. Although, the material do
 
 <div style= "margin: 0 0 0 2em; text-indent: -2em;" markdown="1">
 
-Regehr, C., Chau, S., Bruce, L., Phillip, H. (2002) An exploration of supervisor's and manager's responses to child welfare reform.  _Administration in Social Work. 26 _(3) pp. 17-36.
+Regehr, C., Chau, S., Bruce, L., Phillip, H. (2002) An exploration of supervisor's and manager's responses to child welfare reform.  _Administration in Social Work, 26_(3), pp. 17-36.
 
 </div>

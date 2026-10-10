@@ -2,6 +2,7 @@
 name: depiction-of-social-justice-needs-through-theoretical-framing.md
 title: "Depiction of Social Justice Needs through Theoretical Framing"
 Date: 2020-05-22  
+date: 2020-05-22
 categories:
     - Essay
 tags:

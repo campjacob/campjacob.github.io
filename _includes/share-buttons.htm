@@ -1,0 +1,65 @@
+{%- comment -%}
+  Share links for a page (foundation layouts).
+  Usage: {% include share-buttons.htm title=page.title url=page.url %}
+  "Share…" uses the device's own share sheet where the browser supports it
+  (Safari on Mac/iPhone, most phones), so any app works. The icon links cover
+  everything else. Mastodon asks for the reader's server, since a share has to
+  happen on their own instance; the last one used is remembered in this browser.
+{%- endcomment -%}
+{%- assign share_url = include.url | absolute_url -%}
+{%- assign share_title = include.title | strip_html | strip -%}
+{%- assign u = share_url | url_encode -%}
+{%- assign t = share_title | url_encode -%}
+{%- assign tu = share_title | append: " " | append: share_url | url_encode -%}
+
+<!-- Share -->
+<section class="share-buttons my-4" aria-label="Share this page" data-share-url="{{ share_url }}" data-share-title="{{ share_title | escape }}">
+  <p class="small fw-bold text-uppercase text-body-secondary mb-2">Share</p>
+  <div class="d-flex flex-wrap align-items-center gap-2">
+    <button type="button" class="btn btn-sm btn-primary d-none" data-share="native"><i class="fas fa-share-from-square me-1" aria-hidden="true"></i> Share&hellip;</button>
+    <button type="button" class="btn btn-sm btn-outline-secondary" data-share="copy"><i class="fas fa-link me-1" aria-hidden="true"></i> <span>Copy link</span></button>
+    <a class="btn btn-sm btn-outline-secondary" href="#" data-share="mastodon" title="Share on Mastodon"><i class="fa-brands fa-mastodon" aria-hidden="true"></i><span class="visually-hidden">Share on Mastodon</span></a>
+    <a class="btn btn-sm btn-outline-secondary" href="https://bsky.app/intent/compose?text={{ tu }}" target="_blank" rel="noopener" title="Share on Bluesky"><i class="fa-brands fa-bluesky" aria-hidden="true"></i><span class="visually-hidden">Share on Bluesky</span></a>
+    <a class="btn btn-sm btn-outline-secondary" href="https://www.linkedin.com/sharing/share-offsite/?url={{ u }}" target="_blank" rel="noopener" title="Share on LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i><span class="visually-hidden">Share on LinkedIn</span></a>
+    <a class="btn btn-sm btn-outline-secondary" href="https://www.facebook.com/sharer/sharer.php?u={{ u }}" target="_blank" rel="noopener" title="Share on Facebook"><i class="fa-brands fa-facebook" aria-hidden="true"></i><span class="visually-hidden">Share on Facebook</span></a>
+    <a class="btn btn-sm btn-outline-secondary" href="mailto:?subject={{ t }}&amp;body={{ u }}" title="Share by email"><i class="fas fa-envelope" aria-hidden="true"></i><span class="visually-hidden">Share by email</span></a>
+  </div>
+</section>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".share-buttons").forEach(function (box) {
+    var url = box.dataset.shareUrl, title = box.dataset.shareTitle;
+
+    var native = box.querySelector('[data-share="native"]');
+    if (navigator.share && native) {
+      native.classList.remove("d-none");
+      native.addEventListener("click", function () {
+        navigator.share({ title: title, url: url }).catch(function () {});
+      });
+    }
+
+    var copy = box.querySelector('[data-share="copy"]');
+    copy.addEventListener("click", function () {
+      var label = copy.querySelector("span");
+      navigator.clipboard.writeText(url).then(function () {
+        label.textContent = "Copied!";
+        setTimeout(function () { label.textContent = "Copy link"; }, 2000);
+      });
+    });
+
+    var masto = box.querySelector('[data-share="mastodon"]');
+    masto.addEventListener("click", function (e) {
+      e.preventDefault();
+      var saved = "";
+      try { saved = localStorage.getItem("mastodonInstance") || ""; } catch (err) {}
+      var server = window.prompt("Your Mastodon server (for example, mastodon.social):", saved || "mastodon.social");
+      if (!server) return;
+      server = server.trim().replace(/^https?:\/\//, "").replace(/\/.*$/, "");
+      try { localStorage.setItem("mastodonInstance", server); } catch (err) {}
+      window.open("https://" + server + "/share?text=" + encodeURIComponent(title + " " + url), "_blank", "noopener");
+    });
+  });
+});
+</script>
+<!-- End Share -->

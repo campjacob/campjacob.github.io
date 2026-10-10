@@ -2,6 +2,7 @@
 name: transformation-creativity-and-some-of-the-things-i-have-learned.md
 title: "Transformation, Creativity and Some of the Things I Have Learned"
 Date: 2020-05-09  
+date: 2020-05-09
 categories:
     - Article
     - Essay

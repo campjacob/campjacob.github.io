@@ -2,6 +2,7 @@
 name: understanding-theoretical-frameworks-through-the-example-of-participatory-research.md
 title: "Understanding Theoretical Frameworks Through the Example of Participatory Research"
 Date: 2020-04-08  
+date: 2020-04-08
 categories:
    - Essay
 tags:

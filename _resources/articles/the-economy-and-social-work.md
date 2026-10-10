@@ -93,7 +93,7 @@ I gave [a presentation][5] of this article to my class. You can see the PowerPoi
 
 ## References
 
-<p><div style= "margin: 0 0 0 2em; text-indent: -2em;" markdown="1">
+<div style="margin: 0 0 0 2em; text-indent: -2em;" markdown="1">
 
 Adas, M. (1992) One-half century of crisis, 1914-1945. From [http://history-world.org/great_depression.htm][7]
 

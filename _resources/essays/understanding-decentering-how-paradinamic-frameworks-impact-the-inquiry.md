@@ -2,6 +2,7 @@
 name: understanding-decentering-how-paradinamic-frameworks-impact-the-inquiry.md
 title: "Understanding Decentering: How Paradinamic Frameworks Impact the Inquiry"
 Date: 2020-02-19  
+date: 2020-02-19
 categories:
     - Essay
 tags:

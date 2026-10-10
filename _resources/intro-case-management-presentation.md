@@ -28,7 +28,7 @@ I have uploaded the PowerPoint Presentation to [SlideShare][3] and you can view 
    [3]: http://www.slideshare.net/campjacob/introduction-casemanagementpresentation
    [4]: /assets/media/introduction-case-management-presentation.pptx
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/BwDyIhcQ29Namh" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/campjacob/introduction-casemanagementpresentation" title="Introduction to Case Management Presentation" target="_blank">Introduction to Case Management Presentation</a> </strong> from <strong><a href="https://www.slideshare.net/campjacob" target="_blank">Jacob Campbell</a></strong> </div>
+<iframe title="Intro to Case Management presentation slides" src="//www.slideshare.net/slideshow/embed_code/key/BwDyIhcQ29Namh" width="595" height="485" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/campjacob/introduction-casemanagementpresentation" title="Introduction to Case Management Presentation" target="_blank">Introduction to Case Management Presentation</a> </strong> from <strong><a href="https://www.slideshare.net/campjacob" target="_blank">Jacob Campbell</a></strong> </div>
 
 The presentation included a video I downloaded and embedded into the presentation off of YouTube. You can check out [Social Service Delivery][7] I thought it was pretty funny and good way to think about how to not do case management.
 

@@ -3,6 +3,7 @@ name: mass-incarceration-as-a-descriptive-understanding-from-a-minority-group.md
 title: "Mass Incarceration as a Descriptive Understanding from a Minority Group"
 permalink:
 Date: 2020-05-20  
+date: 2020-05-20
 categories:
    - Essay
 tags:
