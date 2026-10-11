@@ -1,0 +1,68 @@
+# Coordinates for the "L-- " location tags on posts, used by the Locations page map.
+# The key must match the tag exactly, without the "L-- " prefix.
+# When a post gets a new location tag, add it here or it will not appear on the map.
+
+"Amazon River Brazil":                      { place: "Amazon River", region: "Amazonas", country: "Brazil", lat: -3.30, lng: -58.90 }
+"Arequipa Peru":                            { place: "Arequipa", country: "Peru", lat: -16.409, lng: -71.537 }
+"Arica Chile":                              { place: "Arica", country: "Chile", lat: -18.478, lng: -70.312 }
+"Athol Idaho":                              { place: "Athol", region: "Idaho", country: "United States", lat: 47.947, lng: -116.708 }
+"Auschwitz Poland":                         { place: "Auschwitz", country: "Poland", lat: 50.027, lng: 19.204 }
+"Barcelona Spain":                          { place: "Barcelona", country: "Spain", lat: 41.385, lng: 2.173 }
+"Bergamo Italy":                            { place: "Bergamo", country: "Italy", lat: 45.698, lng: 9.677 }
+"Berlin Germany":                           { place: "Berlin", country: "Germany", lat: 52.520, lng: 13.405 }
+"Bratislava Slovakia":                      { place: "Bratislava", country: "Slovakia", lat: 48.149, lng: 17.107 }
+"Budapest Hungary":                         { place: "Budapest", country: "Hungary", lat: 47.498, lng: 19.040 }
+"Ciudad Bolivar Venezuela":                 { place: "Ciudad Bolívar", country: "Venezuela", lat: 8.122, lng: -63.549 }
+"Cle Elum Washington":                      { place: "Cle Elum", region: "Washington", country: "United States", lat: 47.195, lng: -120.939 }
+"Clearwater Florida":                       { place: "Clearwater", region: "Florida", country: "United States", lat: 27.966, lng: -82.800 }
+"Coos Bay Oregon":                          { place: "Coos Bay", region: "Oregon", country: "United States", lat: 43.367, lng: -124.218 }
+"Crescent City California":                 { place: "Crescent City", region: "California", country: "United States", lat: 41.756, lng: -124.202 }
+"Crown Point Trinidad And Tobago":          { place: "Crown Point", country: "Trinidad and Tobago", lat: 11.150, lng: -60.840 }
+"Cusco Peru":                               { place: "Cusco", country: "Peru", lat: -13.532, lng: -71.967 }
+"Florence Oregon":                          { place: "Florence", region: "Oregon", country: "United States", lat: 43.983, lng: -124.100 }
+"Ford Washington":                          { place: "Ford", region: "Washington", country: "United States", lat: 47.912, lng: -117.810 }
+"Goma Democratic Republic Of The Congo":    { place: "Goma", country: "Democratic Republic of the Congo", lat: -1.679, lng: 29.222 }
+"Isla De Margarita Venezuela":              { place: "Isla de Margarita", country: "Venezuela", lat: 11.000, lng: -63.900 }
+"Jungapeo Mexico":                          { place: "Jungapeo", country: "Mexico", lat: 19.459, lng: -100.494 }
+"Krakow Poland":                            { place: "Kraków", country: "Poland", lat: 50.065, lng: 19.945 }
+"Lake Chelan Washington":                   { place: "Lake Chelan", region: "Washington", country: "United States", lat: 47.840, lng: -120.016 }
+"Las Vegas Nevada":                         { place: "Las Vegas", region: "Nevada", country: "United States", lat: 36.170, lng: -115.140 }
+"Leavenworth Washington":                   { place: "Leavenworth", region: "Washington", country: "United States", lat: 47.596, lng: -120.661 }
+"Lima Peru":                                { place: "Lima", country: "Peru", lat: -12.046, lng: -77.043 }
+"London United Kingdom":                    { place: "London", country: "United Kingdom", lat: 51.507, lng: -0.128 }
+"Los Angeles California":                   { place: "Los Angeles", region: "California", country: "United States", lat: 34.052, lng: -118.244 }
+"Manaus Brazil":                            { place: "Manaus", country: "Brazil", lat: -3.119, lng: -60.022 }
+"Mexico City Mexico":                       { place: "Mexico City", country: "Mexico", lat: 19.433, lng: -99.133 }
+"Miami Florida":                            { place: "Miami", region: "Florida", country: "United States", lat: 25.762, lng: -80.192 }
+"Midi-Pyrénées France":                     { place: "Midi-Pyrénées", country: "France", lat: 43.800, lng: 1.500 }
+"Moscow Idaho":                             { place: "Moscow", region: "Idaho", country: "United States", lat: 46.732, lng: -117.000 }
+"Munich Germany":                           { place: "Munich", country: "Germany", lat: 48.135, lng: 11.582 }
+"Olympia Washington":                       { place: "Olympia", region: "Washington", country: "United States", lat: 47.038, lng: -122.900 }
+"Orlando Florida":                          { place: "Orlando", region: "Florida", country: "United States", lat: 28.538, lng: -81.379 }
+"Pacific City Oregon":                      { place: "Pacific City", region: "Oregon", country: "United States", lat: 45.202, lng: -123.962 }
+"Paradise Washington":                      { place: "Paradise (Mount Rainier)", region: "Washington", country: "United States", lat: 46.786, lng: -121.736 }
+"Paris France":                             { place: "Paris", country: "France", lat: 48.857, lng: 2.352 }
+"Port Of Spain Trinidad And Tobago":        { place: "Port of Spain", country: "Trinidad and Tobago", lat: 10.660, lng: -61.508 }
+"Porto Velho Brazil":                       { place: "Porto Velho", country: "Brazil", lat: -8.761, lng: -63.900 }
+"Prague Czech Republic":                    { place: "Prague", country: "Czech Republic", lat: 50.076, lng: 14.438 }
+"Prosser Washington":                       { place: "Prosser", region: "Washington", country: "United States", lat: 46.207, lng: -119.769 }
+"Puerto Maldonado Peru":                    { place: "Puerto Maldonado", country: "Peru", lat: -12.593, lng: -69.189 }
+"Puerto Vallarta Mexico":                   { place: "Puerto Vallarta", country: "Mexico", lat: 20.653, lng: -105.225 }
+"Puyallup Washington":                      { place: "Puyallup", region: "Washington", country: "United States", lat: 47.186, lng: -122.293 }
+"Riga Latvia":                              { place: "Riga", country: "Latvia", lat: 56.950, lng: 24.105 }
+"Rio Branco Brazil":                        { place: "Rio Branco", country: "Brazil", lat: -9.975, lng: -67.825 }
+"Rome Italy":                               { place: "Rome", country: "Italy", lat: 41.903, lng: 12.496 }
+"San Francisco California":                 { place: "San Francisco", region: "California", country: "United States", lat: 37.775, lng: -122.419 }
+"Santa Elena De Uairén Venezuela":          { place: "Santa Elena de Uairén", country: "Venezuela", lat: 4.603, lng: -61.111 }
+"Seattle Washington":                       { place: "Seattle", region: "Washington", country: "United States", lat: 47.606, lng: -122.332 }
+"Spokane Washington":                       { place: "Spokane", region: "Washington", country: "United States", lat: 47.659, lng: -117.426 }
+"Tambopata National Reserve Peru":          { place: "Tambopata National Reserve", country: "Peru", lat: -12.900, lng: -69.400 }
+"Tampa Florida":                            { place: "Tampa", region: "Florida", country: "United States", lat: 27.951, lng: -82.457 }
+"The Port Of Scarborough Trinidad And Tobago": { place: "Scarborough", country: "Trinidad and Tobago", lat: 11.182, lng: -60.735 }
+"Tipon Peru":                               { place: "Tipón", country: "Peru", lat: -13.571, lng: -71.783 }
+"Toppenish Washington":                     { place: "Toppenish", region: "Washington", country: "United States", lat: 46.377, lng: -120.309 }
+"Tri-Cities Washington":                    { place: "Tri-Cities", region: "Washington", country: "United States", lat: 46.235, lng: -119.223 }
+"Vienna Austria":                           { place: "Vienna", country: "Austria", lat: 48.208, lng: 16.373 }
+"Walla Walla Washington":                   { place: "Walla Walla", region: "Washington", country: "United States", lat: 46.065, lng: -118.343 }
+"Warsaw Poland":                            { place: "Warsaw", country: "Poland", lat: 52.230, lng: 21.012 }
+"Wenatchee Washington":                     { place: "Wenatchee", region: "Washington", country: "United States", lat: 47.424, lng: -120.311 }

@@ -526,3 +526,14 @@ nav .dropdown-menu svg.opacity-50 {
 .stream-teaser img { width: 100%; display: block; aspect-ratio: 5 / 3; object-fit: cover; }
 .stream-slide { border-radius: var(--bs-border-radius); overflow: hidden; border: 1px solid var(--bs-border-color-translucent); }
 .stream-slide img { width: 100%; display: block; aspect-ratio: 16 / 9; object-fit: contain; background: var(--bs-tertiary-bg); }
+
+/* ==========================================================================
+   Locations (map pins on /locations/; numbers in the circles are post counts)
+   ========================================================================== */
+.loc-pin { display: flex; align-items: center; justify-content: center; border-radius: 50%; background: rgba(253, 126, 20, .9); color: #fff; font: 600 12px/1 system-ui, sans-serif; border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0, 0, 0, .35); transition: transform .15s; }
+.loc-pin:hover { transform: scale(1.1); }
+.loc-cluster { background: rgba(194, 89, 0, .9); border-style: double; border-width: 4px; }
+.loc-pin.is-selected { background: #212529; border-color: var(--bs-primary, #fd7e14); border-width: 3px; transform: scale(1.2); }
+[data-bs-theme="dark"] .loc-pin { border-color: #212529; }
+[data-bs-theme="dark"] .loc-pin.is-selected { background: #fff; color: #212529; border-color: var(--bs-primary, #fd7e14); }
+#loc-panel:focus-visible { outline: 2px solid var(--bs-primary, #fd7e14); outline-offset: -2px; }

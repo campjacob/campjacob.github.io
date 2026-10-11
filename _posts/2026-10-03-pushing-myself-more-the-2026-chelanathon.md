@@ -8,7 +8,7 @@ tags:
   - Self Care
   - L-- Lake Chelan Washington
   - L-- Leavenworth Washington
-  - L-- Pasco Washington
+  - L-- Tri-Cities Washington
 locations:
   - Lake Chelan Washington
   - Leavenworth Washington

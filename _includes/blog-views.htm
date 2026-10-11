@@ -1,0 +1,24 @@
+{%- comment -%}
+Breadcrumb and "other ways to browse the blog" buttons for the blog's meta pages
+(locations, date, tags, categories). The button for the current page is shown as active.
+{%- endcomment -%}
+{%- assign views = "Locations|/locations/|fa-map-marked-alt,Date|/year-archive/|fa-calendar-alt,Tags|/tags/|fa-tags,Categories|/categories/|fa-folder-open,Stream|/stream/|fa-stream" | split: "," -%}
+<div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-2">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb small mb-0">
+      <li class="breadcrumb-item"><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+      <li class="breadcrumb-item active" aria-current="page">{{ page.title | escape }}</li>
+    </ol>
+  </nav>
+  <div class="d-flex flex-wrap gap-1" role="group" aria-label="Browse the blog by">
+    {%- for v in views -%}
+    {%- assign parts = v | split: "|" -%}
+    {%- if page.url == parts[1] %}
+    <a href="{{ parts[1] | relative_url }}" class="btn btn-sm btn-secondary" aria-current="page"><i class="fas {{ parts[2] }} me-1" aria-hidden="true"></i>{{ parts[0] }}</a>
+    {%- else %}
+    <a href="{{ parts[1] | relative_url }}" class="btn btn-sm btn-outline-secondary"><i class="fas {{ parts[2] }} me-1" aria-hidden="true"></i>{{ parts[0] }}</a>
+    {%- endif -%}
+    {%- endfor %}
+    <a href="{{ '/feed.xml' | relative_url }}" class="btn btn-sm btn-outline-secondary" title="Subscribe to the blog's RSS feed"><i class="fas fa-rss me-1" aria-hidden="true"></i>RSS</a>
+  </div>
+</div>
