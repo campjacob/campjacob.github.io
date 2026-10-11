@@ -537,3 +537,52 @@ nav .dropdown-menu svg.opacity-50 {
 [data-bs-theme="dark"] .loc-pin { border-color: #212529; }
 [data-bs-theme="dark"] .loc-pin.is-selected { background: #fff; color: #212529; border-color: var(--bs-primary, #fd7e14); }
 #loc-panel:focus-visible { outline: 2px solid var(--bs-primary, #fd7e14); outline-offset: -2px; }
+
+/* ==========================================================================
+   Posts by Date (/year-archive/): sideways-scrolling year timeline, then posts down a vertical line
+   ========================================================================== */
+.tl-frame { position: relative; }
+.tl-scroll { overflow-x: auto; scroll-behavior: smooth; scrollbar-width: thin; margin: 0 2.25rem; }
+.tl-scroll:focus-visible { outline: 2px solid var(--bs-primary); outline-offset: 2px; }
+.tl-arrow { position: absolute; top: 50%; transform: translateY(-50%); width: 2rem; height: 2rem; padding: 0; z-index: 1; }
+.tl-arrow:disabled { opacity: .3; }
+.tl-prev { left: 0; } .tl-next { right: 0; }
+/* The track is at least as wide as the frame; every year gets a 5.5rem column, so new years add scroll instead of squeezing. */
+.tl-track { position: relative; display: flex; width: max-content; min-width: 100%; height: 15rem; }
+.tl-year { position: relative; flex: 1 0 5.5rem; }
+/* Each year draws its own piece of the line, so it runs as far as the years do. */
+.tl-year::before { content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 2px; margin-top: -1px; background: var(--bs-secondary-color); opacity: .5; }
+.tl-hit { position: absolute; inset: 0; display: block; color: inherit; text-decoration: none; }
+/* Dot on the axis */
+.tl-hit::before { content: ""; position: absolute; left: 50%; top: 50%; width: var(--dot, 12px); height: var(--dot, 12px); transform: translate(-50%, -50%); border-radius: 50%; background: var(--bs-primary); border: 2px solid var(--bs-body-bg); box-shadow: 0 0 0 1px var(--bs-primary); z-index: 1; }
+.tl-year.is-empty .tl-hit::before { width: 8px; height: 8px; background: var(--bs-body-bg); box-shadow: 0 0 0 1px var(--bs-secondary-color); }
+.tl-stem { position: absolute; left: 50%; width: 2px; margin-left: -1px; height: var(--stem); background: var(--bs-border-color); transition: background .15s; }
+.tl-tip { position: absolute; left: 50%; width: 10px; height: 10px; margin-left: -5px; border-radius: 50%; background: var(--bs-body-bg); border: 2px solid var(--bs-primary); }
+.tl-note { position: absolute; left: 50%; transform: translateX(-50%); white-space: nowrap; font-size: .8rem; font-weight: 600; color: var(--bs-body-color); transition: opacity .15s; }
+.tl-note.is-quiet { opacity: 0; font-weight: 400; color: var(--bs-secondary-color); }
+.tl-label { position: absolute; left: 0; right: 0; text-align: center; font-size: 1.05rem; font-weight: 700; color: var(--bs-body-color); }
+.tl-year.is-empty .tl-label { font-size: .85rem; font-weight: 400; color: var(--bs-secondary-color); opacity: .7; }
+/* Up years: stem, dot, and note above the line; year label just below it. Down years mirror that. */
+.tl-year.is-up .tl-stem { bottom: calc(50% + var(--dot, 12px) / 2); }
+.tl-year.is-up .tl-tip { bottom: calc(50% + var(--dot, 12px) / 2 + var(--stem) - 5px); }
+.tl-year.is-up .tl-note { bottom: calc(50% + var(--dot, 12px) / 2 + var(--stem) + 9px); }
+.tl-year.is-up .tl-label { top: calc(50% + var(--dot, 12px) / 2 + 4px); }
+.tl-year.is-down .tl-stem { top: calc(50% + var(--dot, 12px) / 2); }
+.tl-year.is-down .tl-tip { top: calc(50% + var(--dot, 12px) / 2 + var(--stem) - 5px); }
+.tl-year.is-down .tl-note { top: calc(50% + var(--dot, 12px) / 2 + var(--stem) + 9px); }
+.tl-year.is-down .tl-label { bottom: calc(50% + var(--dot, 12px) / 2 + 4px); }
+a.tl-hit:hover .tl-stem, a.tl-hit:focus-visible .tl-stem { background: var(--bs-primary); }
+a.tl-hit:hover .tl-tip, a.tl-hit:focus-visible .tl-tip { background: var(--bs-primary); }
+a.tl-hit:hover .tl-note.is-quiet, a.tl-hit:focus-visible .tl-note.is-quiet { opacity: 1; }
+a.tl-hit:hover .tl-label, a.tl-hit:focus-visible .tl-label { color: var(--bs-primary); }
+a.tl-hit:focus-visible { outline: none; }
+
+.post-timeline { position: relative; padding-left: 1.75rem; }
+.post-timeline::before { content: ""; position: absolute; left: .45rem; top: .6rem; bottom: 0; width: 2px; background: var(--bs-border-color); }
+.year-section { position: relative; padding-bottom: 2rem; scroll-margin-top: 1rem; }
+.year-section-head { position: relative; }
+.year-section-head::before { content: ""; position: absolute; left: calc(-1.75rem + .45rem + 1px - 9px); top: .35rem; width: 18px; height: 18px; border-radius: 50%; background: var(--bs-primary); border: 3px solid var(--bs-body-bg); box-shadow: 0 0 0 1px var(--bs-primary); }
+/* Date in its own column; title, type, and place flow together and wrap like text. */
+.date-row { position: relative; display: grid; grid-template-columns: 3.5rem 1fr; column-gap: .5rem; align-items: baseline; padding: .3rem 0; }
+.date-row::before { content: ""; position: absolute; left: calc(-1.75rem + .45rem + 1px - 4px); top: .75rem; width: 8px; height: 8px; border-radius: 50%; background: var(--bs-body-bg); border: 2px solid var(--bs-primary); }
+.date-row-body .badge, .date-row-place { margin-left: .35rem; }
