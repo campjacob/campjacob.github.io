@@ -1,0 +1,57 @@
+# Fail (and email) when a post has an "L-- " location tag that _data/locations.yml has no
+# coordinates for. The post still publishes; the place shows under "Not on the map yet"
+# on /locations/ until it gets a line in the data file.
+#
+# Fix: add the place to _data/locations.yml, keyed by the tag without "L-- ".
+# Run by hand from the Actions tab with "Run workflow".
+name: Check locations
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "_posts/**"
+      - "_data/locations.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Every location tag has coordinates
+        shell: ruby {0}
+        run: |
+          require "yaml"
+          require "date"
+
+          known = YAML.load_file("_data/locations.yml").keys
+          missing = Hash.new { |h, k| h[k] = [] }
+
+          Dir["_posts/**/*.{md,markdown,html}"].sort.each do |file|
+            front = File.read(file)[/\A---\s*\n(.*?)\n---/m, 1] or next
+            data = YAML.safe_load(front, permitted_classes: [Date, Time], aliases: true) || {}
+            Array(data["tags"]).each do |tag|
+              next unless tag.to_s.start_with?("L-- ")
+              place = tag.to_s.delete_prefix("L-- ").strip
+              missing[place] << file unless known.include?(place)
+            end
+          rescue Psych::Exception => e
+            puts "::warning file=#{file}::Could not read front matter: #{e.message}"
+          end
+
+          if missing.empty?
+            puts "All location tags are in _data/locations.yml."
+            exit 0
+          end
+
+          missing.each do |place, files|
+            files.each { |f| puts "::error file=#{f}::\"L-- #{place}\" is not in _data/locations.yml, so it is not on the map." }
+          end
+          puts "\nAdd these to _data/locations.yml:"
+          missing.each_key { |place| puts "  #{place.inspect}: { place: \"\", region: \"\", country: \"\", lat: 0, lng: 0 }" }
+          exit 1
