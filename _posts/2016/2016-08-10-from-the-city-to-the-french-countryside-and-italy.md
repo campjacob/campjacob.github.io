@@ -6,7 +6,7 @@ tags:
   - Travel
   - Family European Adventure 2016
   - Family Fun
-  - L-- Midi-Phyrénées France
+  - L-- Midi-Pyrénées France
 categories:
   - Travel Blog
   - Personal Blog

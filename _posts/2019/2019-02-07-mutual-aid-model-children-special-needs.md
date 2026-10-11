@@ -9,7 +9,7 @@ tags:
     - L-- Tri-Cities Washington
 categories:
     - Professional Blog
-    - YouTube Videos 
+    - YouTube Videos
 header:
 header:
   overlay_image: /assets/media/mutual-aid-boat-website-header.jpg

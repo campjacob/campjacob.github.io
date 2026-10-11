@@ -10,7 +10,7 @@ tags:
   - Drinking
   - Cards
   - L-- Rome Italy
-  - L-- Bergemo Italy
+  - L-- Bergamo Italy
   - L-- Riga Latvia
   - L-- Warsaw Poland
   - L-- Krakow Poland

@@ -9,7 +9,7 @@ tags:
   - Community
   - Pasco Discovery Coalition
   - TCCH BHS
-  - L-- Prosser Washington 
+  - L-- Prosser Washington
 categories:
   - Personal Blog
 locations: 
