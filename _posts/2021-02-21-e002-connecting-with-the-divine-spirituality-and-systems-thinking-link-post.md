@@ -1,6 +1,6 @@
 ---
 name: 2021-02-21-e002-connecting-with-the-divine-spirituality-and-systems-thinking-link-post.md
-title: Connecting with the Divine - Spirituality and Systems Thinking[Link Post]
+title: Connecting with the Divine - Spirituality and Systems Thinking [Link Post]
 date: 2021-02-21 08:00:00
 link: https://motherdearest.show/2
 tags:

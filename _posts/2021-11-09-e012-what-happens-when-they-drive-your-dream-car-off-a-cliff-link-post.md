@@ -1,6 +1,6 @@
 ---
 name: 2021-11-09-e012-what-happens-when-they-drive-your-dream-car-off-a-cliff-link-post.md
-title: [Link Post]
+title: "What Happens When They Drive Your Dream Car Off a Cliff [Link Post]"
 date: 2021-11-08 14:59:54
 link: https://motherdearest.show/12
 tags:
