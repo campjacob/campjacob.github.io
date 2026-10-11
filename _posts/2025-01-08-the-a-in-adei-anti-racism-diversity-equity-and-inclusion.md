@@ -12,6 +12,7 @@ locations:
 categories:
   - Personal Blog
   - Professional Blog
+  - Link Post
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"

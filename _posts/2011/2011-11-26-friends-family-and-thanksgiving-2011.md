@@ -12,6 +12,7 @@ tags:
   - Music
 categories:
   - Personal Blog
+  - Travel Blog
 locations:
   - Astoria Oregon
   - Long Beach Washington
