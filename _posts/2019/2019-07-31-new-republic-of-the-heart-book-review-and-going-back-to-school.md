@@ -6,7 +6,7 @@ tags:
   - Book Review
   - Personal
   - Integral Practice
-  - CIIS
+  - California Institute of Integral Studies
   - Work
   - School
 locations: 

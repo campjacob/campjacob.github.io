@@ -4,7 +4,7 @@ date: 2023-03-02 19:22:20
 tags:
   - Academic
   - Trauma-Informed
-  - CIIS
+  - California Institute of Integral Studies
 locations: 
   - Tri-Cities Washington
 categories:

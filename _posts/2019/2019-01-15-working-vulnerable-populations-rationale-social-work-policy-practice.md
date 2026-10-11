@@ -2,10 +2,10 @@
 title: Working with Vulnerable Populations, a Rationale for Social Work Policy Practice
 date: 2019-01-15 00:00
 tags:
-    - Social Work
-    - Special Needs Populations
-    - Advocacy
-    - YouTube Posts
+  - Social Work
+  - Special Needs Populations
+  - Advocacy
+  - YouTube
 categories:
     - Professional Blog
     - YouTube Videos

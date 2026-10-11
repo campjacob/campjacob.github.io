@@ -2,11 +2,11 @@
 title: ADHD Information for Practitioners, Parents, and Schools
 date: 2019-01-21 00:00
 tags:
-    - Social Work
-    - ADHD
-    - School Social Work
-    - Community Mental Health
-    - YouTube Posts
+  - Social Work
+  - ADHD
+  - School Social Work
+  - Community Mental Health
+  - YouTube
 categories:
     - Professional Blog
     - YouTube Videos

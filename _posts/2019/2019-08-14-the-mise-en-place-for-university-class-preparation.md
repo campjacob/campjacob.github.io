@@ -4,8 +4,8 @@ title: The Mise en Place for University Class Preparation
 date: 2019-08-14 11.20.12
 tags:
   - Work
-  - Heritage
-  - CIIS
+  - Heritage University
+  - California Institute of Integral Studies
   - Teaching
   - Plain Text
   - Podcasts

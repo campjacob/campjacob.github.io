@@ -2,8 +2,8 @@
 title: "2019 Family Trip to Leavenworth"
 date: 2019-06-04 22:50
 tags:
-  - YouTube Video
-  - Quik Video
+  - YouTube
+  - Quik
   - Family Trip
   - Travel
 locations: 

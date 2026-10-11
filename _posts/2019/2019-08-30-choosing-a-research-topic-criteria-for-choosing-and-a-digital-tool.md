@@ -3,7 +3,7 @@ file-name: 2019-08-30-choosing-a-research-topic-criteria-for-choosing-and-a-digi
 title: Choosing a Research Topic - Criteria for Choosing and a Digital Tool
 date: 2019-08-30 01.54.27
 tags:
-  - YouTube Video
+  - YouTube
   - California Institute of Integral Studies
   - Research Methods
 locations: 

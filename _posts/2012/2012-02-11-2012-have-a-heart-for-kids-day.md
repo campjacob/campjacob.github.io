@@ -11,6 +11,7 @@ tags:
   - Social Work
   - Advocacy
   - Couch Surfing
+  - Travel
 categories:
   - Personal Blog
   - Travel Blog

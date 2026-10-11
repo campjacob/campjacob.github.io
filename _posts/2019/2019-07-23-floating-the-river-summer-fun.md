@@ -4,7 +4,7 @@ date: 2019-07-23 18:23:27
 tags:
   - YouTube
   - Family Fun
-  - Quik Videos
+  - Quik
 locations: 
   - Tri-Cities Washington
 categories:

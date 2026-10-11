@@ -5,7 +5,7 @@ tags:
   - Travel
   - Travel Troubles
   - Beach
-  - Family
+  - Family Fun
   - 2025 Vejar al Mexico Spring Break
 locations: 
   - Puerto Vallarta Mexico

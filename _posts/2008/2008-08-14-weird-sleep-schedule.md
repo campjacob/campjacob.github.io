@@ -6,6 +6,7 @@ tags:
   - Personal
   - Work
   - Sleep
+  - Travel
 categories:
   - Personal Blog
   - Travel Blog

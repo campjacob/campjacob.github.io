@@ -3,7 +3,7 @@ name: 2023-10-29-honoring-my-mom-an-award-called-the-judith-dirks-award.md
 title: Honoring My Mom an Award Called The Judith Dirks Award
 date: 2023-10-29 16:47:20
 tags:
-  - Mother Dearest
+  - The Mother Dearest Show
   - Community
 locations: 
   - Tri-Cities Washington

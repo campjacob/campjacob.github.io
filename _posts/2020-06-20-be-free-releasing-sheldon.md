@@ -3,8 +3,8 @@ name: 2020-06-20-be-free-releasing-sheldon.md
 title: Be Free, Releasing Sheldon
 date: 2020-06-20 13.49.38
 tags:
-  - YouTube Video
-  - Family
+  - YouTube
+  - Family Fun
   - Pets
 locations: 
   - Tri-Cities Washington

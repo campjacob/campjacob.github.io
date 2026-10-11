@@ -9,6 +9,7 @@ tags:
   - Hostel
   - Drinking
   - Cards
+  - Travel
 categories:
   - Personal Blog
   - Travel Blog

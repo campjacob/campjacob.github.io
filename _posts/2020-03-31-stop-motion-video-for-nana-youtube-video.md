@@ -3,7 +3,7 @@ name: 2020-03-31-stop-motion-video-for-nana-youtube-video.md
 title: Stop Motion Video for Nana [YouTube Video]
 date: 2020-03-31 00.25.46
 tags:
-  - YouTube Video
+  - YouTube
   - Family Fun
   - Stop Motion
 locations: 

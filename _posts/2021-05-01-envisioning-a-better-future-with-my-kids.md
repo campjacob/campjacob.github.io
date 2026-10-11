@@ -4,7 +4,7 @@ title: "Envisioning a Better Future: An Interview with My Kids [YouTube Video]"
 date: 2021-05-01 09:56:56
 tags:
   - YouTube
-  - Family
+  - Family Fun
 locations: 
   - Tri-Cities Washington
 categories:

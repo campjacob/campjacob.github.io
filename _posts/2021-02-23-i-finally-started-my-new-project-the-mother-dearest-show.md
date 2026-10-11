@@ -5,7 +5,7 @@ date: 2021-02-23 23:42:05
 tags:
   - The Mother Dearest Show
   - Creativity
-  - Podcast
+  - Podcasts
 locations: 
   - Tri-Cities Washington
 categories:

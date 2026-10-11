@@ -5,7 +5,7 @@ permalink: /blog/2013/3/an-allegory-of-the-free-market-and-capitalism-atlas-shru
 tags:
   - Book Review
   - Ayn Rand
-  - Audio Book
+  - Audio Books
   - Personal
   - Capitalism
   - Amazon

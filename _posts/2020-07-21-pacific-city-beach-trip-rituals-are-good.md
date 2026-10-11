@@ -6,6 +6,7 @@ tags:
   - Family Fun
   - Beach
   - Flickr Photos
+  - Travel
 locations: 
   - Pacific City Oregon
 categories:

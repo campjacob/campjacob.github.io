@@ -6,7 +6,7 @@ tags:
   - Shortcuts
   - Heritage University
   - Nerd
-  - Professional
+  - Work
 locations: 
   - Tri-Cities Washington
 categories:

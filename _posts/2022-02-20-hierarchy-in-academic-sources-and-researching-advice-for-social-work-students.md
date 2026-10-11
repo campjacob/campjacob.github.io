@@ -5,7 +5,7 @@ date: 2022-02-20 17:45:03
 tags:
   - YouTube
   - Writing
-  - Professional
+  - Work
   - Research
 locations: 
   - Tri-Cities Washington

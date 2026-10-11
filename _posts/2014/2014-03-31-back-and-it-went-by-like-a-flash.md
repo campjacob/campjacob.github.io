@@ -6,7 +6,6 @@ tags:
   - Travel
   - Personal
   - Funny
-  - Video
   - YouTube
 categories:
   - Personal Blog

@@ -2,9 +2,9 @@
 title: The 15 Hats (ahem, Roles) of Social Workers
 date: 2019-02-16  23:55
 tags:
-    - Social Work
-    - Professional Roles
-    - YouTube Posts
+  - Social Work
+  - Professional Roles
+  - YouTube
 categories:
     - Professional Blog
     - YouTube Videos

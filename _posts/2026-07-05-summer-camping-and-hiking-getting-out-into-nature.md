@@ -3,7 +3,7 @@ title: "Summer Camping and Hiking, Getting Out Into Nature"
 name: 2026-07-05-summer-camping-and-hiking-getting-out-into-nature.md
 date: 2026-07-05 00:35:58
 tags:
-  - Family
+  - Family Fun
   - Travel
   - Nature
   - Chevereto Photo Album

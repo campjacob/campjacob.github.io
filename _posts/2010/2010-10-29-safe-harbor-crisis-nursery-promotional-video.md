@@ -5,10 +5,9 @@ permalink: /blog/2010/10/safe-harbor-crisis-nursery-promotional-video
 tags:
   - Personal
   - Webdesign
-  - Video
+  - YouTube
   - Adobe Premier Pro
   - Safe Harbor Family Support Center
-  - YouTube
 categories:
   - Personal Blog
 locations: 

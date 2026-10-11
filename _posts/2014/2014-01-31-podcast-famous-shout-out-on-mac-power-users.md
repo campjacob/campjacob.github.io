@@ -7,7 +7,7 @@ tags:
   - Mac Power Users
   - Technology
   - TextExpander
-  - Podcast
+  - Podcasts
 categories:
   - Personal Blog
 locations: 

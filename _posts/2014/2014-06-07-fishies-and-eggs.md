@@ -4,12 +4,11 @@ date: 2014-06-07 08:19
 permalink: /blog/2014/6/fishies-and-eggs
 tags:
   - Personal
-  - Video
+  - YouTube
   - Facebook
   - Facebook Album
   - Design
   - Webdesign
-  - YouTube
 categories:
   - Personal Blog
 locations: 
