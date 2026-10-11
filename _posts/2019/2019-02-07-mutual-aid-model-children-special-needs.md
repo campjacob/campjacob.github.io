@@ -6,7 +6,6 @@ tags:
     - Mutual Aid
     - Work with Groups
     - YouTube Posts
-    - L-- Tri-Cities Washington
 categories:
     - Professional Blog
     - YouTube Videos

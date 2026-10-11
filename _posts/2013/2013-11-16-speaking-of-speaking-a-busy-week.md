@@ -10,7 +10,6 @@ tags:
   - Pasco Discovery Coalition
   - Safe Harbor Family Support Center
   - YouTube
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

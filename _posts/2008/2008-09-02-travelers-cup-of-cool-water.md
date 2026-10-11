@@ -9,9 +9,6 @@ tags:
   - Drinking
   - Hostel
   - Facebook Album
-  - L-- Vienna Austria
-  - L-- Bratislava Slovakia
-  - L-- Barcelona Spain
 categories:
   - Personal Blog
   - Travel Blog

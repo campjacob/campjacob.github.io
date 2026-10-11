@@ -10,14 +10,14 @@ tags:
   - Facebook Album
   - IMDB
   - Music
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
-locations: 
+locations:
   - Astoria Oregon
-  - Long Beach Oregon
+  - Long Beach Washington
   - Aberdeen Washington
   - Puyallup Washington
+  - Tri-Cities Washington
 ---
 
 ![You are here sign for Astoria][1] The "you are here" sign for Astoria Oregon's Column. 

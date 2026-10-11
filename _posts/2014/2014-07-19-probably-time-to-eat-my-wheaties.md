@@ -11,7 +11,6 @@ tags:
   - Travel
   - CADCA 2014
   - Heritage University
-  - L-- Puyallup Washington
 categories:
   - Personal Blog
   - Professional Blog

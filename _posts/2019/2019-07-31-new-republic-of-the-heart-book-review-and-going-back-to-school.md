@@ -9,7 +9,6 @@ tags:
   - CIIS
   - Work
   - School
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

@@ -1,8 +1,8 @@
-# Fail (and email) when a post has an "L-- " location tag that _data/locations.yml has no
-# coordinates for. The post still publishes; the place shows under "Not on the map yet"
+# Fail (and email) when a post's `locations:` field names a place that _data/locations.yml
+# has no coordinates for. The post still publishes; the place shows under "Not on the map yet"
 # on /locations/ until it gets a line in the data file.
 #
-# Fix: add the place to _data/locations.yml, keyed by the tag without "L-- ".
+# Fix: add the place to _data/locations.yml, keyed by the exact value in the post.
 # Run by hand from the Actions tab with "Run workflow".
 name: Check locations
 
@@ -35,22 +35,21 @@ jobs:
           Dir["_posts/**/*.{md,markdown,html}"].sort.each do |file|
             front = File.read(file)[/\A---\s*\n(.*?)\n---/m, 1] or next
             data = YAML.safe_load(front, permitted_classes: [Date, Time], aliases: true) || {}
-            Array(data["tags"]).each do |tag|
-              next unless tag.to_s.start_with?("L-- ")
-              place = tag.to_s.delete_prefix("L-- ").strip
-              missing[place] << file unless known.include?(place)
+            Array(data["locations"]).each do |place|
+              place = place.to_s.strip
+              missing[place] << file unless place.empty? || known.include?(place)
             end
           rescue Psych::Exception => e
             puts "::warning file=#{file}::Could not read front matter: #{e.message}"
           end
 
           if missing.empty?
-            puts "All location tags are in _data/locations.yml."
+            puts "Every place in posts' locations: fields is in _data/locations.yml."
             exit 0
           end
 
           missing.each do |place, files|
-            files.each { |f| puts "::error file=#{f}::\"L-- #{place}\" is not in _data/locations.yml, so it is not on the map." }
+            files.each { |f| puts "::error file=#{f}::\"#{place}\" is not in _data/locations.yml, so it is not on the map." }
           end
           puts "\nAdd these to _data/locations.yml:"
           missing.each_key { |place| puts "  #{place.inspect}: { place: \"\", region: \"\", country: \"\", lat: 0, lng: 0 }" }

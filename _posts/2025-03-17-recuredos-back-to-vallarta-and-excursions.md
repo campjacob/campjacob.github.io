@@ -8,9 +8,8 @@ tags:
   - Personal
   - Beach
   - 2025 Vejar al Mexico Spring Break
-  - L-- Puerto Vallarta Mexico
 locations: 
-  - Pureto Vallarta Mexico
+  - Puerto Vallarta Mexico
 categories:
   - Personal Blog
   - Travel Blog

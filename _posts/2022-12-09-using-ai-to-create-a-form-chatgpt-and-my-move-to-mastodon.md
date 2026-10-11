@@ -8,7 +8,6 @@ tags:
   - Facebook
   - Technology
   - Social Work
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

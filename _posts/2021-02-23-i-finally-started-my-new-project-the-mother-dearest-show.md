@@ -6,7 +6,6 @@ tags:
   - The Mother Dearest Show
   - Creativity
   - Podcast
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

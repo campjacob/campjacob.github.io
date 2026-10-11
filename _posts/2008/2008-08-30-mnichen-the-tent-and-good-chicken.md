@@ -11,9 +11,6 @@ tags:
   - Facebook
   - Facebook Album
   - Bus
-  - L-- Munich Germany
-  - L-- Vienna Austria
-  - L-- Prague Czech Republic
 categories:
   - Personal Blog
   - Travel Blog

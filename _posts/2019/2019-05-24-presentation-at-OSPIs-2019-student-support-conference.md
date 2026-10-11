@@ -8,7 +8,6 @@ tags:
   - Pasco School District
   - Emotional and Behavioral Disabilities
   - Notist
-  - L-- Wenatchee Washington
 locations: 
   - Wenatchee Washington
 categories:

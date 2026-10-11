@@ -8,7 +8,6 @@ tags:
   - NS CrossFit
   - Poster
   - Facebook
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

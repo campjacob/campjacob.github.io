@@ -4,7 +4,6 @@ title: Recuredos en Vida de Patricia del Villar Martinez [YouTube]
 date: 2021-10-17 17:51:22
 tags:
   - YouTube
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

@@ -10,7 +10,6 @@ tags:
   - Capitalism
   - Amazon
   - Google Books
-  - L-- Prosser Washington
 categories:
   - Personal Blog
 locations: 

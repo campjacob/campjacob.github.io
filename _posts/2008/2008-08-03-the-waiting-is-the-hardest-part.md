@@ -8,7 +8,6 @@ tags:
   - Music
   - Deep Thoughts
   - Spirituality
-  - L-- Spokane Washington
 categories:
   - Personal Blog
 locations: 

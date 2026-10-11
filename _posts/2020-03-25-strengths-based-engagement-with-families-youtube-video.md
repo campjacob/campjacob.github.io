@@ -6,7 +6,6 @@ tags:
   - YouTube
   - Social Work
   - Family Engagement
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

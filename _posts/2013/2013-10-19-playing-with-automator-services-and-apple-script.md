@@ -11,7 +11,6 @@ tags:
   - Podcasts
   - Wikipedia
   - TextExpander
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

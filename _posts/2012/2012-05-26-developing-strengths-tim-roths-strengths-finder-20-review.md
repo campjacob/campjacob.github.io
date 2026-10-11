@@ -9,7 +9,6 @@ tags:
   - Clinical
   - Book Review
   - TCCH BHS
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

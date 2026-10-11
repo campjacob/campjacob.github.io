@@ -6,7 +6,6 @@ tags:
   - YouTube Video
   - Family
   - Pets
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

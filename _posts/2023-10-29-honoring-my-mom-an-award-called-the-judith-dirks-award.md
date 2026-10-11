@@ -5,7 +5,6 @@ date: 2023-10-29 16:47:20
 tags:
   - Mother Dearest
   - Community
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

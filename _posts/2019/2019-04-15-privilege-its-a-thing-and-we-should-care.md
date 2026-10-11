@@ -6,7 +6,6 @@ tags:
   - Resources
   - Book Review
   - Podcasts
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

@@ -5,7 +5,6 @@ date: 2020-02-15 19.06.31
 tags:
   - Spirituality
   - California Institute of Integral Studies
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

@@ -9,7 +9,6 @@ tags:
   - Research
   - Technology
   - Adobe Photoshop
-  - L-- Spokane Washington
 categories:
   - Personal Blog
 locations: 

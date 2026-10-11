@@ -8,8 +8,6 @@ tags:
   - Travel
   - California Institute of Integral Studies
   - Heritage University
-  - L-- San Francisco California
-  - L-- Tri-Cities Washington
 locations: 
   - San Francisco California
   - Tri-Cities Washington

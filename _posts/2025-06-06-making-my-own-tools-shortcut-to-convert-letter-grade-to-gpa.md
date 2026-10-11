@@ -7,7 +7,6 @@ tags:
   - Heritage University
   - Nerd
   - Professional
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

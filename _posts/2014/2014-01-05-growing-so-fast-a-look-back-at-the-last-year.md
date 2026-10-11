@@ -6,7 +6,6 @@ tags:
   - Personal
   - iPhoto
   - YouTube
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

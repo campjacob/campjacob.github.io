@@ -5,7 +5,6 @@ tags:
     - Social Work
     - Professional Roles
     - YouTube Posts
-    - L-- Tri-Cities Washington
 categories:
     - Professional Blog
     - YouTube Videos

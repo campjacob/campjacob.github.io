@@ -5,7 +5,6 @@ permalink: /blog/2013/11/now-open-new-small-business-owner
 tags:
   - Personal
   - Locus Of Transformation
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

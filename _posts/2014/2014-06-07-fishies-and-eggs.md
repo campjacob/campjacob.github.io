@@ -10,7 +10,6 @@ tags:
   - Design
   - Webdesign
   - Youtube
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

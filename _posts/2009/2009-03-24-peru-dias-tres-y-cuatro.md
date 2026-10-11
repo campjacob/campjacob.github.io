@@ -12,7 +12,6 @@ tags:
   - Facebook
   - Facebook Album
   - Spirituality
-  - L-- Lima Peru
 categories:
   - Personal Blog
   - Travel Blog

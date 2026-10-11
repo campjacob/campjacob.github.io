@@ -4,7 +4,6 @@ date: 2008-08-17 11:58
 permalink: /blog/2008/8/site-overhaul-complete
 tags:
   - Webdesign
-  - L-- Spokane Washington
 categories:
   - Personal Blog
 locations: 

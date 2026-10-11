@@ -5,7 +5,6 @@ permalink: /blog/2011/9/it-starts-again
 tags:
   - Personal
   - Webdesign
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

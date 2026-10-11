@@ -7,7 +7,6 @@ tags:
   - Facebook
   - Facebook Album
   - IMDB
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

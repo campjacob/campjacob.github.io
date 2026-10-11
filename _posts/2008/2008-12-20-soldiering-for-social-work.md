@@ -8,7 +8,6 @@ tags:
   - Work
   - Crisis Residential Center
   - Juveniles
-  - L-- Spokane Washington
 categories:
   - Personal Blog
 locations: 

@@ -7,7 +7,6 @@ tags:
   - Home
   - Funny
   - Mac Power Users
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

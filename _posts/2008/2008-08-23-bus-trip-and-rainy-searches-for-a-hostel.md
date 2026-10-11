@@ -7,7 +7,6 @@ tags:
   - Travel
   - Bus
   - Hostel
-  - L-- Prague Czech Republic
 categories:
   - Personal Blog
   - Travel Blog

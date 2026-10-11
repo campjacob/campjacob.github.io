@@ -6,8 +6,6 @@ tags:
   - Quik Video
   - Family Trip
   - Travel
-  - L-- Leavenworth Washington
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
   - Leavenworth Washington

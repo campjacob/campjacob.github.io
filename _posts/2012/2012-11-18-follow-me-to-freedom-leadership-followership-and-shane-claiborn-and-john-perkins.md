@@ -9,11 +9,10 @@ tags:
   - Community
   - Pasco Discovery Coalition
   - TCCH BHS
-  - L-- Prosser Washington
 categories:
   - Personal Blog
 locations: 
-  - Prosser Washington 
+  - Prosser Washington
 ---
 
 > Come along as we live out this conversation ... there are many obstacles—so much suffering, poverty and violence. But our God is familiar with suffering. Our God can swallow up armies and pour out bread from the heavens. Wall Street may fail us, but the God who takes care of the lilies and the sparrows will never let us down. Our Savior has stared evil in the face and overcome it with love. And now we are invited to join the triumph of the cross ... and to lead others on the narrow, rugged road to freedom.

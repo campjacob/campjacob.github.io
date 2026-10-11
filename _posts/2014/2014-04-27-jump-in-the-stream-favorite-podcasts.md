@@ -9,7 +9,6 @@ tags:
   - Mac Power Users
   - Freakonomics
   - Social Work
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

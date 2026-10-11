@@ -5,7 +5,6 @@ date: 2019-07-14 18.27.17
 tags:
   - Book Review
   - Audio Books
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

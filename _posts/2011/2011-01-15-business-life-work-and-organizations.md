@@ -8,7 +8,6 @@ tags:
   - TCCH BHS
   - Tri-Cities Young Professionals
   - Safe Harbor Family Support Center
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

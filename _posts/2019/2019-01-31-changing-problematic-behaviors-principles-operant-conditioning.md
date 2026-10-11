@@ -6,7 +6,6 @@ tags:
   - YouTube video
   - Behavior Modification
   - Parenting
-  - L-- Tri-Cities Washington
 categories:
   - Professional Blog
   - YouTube Videos

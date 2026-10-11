@@ -7,7 +7,6 @@ tags:
   - Social Work
   - Heritage University
   - Link Post
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

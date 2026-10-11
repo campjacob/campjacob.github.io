@@ -6,9 +6,6 @@ tags:
   - Family Fun
   - Travel
   - Flickr Photos
-  - L-- Athol Idaho
-  - L-- Walla Walla Washington
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
   - Athol Idaho

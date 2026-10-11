@@ -11,7 +11,6 @@ tags:
   - Webdesign
   - Plane
   - Couch Surfing
-  - L-- Cusco Peru
 categories:
   - Personal Blog
   - Travel Blog

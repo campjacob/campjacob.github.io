@@ -6,7 +6,6 @@ tags:
   - Travel
   - Family European Adventure 2016
   - Family Fun
-  - L-- Spokane Washington
 categories:
   - Personal Blog
   - Travel Blog

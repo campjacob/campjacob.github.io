@@ -10,8 +10,6 @@ tags:
   - Hostel
   - Drinking
   - Facebook Album
-  - L-- Barcelona Spain
-  - L-- Bratislava Slovakia
 categories:
   - Personal Blog
   - Travel Blog

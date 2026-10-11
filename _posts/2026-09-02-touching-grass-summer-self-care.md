@@ -7,8 +7,6 @@ tags:
   - Heritage University
   - Link Post
   - Self Care
-  - L-- Toppenish Washington
-  - L-- Tri-Cities Washington
 locations: 
   - Toppenish Washington
   - Tri-Cities Washington

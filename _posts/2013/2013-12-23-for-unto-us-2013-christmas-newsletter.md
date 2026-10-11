@@ -9,7 +9,6 @@ tags:
   - Facebook
   - Facebook Album
   - Newsletter
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

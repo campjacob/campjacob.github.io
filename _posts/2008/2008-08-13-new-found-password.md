@@ -7,7 +7,6 @@ tags:
   - Crisis Residential Center
   - Work
   - Crazy
-  - L-- Spokane Washington
 categories:
   - Personal Blog
 locations: 

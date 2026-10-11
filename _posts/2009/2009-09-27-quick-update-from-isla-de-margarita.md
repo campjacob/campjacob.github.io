@@ -9,7 +9,6 @@ tags:
   - Facebook Album
   - Google
   - Google Maps
-  - L-- Isla De Margarita Venezuela
 categories:
   - Personal Blog
   - Travel Blog

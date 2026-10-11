@@ -4,7 +4,6 @@ date: 2008-10-28 19:28
 permalink: /blog/2008/10/who-knew-ordering-pizza-could-be-cool
 tags:
   - Personal
-  - L-- Spokane Washington
 categories:
   - Personal Blog
 locations: 

@@ -8,8 +8,6 @@ tags:
   - Music
   - Culture
   - 2025 Vejar al Mexico Spring Break
-  - L-- Jungapeo Mexico
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
   - Jungapeo Mexico

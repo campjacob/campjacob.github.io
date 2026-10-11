@@ -10,7 +10,6 @@ tags:
   - Wikipedia
   - Freakonomics
   - Opinions
-  - L-- Prosser Washington
 categories:
   - Personal Blog
   - Professional Blog

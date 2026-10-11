@@ -11,7 +11,6 @@ tags:
   - Social Work
   - Advocacy
   - Couch Surfing
-  - L-- Olympia Washington
 categories:
   - Personal Blog
   - Travel Blog

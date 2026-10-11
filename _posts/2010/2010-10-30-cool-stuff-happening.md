@@ -8,7 +8,6 @@ tags:
   - Culture Shock
   - Blessings
   - Sustainable Living
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

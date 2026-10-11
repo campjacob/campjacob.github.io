@@ -6,7 +6,6 @@ tags:
   - Personal
   - Design
   - Adobe Photoshop
-  - L-- Puyallup Washington
 categories:
   - Personal Blog
 locations: 

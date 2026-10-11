@@ -9,7 +9,6 @@ tags:
   - Drafts
   - Zotero
   - Siri Shortctus
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

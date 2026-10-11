@@ -7,9 +7,6 @@ tags:
   - Travel
   - Nature
   - Chevereto Photo Album
-  - L-- Paradise Washington
-  - L-- Cle Elum Washington
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
   - Paradise Washington

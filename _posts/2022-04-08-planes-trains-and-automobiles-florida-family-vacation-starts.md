@@ -6,9 +6,6 @@ tags:
   - Travel
   - Travel Troubles
   - Family Fun
-  - L-- Orlando Florida
-  - L-- Tampa Florida
-  - L-- Clearwater Florida
 locations: 
   - Orlando Florida
   - Tampa Florida

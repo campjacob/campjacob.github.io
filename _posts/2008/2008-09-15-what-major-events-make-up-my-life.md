@@ -8,7 +8,6 @@ tags:
   - Hostel
   - Deep Thoughts
   - Music
-  - L-- Krakow Poland
 categories:
   - Personal Blog
   - Travel Blog

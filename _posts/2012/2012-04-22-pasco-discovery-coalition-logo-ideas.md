@@ -8,7 +8,6 @@ tags:
   - Adobe Illustrator
   - Logo
   - Pasco Discovery Coalition
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

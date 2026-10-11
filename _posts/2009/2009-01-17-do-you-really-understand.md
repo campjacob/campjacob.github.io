@@ -7,7 +7,6 @@ tags:
   - Politics
   - Adobe Flash
   - Money
-  - L-- Spokane Washington
 categories:
   - Personal Blog
 locations: 

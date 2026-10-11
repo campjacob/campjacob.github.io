@@ -6,7 +6,6 @@ tags:
   - Personal
   - Technology
   - Adventures
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

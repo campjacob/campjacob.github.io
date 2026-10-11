@@ -10,7 +10,6 @@ tags:
   - Google
   - Google Drive
   - Mac Power Users
-  - L-- Tri-Cities Washington
 categories: 
   - Personal Blog
   - Professional Blog

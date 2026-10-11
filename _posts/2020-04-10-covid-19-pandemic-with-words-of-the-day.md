@@ -5,7 +5,6 @@ date: 2020-04-10 09.35.39
 tags:
   - Words
   - Creative Writing
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

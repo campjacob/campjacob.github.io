@@ -6,7 +6,6 @@ tags:
   - Personal
   - DIY
   - Home
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

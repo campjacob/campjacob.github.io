@@ -6,7 +6,6 @@ tags:
     - Personal
     - Juveniles
     - Dance
-    - L-- Spokane Washington
 categories:
     - Personal Blog
 locations:

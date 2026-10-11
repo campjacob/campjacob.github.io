@@ -7,7 +7,6 @@ tags:
   - Community
   - Survey
   - Servant Leadership
-  - L-- Prosser Washington
 categories:
   - Personal Blog
 locations: 

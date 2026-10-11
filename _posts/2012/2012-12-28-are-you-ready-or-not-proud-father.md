@@ -5,7 +5,6 @@ permalink: /blog/2012/12/are-you-ready-or-not-proud-father
 tags:
   - Personal
   - Big Deal
-  - L-- Prosser Washington
 categories:
   - Personal Blog
 locations: 

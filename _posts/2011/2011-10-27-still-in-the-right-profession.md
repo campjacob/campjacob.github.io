@@ -6,7 +6,6 @@ tags:
   - Personal
   - National Public Radio
   - Work
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

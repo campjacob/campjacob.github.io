@@ -9,7 +9,6 @@ tags:
   - Wikipedia
   - Google
   - Google Books
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

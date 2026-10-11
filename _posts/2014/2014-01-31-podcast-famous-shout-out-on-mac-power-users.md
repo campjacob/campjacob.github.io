@@ -8,7 +8,6 @@ tags:
   - Technology
   - TextExpander
   - Podcast
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

@@ -6,7 +6,6 @@ tags:
   - YouTube Video
   - California Institute of Integral Studies
   - Research Methods
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

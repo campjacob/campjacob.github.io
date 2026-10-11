@@ -10,7 +10,6 @@ tags:
   - Facebook
   - Facebook Album
   - First and Last Macworld - 2014
-  - L-- San Francisco California
 categories:
   - Personal Blog
   - Travel Blog

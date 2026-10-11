@@ -3,7 +3,6 @@ name: 2020-07-21-pacific-city-beach-trip-rituals-are-good.md
 title: "Pacific City Beach Trip: Rituals are Good"
 date: 2020-07-21 01.11.51
 tags:
-  - L-- Pacific City Oregon
   - Family Fun
   - Beach
   - Flickr Photos

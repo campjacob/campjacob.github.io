@@ -6,7 +6,6 @@ tags:
   - European Excursion 2008
   - Travel
   - Personal
-  - L-- Spokane Washington
 categories:
   - Personal Blog
   - Travel Blog

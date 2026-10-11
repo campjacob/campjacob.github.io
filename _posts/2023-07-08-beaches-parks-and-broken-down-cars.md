@@ -8,9 +8,6 @@ tags:
   - Travel
   - Photos
   - 2023 Summer Family Road Trip
-  - L-- San Francisco California
-  - L-- Crescent City California
-  - L-- Los Angeles California
 locations: 
   - San Francisco California
   - Crescent City California

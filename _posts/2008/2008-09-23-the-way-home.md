@@ -8,10 +8,6 @@ tags:
   - Plane
   - Home
   - Holocaust
-  - L-- Krakow Poland
-  - L-- Auschwitz Poland
-  - L-- Budapest Hungary
-  - L-- London United Kingdom
 categories:
   - Personal Blog
   - Travel Blog

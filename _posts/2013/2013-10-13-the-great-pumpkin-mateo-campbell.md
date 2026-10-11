@@ -7,7 +7,6 @@ tags:
   - Facebook
   - Facebook Album
   - Family Fun
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

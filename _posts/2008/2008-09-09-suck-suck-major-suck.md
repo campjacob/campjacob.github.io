@@ -6,7 +6,6 @@ tags:
   - European Excursion 2008
   - Travel
   - Travel Troubles
-  - L-- Riga Latvia
 categories:
   - Personal Blog
   - Travel Blog

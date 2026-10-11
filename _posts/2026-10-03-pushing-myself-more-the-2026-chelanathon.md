@@ -6,13 +6,10 @@ tags:
   - Personal
   - Health
   - Self Care
-  - L-- Lake Chelan Washington
-  - L-- Leavenworth Washington
-  - L-- Tri-Cities Washington
 locations:
   - Lake Chelan Washington
   - Leavenworth Washington
-  - Pasco Washington
+  - Tri-Cities Washington
 categories:
   - Personal Blog
 header:

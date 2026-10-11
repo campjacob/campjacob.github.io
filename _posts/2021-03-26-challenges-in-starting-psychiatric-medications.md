@@ -5,7 +5,6 @@ date: 2021-03-26 12:15:38
 tags:
   - Social Work
   - Evidence-Based Practices
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

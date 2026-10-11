@@ -5,7 +5,6 @@ permalink: /blog/2013/6/jacob-the-not-so-mad-scientist
 tags:
   - Personal
   - Counseling
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

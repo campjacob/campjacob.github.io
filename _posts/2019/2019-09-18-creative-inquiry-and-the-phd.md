@@ -7,7 +7,6 @@ tags:
   - Writing
   - School
   - California Institute of Integral Studies
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

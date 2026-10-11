@@ -7,7 +7,6 @@ tags:
   - Personal
   - Travel
   - Travel Troubles
-  - L-- Seattle Washington
 categories:
   - Personal Blog
   - Travel Blog

@@ -13,7 +13,6 @@ tags:
   - Twitter
   - Facebook
   - IFTTT
-  - L-- Prosser Washington
 categories:
   - Personal Blog
 locations: 

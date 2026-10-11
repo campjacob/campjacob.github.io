@@ -4,7 +4,7 @@ layout: foundation
 nav_group: blog
 permalink: /locations/
 ---
-{%- comment -%} Places come from the "L-- " tags on posts; coordinates and country from _data/locations.yml. A tag missing from the data file is still listed, under "Not on the map yet". {%- endcomment -%}
+{%- comment -%} Places come from the posts' `locations:` field; coordinates and country from _data/locations.yml. A place missing from the data file is still listed, under "Not on the map yet". {%- endcomment -%}
 {%- assign countries = "" | split: "" -%}
 {%- for loc in site.data.locations -%}
   {%- assign countries = countries | push: loc[1].country -%}
@@ -13,14 +13,12 @@ permalink: /locations/
 {%- assign others = countries | where_exp: "c", "c != 'United States'" -%}
 {%- assign countries = "United States" | split: "|" | concat: others -%}
 {%- assign unmapped = "" | split: "" -%}
-{%- for tag in site.tags -%}
-  {%- if tag[0] contains "L-- " -%}
-    {%- assign key = tag[0] | remove_first: "L-- " -%}
-    {%- unless site.data.locations[key] -%}{%- assign unmapped = unmapped | push: key -%}{%- endunless -%}
-  {%- endif -%}
-{%- endfor -%}
+{%- for p in site.posts -%}{%- for key in p.locations -%}
+  {%- unless site.data.locations[key] -%}{%- assign unmapped = unmapped | push: key -%}{%- endunless -%}
+{%- endfor -%}{%- endfor -%}
+{%- assign unmapped = unmapped | uniq | sort -%}
 {%- assign located_count = 0 -%}
-{%- for p in site.posts -%}{%- for t in p.tags -%}{%- if t contains "L-- " -%}{%- assign located_count = located_count | plus: 1 -%}{%- break -%}{%- endif -%}{%- endfor -%}{%- endfor -%}
+{%- assign located = site.posts | where_exp: "p", "p.locations.size > 0" -%}{%- assign located_count = located.size -%}
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
@@ -68,8 +66,8 @@ permalink: /locations/
     {%- assign c_anchor = country | slugify -%}
     {%- assign c_places = 0 -%}{%- assign c_posts = 0 -%}
     {%- for loc in site.data.locations -%}{%- if loc[1].country == country -%}
-      {%- assign tag = "L-- " | append: loc[0] -%}
-      {%- assign c_places = c_places | plus: 1 -%}{%- assign c_posts = c_posts | plus: site.tags[tag].size -%}
+      {%- assign key = loc[0] -%}{%- assign posts = site.posts | where_exp: "p", "p.locations contains key" -%}
+      {%- assign c_places = c_places | plus: 1 -%}{%- assign c_posts = c_posts | plus: posts.size -%}
     {%- endif -%}{%- endfor %}
     <div class="accordion-item">
       <h3 class="accordion-header" id="h-{{ c_anchor }}">
@@ -84,8 +82,8 @@ permalink: /locations/
         <div class="accordion-body">
           <div class="row row-cols-1 row-cols-md-2 g-3">
           {%- for loc in site.data.locations -%}{%- if loc[1].country == country -%}
-            {%- assign tag = "L-- " | append: loc[0] -%}
-            {%- assign posts = site.tags[tag] -%}
+            {%- assign key = loc[0] -%}
+            {%- assign posts = site.posts | where_exp: "p", "p.locations contains key" -%}
             <div class="col">
               <section id="l-{{ loc[0] | slugify }}" class="h-100" data-country="c-{{ c_anchor }}">
                 <h4 class="h6 fw-bold d-flex align-items-baseline mb-2">
@@ -115,8 +113,8 @@ permalink: /locations/
     <h3 class="h6 fw-bold">Not on the map yet</h3>
     <ul class="small">
     {%- for key in unmapped -%}
-      {%- assign tag = "L-- " | append: key %}
-      <li id="l-{{ key | slugify }}"><strong>{{ key }}</strong>: {% for post in site.tags[tag] %}<a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</li>
+      {%- assign posts = site.posts | where_exp: "p", "p.locations contains key" %}
+      <li id="l-{{ key | slugify }}"><strong>{{ key }}</strong>: {% for post in posts %}<a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</li>
     {%- endfor %}
     </ul>
   </div>
@@ -132,8 +130,8 @@ permalink: /locations/
   // Same order as the list below: United States first, then countries A to Z.
   var places = [
   {%- for country in countries -%}{%- for loc in site.data.locations -%}{%- if loc[1].country == country -%}
-    {%- assign tag = "L-- " | append: loc[0] -%}
-    {%- assign posts = site.tags[tag] %}
+    {%- assign key = loc[0] -%}
+    {%- assign posts = site.posts | where_exp: "p", "p.locations contains key" %}
     { name: {{ loc[1].place | jsonify }}, region: {{ loc[1].region | jsonify }}, country: {{ loc[1].country | jsonify }}, lat: {{ loc[1].lat }}, lng: {{ loc[1].lng }}, anchor: "l-{{ loc[0] | slugify }}",
       posts: [{% for post in posts %}[{{ post.title | jsonify }}, {{ post.url | relative_url | jsonify }}, {{ post.date | date: "%b %Y" | jsonify }}]{% unless forloop.last %},{% endunless %}{% endfor %}] },
   {%- endif -%}{%- endfor -%}{%- endfor %}

@@ -5,7 +5,6 @@ date: 2023-03-03
 tags:
   - Dissertation 
   - California Institute of Integral Studies
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

@@ -10,7 +10,6 @@ tags:
   - Family Fun
   - Photos
   - CADCA 2014
-  - L-- Orlando Florida
 categories:
   - Personal Blog
   - Travel Blog

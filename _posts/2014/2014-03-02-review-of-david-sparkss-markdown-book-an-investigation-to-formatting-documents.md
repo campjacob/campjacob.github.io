@@ -7,7 +7,6 @@ tags:
   - Book Review
   - Podcasts
   - Personal
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

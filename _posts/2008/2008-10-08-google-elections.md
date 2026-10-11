@@ -7,7 +7,6 @@ tags:
   - Politics
   - Google
   - Google Maps
-  - L-- Spokane Washington
 categories:
   - Personal Blog
 locations: 

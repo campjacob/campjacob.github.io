@@ -9,7 +9,6 @@ tags:
   - Mental Health
   - TCCH BHS
   - Deep Thoughts
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
   - Professional Blog

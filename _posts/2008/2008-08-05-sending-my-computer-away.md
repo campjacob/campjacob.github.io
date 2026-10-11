@@ -5,7 +5,6 @@ permalink: /blog/2008/8/sending-my-computer-away
 tags:
   - Personal
   - Technology
-  - L-- Spokane Washington
 categories:
   - Personal Blog
 locations: 

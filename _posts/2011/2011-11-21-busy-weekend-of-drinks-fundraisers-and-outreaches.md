@@ -11,7 +11,6 @@ tags:
   - Tri-Cities Young Professionals
   - Eastlake Tri-Cities
   - Professional Connections
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

@@ -6,7 +6,6 @@ tags:
   - California Institute of Integral Studies
   - Infographic
   - Art Project
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

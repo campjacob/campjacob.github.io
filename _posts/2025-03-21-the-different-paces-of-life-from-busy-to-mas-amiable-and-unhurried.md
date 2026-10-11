@@ -7,9 +7,6 @@ tags:
   - Beach
   - Family
   - 2025 Vejar al Mexico Spring Break
-  - L-- Puerto Vallarta Mexico
-  - L-- Mexico City Mexico
-  - L-- Jungapeo Mexico
 locations: 
   - Puerto Vallarta Mexico
   - Mexico City Mexico

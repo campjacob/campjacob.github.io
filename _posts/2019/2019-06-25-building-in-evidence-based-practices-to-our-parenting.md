@@ -5,7 +5,6 @@ tags:
   - Parenting
   - Podcasts
   - Social Work
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

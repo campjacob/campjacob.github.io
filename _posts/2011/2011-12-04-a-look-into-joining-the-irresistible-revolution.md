@@ -11,7 +11,6 @@ tags:
   - Community
   - Communal Living
   - Deep Thoughts
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

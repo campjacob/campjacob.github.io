@@ -7,7 +7,6 @@ tags:
   - Social Work
   - Deep Thoughts
   - Adobe Photoshop
-  - L-- Spokane Washington
 categories:
   - Personal Blog
 locations: 

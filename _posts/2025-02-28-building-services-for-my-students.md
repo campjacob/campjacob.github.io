@@ -5,7 +5,6 @@ tags:
   - Heritage University
   - Teaching
   - Design
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

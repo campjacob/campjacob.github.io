@@ -10,7 +10,6 @@ tags:
   - Plain Text
   - Podcasts
   - Nerd
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

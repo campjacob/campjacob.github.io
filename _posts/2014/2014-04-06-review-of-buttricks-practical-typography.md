@@ -8,7 +8,6 @@ tags:
   - Work
   - TCCH BHS
   - Book Review
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
   - Professional Blog

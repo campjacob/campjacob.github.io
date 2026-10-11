@@ -5,7 +5,6 @@ date: 2021-05-01 09:56:56
 tags:
   - YouTube
   - Family
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

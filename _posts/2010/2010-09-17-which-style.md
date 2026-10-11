@@ -8,7 +8,6 @@ tags:
   - Personal
   - Design
   - Adobe Photoshop
-  - L-- Las Vegas Nevada
 categories:
   - Personal Blog
   - Travel Blog

@@ -9,7 +9,6 @@ tags:
   - Home
   - Funny
   - YouTube
-  - L-- Prosser Washington
 categories:
   - Personal Blog
 locations: 

@@ -8,7 +8,6 @@ tags:
   - Transformation
   - Timelapse
   - Empowerment
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

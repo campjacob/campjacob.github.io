@@ -4,7 +4,6 @@ date: 2008-07-31 05:53
 permalink: /blog/2008/7/new-website
 tags:
     - Personal
-    - L-- Spokane Washington
 categories:
     - Personal Blog
 locations:

@@ -8,7 +8,6 @@ tags:
   - Behavioral Health Services
   - Counseling
   - Microsoft PowerPoint
-  - L-- Prosser Washington
 categories:
   - Personal Blog
 locations: 

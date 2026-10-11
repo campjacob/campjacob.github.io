@@ -8,7 +8,6 @@ tags:
   - Markdown
   - Drafts
   - Shortcuts
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

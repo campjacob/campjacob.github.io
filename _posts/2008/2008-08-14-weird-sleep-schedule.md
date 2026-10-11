@@ -6,7 +6,6 @@ tags:
   - Personal
   - Work
   - Sleep
-  - L-- Spokane Washington
 categories:
   - Personal Blog
   - Travel Blog

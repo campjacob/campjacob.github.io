@@ -15,10 +15,6 @@ tags:
   - Boat
   - Travel Troubles
   - Ferry
-  - L-- Manaus Brazil
-  - L-- Amazon River Brazil
-  - L-- Porto Velho Brazil
-  - L-- Rio Branco Brazil
 categories:
   - Personal Blog
   - Travel Blog

@@ -6,7 +6,6 @@ tags:
   - Travel
   - Family European Adventure 2016
   - Family Fun
-  - L-- Paris France
 categories: 
   - Travel Blog
   - Personal Blog

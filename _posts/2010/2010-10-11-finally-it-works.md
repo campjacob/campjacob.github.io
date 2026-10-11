@@ -6,7 +6,6 @@ tags:
   - Personal
   - Work
   - Webdesign
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

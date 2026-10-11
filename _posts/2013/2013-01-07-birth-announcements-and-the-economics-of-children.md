@@ -8,7 +8,6 @@ tags:
   - Postcard
   - Freakonomics
   - Parenthood
-  - L-- Prosser Washington
 categories:
   - Personal Blog
 locations: 

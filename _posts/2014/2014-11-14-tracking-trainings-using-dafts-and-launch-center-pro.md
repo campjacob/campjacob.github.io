@@ -8,7 +8,6 @@ tags:
     - Professional
     - Drafts
     - Launch Center Pro
-    - L-- Tri-Cities Washington
 categories:
     - Personal Blog
     - Professional Blog

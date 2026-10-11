@@ -9,7 +9,6 @@ tags:
   - Writing
   - Wikipedia
   - Not A Monster
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

@@ -6,7 +6,6 @@ tags:
   - YouTube Video
   - Family Fun
   - Stop Motion
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

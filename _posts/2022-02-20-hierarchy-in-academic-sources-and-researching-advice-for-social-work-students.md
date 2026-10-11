@@ -7,7 +7,6 @@ tags:
   - Writing
   - Professional
   - Research
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

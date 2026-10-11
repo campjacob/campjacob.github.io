@@ -6,12 +6,11 @@ tags:
   - Travel
   - Family European Adventure 2016
   - Family Fun
-  - L-- Midi-Pyrénées France
 categories:
   - Travel Blog
   - Personal Blog
 locations:
-  - Midi-Phyrénées France
+  - Midi-Pyrénées France
 ---
 
 ![A photo from the Balcony of Sheila and Dennis house in the Commune of Fabas in the Midi-Phyrénées of the French Countryside.][5]

@@ -5,7 +5,6 @@ permalink: /blog/2013/10/the-almost-a-year-and-wanting-to-escape
 tags:
   - Personal
   - YouTube
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

@@ -8,7 +8,6 @@ tags:
   - TCCH BHS
   - Pasco School District
   - Boat
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
   - Professional Blog

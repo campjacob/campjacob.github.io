@@ -6,7 +6,6 @@ tags:
   - Funny
   - Podcasts
   - Freakonomics
-  - L-- Tri-Cities Washington
 categories: 
   - Personal Blog
 locations: 

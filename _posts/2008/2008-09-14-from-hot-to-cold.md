@@ -9,17 +9,12 @@ tags:
   - Hostel
   - Drinking
   - Cards
-  - L-- Rome Italy
-  - L-- Bergamo Italy
-  - L-- Riga Latvia
-  - L-- Warsaw Poland
-  - L-- Krakow Poland
 categories:
   - Personal Blog
   - Travel Blog
 locations:
   - Rome Italy
-  - Bergemo Italy
+  - Bergamo Italy
   - Riga Latvia
   - Warsaw Poland
   - Krakow Poland

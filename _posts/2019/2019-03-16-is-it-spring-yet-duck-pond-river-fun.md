@@ -5,7 +5,6 @@ permalink: /blog/2019/03/16/is-it-spring-yet-duck-pond-river-fun/
 tags:
   - YouTube Videos
   - Family Fun
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

@@ -8,9 +8,6 @@ tags:
   - Travel
   - Photos
   - 2023 Summer Family Road Trip
-  - L-- Florence Oregon
-  - L-- Coos Bay Oregon
-  - L-- Crescent City California
 locations: 
   - Florence Oregon
   - Coos Bay Oregon

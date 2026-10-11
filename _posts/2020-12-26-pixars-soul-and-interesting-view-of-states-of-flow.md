@@ -7,7 +7,6 @@ tags:
   - Pixar
   - Creativity
   - Flow
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

@@ -5,7 +5,6 @@ date: 2019-11-02 15.44.56
 tags:
   - Resilience
   - Book Review
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

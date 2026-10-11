@@ -6,7 +6,6 @@ tags:
   - YouTube
   - Family Fun
   - Quik
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

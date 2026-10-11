@@ -10,7 +10,6 @@ tags:
   - IMDB
   - Wikipedia
   - Deep Thoughts
-  - L-- Spokane Washington
 categories:
   - Personal Blog
   - Travel Blog

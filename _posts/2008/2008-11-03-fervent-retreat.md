@@ -8,7 +8,6 @@ tags:
   - Facebook Album
   - Facebook Video
   - Dance
-  - L-- Ford Washington
 categories:
   - Personal Blog
 locations: 

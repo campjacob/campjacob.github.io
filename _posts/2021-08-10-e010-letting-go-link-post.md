@@ -5,7 +5,6 @@ date: 2021-08-10 16:13:38
 link: https://motherdearest.show/10
 tags:
   - The Mother Dearest Show
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

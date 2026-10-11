@@ -8,7 +8,6 @@ tags:
   - Social Work
   - Podcasts
   - Technology
-  - L-- Spokane Washington
 categories:
   - Personal Blog
   - Professional Blog

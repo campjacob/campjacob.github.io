@@ -1,10 +1,13 @@
-# Coordinates for the "L-- " location tags on posts, used by the Locations page map.
-# The key must match the tag exactly, without the "L-- " prefix.
-# When a post gets a new location tag, add it here or it will not appear on the map.
+# Coordinates for the places in posts' `locations:` field, used by the Locations page map.
+# The key must match the post's value exactly (e.g. "Tri-Cities Washington").
+# A place missing here is listed under "Not on the map yet", and the Check locations
+# workflow fails (and emails) until it is added.
 
+"Aberdeen Washington":                      { place: "Aberdeen", region: "Washington", country: "United States", lat: 46.975, lng: -123.816 }
 "Amazon River Brazil":                      { place: "Amazon River", region: "Amazonas", country: "Brazil", lat: -3.30, lng: -58.90 }
 "Arequipa Peru":                            { place: "Arequipa", country: "Peru", lat: -16.409, lng: -71.537 }
 "Arica Chile":                              { place: "Arica", country: "Chile", lat: -18.478, lng: -70.312 }
+"Astoria Oregon":                           { place: "Astoria", region: "Oregon", country: "United States", lat: 46.188, lng: -123.831 }
 "Athol Idaho":                              { place: "Athol", region: "Idaho", country: "United States", lat: 47.947, lng: -116.708 }
 "Auschwitz Poland":                         { place: "Auschwitz", country: "Poland", lat: 50.027, lng: 19.204 }
 "Barcelona Spain":                          { place: "Barcelona", country: "Spain", lat: 41.385, lng: 2.173 }
@@ -30,6 +33,7 @@
 "Leavenworth Washington":                   { place: "Leavenworth", region: "Washington", country: "United States", lat: 47.596, lng: -120.661 }
 "Lima Peru":                                { place: "Lima", country: "Peru", lat: -12.046, lng: -77.043 }
 "London United Kingdom":                    { place: "London", country: "United Kingdom", lat: 51.507, lng: -0.128 }
+"Long Beach Washington":                    { place: "Long Beach", region: "Washington", country: "United States", lat: 46.352, lng: -124.054 }
 "Los Angeles California":                   { place: "Los Angeles", region: "California", country: "United States", lat: 34.052, lng: -118.244 }
 "Manaus Brazil":                            { place: "Manaus", country: "Brazil", lat: -3.119, lng: -60.022 }
 "Mexico City Mexico":                       { place: "Mexico City", country: "Mexico", lat: 19.433, lng: -99.133 }

@@ -6,7 +6,6 @@ tags:
   - Personal
   - Deep Thoughts
   - News
-  - L-- Spokane Washington
 categories:
   - Personal Blog
 locations: 

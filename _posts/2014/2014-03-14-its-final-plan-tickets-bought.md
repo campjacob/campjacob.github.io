@@ -8,7 +8,6 @@ tags:
   - Technology
   - Podcasts
   - First and Last Macworld - 2014
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
   - Travel Blog

@@ -7,7 +7,6 @@ tags:
   - DIY
   - Drupal
   - Wikipedia
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

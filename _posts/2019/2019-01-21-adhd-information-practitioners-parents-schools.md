@@ -7,7 +7,6 @@ tags:
     - School Social Work
     - Community Mental Health
     - YouTube Posts
-    - L-- Tri-Cities Washington
 categories:
     - Professional Blog
     - YouTube Videos

@@ -8,8 +8,6 @@ tags:
   - Funny
   - Video
   - YouTube
-  - L-- San Francisco California
-  - L-- Tri-Cities Washington
 categories:
   - Personal Blog
   - Travel Blog

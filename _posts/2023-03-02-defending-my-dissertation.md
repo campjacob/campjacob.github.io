@@ -5,7 +5,6 @@ tags:
   - Academic
   - Trauma-Infomred
   - CIIS
-  - L-- Tri-Cities Washington
 locations: 
   - Tri-Cities Washington
 categories:

@@ -10,7 +10,6 @@ tags:
     - Pasco School District
     - Heritage University
     - Keyboard Maestro
-    - L-- Tri-Cities Washington
 categories:
   - Personal Blog
 locations: 

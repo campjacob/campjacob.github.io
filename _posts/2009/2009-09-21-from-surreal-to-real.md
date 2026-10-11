@@ -10,9 +10,6 @@ tags:
   - Wikipedia
   - Dance
   - Drinking
-  - L-- Tri-Cities Washington
-  - L-- Miami Florida
-  - L-- Port Of Spain Trinidad And Tobago
 categories:
   - Personal Blog
   - Travel Blog
