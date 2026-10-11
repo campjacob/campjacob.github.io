@@ -24,6 +24,7 @@ a:hover {
    ========================================================================== */
 :root {
   --bs-primary: #fd7e14;
+  --bs-primary-bg-subtle: #ffe5d0;
   --bs-link-color: var(--bs-primary);
   --bs-link-hover-color: #e85c00;
 
@@ -339,6 +340,7 @@ nav .dropdown-menu svg.opacity-50 {
    Dark Mode Theme Overrides
    ========================================================================== */
 :root[data-bs-theme="dark"] {
+  --bs-primary-bg-subtle: #331904;
   --bs-link-color-rgb: #000;
   --bs-link-opacity: #adb5bd;
 }
@@ -586,3 +588,15 @@ a.tl-hit:focus-visible { outline: none; }
 .date-row { position: relative; display: grid; grid-template-columns: 3.5rem 1fr; column-gap: .5rem; align-items: baseline; padding: .3rem 0; }
 .date-row::before { content: ""; position: absolute; left: calc(-1.75rem + .45rem + 1px - 4px); top: .75rem; width: 8px; height: 8px; border-radius: 50%; background: var(--bs-body-bg); border: 2px solid var(--bs-primary); }
 .date-row-body .badge, .date-row-place { margin-left: .35rem; }
+
+/* ==========================================================================
+   Categories (/categories/): category cards that pick which posts show below
+   ========================================================================== */
+.cat-icon { color: var(--bs-primary); }
+.cat-card { transition: transform .15s, box-shadow .15s, border-color .15s; }
+.cat-card:hover { transform: translateY(-2px); box-shadow: var(--bs-box-shadow) !important; }
+.cat-card.is-active { border-color: var(--bs-primary); background: var(--bs-primary-bg-subtle); box-shadow: 0 0 0 1px var(--bs-primary), var(--bs-box-shadow-sm) !important; }
+.cat-card:focus-visible { outline: 2px solid var(--bs-primary); outline-offset: 2px; }
+.cat-panel { scroll-margin-top: 1rem; }
+.cat-panel .date-row::before { display: none; }
+.date-row-cat { width: 1.25em; margin-right: .25rem; text-align: center; }

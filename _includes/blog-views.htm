@@ -1,8 +1,9 @@
 {%- comment -%}
 Breadcrumb and "other ways to browse the blog" buttons for the blog's meta pages
-(locations, date, tags, categories). The button for the current page is shown as active.
+(locations, date, tags, categories). The button for the current page is shown as active,
+and the Categories folder shows open only on its own page.
 {%- endcomment -%}
-{%- assign views = "Locations|/locations/|fa-map-marked-alt,Date|/year-archive/|fa-calendar-alt,Tags|/tags/|fa-tags,Categories|/categories/|fa-folder-open,Stream|/stream/|fa-stream" | split: "," -%}
+{%- assign views = "Locations|/locations/|fa-map-marked-alt,Date|/year-archive/|fa-calendar-alt,Tags|/tags/|fa-tags,Categories|/categories/|fa-folder,Stream|/stream/|fa-stream" | split: "," -%}
 <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-2">
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb small mb-0">
@@ -14,6 +15,7 @@ Breadcrumb and "other ways to browse the blog" buttons for the blog's meta pages
     {%- for v in views -%}
     {%- assign parts = v | split: "|" -%}
     {%- if page.url == parts[1] %}
+    {%- if parts[2] == "fa-folder" -%}{%- assign parts = parts | pop | push: "fa-folder-open" -%}{%- endif %}
     <a href="{{ parts[1] | relative_url }}" class="btn btn-sm btn-secondary" aria-current="page"><i class="fas {{ parts[2] }} me-1" aria-hidden="true"></i>{{ parts[0] }}</a>
     {%- else %}
     <a href="{{ parts[1] | relative_url }}" class="btn btn-sm btn-outline-secondary"><i class="fas {{ parts[2] }} me-1" aria-hidden="true"></i>{{ parts[0] }}</a>
