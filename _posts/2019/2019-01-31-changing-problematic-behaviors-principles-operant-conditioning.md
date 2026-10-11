@@ -3,7 +3,7 @@ title: "Changing Problematic Behaviors, Principles of Operant Conditioning"
 date: 2019-01-31 17:00
 tags:
   - Social Work
-  - YouTube video
+  - YouTube Video
   - Behavior Modification
   - Parenting
 categories:

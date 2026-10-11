@@ -8,7 +8,7 @@ tags:
   - Video
   - Adobe Premier Pro
   - Safe Harbor Family Support Center
-  - Youtube
+  - YouTube
 categories:
   - Personal Blog
 locations: 

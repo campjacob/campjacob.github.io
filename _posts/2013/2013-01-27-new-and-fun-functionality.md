@@ -6,10 +6,10 @@ tags:
   - Personal
   - Technology
   - Apple
-  - Lifehaker
+  - Lifehacker
   - Google
   - Google News
-  - Feakonomics
+  - Freakonomics
   - Twitter
   - Facebook
   - IFTTT

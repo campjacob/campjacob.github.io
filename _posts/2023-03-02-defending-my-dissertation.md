@@ -3,7 +3,7 @@ title: Defending My Dissertation Tomorrow
 date: 2023-03-02 19:22:20
 tags:
   - Academic
-  - Trauma-Infomred
+  - Trauma-Informed
   - CIIS
 locations: 
   - Tri-Cities Washington

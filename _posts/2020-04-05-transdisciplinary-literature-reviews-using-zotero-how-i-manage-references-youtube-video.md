@@ -3,12 +3,12 @@ name: 2020-04-05-transdisciplinary-literature-reviews-using-zotero-how-i-manage-
 title: "Transdisciplinary Literature Reviews using Zotero, How I Manage References [YouTube Video]"
 date: 2020-04-05 14.53.50
 tags:
-  - Transdiciplinary
+  - Transdisciplinary
   - Ph.D.
   - Software
   - Drafts
   - Zotero
-  - Siri Shortctus
+  - Siri Shortcuts
 locations: 
   - Tri-Cities Washington
 categories:

@@ -5,7 +5,7 @@ permalink: /blog/2011/11/can-these-dry-bones-still-be-raised-a-review-on-chris-h
 tags:
   - Book Review
   - Politics
-  - Libral
+  - Liberal
   - National Public Radio
   - Occupy Together
   - Spirituality

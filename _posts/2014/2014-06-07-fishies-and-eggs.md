@@ -9,7 +9,7 @@ tags:
   - Facebook Album
   - Design
   - Webdesign
-  - Youtube
+  - YouTube
 categories:
   - Personal Blog
 locations: 
