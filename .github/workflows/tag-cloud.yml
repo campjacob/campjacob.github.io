@@ -1,0 +1,60 @@
+# Redraw the tag clouds (scripts/tag-cloud.py) when posts change, commit them, and rebuild the site.
+# The clouds are _includes/tag-cloud.svg (/tags/) and _includes/tag-cloud-sidebar.svg (blog sidebar).
+# The commit lands right after yours, so pull before your next push.
+# Run by hand from the Actions tab with "Run workflow".
+name: Tag cloud
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "_posts/**"
+      - "scripts/tag-cloud.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write   # commit the clouds
+  pages: write      # request a Pages build
+
+concurrency:
+  group: tag-cloud
+  cancel-in-progress: true
+
+jobs:
+  cloud:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Install wordcloud
+        run: pip install --quiet wordcloud pyyaml
+
+      - name: Draw the clouds
+        run: python3 scripts/tag-cloud.py
+
+      - name: Commit and push
+        id: commit
+        run: |
+          git add _includes/tag-cloud.svg _includes/tag-cloud-sidebar.svg
+          if git diff --cached --quiet; then
+            echo "Tags unchanged."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Redraw tag clouds"
+          git pull --rebase
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      # Pushes made with GITHUB_TOKEN don't trigger the Pages build, so ask for one.
+      - name: Rebuild GitHub Pages
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds"

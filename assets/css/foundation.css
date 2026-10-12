@@ -600,3 +600,27 @@ a.tl-hit:focus-visible { outline: none; }
 .cat-panel { scroll-margin-top: 1rem; }
 .cat-panel .date-row::before { display: none; }
 .date-row-cat { width: 1.25em; margin-right: .25rem; text-align: center; }
+
+/* ==========================================================================
+   Tags (/tags/): tag pills (bigger for more posts) that pick which posts show below
+   ========================================================================== */
+.tag-search { width: auto; flex: 0 1 16rem; }
+.tag-pill { display: inline-flex; align-items: baseline; gap: .35rem; padding: .2rem .65rem; border: 1px solid var(--bs-border-color); border-radius: 50rem; color: var(--bs-body-color); text-decoration: none; font-size: calc(.8rem + var(--w, 0) * .45rem); line-height: 1.4; transition: border-color .15s, background-color .15s; }
+.tag-pill:hover { border-color: var(--bs-primary); color: var(--bs-body-color); }
+.tag-pill.is-active { border-color: var(--bs-primary); background: var(--bs-primary-bg-subtle); box-shadow: 0 0 0 1px var(--bs-primary); }
+.tag-pill:focus-visible { outline: 2px solid var(--bs-primary); outline-offset: 2px; }
+.tag-pill-count { font-size: .75rem; color: var(--bs-secondary-color); }
+.tag-pill[hidden] { display: none; }
+.tag-cloud-svg { display: block; width: 100%; height: auto; font-family: var(--bs-body-font-family); font-weight: 700; }
+.tag-cloud-svg .tc-1 { fill: color-mix(in srgb, var(--bs-primary) 55%, var(--bs-secondary-color)); }
+.tag-cloud-svg .tc-2 { fill: color-mix(in srgb, var(--bs-primary) 70%, var(--bs-secondary-color)); }
+.tag-cloud-svg .tc-3 { fill: color-mix(in srgb, var(--bs-primary) 85%, var(--bs-secondary-color)); }
+.tag-cloud-svg .tc-4 { fill: var(--bs-primary); }
+.tag-cloud-svg a, .tag-cloud-svg text { cursor: pointer; text-decoration: none; }
+.tag-cloud-svg a text { transition: opacity .15s; }
+.tag-cloud-svg:hover a text { opacity: .7; }
+.tag-cloud-svg a:hover text, .tag-cloud-svg a:focus-visible text { opacity: 1; }
+.tag-cloud-svg a:focus-visible { outline: none; }
+.tag-cloud-svg a.is-active text { opacity: 1; fill: var(--bs-emphasis-color); }
+.tag-panel { scroll-margin-top: 1rem; }
+.tag-panel .date-row::before { display: none; }
