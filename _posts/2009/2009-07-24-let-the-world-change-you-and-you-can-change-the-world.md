@@ -17,7 +17,7 @@ locations:
   - Spokane Washington
 ---
 
-![The Motorcycle Diaries Poster Art][1]{: .align-left}
+![The Motorcycle Diaries Poster Art][1]{: .float-start}
 
    [1]: /assets/media/motorcycle-diaries-poster.jpg
 

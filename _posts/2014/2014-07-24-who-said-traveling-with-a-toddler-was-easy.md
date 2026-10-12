@@ -36,7 +36,7 @@ On Saturday evening we flew out of [Seattle / Tacoma International Airport][3] w
 
 Mateo started to get super fussy, uncomfortable, and unhappy. He cried loudly on and off for probably a total of two hours of the flight. Minnie described that it was like a nightmare. It all turned out just fine in the end, but it was hectic when there wasn't much that you could do to make things better.
 
-![The whole team from both the  Pasco Discovery Coalition  and  Prosser CIA .][6]{: .align-left} The whole team from both the Pasco Discovery Coalition and Prosser CIA . 
+![The whole team from both the  Pasco Discovery Coalition  and  Prosser CIA .][6]{: .float-start} The whole team from both the Pasco Discovery Coalition and Prosser CIA . 
 
    [6]: /assets/media/pasco-discovery-coalition-cadca-team.jpg
 

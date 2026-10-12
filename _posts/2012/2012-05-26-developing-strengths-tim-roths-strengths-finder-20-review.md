@@ -15,7 +15,7 @@ locations:
   - Tri-Cities Washington
 ---
 
-![Tom Rath's Strengths Finder 2.0 Book Cover][1]{: .align-right} Tom Rath's Strengths Finder 2.0 Book Cover.  You can read Developing Strengths, Tim Roth's Strengths Finder 2.0 Review. 
+![Tom Rath's Strengths Finder 2.0 Book Cover][1]{: .float-end} Tom Rath's Strengths Finder 2.0 Book Cover.  You can read Developing Strengths, Tim Roth's Strengths Finder 2.0 Review. 
 
    [1]: /assets/media/tom-rath-strengths-finder-2.0-book-cover.jpg-book-cover.jpg
 

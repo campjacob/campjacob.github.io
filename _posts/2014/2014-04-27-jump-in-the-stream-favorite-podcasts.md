@@ -34,7 +34,7 @@ I grew up listening to talk radio and books on tape with my mom for years. I rea
 
 * * *
 
-![Cover art for Mac Power Users][6]{: .align-left} Cover art for Mac Power Users 
+![Cover art for Mac Power Users][6]{: .float-start} Cover art for Mac Power Users 
 
    [6]: /assets/media/mac-power-users-cover-art.jpg
 
@@ -51,7 +51,7 @@ This is by far my favorite podcast, and I've written about them [a number of tim
 
 * * *
 
-![Cover art for Back to Work][12]{: .align-right} Cover art for Back to Work 
+![Cover art for Back to Work][12]{: .float-end} Cover art for Back to Work 
 
    [12]: /assets/media/back-to-work-podcast-cover-art.jpg
 
@@ -66,7 +66,7 @@ While, I don't think that I've posted anything on my website regarding Back to W
 
 * * *
 
-![Cover art for Freakonomics][16]{: .align-left} Cover art for Freakonomics 
+![Cover art for Freakonomics][16]{: .float-start} Cover art for Freakonomics 
 
    [16]: /assets/media/freakonomics-radio-cover-art.jpg
 
@@ -81,7 +81,7 @@ This is another show that [I've talked about several times][19] on my site. Whil
 
 * * *
 
-![ Cover art for Smart People Podcast ][20]{: .align-right} Cover art for Smart People Podcast 
+![ Cover art for Smart People Podcast ][20]{: .float-end} Cover art for Smart People Podcast 
 
    [20]: /assets/media/smart-people-podcast-cover-art.png
 
@@ -94,7 +94,7 @@ The Smart People Podcast has a lot of really great guests that come onto their s
 
 * * *
 
-![ Cover art for CultCast ][23]{: .align-left} Cover art for CultCast 
+![ Cover art for CultCast ][23]{: .float-start} Cover art for CultCast 
 
    [23]: /assets/media/cultcast-cover-art.jpg
 
@@ -107,7 +107,7 @@ I have several technology and more apple centric podcasts that I listen to. This
 
 * * *
 
-![ Cover art for Systematic][26]{: .align-right} Cover art for Systematic 
+![ Cover art for Systematic][26]{: .float-end} Cover art for Systematic 
 
    [26]: /assets/media/systematic-cover-art.jpg
 
@@ -122,7 +122,7 @@ Systematic is hosted by [Brett Terpstra][29] who is pretty amazing. I use so man
 
 * * *
 
-![ Cover art for Social Work Podcast][30]{: .align-left} Cover art for Social Work Podcast 
+![ Cover art for Social Work Podcast][30]{: .float-start} Cover art for Social Work Podcast 
 
    [30]: /assets/media/social-work-podcast-cover-art.jpg
 

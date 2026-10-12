@@ -18,7 +18,7 @@ header:
   caption: "Photo credit: Graphic created by Jacob Campbell using Adobe Spark"
 excerpt: "All of the areas that privilege seems to be coming up in my life these days."
 review-block:
-  class: "align-left"
+  class: "float-start"
   image_path: "/assets/media/between-worlds-and-me-audiobook-cover.png"
   th_image_path: "/assets/media/between-worlds-and-me-audiobook-cover-x300.png"
   alt: "Audiobook cover for Ta-Nehishi Coates Between The Worlds and Me"

@@ -27,7 +27,7 @@ Dear Friends & Family,
 
 Minnie and I were both in different places a year ago; a lot has changed for both of us.  Probably one of the biggest changes is that we have moved in together, at the Timber’s Apartments in Richland.  Most recently Minnie will be taking classes from Heritage at Columbia Basin College’s campus in Pasco.   She is a year closer to getting her bachelor’s degree in Elementary Education and I’m a year closer to get my licensure to be a licensed independent clinical social worker. I started working more often with kids incarcerated at the Juvenile Detention in Kennewick.  Minnie is still working for the Sunnyside School District, but she changed school to be working at Washington Elementary but she still misses her little goobers at Outlook Elementary.
 
-![Minnie and I with Santa.][2]{: .align-center} Minnie and I with Santa. 
+![Minnie and I with Santa.][2]{: .d-block .mx-auto} Minnie and I with Santa. 
 
    [2]: /assets/media/minnie-jacob-campbell-santa.png
 

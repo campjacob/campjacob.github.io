@@ -14,7 +14,7 @@ locations:
   - Tri-Cities Washington
 ---
 
-![MPU Logo][1]{: .align-left}
+![MPU Logo][1]{: .float-start}
 
    [1]: /assets/media/mac-power-users-podcast-logo.jpg
 

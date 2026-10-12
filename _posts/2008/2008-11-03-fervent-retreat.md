@@ -14,7 +14,7 @@ locations:
   - Ford Washington
 ---
 
-![  Fervent  Fall Retreat at  Camp Tshimakain, Ford WA  ][1]{: .align-center} Fervent  Fall Retreat at Camp Tshimakain, Ford WA
+![  Fervent  Fall Retreat at  Camp Tshimakain, Ford WA  ][1]{: .d-block .mx-auto} Fervent  Fall Retreat at Camp Tshimakain, Ford WA
 {: .text-center}
 
    [1]: /assets/media/photo-fervant-fall-retreat-crowd-friends.jpg

@@ -35,7 +35,7 @@ After going through putting these concept together, they had come up with a diff
 
 ![ This is the 11x16 Poster version.  You can check out a  PDF version  or the  Adobe Illustrator File  if you are interested. ][7] This is the 11x16 Poster version.  You can check out a [PDF version](/assets/media/Atomic+Throwdown+11x16+Large+Poster.pdf) or the [Adobe Illustrator File](/assets/media/Atomic+Throwdown+11x16+Large+Poster.ai) if you are interested.
 
-![ This is the 8x5x11 Flyer version of the final Pee Chee design.  You can check out the  PDF version  or the  Adobe Illustrator File  if you are interested.][8]{: .align-center} This is the 8x5x11 Flyer version of the final Pee Chee design.  You can check out the [PDF version](/assets/media/Atomic+Throwdown+8.5x11+Flyer.pdf) or the [Adobe Illustrator File](/assets/media/Atomic+Throwdown+8.5x11+Flyer.ai) if you are interested.
+![ This is the 8x5x11 Flyer version of the final Pee Chee design.  You can check out the  PDF version  or the  Adobe Illustrator File  if you are interested.][8]{: .d-block .mx-auto} This is the 8x5x11 Flyer version of the final Pee Chee design.  You can check out the [PDF version](/assets/media/Atomic+Throwdown+8.5x11+Flyer.pdf) or the [Adobe Illustrator File](/assets/media/Atomic+Throwdown+8.5x11+Flyer.ai) if you are interested.
 
 ![ The final version of the Facebook Cover Page optimized by  Cover Photo Size Helper .  You can also check out the  Adobe Illustrator File  if you are interested. ][9] The final version of the Facebook Cover Page optimized by [Cover Photo Size Helper](https://www.facebook.com/CoverPhotoSize) .  You can also check out the [Adobe Illustrator File](/assets/media/Atomic+Throwdown+Facebook+Cover.ai) if you are interested. 
 

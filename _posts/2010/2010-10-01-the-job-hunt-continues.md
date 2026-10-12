@@ -12,7 +12,7 @@ locations:
   - Tri-Cities Washington
 ---
 
-![ A photoshoped designed logo for my job search. As I've been back in the US, I've been looking for a job. I feel kind of like Elmer Fudd and never finding my wabit][1]{: .align-center} A photoshoped designed logo for my job search. As I've been back in the US, I've been looking for a job. I feel kind of like Elmer Fudd and never finding my wabit 
+![ A photoshoped designed logo for my job search. As I've been back in the US, I've been looking for a job. I feel kind of like Elmer Fudd and never finding my wabit][1]{: .d-block .mx-auto} A photoshoped designed logo for my job search. As I've been back in the US, I've been looking for a job. I feel kind of like Elmer Fudd and never finding my wabit 
 
    [1]: /assets/media/job-hunt-elmer-fudd.jpg
 

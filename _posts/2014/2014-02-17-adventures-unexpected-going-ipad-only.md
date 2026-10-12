@@ -28,7 +28,7 @@ I've been using my MacBook Pro very heavily over the past year and a couple of m
 
 When I clicked the on button, there was the happy chime saying that it was starting, but it just never actually started. After about a half a minute I was accosted by the white screen of death (similar to the blue screen of death on a windows machine I'd imagine). There in front of me was bright white screen with a blinking folder with a question mark on it.
 
-![A graphic I found with the white screen of death.][6]{: .align-left} A graphic I found with the white screen of death. 
+![A graphic I found with the white screen of death.][6]{: .float-start} A graphic I found with the white screen of death. 
 
    [6]: /assets/media/white-screen-of-death.jpg
 

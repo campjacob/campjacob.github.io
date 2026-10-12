@@ -41,7 +41,7 @@ Minnie and I spent Thursday driving around and looking at lights. For both Thurs
    [7]: http://www.tri-cityherald.com/2011/12/18/1757314/mid-columbias-2011-christmas-lights.html
    [8]: http://cojchurch.org/2011/12/01/living-nativity-2011/
 
-![An interpretation of Maslow's hierarchy of needs, represented as a pyramid with the more basic needs at the bottom, the image is taken from the  Wikipedia entry.][9]{: .align-left} An interpretation of Maslow's hierarchy of needs, represented as a pyramid with the more basic needs at the bottom, the image is taken from the Wikipedia entry. 
+![An interpretation of Maslow's hierarchy of needs, represented as a pyramid with the more basic needs at the bottom, the image is taken from the  Wikipedia entry.][9]{: .float-start} An interpretation of Maslow's hierarchy of needs, represented as a pyramid with the more basic needs at the bottom, the image is taken from the Wikipedia entry. 
 
    [9]: /assets/media/maslows-hierarchy-needs.png
 

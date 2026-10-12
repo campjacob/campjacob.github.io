@@ -68,9 +68,9 @@ You can also also see some some of the photos from our trip.
 
 {% include gallery caption="A selection of **some photos** from our trip." %}
 
-<figure>
-  <img src="/assets/media/2019-leavenworth-jacks-cabin.jpg" alt="Photo of our Jacks Cabin">
-  <figcaption>From the waterfront side, Jacks Cabin</figcaption>
+<figure class="figure post-figure">
+  <img src="/assets/media/2019-leavenworth-jacks-cabin.jpg" class="figure-img img-fluid rounded" alt="Photo of our Jacks Cabin">
+  <figcaption class="figure-caption">From the waterfront side, Jacks Cabin</figcaption>
 </figure>
 
 We got the opportunity to stay in [Jack's Cabin](https://www.airbnb.com/rooms/30254693), through airbnb which was a phenomenal experience. The video take you on a bit of tour, but there is really nothing like being able to walk out the back door and have a river and and little waterfall right outside.

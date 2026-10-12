@@ -14,7 +14,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/media/envisioning-a-better-future-with-my-kids-1600×900.jpeg
-  teaser: /assets/media/envisioning-a-better-future-with-my-kids-500x300.jpg
+  teaser: /assets/media/envisioning-a-better-future-with-my-kids-500×281.jpeg
   caption: "Photo credit: A photo I took of my kids while at [Memorial Park](https://www.pasco-wa.gov/Facilities/Facility/Details/Memorial-Park-24) in Pasco"
   actions:
     - label: "Watch Video"

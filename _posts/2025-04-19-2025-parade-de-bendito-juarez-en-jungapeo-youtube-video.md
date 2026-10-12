@@ -20,7 +20,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/media/2025-04-19-2025-parade-de-bendito-juarez-en-jungapeo-1920x600.jpg
   teaser: /assets/media/2025-04-19-2025-parade-de-bendito-juarez-en-jungapeo-500x300.jpg
-  caption: "Photo credit: Photo by [**Jacob Campbell**](vsp.ink/hub) in the Garden (center) of Jungapeo."
+  caption: "Photo credit: Photo by [**Jacob Campbell**](https://vsp.ink/hub) in the Garden (center) of Jungapeo."
   actions:
     - label: "Watch Video"
       url: "https://youtu.be/ngj-6gQMuNM"

@@ -18,7 +18,7 @@ locations:
 
 ## Overview of the Book
 
-![The Audiobook Cover for Ayn Rand's Atlas Shrugged. You can find it on  Amazon  and listen to yourself. I uploaded this graphic for my blog post  An Allegory of the Free Market and Capitalism, Atlas Shrugged Book Review .][1]{: .align-right} The Audiobook Cover for Ayn Rand's Atlas Shrugged. You can find it on  Amazon  and listen to yourself. I uploaded this graphic for my blog post  An Allegory of the Free Market and Capitalism, Atlas Shrugged Book Review. 
+![The Audiobook Cover for Ayn Rand's Atlas Shrugged. You can find it on  Amazon  and listen to yourself. I uploaded this graphic for my blog post  An Allegory of the Free Market and Capitalism, Atlas Shrugged Book Review .][1]{: .float-end} The Audiobook Cover for Ayn Rand's Atlas Shrugged. You can find it on  Amazon  and listen to yourself. I uploaded this graphic for my blog post  An Allegory of the Free Market and Capitalism, Atlas Shrugged Book Review. 
 
    [1]: /assets/media/atlas-shrugged-ayn-rand-audiobook-cover.jpg
 

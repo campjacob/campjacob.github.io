@@ -31,7 +31,7 @@ This design project was created for [My Friends Place][3]'s Event, [Will Rage fo
 
 ![This is the poster I created for My Friends Place's Event, Will Rage for Food.][8] This is the poster I created for My Friends Place's Event, Will Rage for Food.  I made it in Adobe Photoshop.  I got some of the images through a Google Image Search.  I took the DJ Mixer and the Girl, but I made everything else.
 
-![This is the flyer I created for My Friends Place's Event, Will Rage for Food.][9]{: .align-right} This is the flyer I created for My Friends Place's Event, Will Rage for Food.  I made it in Adobe Photoshop.  I got some of the images through a Google Image Search.  I took the DJ Mixer and the Girl, but I made everything else. 
+![This is the flyer I created for My Friends Place's Event, Will Rage for Food.][9]{: .float-end} This is the flyer I created for My Friends Place's Event, Will Rage for Food.  I made it in Adobe Photoshop.  I got some of the images through a Google Image Search.  I took the DJ Mixer and the Girl, but I made everything else. 
 
 ![This is the Facebook Cover Photo I created for My Friends Place's Event][10] This is the Facebook Cover Photo I created for My Friends Place's Event, Will Rage for Food.  I made it in Adobe Photoshop.  I got some of the images through a Google Image Search.  I took the DJ Mixer and the Girl, but I made everything else. 
 

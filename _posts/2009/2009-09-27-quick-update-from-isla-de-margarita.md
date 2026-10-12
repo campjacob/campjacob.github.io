@@ -23,6 +23,6 @@ While traveling sometimes, it seems like I might spend too much time on my compu
    [2]: https://www.facebook.com/media/set/?set=a.525130557436.2042615.44504407&type=1&l=5e45ac3c55 (Venezuela, Entering a Whole New World Facebook Album)
 
 
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?ie=UTF8&amp;msa=0&amp;msid=200620865843913697720.000473f6f9786fe7ad74b&amp;source=embed&amp;t=m&amp;ll=10.228437,-83.935547&amp;spn=36.40517,56.25&amp;output=embed"></iframe><br /><small>View <a href="https://maps.google.com/maps/ms?ie=UTF8&amp;msa=0&amp;msid=200620865843913697720.000473f6f9786fe7ad74b&amp;source=embed&amp;t=m&amp;ll=10.228437,-83.935547&amp;spn=36.40517,56.25" style="color:#0000FF;text-align:left">Jaunt Down to South America</a> in a larger map</small>
+**Updated 10/11/26**: There was a Google map from my trip here. Google retired that kind of map, so it no longer loads, and the embed was removed.
 
 So happy viewing and I will write more soon.

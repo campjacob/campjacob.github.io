@@ -37,7 +37,7 @@ I think one of the reasons that the book disturbed me so much (in a good way) wa
 > We are just trying to discover a new (ancient) kind of Christianity. We are about spreading a way of life that exists organically and relationally and is marked by such a brilliant love and grace that no one could resist it.
 >-- Page 348
 
-![Book Cover of Shane Claiborne's The Irresistible Revolution: Living as an Ordinary Radical (2006).][5]{: .align-left} Book Cover of Shane Claiborne's The Irresistible Revolution: Living as an Ordinary Radical (2006). 
+![Book Cover of Shane Claiborne's The Irresistible Revolution: Living as an Ordinary Radical (2006).][5]{: .float-start} Book Cover of Shane Claiborne's The Irresistible Revolution: Living as an Ordinary Radical (2006). 
 
    [5]: /assets/media/irresistible-revolution-living-ordinary-radical-shane-claiborne.jpg
 

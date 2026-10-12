@@ -21,7 +21,7 @@ locations:
 
 ![ Crazy ][1] Crazy
 
-![ South American Trip Confirmation ][2]{: .align-left} South American Trip Confirmation
+![ South American Trip Confirmation ][2]{: .float-start} South American Trip Confirmation
 
 
    [1]: /assets/media/crazy-illustrator-letters.jpg

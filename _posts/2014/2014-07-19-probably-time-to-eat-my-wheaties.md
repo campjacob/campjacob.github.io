@@ -19,7 +19,7 @@ locations:
   - Puyallup Washington
 ---
 
-[![One of Michael Jordan's boxes of Wheaties.][1]][2]{: .align-left} One of Michael Jordan's boxes of Wheaties. 
+[![One of Michael Jordan's boxes of Wheaties.][1]][2]{: .float-start} One of Michael Jordan's boxes of Wheaties. 
 
    [1]: /assets/media/Michael-Jordon-Wheaties-Box.jpg
    [2]: http://www.feedourfamilies.com/2013/03/celebrities-encourage-junk-food-for-kids.html

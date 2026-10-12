@@ -15,7 +15,7 @@ locations:
   - Tri-Cities Washington
 ---
 
-![ I'm GOING! ][1]{: .align-left} I'm GOING! 
+![ I'm GOING! ][1]{: .float-start} I'm GOING! 
 
    [1]: /assets/media/Macworld-iWorld-2014-banner-square.jpg
 

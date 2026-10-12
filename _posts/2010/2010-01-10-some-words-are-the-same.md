@@ -22,7 +22,7 @@ locations:
 ---
 
 
-![ A graphic I created in  Adobe Photoshop  with the hallelujah in different languages. ][1]{: .align-left} A graphic I created in Adobe Photoshop with the hallelujah in different languages. 
+![ A graphic I created in  Adobe Photoshop  with the hallelujah in different languages. ][1]{: .float-start} A graphic I created in Adobe Photoshop with the hallelujah in different languages. 
 
    [1]: /assets/media/photoshop-hallalujah-graphic.png
 

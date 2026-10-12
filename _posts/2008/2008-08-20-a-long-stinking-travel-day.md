@@ -12,7 +12,7 @@ locations:
     - Berlin Germany
 ---
 
-![ Passport to the world. A photo of my USA Passport that I took while I was sitting in the airport getting ready to leave for Europe. ][1]{: .align-right} Passport to the world. A photo of my USA Passport that I took while I was sitting in the airport getting ready to leave for Europe.
+![ Passport to the world. A photo of my USA Passport that I took while I was sitting in the airport getting ready to leave for Europe. ][1]{: .float-end} Passport to the world. A photo of my USA Passport that I took while I was sitting in the airport getting ready to leave for Europe.
 
    [1]: /assets/media/passport-cover.png
 

@@ -11,7 +11,7 @@ locations:
   - Tri-Cities Washington
 ---
 
-![This is a photo that I took of one of the toy’s that Mateo always throws on the ground while Minnie and I are sitting at the table and eating dinner.][1]{: .align-right} This is a photo that I took of one of the toy’s that Mateo always throws on the ground while Minnie and I are sitting at the table and eating dinner. 
+![This is a photo that I took of one of the toy’s that Mateo always throws on the ground while Minnie and I are sitting at the table and eating dinner.][1]{: .float-end} This is a photo that I took of one of the toy’s that Mateo always throws on the ground while Minnie and I are sitting at the table and eating dinner. 
 
    [1]: /assets/media/toy-house-laying-on-side.jpg
 

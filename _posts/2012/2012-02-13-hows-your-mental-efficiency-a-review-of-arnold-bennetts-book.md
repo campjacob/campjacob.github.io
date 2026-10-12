@@ -15,7 +15,7 @@ locations:
   - Tri-Cities Washington
 ---
 
-![Arnold Bennett's book cover of Mental Efficiency][1]{: .align-left} Arnold Bennett's book cover of Mental Efficiency 
+![Arnold Bennett's book cover of Mental Efficiency][1]{: .float-start} Arnold Bennett's book cover of Mental Efficiency 
 
    [1]: /assets/media/mental-efficiency-arnold-bennett-book-cover.jpg
 

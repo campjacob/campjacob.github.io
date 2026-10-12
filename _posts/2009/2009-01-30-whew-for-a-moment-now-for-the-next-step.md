@@ -30,7 +30,7 @@ On an even more geeky note (although, there is not much more geeky than doing re
 
 ![ Desktop Background of a Smooth African Scene. I didn't create this one, I found it somewhere, but I don't remember where I found it. ][5] Desktop Background of a Smooth African Scene. I didn't create this one, I found it somewhere, but I don't remember where I found it.
 
-![ BlackBerry background image of Africa that I created using Adobe Photoshop.][6]{: .align-center} BlackBerry background image of Africa that I created using Adobe Photoshop.
+![ BlackBerry background image of Africa that I created using Adobe Photoshop.][6]{: .d-block .mx-auto} BlackBerry background image of Africa that I created using Adobe Photoshop.
 
    [5]: /assets/media/africa-desktop-background-smooth.jpg
    [6]: /assets/media/africa-blackberry-background-photoshop.jpg

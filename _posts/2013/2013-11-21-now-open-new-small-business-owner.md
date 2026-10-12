@@ -18,7 +18,7 @@ header:
 {% include video id="Zhoos1oY404" provider="youtube" %} 
 
   
-![I found this great open sign at  Legendary Antiques website .  I figured it would be good for this post. ][1]{: .align-left} I found this great open sign at Legendary Antiques website .  I figured it would be good for this post. 
+![I found this great open sign at  Legendary Antiques website .  I figured it would be good for this post. ][1]{: .float-start} I found this great open sign at Legendary Antiques website .  I figured it would be good for this post. 
 
    [1]: /assets/media/antique-open-sign.gif
 

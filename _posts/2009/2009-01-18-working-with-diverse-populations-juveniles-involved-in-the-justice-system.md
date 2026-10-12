@@ -14,7 +14,7 @@ locations:
   - Spokane Washington
 ---
 
-![ No Matter How Loud I Shout by Edward Humes is a powerful book about Juveniles in the Juvenile Justice System. You can find a copy of  No Matter How Loud I Shout on Amazon  or on  No Matter How Loud I shout on Google Books .][1]{: .align-right} No Matter How Loud I Shout by Edward Humes is a powerful book about Juveniles in the Juvenile Justice System. You can find a copy of No Matter How Loud I Shout on Amazon  or on No Matter How Loud I shout on Google Books . 
+![ No Matter How Loud I Shout by Edward Humes is a powerful book about Juveniles in the Juvenile Justice System. You can find a copy of  No Matter How Loud I Shout on Amazon  or on  No Matter How Loud I shout on Google Books .][1]{: .float-end} No Matter How Loud I Shout by Edward Humes is a powerful book about Juveniles in the Juvenile Justice System. You can find a copy of No Matter How Loud I Shout on Amazon  or on No Matter How Loud I shout on Google Books . 
 
    [1]: /assets/media/book-edward-humes-juvenile-no-matter-how-loud-shout.jpg
 

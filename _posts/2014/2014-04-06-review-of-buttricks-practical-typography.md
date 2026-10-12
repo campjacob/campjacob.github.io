@@ -36,7 +36,7 @@ I didn't realize previously how inclusive typography really is. According to [Wi
 
    [4]: http://en.wikipedia.org/wiki/Typography
 
-![ The cover to our pamphlet that i am working with my co-workers to put together. ][5]{: .align-right} The cover to our pamphlet that i am working with my co-workers to put together. 
+![ The cover to our pamphlet that i am working with my co-workers to put together. ][5]{: .float-end} The cover to our pamphlet that i am working with my co-workers to put together. 
 
    [5]: /assets/media/screenshot-undersding-our-services.png
 
@@ -46,7 +46,7 @@ One major project that a couple of co-workers and myself have undertaken is tryi
 
 If you every have to write reports, letters, anything that you give to anybody else, I'd highly recommend reading Buttrick's book!
 
-[Read the Book!][6]{: .btn .btn--primary .btn--large}
+[Read the Book!][6]{: .btn .btn-primary .btn-lg}
 
    [6]: http://practicaltypography.com
 

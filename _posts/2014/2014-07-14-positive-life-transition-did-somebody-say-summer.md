@@ -35,7 +35,7 @@ This weekend we got the opportunity to go boating for the first time this year. 
 
 The Tri-Cities has been experiencing extremely high temperatures, with it expected to be up to 106 on Wednesday. With all of my thoughts about summer, and how summers have changed since I was in college, I'm really excited to announce a pretty big change in my professional career.
 
-![I heart PSD][9]{: .align-right}
+![I heart PSD][9]{: .float-end}
 
    [9]: /assets/media/i-heart-pasco-schools.png
 

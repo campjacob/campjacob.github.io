@@ -13,7 +13,7 @@ locations:
   - Spokane Washington
 ---
 
-![Good Deed A Day - It features a Lost and Found Booth with boxes of various human feelings.][1]{: .align-left} This Cartoon was taken from the blog Good Deed A Day . It features a Lost and Found Booth with boxes of various human feelings. While on my trip I didn't loose my feelings, I felt it was a good picture to use.
+![Good Deed A Day - It features a Lost and Found Booth with boxes of various human feelings.][1]{: .float-start} This Cartoon was taken from the blog Good Deed A Day . It features a Lost and Found Booth with boxes of various human feelings. While on my trip I didn't loose my feelings, I felt it was a good picture to use.
 
    [1]: /assets/media/cartoon-lost-found-funny-stock.jpg
 

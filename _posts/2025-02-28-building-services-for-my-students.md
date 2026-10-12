@@ -43,7 +43,7 @@ So, I decided to make a new Jekyll site to post all of my presentations (you can
 [^2]: This might have to change. It does keep allowing me to upload new presentations, but my site size is way over [Github's specified limits](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#usage-limits). I've done some research, and if it starts failing to build, I think my best bet is to go with CloudFlare pages and pay for that service and I am hoping it won't be too hard to make the transition.
 
 > Posting copies of the PDF of the presentation like an animal.
-{: .notice--info}
+{: .alert .alert-info}
 
 During the summer, I was able to do the old content part, but I ran out of time to develop a process for converting new presentations. The new school year started as along with my transition to a full-time associate professor. My time became very constrained and  I couldn't actually use my new website to share new presentations. I had to put it back on the shelf, and so I went back to the most straightforward approach--posting copies of the PDF of the presentation in MyHeritage like an animal. Honestly, this approach might have been the best option based on the required effort. However, I wanted to have the satisfaction of using my personally designed tool and continue increasing my skills.
 

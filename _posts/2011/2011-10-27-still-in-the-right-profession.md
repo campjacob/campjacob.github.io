@@ -23,10 +23,10 @@ As my avid blog readers (I think with all the time my site was down, there are p
    [4]: http://www.npr.org/2011/10/25/141672992/native-foster-care-lost-children-shattered-families
    [5]: http://www.ewu.edu/CSBSSW/Programs/Social-Work/Social-Work-Faculty/Mary-Ann-Clute.xml
 
-If your curious about what the percentage of Native American Children are in the foster care system in your state, check out the map below or [Disproportionality Rates of Native American Children In Foster Care][6].
+If your curious about what the percentage of Native American Children are in the foster care system in your state, check out [Disproportionality Rates of Native American Children In Foster Care][6].
 
    [6]: http://www.npr.org/2011/10/25/141475618/disproportionality-rates-of-native-american-children-in-foster-care
 
 
-<iframe width="100%" height="500px" frameBorder="0" src="http://a.tiles.mapbox.com/v2/npr.foster-kids-v2/mm/zoompan,tooltips,legend,share,zoomwheel,zoombox,attribution.html#4/40.699361630693005/-90.24172031249992"></iframe>
+**Updated 10/11/26**: NPR's interactive map of these rates used to be embedded here. The map service behind it shut down, so it no longer loads, and the embed was removed. The NPR article linked above has the numbers.
 

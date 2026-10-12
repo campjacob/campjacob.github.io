@@ -18,18 +18,14 @@ I taught myself xHTML, CSS several years ago. Since then I have learned some PHP
    [1]: http://www.flash-game-design.com/flash-tutorials/gallery-flash-tutorial.html
    [2]: /assets/media/flash-gallery-tutorial-example.swf
 
- 
-   `<iframe src="/assets/media/flash-gallery-tutorial-example.swf"></iframe>`
-   - Code no longer works for embed
- 
+**Updated 10/11/26**: Flash was discontinued in 2020, so this gallery can no longer play here, and the embed was removed.
+
 But mine (remember that some of it was quickly done... so isn't as pretty) [Flash Gallery Tutorial][1] did not work:
 
    [1]: /assets/media/flash-gallery-tutorial-try.swf
 
- 
-   `<iframe src="/assets/media/flash-gallery-tutorial-try.swf"></iframe>`
-   - Code no longer works for embed
- 
+**Updated 10/11/26**: My version was Flash too, so it can no longer play here, and the embed was removed.
+
 Anyways, I guess enough playing around with it today. I'll have to go back though and see where I messed up later, I need to work on my literature review for my research project.
 
 

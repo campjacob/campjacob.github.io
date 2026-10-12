@@ -15,7 +15,7 @@ locations:
   - Tri-Cities Washington
 ---
 
-![The book cover of Chris The book cover of Chris Hodges's Death of the Liberal Class.][1]{: .align-right} The book cover of Chris The book cover of Chris Hodges's Death of the Liberal Class. You can view the book on Amazon. 
+![The book cover of Chris The book cover of Chris Hodges's Death of the Liberal Class.][1]{: .float-end} The book cover of Chris The book cover of Chris Hodges's Death of the Liberal Class. You can view the book on Amazon. 
 
    [1]: /assets/media/chris-hedges-death-liberal-class-book-cover.jpg
 

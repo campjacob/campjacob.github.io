@@ -21,7 +21,7 @@ header:
   caption: "Photo credit: Image by [**Jacob Capbell**](/contact) based on Book Cover Design"
 excerpt: "A life update about going back to college and a bit of a book review on the New Republic of the Heart"
 review-block:
-  class: "align-left"
+  class: "float-start"
   image_path: "/assets/media/new-republic-of-the-heart-book-cover-x300.jpg"
   th_image_path: "/assets/media/new-republic-of-the-heart-book-cover-x300.jpg"
   alt: "A New Republic of the Heart Book Cover"

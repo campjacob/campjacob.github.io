@@ -28,7 +28,7 @@ If you can imagine a young, 13 year old, who doesn't know their way around Spoka
 
 I was awakened early in the morning, being asked to come in for an extra shift. My car was completely snowed into the parking lot. I decided to take the bus to work, and was lucky enough to catch the last bus that would be running. This bus dropped me off downtown, making my walk only a half hour. The next morning I wasn't so lucky. There where no buses running. Walking to work, meant trudging though the snow for almost one and half hours. I left my house just a little bit after 5:30 in the morning… much too early for my tastes. I would rather get off work that early in the morning then leave for work then. As I was getting ready these two morning, I couldn't help like feeling like I was a soldier suiting up for war. I was getting ready for whatever would happen.
 
-![ A cartoon of the non-profit sector with ][5]{: .align-left} A cartoon of the non-profit sector with "Give Something Back" written on vending machine. This cartoon was taken from Cartoon Stock
+![ A cartoon of the non-profit sector with ][5]{: .float-start} A cartoon of the non-profit sector with "Give Something Back" written on vending machine. This cartoon was taken from Cartoon Stock
 
    [5]: /assets/media/non-profit-sector-cartoon.jpg
 

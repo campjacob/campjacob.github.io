@@ -15,7 +15,7 @@ locations:
   - Spokane Washington
 ---
 
-![ Sign Inside of  Zola's . ][1]{: .align-left} Sign Inside of Zola's .
+![ Sign Inside of  Zola's . ][1]{: .float-start} Sign Inside of Zola's .
 
    [1]: /assets/media/spokane-sign-inside-zolas.jpg
 

@@ -17,7 +17,7 @@ header:
   caption: "Image credit: Images created by [**Jacob Campbell**](/contact) using Adobe Spark."
 excerpt: "An update about some of current habits and my latest audio book series I just finished listening to, the Red Queen"
 review-block:
-  class: "align-left"
+  class: "float-start"
   image_path: "/assets/media/red-queen-broken-throne-book-cover.jpg"
   th_image_path: "/assets/media/red-queen-broken-throne-book-cover-x300.jpg"
   alt: "Book Cover for Broken Throne"

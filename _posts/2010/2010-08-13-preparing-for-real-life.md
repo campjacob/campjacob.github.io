@@ -18,7 +18,7 @@ locations:
   - Cusco Peru
 ---
 
-![Jacob Campbell and the Raiders of the Lost Ark! Very quickly photo shopped image of Indaina Jones and The Raiders of the Lost Ark movie poster with my face.][1]{: .align-right} Jacob Campbell and the Raiders of the Lost Ark! Very quickly photo shopped image of Indaina Jones and The Raiders of the Lost Ark movie poster with my face. 
+![Jacob Campbell and the Raiders of the Lost Ark! Very quickly photo shopped image of Indaina Jones and The Raiders of the Lost Ark movie poster with my face.][1]{: .float-end} Jacob Campbell and the Raiders of the Lost Ark! Very quickly photo shopped image of Indaina Jones and The Raiders of the Lost Ark movie poster with my face. 
 
    [1]: /assets/media/jacob-campbell-raiders-lost-ark-photoshop.jpg
 

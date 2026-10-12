@@ -13,7 +13,7 @@ locations:
 ---
 
 
-![ This is a photo that I took from the alley way. I found out a couple of weeks after that this sign was still up after somebody rang out doorbell wanting to see the home. ][1]{: .align-left} This is a photo that I took from the alley way. I found out a couple of weeks after that this sign was still up after somebody rang out doorbell wanting to see the home. 
+![ This is a photo that I took from the alley way. I found out a couple of weeks after that this sign was still up after somebody rang out doorbell wanting to see the home. ][1]{: .float-start} This is a photo that I took from the alley way. I found out a couple of weeks after that this sign was still up after somebody rang out doorbell wanting to see the home. 
 
    [1]: /assets/media/home-for-sale-sign-ally-view.jpg
 
