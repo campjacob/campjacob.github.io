@@ -2,6 +2,7 @@
 title: Design Services in Tri-Cities
 date: 2014-06-29 21:01
 permalink: /design/
+layout: page_foundation
 ---
 
 
