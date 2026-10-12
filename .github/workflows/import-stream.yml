@@ -1,4 +1,5 @@
-# Pull new posts from Mastodon, Pixelfed, YouTube, TikTok, and FitPub into _stream/
+# Pull new posts from Mastodon, Pixelfed, YouTube, TikTok, FitPub, presentations, and
+# photos.vsp.ink albums into _stream/
 # (scripts/import-stream.py), commit them, and rebuild the site.
 #
 # Secret: PIXELFED_TOKEN (read-scope token from media.vsp.ink Settings > Applications).

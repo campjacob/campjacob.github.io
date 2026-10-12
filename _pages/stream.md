@@ -43,10 +43,11 @@ redirect_from:
 
 <header class="mb-4">
   <h1 class="fw-bolder">Stream</h1>
-  <p class="lead mb-2">I like the <a href="https://indieweb.org/why">IndieWeb</a> idea of owning my own data and having my website be the place that links to everything I do. This is everything I post, here and on other sites (blog posts, presentations, new words, notes, photos, videos, and workouts), gathered in one place.</p>
+  <p class="lead mb-2">I like the <a href="https://indieweb.org/why">IndieWeb</a> idea of owning my own data and having my website be the place that links to everything I do. This is everything I post, here and on other sites (blog posts, presentations, new words, notes, photos and photo albums, videos, and workouts), gathered in one place.</p>
   <p class="small mb-0">
     <a href="https://social.vsp.ink/@Jacob" rel="me noopener" class="me-3 text-nowrap"><i class="fab fa-mastodon fa-fw" aria-hidden="true"></i>Mastodon</a>
     <a href="https://media.vsp.ink/photos" rel="me noopener" class="me-3 text-nowrap"><i class="fas fa-camera-retro fa-fw" aria-hidden="true"></i>Pixelfed</a>
+    <a href="https://photos.vsp.ink/" rel="me noopener" class="me-3 text-nowrap"><i class="fas fa-images fa-fw" aria-hidden="true"></i>Photo Albums</a>
     <a href="https://www.youtube.com/@JacobCampbell82" rel="me noopener" class="me-3 text-nowrap"><i class="fab fa-youtube fa-fw" aria-hidden="true"></i>YouTube</a>
     <a href="https://www.tiktok.com/@campjacob1982" rel="me noopener" class="me-3 text-nowrap"><i class="fab fa-tiktok fa-fw" aria-hidden="true"></i>TikTok</a>
     <a href="https://presentations.jacobrcampbell.com/" class="me-3 text-nowrap"><i class="fas fa-person-chalkboard fa-fw" aria-hidden="true"></i>Presentations</a>
@@ -65,6 +66,7 @@ redirect_from:
       {%- when "blog" -%}{%- assign s_label = "Blog" -%}
       {%- when "presentations" -%}{%- assign s_label = "Presentations" -%}
       {%- when "dictionary" -%}{%- assign s_label = "Dictionary" -%}
+      {%- when "albums" -%}{%- assign s_label = "Photo Albums" -%}
       {%- else -%}{%- assign s_label = s.name | capitalize -%}
     {%- endcase -%}
     <button type="button" class="btn btn-sm btn-outline-primary" data-filter="{{ s.name }}">{{ s_label }} <span class="badge text-bg-secondary">{{ s.items | size }}</span></button>

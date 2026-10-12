@@ -13,6 +13,7 @@ Sources and what they become (the `kind` field):
   tiktok    @campjacob1982             video
   fitpub    @campjacob@fitpub.social   activity
   presentations  presentations.jacobrcampbell.com  presentation
+  albums    photos.vsp.ink (Chevereto)       album
 
 Usage (from the repo root):
   python3 scripts/import-stream.py all                # everything new, every source
@@ -36,6 +37,12 @@ Requirements:
     others, that folder is rewritten on every run (so title fixes come through) and files for
     decks no longer listed are deleted. Their pages here only redirect to the deck
     (redirect_to), since the presentations site is already mine.
+  - Albums are the public albums on photos.vsp.ink, read from its pages (Chevereto's API is
+    for uploads and needs a key). Once ~/scripts/create_embed.py has made an album's vsp.ink
+    embed, vsp.ink/embed/albums.json adds its alt text (Chevereto has no alt-text field), the
+    cover the embed uses, and the embed link. Like presentations, this folder is rewritten on
+    every run so an embed made after the album first appears still comes through, and albums
+    no longer public are deleted (but not when the album list can't be read).
   - YouTube and TikTok are read with yt-dlp (`yt-dlp` on PATH, else `uvx yt-dlp`). Neither
     has a usable API: YouTube's RSS feed 404s and TikTok has none.
 
@@ -64,6 +71,7 @@ import shutil
 import subprocess
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -83,7 +91,8 @@ YTDLP = {
 }
 FITPUB = {"via": "https://social.vsp.ink", "acct": "campjacob@fitpub.social", "base": "https://fitpub.social"}
 PRESENTATIONS = "https://presentations.jacobrcampbell.com/presentations.json"
-SOURCES = [*FEDIVERSE, *YTDLP, "fitpub", "presentations"]
+ALBUMS = {"base": "https://photos.vsp.ink", "embeds": "https://vsp.ink/embed/albums.json", "media": 4}
+SOURCES = [*FEDIVERSE, *YTDLP, "fitpub", "presentations", "albums"]
 
 
 # ---------------------------------------------------------------- helpers
@@ -466,6 +475,117 @@ def run_presentations(args):
     print(f"presentations: {verb} {c['new']} | updated {c['updated']} | removed {c['removed']} | unchanged {c['exists']}")
 
 
+# ---------------------------------------------------------------- Albums (photos.vsp.ink)
+
+def page_html(url):
+    with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=60) as r:
+        return r.read().decode("utf-8", "replace")
+
+
+def chevereto_pages(url):
+    """Yield each page of a paginated Chevereto listing."""
+    while url:
+        page = page_html(url)
+        yield page
+        m = re.search(r'data-pagination="next" href="([^"]*)"', page)
+        url = urllib.parse.urljoin(url, html.unescape(m.group(1))) if m else None
+
+
+def chevereto_album(code):
+    """Title, description, created time (UTC on the server), cover, and every item of one album."""
+    info, items, seen = {}, [], set()
+    for page in chevereto_pages(f"{ALBUMS['base']}/album/{code}"):
+        if not info:
+            meta = lambda p: html.unescape(m.group(1)) if (m := re.search(  # noqa: E731
+                rf'<meta property="og:{p}" content="([^"]*)"', page)) else ""
+            m = re.search(r'title="(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})"', page)
+            info = {"title": meta("title"), "description": meta("description"), "cover": meta("image"),
+                    "created": dt.datetime.strptime(m.group(1), "%Y-%m-%d %H:%M:%S")
+                    .replace(tzinfo=dt.timezone.utc).astimezone() if m else None}
+        for tag in re.finditer(r"<div [^>]*data-object='([^']*)'", page):
+            o = json.loads(urllib.parse.unquote(tag.group(1)))
+            if o.get("id_encoded") in seen:
+                continue
+            seen.add(o.get("id_encoded"))
+            items.append({"url": o.get("image", {}).get("url", ""),
+                          "preview": (o.get("medium") or {}).get("url") or o.get("image", {}).get("url", ""),
+                          "video": o.get("type") == "video",
+                          "alt": html.unescape(o.get("title") or "")})
+    return info, items
+
+
+def run_albums(args):
+    listed = []
+    for page in chevereto_pages(f"{ALBUMS['base']}/albums"):
+        for m in re.finditer(r'<div [^>]*data-type="album"[^>]*>', page):
+            attr = lambda n, t=m.group(0): html.unescape(a.group(1)) if (a := re.search(rf'data-{n}="([^"]*)"', t)) else ""  # noqa: E731
+            if attr("privacy") == "public" and attr("id") not in listed:
+                listed.append(attr("id"))
+    if not listed:
+        raise RuntimeError("no public albums found; leaving _stream/albums alone")
+    try:
+        embeds = get(ALBUMS["embeds"])[0]
+    except (urllib.error.URLError, ValueError) as e:
+        print(f"  albums: no vsp.ink embed list ({e}); using Chevereto only", file=sys.stderr)
+        embeds = {}
+
+    folder = os.path.join(OUT, "albums")
+    before = set(os.listdir(folder)) if os.path.isdir(folder) else set()
+    wanted, c = set(), {"new": 0, "exists": 0, "updated": 0, "removed": 0}
+    for code in listed:
+        info, items = chevereto_album(code)
+        if not items or not info.get("created"):
+            continue
+        e = embeds.get(code) or {}
+        # Alt text from the embed, matched by image URL; the cover is the one the embed marks active.
+        alts = {i["url"]: i["alt"] for i in e.get("images", []) if i.get("alt")}
+        cover = next((i["url"] for i in e.get("images", []) if i.get("active")), None)
+        if not cover:
+            cover = next((i["url"] for i in items if i["preview"] == info["cover"]), items[0]["url"])
+        ordered = sorted(items, key=lambda i: i["url"] != cover)   # cover first, the rest in album order
+        description = e.get("description") or info["description"]
+        album_url = f"{ALBUMS['base']}/album/{code}"
+        lines = [
+            f"title: {yq(e.get('title') or info['title'])}",
+            "show_title: true",
+            f"date: {info['created'].strftime('%Y-%m-%d %H:%M:%S %z')}",
+            "source: albums",
+            "kind: album",
+            f"post_id: {yq(code)}",
+            f"post_url: {yq(album_url)}",
+            f"post_text: {yq(description)}",
+            f"content_html: {yq(text_to_html(description))}",
+            "album:",
+            f"  count: {len(items)}",
+            f"  embed_url: {yq(e.get('embed_url') or '')}",
+            f"  embed_style: {yq(e.get('style') or '')}",
+            "media:",
+        ]
+        for i in ordered[:ALBUMS["media"]]:
+            lines += [f"  - type: {yq('video' if i['video'] else 'image')}",
+                      f"    url: {yq(i['url'])}",
+                      f"    preview_url: {yq(i['preview'])}",
+                      f"    alt: {yq(alts.get(i['url']) or i['alt'])}"]
+        name = f"{info['created'].strftime('%Y-%m-%d')}-albums-{code}.md"
+        wanted.add(name)
+        body = "\n".join(["---", *lines, "---", ""])
+        path = os.path.join(folder, name)
+        old = open(path).read() if os.path.exists(path) else None
+        if old == body:
+            c["exists"] += 1; continue
+        c["updated" if old is not None else "new"] += 1
+        if not args.dry_run:
+            os.makedirs(folder, exist_ok=True)
+            with open(path, "w") as f:
+                f.write(body)
+    for gone in sorted(before - wanted):
+        c["removed"] += 1
+        if not args.dry_run:
+            os.remove(os.path.join(folder, gone))
+    verb = "would add" if args.dry_run else "added"
+    print(f"albums: {verb} {c['new']} | updated {c['updated']} | removed {c['removed']} | unchanged {c['exists']}")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("source", choices=[*SOURCES, "all"])
@@ -481,6 +601,8 @@ def main():
                 run_fitpub(args)
             elif src == "presentations":
                 run_presentations(args)
+            elif src == "albums":
+                run_albums(args)
             else:
                 (run_fediverse if src in FEDIVERSE else run_ytdlp)(src, args)
         except Exception as e:  # noqa: BLE001 - report and keep going

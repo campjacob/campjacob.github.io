@@ -19,7 +19,7 @@ permalink: /
   {%- if latest_photos.size >= 6 -%}{%- break -%}{%- endif -%}
 {%- endfor -%}
 {%- assign latest_others = "" | split: "" -%}
-{%- assign other_sources = "youtube,tiktok,fitpub" | split: "," -%}
+{%- assign other_sources = "youtube,tiktok,fitpub,albums" | split: "," -%}
 {%- for src in other_sources -%}
   {%- for p in stream -%}{%- if p.source == src -%}{%- assign latest_others = latest_others | push: p -%}{%- break -%}{%- endif -%}{%- endfor -%}
 {%- endfor -%}
@@ -130,7 +130,7 @@ body { overflow-x: clip; }   /* the bands are 100vw, which includes any scrollba
     <h2 class="fw-bolder mb-0">From the Stream</h2>
     <a href="/stream/" class="text-nowrap">The whole stream &rarr;</a>
   </div>
-  <p class="text-body-secondary">What I've been posting lately on Mastodon, Pixelfed, YouTube, TikTok, and FitPub.</p>
+  <p class="text-body-secondary">What I've been posting lately on Mastodon, Pixelfed, YouTube, TikTok, FitPub, and my photo albums.</p>
   <div class="row g-4">
     <div class="col-lg-7">
       <h3 class="h6 fw-bold text-body-secondary text-uppercase small">Latest post</h3>
@@ -157,6 +157,7 @@ body { overflow-x: clip; }   /* the bands are 100vw, which includes any scrollba
       {%- when "youtube" -%}{%- assign icon = "fab fa-youtube" -%}{%- assign label = "YouTube" -%}{%- assign profile = "https://www.youtube.com/@JacobCampbell82" -%}
       {%- when "tiktok" -%}{%- assign icon = "fab fa-tiktok" -%}{%- assign label = "TikTok" -%}{%- assign profile = "https://www.tiktok.com/@campjacob1982" -%}
       {%- when "fitpub" -%}{%- assign icon = "fas fa-person-running" -%}{%- assign label = "FitPub" -%}{%- assign profile = "https://fitpub.social/@campjacob" -%}
+      {%- when "albums" -%}{%- assign icon = "fas fa-images" -%}{%- assign label = "photos.vsp.ink" -%}{%- assign profile = "https://photos.vsp.ink/" -%}
       {%- when "presentations" -%}{%- assign icon = "fas fa-person-chalkboard" -%}{%- assign label = "Presentations" -%}{%- assign profile = "https://presentations.jacobrcampbell.com/" -%}
     {%- endcase -%}
     <li class="d-flex flex-wrap align-items-baseline column-gap-2 py-2 border-bottom border-light-subtle">
