@@ -1,0 +1,82 @@
+---
+layout: foundation
+---
+{%- comment -%}
+  A general page (contact, about, sitemap, 404, ...) in the Bootstrap "foundation" style.
+  With a header.overlay_image: the same full-width band as blog posts (title, excerpt, header.actions buttons,
+  header.caption as the photo credit). Without one: the title, with the excerpt under it when the page sets one.
+  author_profile: true adds the author sidebar (_includes/author_sidebar.htm) beside the text.
+  The text gets the blog post styles (.post-content), so figures, floats, tables and videos look the same.
+{%- endcomment -%}
+{%- assign hero = page.header.overlay_image -%}
+{%- assign lead = "" -%}
+{%- if page.excerpt and page.excerpt != "" -%}
+  {%- assign lead = page.excerpt | markdownify | remove: "<p>" | remove: "</p>" | strip -%}
+  {%- comment -%} Without a front-matter excerpt Jekyll uses the first paragraph; don't repeat it. {%- endcomment -%}
+  {%- assign probe = lead | strip_html | normalize_whitespace | truncate: 50, "" -%}
+  {%- assign body_text = content | strip_html | normalize_whitespace | truncate: 600, "" -%}
+  {%- if body_text contains probe -%}{%- assign lead = "" -%}{%- endif -%}
+{%- endif -%}
+{%- capture actions -%}
+  {%- for a in page.header.actions %}
+  <a href="{{ a.url | relative_url }}" class="btn btn-primary btn-sm">{{ a.label | default: "Learn more" }}</a>
+  {%- endfor -%}
+{%- endcapture -%}
+
+{%- if hero %}
+<section class="blog-band post-band mb-4" style="background-image: url('{{ hero | relative_url }}');">
+  <div class="container"><div class="post-band-text">
+    <h1 class="display-6 fw-bolder">{{ page.title | escape }}</h1>
+    {%- if lead != "" %}
+    <p class="lead mb-0">{{ lead }}</p>
+    {%- endif %}
+    {%- if actions != "" %}
+    <div class="d-flex flex-wrap gap-2 mt-3">{{ actions }}</div>
+    {%- endif %}
+  </div></div>
+  {%- if page.header.caption %}
+  <span class="blog-band-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span>
+  {%- endif %}
+</section>
+{%- endif %}
+
+{%- if page.author_profile == true or page.author_profile == "true" %}
+{% include author_sidebar.htm %}
+{%- endif %}
+
+<div class="col-lg">
+<article class="page-foundation">
+  {%- unless hero %}
+  <header class="my-4">
+    <h1 class="fw-bolder">{{ page.title | escape }}</h1>
+    {%- if lead != "" %}
+    <p class="lead mb-0">{{ lead }}</p>
+    {%- endif %}
+    {%- if actions != "" %}
+    <div class="d-flex flex-wrap gap-2 mt-3">{{ actions }}</div>
+    {%- endif %}
+  </header>
+  {%- endunless %}
+
+  <div class="post-content" id="post-content">
+{{ content }}
+  </div>
+
+  {%- if page.share %}
+  {% include share-buttons.htm title=page.title url=page.url %}
+  {%- endif %}
+</article>
+</div>
+
+<script>
+// Photos on the page that aren't already links open in the lightbox (same as blog posts).
+document.querySelectorAll("#post-content img").forEach(function (img) {
+  if (img.closest("a")) return;
+  var a = document.createElement("a");
+  a.href = img.src;
+  a.className = "glightbox";
+  if (img.alt) a.dataset.description = img.alt;
+  img.parentNode.insertBefore(a, img);
+  a.appendChild(img);
+});
+</script>

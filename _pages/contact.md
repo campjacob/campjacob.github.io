@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: page_foundation
 title: Get in Touch with Jacob
 permalink: /contact/
 author_profile: "true"
@@ -14,54 +14,54 @@ excerpt: "I'm really pretty friendly. There are a lot of ways that you can get i
 ---
 
 
-<figure class="align-left" style="width:46%;">
-  <a href="/assets/media/jacob-campbell-grading-papers-cusco.jpeg"><img src="/assets/media/jacob-campbell-grading-papers-cusco.jpeg" alt="Photo of Jacob Campbell sitting at a table grading papgers while in Cusco Peru." /></a>
-  <figcaption>A photo of me grading papers for my students from UNSAAC in Cusco</figcaption>
+<figure class="figure post-figure float-start" style="width: 46%;">
+  <a href="/assets/media/jacob-campbell-grading-papers-cusco.jpeg"><img src="/assets/media/jacob-campbell-grading-papers-cusco.jpeg" class="figure-img img-fluid rounded" alt="Photo of Jacob Campbell sitting at a table grading papgers while in Cusco Peru." /></a>
+  <figcaption class="figure-caption">A photo of me grading papers for my students from UNSAAC in Cusco</figcaption>
 </figure>
-
-<br />
 
 Hi, My name is Jacob Rodman Campbell V.S.P. (the V.S.P. is on my birth certificate and stands for "Very Special Person"). I'm a lot of things, the least of which is a web / graphic designer (it's really just a hobby for me). I have a couple of jobs and am super involved in a lot of things. You can check out my [CV](/cv/) (kind of like a resume). I really am an advocate for people in need (especially at risk youth, you can check out [my story because I was one](/testimony/)).
 
-<br style="clear:both;" /> 
-
+<div class="clearfix"></div>
 
 ## Contact Form for Jacob
 
-<form id="formaction" method="POST">
-  <label>
-    Your email:
-    <input type="text" name="_replyto">
-  </label>
-  <label>
-    Name:
-    <input type="text" name="_name" >
-  </label>
-  <label>
-    Subject:
-    <input type="text" name="_subject" >
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <button type="submit" class=".btn .btn--primary">Send</button>
+<form id="formaction" method="POST" class="contact-form my-3">
+  <div class="row g-3">
+    <div class="col-sm-6">
+      <label for="cf-email" class="form-label">Your email</label>
+      <input type="email" id="cf-email" name="_replyto" class="form-control" autocomplete="email" required>
+    </div>
+    <div class="col-sm-6">
+      <label for="cf-name" class="form-label">Name</label>
+      <input type="text" id="cf-name" name="_name" class="form-control" autocomplete="name">
+    </div>
+    <div class="col-12">
+      <label for="cf-subject" class="form-label">Subject</label>
+      <input type="text" id="cf-subject" name="_subject" class="form-control">
+    </div>
+    <div class="col-12">
+      <label for="cf-message" class="form-label">Your message</label>
+      <textarea id="cf-message" name="message" class="form-control" rows="6" required></textarea>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Send</button>
+    </div>
+  </div>
 </form>
 <script>
     var contactform =  document.getElementById('formaction');
     contactform.setAttribute('action', 'https://formspree.io/f/' + 'jacob.r.campbell' + '@' + 'gmail' + '.' + 'com');
 </script>
 
-<figure class="align-right" style="width:46%;">
-  <a href="/assets/media/brazil-photo-bird-silhouette.jpg"><img src="/assets/media/brazil-photo-bird-silhouette.jpg" alt="Silhouette of a bird taken in Brazil" /></a>
-  <figcaption>A photo I took when I was in Brazil of a sillhouette of a bird.</figcaption>
+<figure class="figure post-figure float-end" style="width: 46%;">
+  <a href="/assets/media/brazil-photo-bird-silhouette.jpg"><img src="/assets/media/brazil-photo-bird-silhouette.jpg" class="figure-img img-fluid rounded" alt="Silhouette of a bird taken in Brazil" /></a>
+  <figcaption class="figure-caption">A photo I took when I was in Brazil of a sillhouette of a bird.</figcaption>
 </figure>
-<br /><br /><br /><br /><br />
+
 I can sometimes be bad at responding to people via email, message me at on Twitter [@campjacob](https://twitter.com/campjacob) to connect with me. But if you really would like to send me an email, I do enjoy reading them.
 
 
-<br style="clear:both;" /> 
-
+<div class="clearfix"></div>
 
 ## Social Media List
 

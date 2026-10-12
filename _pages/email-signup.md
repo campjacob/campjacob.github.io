@@ -4,7 +4,7 @@ title: Sign Up for my Email List
 date: 2025-11-13 13:59:06
 permalink: /email-signup/
 author_profile: true
-layout: single
+layout: page_foundation
 share: true
 related: true
 header:

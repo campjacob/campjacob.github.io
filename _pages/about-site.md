@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: page_foundation
 title:  "About Jacob's Site"
 permalink: /about-site/
 classes: wide

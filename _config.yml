@@ -354,6 +354,6 @@ defaults:
       path: ""
       type: microposts
     values:
-      layout: single-micropost
-      share: true
-      author_profile: true
+      layout: micropost_foundation
+      nav_group: stream
+      author_sidebar: true

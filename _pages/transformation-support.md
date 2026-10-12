@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: page_foundation
 title: Locus of Transformation
 permalink: /transformation-support/
 author_profile: "true"

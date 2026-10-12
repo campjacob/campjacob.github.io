@@ -1,7 +1,7 @@
 ---
 title: Playground
 permalink: /play/
-layout: single
+layout: page_foundation
 ---
 
 <h1>Subscribe to the Transformation Support Email List for <sub>Jacob Campbell and & The Locus of Transformation</sub></h1>
@@ -12,23 +12,23 @@ layout: single
 
 <form method="post" action="https://emailoctopus.com/lists/3f0779c9-91a3-11e9-9307-06b4694bee2a/members/embedded/1.3/add" class="email-octopus-form" data-sitekey="6LdYsmsUAAAAAPXVTt-ovRsPIJ_IVhvYBBhGvRV6">
         
-<label for="field_1">First name</label>
-<input id="field_1" name="field_1" type="text" placeholder="First Name">
+<div class="mb-3"><label for="field_1" class="form-label">First name</label>
+<input id="field_1" name="field_1" type="text" placeholder="First Name" class="form-control"></div>
 
 
-<label for="field_2">Last name</label>
-<input id="field_2" name="field_2" type="text" placeholder="Last Name">
+<div class="mb-3"><label for="field_2" class="form-label">Last name</label>
+<input id="field_2" name="field_2" type="text" placeholder="Last Name" class="form-control"></div>
 
-<label for="field_0">Email address</label>
-<input id="field_0" name="field_0" type="email" placeholder="Email Address">
+<div class="mb-3"><label for="field_0" class="form-label">Email address</label>
+<input id="field_0" name="field_0" type="email" placeholder="Email Address" class="form-control"></div>
 
-<div class="email-octopus-form-row-hp" aria-hidden="true">
+<div class="email-octopus-form-row-hp d-none" aria-hidden="true">
     <!-- Do not remove this field, otherwise you risk bot sign-ups -->
     <input type="text" name="hp3f0779c9-91a3-11e9-9307-06b4694bee2a" tabindex="-1" autocomplete="nope">
 </div>
 
 <input type="hidden" name="successRedirectUrl" value="https://jacobrcampbell.com/email-signup-thank-you/">
-<button type="submit">Subscribe</button>
+<button type="submit" class="btn btn-primary">Subscribe</button>
 </form>
 
 <p>Powered by <a href="https://emailoctopus.com/?urli=6v4df&amp;utm_medium=user_referral&amp;utm_source=builder" target="_blank">EmailOctopus</a></p>
