@@ -1,38 +1,9 @@
-<figure class="
-  {% if page.review-block.class %}
-  {{ page.review-block.class }}
-  {% endif %}
-" style="width: 300px" >
-{% if page.review-block.image_path %}
-<a href="{{ page.review-block.image_path }}">
-{% endif %}
-{% if page.review-block.th_image_path %}
-<img src="{{ page.review-block.th_image_path }}"
-  alt="{% if page.review-block.alt %}{{ page.review-block.alt }}{% endif %}" />
-{% endif %}
-{% if page.review-block.image_path %}
-</a>
-{% endif %}
-<figcaption class="text-center">
-{% if page.review-block.review_title %}
-<h1>{{ page.review-block.review_title }}</h1>
-{% endif %}
-{% if page.review-block.review_author %}
-<p>by <stong>{{ page.review-block.review_author | markdownify | remove: "<p>" | remove: "</p>" }}</stong></p>
-{% endif %}
-<ul style="list-style-type: none;">
-{% if page.review-block.goodreads %}
-  <li><a href="{{ page.review-block.goodreads }}"><i class="fab fa-goodreads"></i> Goodreads</a></li>
-{% endif %}
-{% if page.review-block.amazon %}
-  <li><a href="{{ page.review-block.amazon }}"><i class="fab fa-amazon"></i> Amazon Books</a></li>
-{% endif %}
-{% if page.review-block.apple %}
-  <li><a href="{{ page.review-block.apple }}"><i class="fab fa-apple"></i> Books</a></li>
-{% endif %}
-</ul>
-{% if page.review-block.rating %}
-<p>Jacob says {{ page.review-block.rating }}  {% if page.review-block.rating_description %} <br /> {{ page.review-block.rating_description | markdownify | remove: "<p>" | remove: "</p>" }}{% endif %}
-</p>{% endif %}
-</figcaption>
-</figure>
+{%- comment -%}
+  Book review box, from `review-block:` in the post's front matter: cover, title, author, where to find it, and my rating.
+  Usage: {% include review-block %}
+  Fields: class ("float-end" or "float-start" puts it beside the text), image_path (full cover, opens in the lightbox),
+  th_image_path (cover shown), alt, review_title, review_author (Markdown), goodreads, amazon, apple,
+  rating (HTML, e.g. a thumbs-up icon), rating_description (Markdown).
+{%- endcomment -%}
+{%- assign r = page.review-block -%}
+<aside class="card shadow-sm review-block{% if r.class %} {{ r.class }}{% endif %}">{% if r.th_image_path %}{% if r.image_path %}<a href="{{ r.image_path | relative_url }}" class="glightbox">{% endif %}<img src="{{ r.th_image_path | relative_url }}" class="card-img-top" alt="{{ r.alt | escape }}">{% if r.image_path %}</a>{% endif %}{% endif %}<div class="card-body text-center">{% if r.review_title %}<p class="h6 fw-bold mb-1">{{ r.review_title }}</p>{% endif %}{% if r.review_author %}<p class="small mb-2">by <strong>{{ r.review_author | markdownify | remove: "<p>" | remove: "</p>" | strip }}</strong></p>{% endif %}<p class="small mb-2">{% if r.goodreads %}<a href="{{ r.goodreads }}" class="me-2 text-nowrap"><i class="fab fa-goodreads" aria-hidden="true"></i> Goodreads</a>{% endif %}{% if r.amazon %}<a href="{{ r.amazon }}" class="me-2 text-nowrap"><i class="fab fa-amazon" aria-hidden="true"></i> Amazon</a>{% endif %}{% if r.apple %}<a href="{{ r.apple }}" class="text-nowrap"><i class="fab fa-apple" aria-hidden="true"></i> Books</a>{% endif %}</p>{% if r.rating %}<p class="small text-body-secondary mb-0">Jacob says {{ r.rating }}{% if r.rating_description %}<br>{{ r.rating_description | markdownify | remove: "<p>" | remove: "</p>" | strip }}{% endif %}</p>{% endif %}</div></aside>

@@ -1,0 +1,68 @@
+{%- comment -%}
+  The blog's sidebar (blog front page and single posts): the ways to browse it.
+  Categories, tags (_includes/tag-cloud-sidebar.svg, drawn by scripts/tag-cloud.py), years,
+  the most posted-from places, and the stream and RSS.
+{%- endcomment -%}
+{%- assign cats = "Personal Blog|fa-user|Personal;Travel Blog|fa-plane|Travel;Professional Blog|fa-briefcase|Professional;YouTube Videos|fa-play-circle|Videos;Link Post|fa-link|Link Posts" | split: ";" -%}
+<aside class="col-lg-4 col-xl-3 blog-sidebar">
+  <section class="mb-4">
+    <h2 class="blog-sidebar-head"><a href="{{ '/categories/' | relative_url }}"><i class="fas fa-folder me-1" aria-hidden="true"></i>Categories</a></h2>
+    <div class="list-group">
+      {%- for c in cats -%}
+      {%- assign parts = c | split: "|" -%}
+      {%- assign cat = parts[0] -%}
+      {%- assign n = site.posts | where_exp: "p", "p.categories contains cat" | size %}
+      <a href="{{ '/categories/' | relative_url }}#{{ cat | slugify }}" class="list-group-item list-group-item-action d-flex align-items-center">
+        <i class="fas {{ parts[1] }} fa-fw me-2 cat-icon" aria-hidden="true"></i>{{ parts[2] }}
+        <span class="badge rounded-pill text-bg-secondary ms-auto">{{ n }}</span>
+      </a>
+      {%- endfor %}
+    </div>
+  </section>
+
+  <section class="mb-4">
+    <h2 class="blog-sidebar-head"><a href="{{ '/tags/' | relative_url }}"><i class="fas fa-tags me-1" aria-hidden="true"></i>Tags</a></h2>
+    <a href="{{ '/tags/' | relative_url }}" class="d-block blog-sidebar-cloud" title="See all the tags">{% include tag-cloud-sidebar.svg %}</a>
+  </section>
+
+  <section class="mb-4">
+    <h2 class="blog-sidebar-head"><a href="{{ '/year-archive/' | relative_url }}"><i class="fas fa-calendar-alt me-1" aria-hidden="true"></i>Dates</a></h2>
+    {%- assign by_year = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+    <div class="d-flex flex-wrap gap-1">
+      {%- for g in by_year %}
+      <a href="{{ '/year-archive/' | relative_url }}#y-{{ g.name }}" class="tag-pill" title="{{ g.size }} {% if g.size == 1 %}post{% else %}posts{% endif %}">{{ g.name }} <span class="tag-pill-count">{{ g.size }}</span></a>
+      {%- endfor %}
+    </div>
+  </section>
+
+  <section class="mb-4">
+    <h2 class="blog-sidebar-head"><a href="{{ '/locations/' | relative_url }}"><i class="fas fa-map-marked-alt me-1" aria-hidden="true"></i>Locations</a></h2>
+    {%- assign locs = "" | split: "" -%}
+    {%- for p in site.posts -%}{%- for l in p.locations -%}{%- assign locs = locs | push: l -%}{%- endfor -%}{%- endfor -%}
+    {%- assign ranked = "" | split: "" -%}
+    {%- assign places = locs | uniq -%}
+    {%- for l in places -%}
+      {%- assign n = locs | where_exp: "x", "x == l" | size | plus: 10000 -%}
+      {%- assign entry = n | append: "|" | append: l -%}
+      {%- assign ranked = ranked | push: entry -%}
+    {%- endfor -%}
+    {%- assign ranked = ranked | sort | reverse %}
+    <div class="list-group list-group-flush small">
+      {%- for r in ranked limit: 6 -%}
+      {%- assign parts = r | split: "|" -%}
+      {%- assign key = parts[1] -%}
+      {%- assign d = site.data.locations[key] %}
+      <a href="{{ '/locations/' | relative_url }}#l-{{ key | slugify }}" class="list-group-item list-group-item-action d-flex align-items-center px-0 bg-transparent">
+        <i class="fas fa-map-pin fa-fw me-2 cat-icon" aria-hidden="true"></i>{{ d.place | default: key }}{% if d.region %}<span class="text-body-secondary ms-1">{{ d.region }}</span>{% endif %}
+        <span class="badge rounded-pill text-bg-secondary ms-auto">{{ parts[0] | minus: 10000 }}</span>
+      </a>
+      {%- endfor %}
+    </div>
+    <a href="{{ '/locations/' | relative_url }}" class="small">See all {{ places | size }} places on the map &rarr;</a>
+  </section>
+
+  <section class="mb-4">
+    <h2 class="blog-sidebar-head"><i class="fas fa-rss me-1" aria-hidden="true"></i>Follow Along</h2>
+    <p class="small text-body-secondary mb-2">The <a href="{{ '/stream/' | relative_url }}">stream</a> gathers everything I post, here and on other sites. Subscribe to the <a href="{{ '/feed.xml' | relative_url }}">RSS feed</a> to get new blog posts.</p>
+  </section>
+</aside>

@@ -1,0 +1,83 @@
+{%- comment -%}
+  One blog post as a Bootstrap card: image, category icons and first place, title, excerpt, date.
+  Usage: {% include post-card.htm post=post %}            (grid card)
+         {% include post-card.htm post=post featured=true %} (large card for the newest post, with its header image)
+  The meta line has an icon for each of the post's categories (as on Categories, under All), then its first
+  place, shortened as on Posts by Date ("Spokane +1"). It's plain text, since the whole card is the link.
+  The placeholder's icon is the first of the blog's post types found in its categories.
+  Image: the teaser, else the header image, else the first photo in the post, else its YouTube video's
+  thumbnail, else a placeholder with the type's icon. Most posts before 2016 have no teaser but open with a photo.
+  Excerpt: the post's excerpt, unless it is under 60 characters or is leftover Markdown (often a photo caption or a heading, from
+  the first paragraph); then the first paragraph in the post that is at least that long and isn't a photo.
+{%- endcomment -%}
+{%- assign p = include.post -%}
+{%- assign kind = "" -%}{%- assign kind_icon = "fa-pen-nib" -%}
+{%- if p.categories contains "Link Post" -%}{%- assign kind = "Link" -%}{%- assign kind_icon = "fa-link" -%}
+{%- elsif p.categories contains "YouTube Videos" -%}{%- assign kind = "Video" -%}{%- assign kind_icon = "fa-play-circle" -%}
+{%- elsif p.categories contains "Travel Blog" -%}{%- assign kind = "Travel" -%}{%- assign kind_icon = "fa-plane" -%}
+{%- elsif p.categories contains "Professional Blog" -%}{%- assign kind = "Professional" -%}{%- assign kind_icon = "fa-briefcase" -%}
+{%- elsif p.categories contains "Personal Blog" -%}{%- assign kind = "Personal" -%}{%- assign kind_icon = "fa-user" -%}{%- endif -%}
+
+{%- assign cat_icons = "Personal Blog|fa-user,Travel Blog|fa-plane,Professional Blog|fa-briefcase,YouTube Videos|fa-play-circle,Link Post|fa-link" | split: "," -%}
+{%- capture meta -%}
+  {%- for ci in cat_icons -%}{%- assign cp = ci | split: "|" -%}{%- if p.categories contains cp[0] -%}<i class="fas {{ cp[1] }} cat-icon post-card-cat" title="{{ cp[0] }}"></i><span class="visually-hidden">{{ cp[0] }}</span>{%- endif -%}{%- endfor -%}
+  {%- if p.locations.size > 0 -%}
+  {%- assign first_place = p.locations | first -%}
+  {%- assign place = site.data.locations[first_place].place | default: first_place %} <span class="post-card-place text-nowrap"><i class="fas fa-map-pin me-1" aria-hidden="true"></i>{{ place }}{% if p.locations.size > 1 %} +{{ p.locations.size | minus: 1 }}{% endif %}</span>
+  {%- endif -%}
+{%- endcapture -%}
+
+{%- comment -%} A post page can be built before the post this card shows has been turned into HTML, so convert it here when needed. {%- endcomment -%}
+{%- assign html = p.content -%}
+{%- unless html contains "</p>" -%}{%- assign html = html | markdownify -%}{%- endunless -%}
+{%- assign found = "" -%}
+{%- assign chunks = html | split: "<img " -%}
+{%- if chunks.size > 1 -%}
+  {%- assign tag = chunks[1] | split: ">" | first -%}
+  {%- if tag contains 'src="' -%}{%- assign found = tag | split: 'src="' | last | split: '"' | first -%}{%- endif -%}
+{%- endif -%}
+{%- if found == "" -%}
+  {%- assign chunks = html | replace: "youtube-nocookie.com/embed/", "youtube.com/embed/" | split: "youtube.com/embed/" -%}
+  {%- if chunks.size > 1 -%}{%- assign found = chunks[1] | slice: 0, 11 | prepend: "https://img.youtube.com/vi/" | append: "/hqdefault.jpg" -%}{%- endif -%}
+{%- endif -%}
+{%- assign img = p.header.teaser | default: p.header.overlay_image | default: found -%}
+
+{%- assign summary = p.excerpt | markdownify | strip_html | normalize_whitespace | strip -%}
+{%- if summary contains "][" or summary contains "]:" or summary contains "image_path=" -%}{%- assign summary = "" -%}{%- endif -%}
+{%- if summary.size < 60 -%}
+  {%- assign paras = html | split: "</p>" -%}
+  {%- for chunk in paras -%}
+    {%- unless chunk contains "<p>" -%}{%- continue -%}{%- endunless -%}
+    {%- assign para = chunk | split: "<p>" | last -%}
+    {%- if para contains "<img" or para contains "<iframe" or para contains "image_path=" -%}{%- continue -%}{%- endif -%}
+    {%- assign text = para | strip_html | normalize_whitespace | strip -%}
+    {%- if text.size >= 60 -%}{%- assign summary = text -%}{%- break -%}{%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+
+{%- if include.featured -%}
+{%- assign wide = p.header.overlay_image | default: img -%}
+<a href="{{ p.url | relative_url }}" class="card shadow-sm text-decoration-none text-body overflow-hidden post-card" data-kind="{{ kind }}">
+  {%- if wide != "" %}<img src="{{ wide | relative_url }}" class="card-img-top post-card-img-featured" alt="">{%- endif %}
+  <div class="card-body p-4">
+    <p class="small text-body-secondary mb-2 post-card-meta">{{ meta }}<span class="ms-2">{{ p.date | date: "%B %-d, %Y" }}</span></p>
+    <h2 class="h2 fw-bolder card-title">{{ p.title | escape }}</h2>
+    <p class="text-body-secondary mb-3">{{ summary | truncate: 320 | escape }}</p>
+    <span class="btn btn-sm btn-primary">Read more</span>
+  </div>
+</a>
+{%- else -%}
+<a href="{{ p.url | relative_url }}" class="card h-100 shadow-sm text-decoration-none text-body post-card" data-kind="{{ kind }}">
+  {%- if img != "" %}
+  <img src="{{ img | relative_url }}" class="card-img-top post-card-img" alt="" loading="lazy">
+  {%- else %}
+  <div class="card-img-top post-card-img post-card-ph" aria-hidden="true"><i class="fas {{ kind_icon }}"></i></div>
+  {%- endif %}
+  <div class="card-body">
+    <p class="small text-body-secondary mb-2 post-card-meta">{{ meta }}</p>
+    <h3 class="h6 fw-bold card-title">{{ p.title | escape }}</h3>
+    <p class="small text-body-secondary mb-0">{{ summary | truncate: 130 | escape }}</p>
+  </div>
+  <div class="card-footer bg-transparent border-0 small text-body-secondary pt-0">{{ p.date | date: "%b %-d, %Y" }}</div>
+</a>
+{%- endif -%}

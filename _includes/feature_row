@@ -1,0 +1,9 @@
+{%- comment -%}
+  A row of cards (image, title, text, optional button) from a list in the page's front matter.
+  Replaces Minimal Mistakes' feature_row include.
+  Usage: {% include feature_row %}  (items from `feature_row:`), or {% include feature_row id="feature_row2" %}
+  Each item: image_path, alt, title, excerpt (Markdown), and optionally url + btn_label.
+{%- endcomment -%}
+{%- assign fid = include.id | default: "feature_row" -%}
+{%- assign items = page[fid] -%}
+<div class="row row-cols-1 row-cols-md-{{ items.size | at_most: 3 }} g-3 my-3 post-feature-row">{% for f in items %}<div class="col"><div class="card h-100 shadow-sm">{% if f.image_path %}<a href="{{ f.image_path | relative_url }}" class="glightbox"><img src="{{ f.image_path | relative_url }}" class="card-img-top" alt="{{ f.alt | escape }}" loading="lazy"></a>{% endif %}<div class="card-body">{% if f.title %}<h3 class="h6 fw-bold">{{ f.title }}</h3>{% endif %}{% if f.excerpt %}<div class="small text-body-secondary">{{ f.excerpt | markdownify }}</div>{% endif %}{% if f.url %}<a href="{{ f.url | relative_url }}" class="btn btn-sm btn-outline-primary">{{ f.btn_label | default: "Learn more" }}</a>{% endif %}</div></div></div>{% endfor %}</div>

@@ -1,0 +1,189 @@
+---
+layout: foundation
+---
+{%- comment -%}
+  A single blog post in the Bootstrap "foundation" style (set for _posts in _config.yml defaults).
+  Top: with a header.overlay_image, a full-width band like the blog's (title, excerpt, header.actions buttons,
+  and header.caption as the photo credit), with the byline, categories, date, places and read time under it;
+  without one, a plain title block with those details under the title. The byline links to https://vsp.ink/hub.
+  header.video plays above the post only when the body doesn't already embed that video.
+  Link posts (`link:`) title-link to the outside page, with a button to it under the header.
+  After the post: tags, share, older/newer, and two related posts (most shared tags, then nearest in time).
+  The sidebar is _includes/blog-sidebar.htm. Photos in the post that aren't already links open in the lightbox.
+  The old Minimal Mistakes layout is still _layouts/single.html.
+{%- endcomment -%}
+{%- assign cat_icons = "Personal Blog|fa-user|Personal,Travel Blog|fa-plane|Travel,Professional Blog|fa-briefcase|Professional,YouTube Videos|fa-play-circle|Videos,Link Post|fa-link|Link Posts" | split: "," -%}
+{%- assign words = content | number_of_words -%}
+{%- assign minutes = words | plus: 199 | divided_by: 200 -%}
+{%- assign year = page.date | date: "%Y" -%}
+{%- assign hero = page.header.overlay_image -%}
+
+{%- capture meta -%}
+  <span class="text-nowrap"><i class="fas fa-pen-nib me-1" aria-hidden="true"></i>By <a href="https://vsp.ink/hub" rel="author">Jacob Campbell</a></span>
+  {%- for ci in cat_icons -%}{%- assign cp = ci | split: "|" -%}{%- if page.categories contains cp[0] -%}
+  <a href="{{ '/categories/' | relative_url }}#{{ cp[0] | slugify }}" class="post-meta-cat text-nowrap"><i class="fas {{ cp[1] }} me-1" aria-hidden="true"></i>{{ cp[2] }}</a>
+  {%- endif -%}{%- endfor %}
+  <span class="text-nowrap"><i class="fas fa-calendar-alt me-1" aria-hidden="true"></i><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %-d, %Y" }}</time></span>
+  {%- if page.locations.size > 0 %}
+  <span><i class="fas fa-map-pin me-1" aria-hidden="true"></i>
+  {%- for l in page.locations -%}{%- assign place = site.data.locations[l].place | default: l -%}
+  <a href="{{ '/locations/' | relative_url }}#l-{{ l | slugify }}" class="text-nowrap">{{ place }}</a>{% unless forloop.last %}, {% endunless %}
+  {%- endfor %}</span>
+  {%- endif %}
+  <span class="text-nowrap"><i class="far fa-clock me-1" aria-hidden="true"></i>{{ minutes }} min read</span>
+{%- endcapture -%}
+
+{%- capture title_html -%}
+  {%- if page.link -%}<a href="{{ page.link }}" class="post-title-link">{{ page.title | escape }} <i class="fas fa-external-link-alt small" aria-hidden="true"></i></a>{%- else -%}{{ page.title | escape }}{%- endif -%}
+{%- endcapture -%}
+
+{%- capture actions -%}
+  {%- for a in page.header.actions %}
+  <a href="{{ a.url }}" class="btn btn-primary btn-sm">{{ a.label | default: "Learn more" }}</a>
+  {%- endfor -%}
+{%- endcapture -%}
+
+{%- comment -%}
+  The band shows the excerpt, as the old theme did, unless the post opens with the same words
+  (posts without one get their first paragraph as the excerpt). Compared without quotes and apostrophes.
+{%- endcomment -%}
+{%- assign band_excerpt = "" -%}
+{%- if hero -%}
+  {%- assign band_excerpt = page.excerpt | markdownify | remove: "<p>" | remove: "</p>" | strip -%}
+  {%- assign probe = band_excerpt | strip_html | normalize_whitespace | remove: "'" | remove: "’" | remove: '"' | remove: "“" | remove: "”" | truncate: 50, "" -%}
+  {%- assign body_text = content | strip_html | normalize_whitespace | remove: "'" | remove: "’" | remove: '"' | remove: "“" | remove: "”" | remove: "&#39;" | remove: "&rsquo;" | remove: "&quot;" | truncate: 600, "" -%}
+  {%- if body_text contains probe -%}{%- assign band_excerpt = "" -%}{%- endif -%}
+{%- endif -%}
+
+{%- if hero %}
+<section class="blog-band post-band mb-3" style="background-image: url('{{ hero | relative_url }}');">
+  <div class="container"><div class="post-band-text">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb small mb-2">
+        <li class="breadcrumb-item"><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+        <li class="breadcrumb-item"><a href="{{ '/year-archive/' | relative_url }}#y-{{ year }}">{{ year }}</a></li>
+      </ol>
+    </nav>
+    <h1 class="display-6 fw-bolder">{{ title_html }}</h1>
+    {%- if band_excerpt != "" %}
+    <p class="lead mb-0">{{ band_excerpt }}</p>
+    {%- endif %}
+    {%- if actions != "" %}
+    <div class="d-flex flex-wrap gap-2 mt-3">{{ actions }}</div>
+    {%- endif %}
+  </div></div>
+  {%- if page.header.caption %}
+  <span class="blog-band-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span>
+  {%- endif %}
+</section>
+{%- endif %}
+
+<div class="col-lg-8 col-xl-9">
+<article class="post">
+
+  {%- if hero %}
+  <p class="post-meta text-body-secondary mb-4">{{ meta }}</p>
+  {%- endif %}
+
+  {%- unless hero %}
+  <header class="my-4">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb small mb-2">
+        <li class="breadcrumb-item"><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+        <li class="breadcrumb-item"><a href="{{ '/year-archive/' | relative_url }}#y-{{ year }}">{{ year }}</a></li>
+      </ol>
+    </nav>
+    <h1 class="fw-bolder">{{ title_html }}</h1>
+    <p class="post-meta text-body-secondary mb-0">{{ meta }}</p>
+    {%- if actions != "" %}
+    <div class="d-flex flex-wrap gap-2 mt-3">{{ actions }}</div>
+    {%- endif %}
+  </header>
+  {%- endunless %}
+
+  {%- if page.link %}
+  <p class="mb-4"><a href="{{ page.link }}" class="btn btn-outline-primary btn-sm"><i class="fas fa-link me-1" aria-hidden="true"></i>Go to the link</a> <span class="small text-body-secondary ms-1 text-break">{{ page.link | remove: "https://" | remove: "http://" | truncate: 60 }}</span></p>
+  {%- endif %}
+
+  {%- if page.header.video.id %}{% unless content contains page.header.video.id %}
+  {% include video id=page.header.video.id provider=page.header.video.provider %}
+  {%- endunless %}{% endif %}
+
+  <div class="post-content" id="post-content">
+{{ content }}
+  </div>
+
+  {%- if page.tags.size > 0 %}
+  <p class="mt-4 mb-0 d-flex flex-wrap align-items-center gap-1">
+    <i class="fas fa-tags text-body-secondary me-1" aria-hidden="true"></i><span class="visually-hidden">Tags:</span>
+    {%- for tag in page.tags %}
+    <a href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}" class="tag-pill">{{ tag | escape }}</a>
+    {%- endfor %}
+  </p>
+  {%- endif %}
+
+  {% include share-buttons.htm title=page.title url=page.url %}
+
+  <!-- Older / newer (page.previous is the older post) -->
+  <nav class="row g-2 my-4" aria-label="More posts">
+    <div class="col-6">
+      {%- if page.previous %}
+      <a href="{{ page.previous.url | relative_url }}" class="btn btn-outline-primary w-100 text-start h-100">&larr; Older<span class="d-none d-md-block small text-body-secondary text-truncate">{{ page.previous.title | escape }}</span></a>
+      {%- endif %}
+    </div>
+    <div class="col-6">
+      {%- if page.next %}
+      <a href="{{ page.next.url | relative_url }}" class="btn btn-outline-primary w-100 text-end h-100">Newer &rarr;<span class="d-none d-md-block small text-body-secondary text-truncate">{{ page.next.title | escape }}</span></a>
+      {%- endif %}
+    </div>
+  </nav>
+
+  {%- comment -%}
+    Related: the two posts sharing the most tags with this one (the older/newer ones above excluded),
+    ties going to the post nearest in time. Nothing shows if no post shares a tag.
+  {%- endcomment -%}
+  {%- assign page_days = page.date | date: "%s" | divided_by: 86400 -%}
+  {%- assign ranked = "" | split: "" -%}
+  {%- for p in site.posts -%}
+    {%- if p.url == page.url or p.url == page.previous.url or p.url == page.next.url -%}{%- continue -%}{%- endif -%}
+    {%- assign shared = 0 -%}
+    {%- for t in page.tags -%}{%- if p.tags contains t -%}{%- assign shared = shared | plus: 1 -%}{%- endif -%}{%- endfor -%}
+    {%- if shared == 0 -%}{%- continue -%}{%- endif -%}
+    {%- assign p_days = p.date | date: "%s" | divided_by: 86400 -%}
+    {%- assign gap = p_days | minus: page_days | abs -%}
+    {%- assign score = shared | times: 100000 | minus: gap | plus: 1000000 -%}
+    {%- assign entry = score | append: "|" | append: forloop.index0 -%}
+    {%- assign ranked = ranked | push: entry -%}
+  {%- endfor -%}
+  {%- assign ranked = ranked | sort | reverse -%}
+  {%- if ranked.size > 0 %}
+  <section class="my-4" aria-label="Related posts">
+    <p class="small fw-bold text-uppercase text-body-secondary mb-2">Related</p>
+    <div class="row row-cols-1 row-cols-sm-2 g-3">
+      {%- for r in ranked limit: 2 -%}
+      {%- assign i = r | split: "|" | last | plus: 0 -%}
+      {%- assign rp = site.posts[i] %}
+      <div class="col">{% include post-card.htm post=rp %}</div>
+      {%- endfor %}
+    </div>
+  </section>
+  {%- endif %}
+
+</article>
+</div>
+
+{% include blog-sidebar.htm %}
+
+<script>
+// Photos in the post that aren't already links open in the lightbox. This runs right away (the post is
+// above it), so the links exist before assets/js/scripts.js sets up GLightbox on .glightbox.
+document.querySelectorAll("#post-content img").forEach(function (img) {
+  if (img.closest("a")) return;
+  var a = document.createElement("a");
+  a.href = img.src;
+  a.className = "glightbox";
+  if (img.alt) a.dataset.description = img.alt;
+  img.parentNode.insertBefore(a, img);
+  a.appendChild(img);
+});
+</script>

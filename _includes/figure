@@ -1,0 +1,8 @@
+{%- comment -%}
+  A photo with a caption, as a Bootstrap figure. Replaces Minimal Mistakes' figure include (same parameters).
+  Usage: {% include figure image_path="/assets/media/photo.jpg" alt="What it shows" caption="Markdown **caption**" %}
+         class="float-start" or "float-end" puts it beside the text (it stacks on phones).
+  The photo links to itself, so it opens in the lightbox (assets/js/scripts.js).
+{%- endcomment -%}
+{%- assign src = include.image_path | relative_url -%}
+<figure class="figure post-figure{% if include.class %} {{ include.class }}{% endif %}"><a href="{{ src }}" class="glightbox"{% if include.caption %} data-description="{{ include.caption | markdownify | strip_html | strip | escape }}"{% endif %}><img src="{{ src }}" class="figure-img img-fluid rounded" alt="{{ include.alt | escape }}" loading="lazy"></a>{% if include.caption %}<figcaption class="figure-caption">{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" | strip }}</figcaption>{% endif %}</figure>

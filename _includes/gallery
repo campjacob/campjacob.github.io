@@ -1,0 +1,12 @@
+{%- comment -%}
+  Several photos in a grid, from a list in the page's front matter. Replaces Minimal Mistakes' gallery include.
+  Usage: {% include gallery caption="Markdown caption" %}          (photos from `gallery:`)
+         {% include gallery id="gallery2" caption="..." %}         (photos from `gallery2:`)
+  Each item: image_path (shown), url (where it goes; defaults to the image), alt, title.
+  Image urls open in the lightbox as one set; other urls (a FitPub activity) are ordinary links.
+  Two photos sit side by side; three or more make three columns (two on phones).
+{%- endcomment -%}
+{%- assign gid = include.id | default: "gallery" -%}
+{%- assign items = page[gid] -%}
+{%- if items.size == 2 -%}{%- assign cols = "row-cols-2" -%}{%- elsif items.size == 1 -%}{%- assign cols = "row-cols-1" -%}{%- else -%}{%- assign cols = "row-cols-2 row-cols-md-3" -%}{%- endif -%}
+<figure class="post-gallery{% if include.class %} {{ include.class }}{% endif %}"><div class="row {{ cols }} g-2">{% for img in items %}{% assign href = img.url | default: img.image_path %}{% assign ext = href | split: "." | last | downcase %}<div class="col"><a href="{{ href | relative_url }}"{% if ext == "jpg" or ext == "jpeg" or ext == "png" or ext == "gif" or ext == "webp" %} class="glightbox" data-gallery="{{ gid }}"{% if img.title %} data-title="{{ img.title | escape }}"{% endif %}{% endif %}{% if img.title %} title="{{ img.title | escape }}"{% endif %}><img src="{{ img.image_path | relative_url }}" class="img-fluid rounded" alt="{{ img.alt | escape }}" loading="lazy"></a></div>{% endfor %}</div>{% if include.caption %}<figcaption class="figure-caption mt-2">{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" | strip }}</figcaption>{% endif %}</figure>

@@ -25,7 +25,7 @@ header:
     provider: youtube
 excerpt: "Line description"
 review-block:
-  class: "align-left"
+  class: "float-start"
   image_path: "/assets/IMG_0071.jpeg"
   th_image_path: "/assets/IMG_0071x300.jpeg"
   alt: "I'm an ALT"

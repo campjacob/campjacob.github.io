@@ -16,9 +16,6 @@
 {% endcapture %}
 {% assign video_src = video_src | strip %}
 
-<!-- Courtesy of embedresponsively.com -->
 {% unless video_src == "" %}
-  <div class="responsive-video-container">
-    <iframe src="{{ video_src }}" title="{{ include.title | default: 'Embedded video' | escape }}" style="border: 0;" allowfullscreen></iframe>
-  </div>
+<div class="ratio ratio-16x9 my-3 post-video"><iframe src="{{ video_src }}" title="{{ include.title | default: 'Embedded video' | escape }}" style="border: 0;" allowfullscreen loading="lazy"></iframe></div>
 {% endunless %}

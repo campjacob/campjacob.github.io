@@ -1,46 +1,100 @@
 ---
-layout: archive
-pagination: 
-title:  "Snapshots: My Blog"
-author_profile: "true"
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: "assets/media/brazil-boat-sunset-blog-header.jpg"
-  caption: "Photo credit: A photo I took during my [**Jaunt Down South**](/tags/#jaunt-down-south-2010) while on the Amazon in Brazil."
+layout: foundation
+nav_group: blog
+title: "Snapshots: My Blog"
 excerpt: "Little bits and pieces of my life written down and shared with you."
 ---
+{%- comment -%}
+The blog's front page. jekyll-paginate makes the pages (/blog/, /blog/page2/, ...; paginate and paginate_path
+in _config.yml), but the posts on each are picked here: page 1 is the newest post as a large card plus the next
+8 in a grid, and every later page is 8 more, so each grid comes out even. (paginator.posts would put the
+newest post's slot back on page 2 and leave an odd card at the bottom.)
+The page numbers sit on either side of Newer and Older: the first and last pages and the two either side of
+this one, with … for the rest. Each is titled with the dates it covers, to skip between years.
+The sidebar is _includes/blog-sidebar.htm, shared with the single posts.
+{%- endcomment -%}
+{%- assign per_page = site.paginate -%}
+{%- assign here = paginator.page -%}
+{%- assign last_post = site.posts.size | minus: 1 -%}
+{%- assign total = last_post | plus: per_page | minus: 1 | divided_by: per_page -%}
+{%- assign grid_offset = here | minus: 1 | times: per_page | plus: 1 -%}
+{% include blog-hero.htm %}
 
-{% for post in paginator.posts %}
+<div class="col-lg-8 col-xl-9">
+  {%- if here == 1 %}
+  {%- assign newest_post = site.posts | first %}
+  <section class="mb-4" aria-label="Newest post">
+    {% include post-card.htm post=newest_post featured=true %}
+  </section>
+  {%- endif %}
 
-{% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-{% else %}
-  {% assign teaser = site.teaser %}
-{% endif %}
+  <section class="mb-4" aria-label="{% if here == 1 %}More posts{% else %}Posts, page {{ here }}{% endif %}">
+    <div class="row row-cols-1 row-cols-sm-2 g-3">
+      {%- for post in site.posts offset: grid_offset limit: per_page -%}
+      <div class="col">{% include post-card.htm post=post %}</div>
+      {%- endfor -%}
+    </div>
+  </section>
 
-{% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
-{% else %}
-  {% assign title = post.title %}
-{% endif %}
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    <h1 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
-    </h1>
-
-<p>Posted on <a href="{{ post.url }}">{{ post.date | date: "%A %B %-d, %Y" }}</a> by <a href="/contact/">Jacob Campbell</a>.</p>
-
-{{ post.content }}
-
-  </article>
+  {%- if total > 1 %}
+  {%- capture page_links -%}
+  {%- for n in (1..total) -%}
+    {%- assign first_i = n | minus: 1 | times: per_page | plus: 1 -%}{%- if n == 1 -%}{%- assign first_i = 0 -%}{%- endif -%}
+    {%- assign last_i = n | times: per_page -%}{%- if last_i > last_post -%}{%- assign last_i = last_post -%}{%- endif -%}
+    {%- assign newest = site.posts[first_i].date | date: "%b %Y" -%}
+    {%- assign oldest = site.posts[last_i].date | date: "%b %Y" -%}
+    {%- if newest == oldest -%}{%- assign span = newest -%}{%- else -%}{%- assign span = newest | append: " – " | append: oldest -%}{%- endif -%}
+    {%- if n == 1 -%}{%- assign path = "/blog/" -%}{%- else -%}{%- assign path = site.paginate_path | replace: ":num", n -%}{%- endif -%}
+    {{ n }}|{{ path | relative_url }}|{{ span }};
+  {%- endfor -%}
+  {%- endcapture -%}
+  {%- assign page_links = page_links | split: ";" -%}
+  {%- assign near_lo = here | minus: 2 -%}{%- assign near_hi = here | plus: 2 %}
+  <nav class="blog-pager d-flex flex-wrap justify-content-center align-items-center row-gap-1 my-4" aria-label="Blog pages">
+    {%- assign gap = false -%}
+    {%- for l in page_links -%}
+    {%- assign parts = l | split: "|" -%}
+    {%- assign n = parts[0] | plus: 0 -%}
+    {%- if n < here -%}
+    {%- if n == 1 or n >= near_lo %}
+    <a href="{{ parts[1] }}" class="blog-pager-num" title="{{ parts[2] }}" aria-label="Page {{ n }}, {{ parts[2] }}">{{ n }}</a>
+    {%- assign gap = false -%}
+    {%- elsif gap == false %}
+    <span class="blog-pager-gap" aria-hidden="true">&hellip;</span>
+    {%- assign gap = true -%}
+    {%- endif -%}
+    {%- endif -%}
+    {%- endfor %}
+    {%- if here > 1 -%}
+    {%- assign prev_i = here | minus: 2 -%}{%- assign prev = page_links[prev_i] | split: "|" %}
+    <a href="{{ prev[1] }}" class="btn btn-sm btn-outline-primary mx-1" title="{{ prev[2] }}">&larr; Newer</a>
+    {%- else %}
+    <span class="btn btn-sm btn-outline-secondary disabled mx-1" aria-disabled="true">&larr; Newer</span>
+    {%- endif %}
+    {%- assign here_i = here | minus: 1 -%}{%- assign this = page_links[here_i] | split: "|" %}
+    <span class="small text-body-secondary text-nowrap mx-1" aria-current="page" title="{{ this[2] }}">Page {{ here }} of {{ total }}</span>
+    {%- if here < total -%}
+    {%- assign next = page_links[here] | split: "|" %}
+    <a href="{{ next[1] }}" class="btn btn-sm btn-outline-primary mx-1" title="{{ next[2] }}">Older &rarr;</a>
+    {%- else %}
+    <span class="btn btn-sm btn-outline-secondary disabled mx-1" aria-disabled="true">Older &rarr;</span>
+    {%- endif %}
+    {%- assign gap = false -%}
+    {%- for l in page_links -%}
+    {%- assign parts = l | split: "|" -%}
+    {%- assign n = parts[0] | plus: 0 -%}
+    {%- if n > here -%}
+    {%- if n == total or n <= near_hi %}
+    <a href="{{ parts[1] }}" class="blog-pager-num" title="{{ parts[2] }}" aria-label="Page {{ n }}, {{ parts[2] }}">{{ n }}</a>
+    {%- assign gap = false -%}
+    {%- elsif gap == false %}
+    <span class="blog-pager-gap" aria-hidden="true">&hellip;</span>
+    {%- assign gap = true -%}
+    {%- endif -%}
+    {%- endif -%}
+    {%- endfor %}
+  </nav>
+  {%- endif %}
 </div>
-{% endfor %}
 
-{% include paginator.html %}
+{% include blog-sidebar.htm %}
