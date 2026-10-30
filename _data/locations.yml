@@ -9,6 +9,7 @@
 "Arica Chile":                              { place: "Arica", country: "Chile", lat: -18.478, lng: -70.312 }
 "Astoria Oregon":                           { place: "Astoria", region: "Oregon", country: "United States", lat: 46.188, lng: -123.831 }
 "Athol Idaho":                              { place: "Athol", region: "Idaho", country: "United States", lat: 47.947, lng: -116.708 }
+"Atlanta Georgia":                          { place: "Atlanta", region: "Georgia", country: "United States", lat: 33.749, lng: -84.388 }
 "Auschwitz Poland":                         { place: "Auschwitz", country: "Poland", lat: 50.027, lng: 19.204 }
 "Barcelona Spain":                          { place: "Barcelona", country: "Spain", lat: 41.385, lng: 2.173 }
 "Bergamo Italy":                            { place: "Bergamo", country: "Italy", lat: 45.698, lng: 9.677 }
@@ -22,11 +23,13 @@
 "Crescent City California":                 { place: "Crescent City", region: "California", country: "United States", lat: 41.756, lng: -124.202 }
 "Crown Point Trinidad And Tobago":          { place: "Crown Point", country: "Trinidad and Tobago", lat: 11.150, lng: -60.840 }
 "Cusco Peru":                               { place: "Cusco", country: "Peru", lat: -13.532, lng: -71.967 }
+"Denver Colorado":                          { place: "Denver", region: "Colorado", country: "United States", lat: 39.739, lng: -104.990 }
 "Florence Oregon":                          { place: "Florence", region: "Oregon", country: "United States", lat: 43.983, lng: -124.100 }
 "Ford Washington":                          { place: "Ford", region: "Washington", country: "United States", lat: 47.912, lng: -117.810 }
 "Goma Democratic Republic Of The Congo":    { place: "Goma", country: "Democratic Republic of the Congo", lat: -1.679, lng: 29.222 }
 "Isla De Margarita Venezuela":              { place: "Isla de Margarita", country: "Venezuela", lat: 11.000, lng: -63.900 }
 "Jungapeo Mexico":                          { place: "Jungapeo", country: "Mexico", lat: 19.459, lng: -100.494 }
+"Kansas City Missouri":                     { place: "Kansas City", region: "Missouri", country: "United States", lat: 39.100, lng: -94.578 }
 "Krakow Poland":                            { place: "Kraków", country: "Poland", lat: 50.065, lng: 19.945 }
 "Lake Chelan Washington":                   { place: "Lake Chelan", region: "Washington", country: "United States", lat: 47.840, lng: -120.016 }
 "Las Vegas Nevada":                         { place: "Las Vegas", region: "Nevada", country: "United States", lat: 36.170, lng: -115.140 }
@@ -41,6 +44,7 @@
 "Midi-Pyrénées France":                     { place: "Midi-Pyrénées", country: "France", lat: 43.800, lng: 1.500 }
 "Moscow Idaho":                             { place: "Moscow", region: "Idaho", country: "United States", lat: 46.732, lng: -117.000 }
 "Munich Germany":                           { place: "Munich", country: "Germany", lat: 48.135, lng: 11.582 }
+"New Orleans Louisiana":                    { place: "New Orleans", region: "Louisiana", country: "United States", lat: 29.951, lng: -90.072 }
 "Olympia Washington":                       { place: "Olympia", region: "Washington", country: "United States", lat: 47.038, lng: -122.900 }
 "Orlando Florida":                          { place: "Orlando", region: "Florida", country: "United States", lat: 28.538, lng: -81.379 }
 "Pacific City Oregon":                      { place: "Pacific City", region: "Oregon", country: "United States", lat: 45.202, lng: -123.962 }
@@ -51,6 +55,7 @@
 "Prague Czech Republic":                    { place: "Prague", country: "Czech Republic", lat: 50.076, lng: 14.438 }
 "Prosser Washington":                       { place: "Prosser", region: "Washington", country: "United States", lat: 46.207, lng: -119.769 }
 "Puerto Maldonado Peru":                    { place: "Puerto Maldonado", country: "Peru", lat: -12.593, lng: -69.189 }
+"Puerto Rico United States":                { place: "Puerto Rico", country: "United States", lat: 18.221, lng: -66.590 }
 "Puerto Vallarta Mexico":                   { place: "Puerto Vallarta", country: "Mexico", lat: 20.653, lng: -105.225 }
 "Puyallup Washington":                      { place: "Puyallup", region: "Washington", country: "United States", lat: 47.186, lng: -122.293 }
 "Riga Latvia":                              { place: "Riga", country: "Latvia", lat: 56.950, lng: 24.105 }
@@ -66,6 +71,8 @@
 "Tipon Peru":                               { place: "Tipón", country: "Peru", lat: -13.571, lng: -71.783 }
 "Toppenish Washington":                     { place: "Toppenish", region: "Washington", country: "United States", lat: 46.377, lng: -120.309 }
 "Tri-Cities Washington":                    { place: "Tri-Cities", region: "Washington", country: "United States", lat: 46.235, lng: -119.223 }
+"Vancouver Canada":                         { place: "Vancouver", region: "British Columbia", country: "Canada", lat: 49.283, lng: -123.121 }
+"Vancouver Washington":                     { place: "Vancouver", region: "Washington", country: "United States", lat: 45.639, lng: -122.661 }
 "Vienna Austria":                           { place: "Vienna", country: "Austria", lat: 48.208, lng: 16.373 }
 "Walla Walla Washington":                   { place: "Walla Walla", region: "Washington", country: "United States", lat: 46.065, lng: -118.343 }
 "Warsaw Poland":                            { place: "Warsaw", country: "Poland", lat: 52.230, lng: 21.012 }
