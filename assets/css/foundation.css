@@ -509,6 +509,10 @@ main a { overflow-wrap: anywhere; }
 main iframe, main embed, main video, main img { max-width: 100%; }
 @media (max-width: 575.98px) { main table { display: block; max-width: 100%; overflow-x: auto; } }
 
+/* Resources: collapsible "On this page" shown after the title below extra-large screens */
+.resource-toc-inline summary { cursor: pointer; }
+.resource-toc-inline:not([open]) summary { border-bottom: 0; border-radius: var(--bs-card-inner-border-radius); }
+
 /* Stream: posts from other sites rendered without embeds (see _includes/stream-card.htm) */
 .stream-content p:last-child { margin-bottom: 0; }
 .stream-content .invisible { display: none; }               /* Mastodon hides URL scheme/overflow */

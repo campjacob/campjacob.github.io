@@ -85,6 +85,12 @@ layout: foundation
 </aside>
 {%- endif %}
 
+<!-- On This Page, below extra-large screens (the sidebar version takes over there); starts collapsed -->
+<details class="card resource-toc-inline mb-4 d-none d-xl-none" id="resource-toc-inline">
+  <summary class="card-header small fw-bold text-uppercase text-body-secondary">On this page</summary>
+  <ul class="list-unstyled card-body small mb-0" id="resource-toc-inline-list"></ul>
+</details>
+
 <div class="row">
   <!-- Resource Content -->
   <section class="resource-content col-xl-9" id="resource-content">
@@ -120,23 +126,30 @@ document.addEventListener("DOMContentLoaded", function () {
   var content = document.getElementById("resource-content");
   var toc = document.getElementById("resource-toc");
   var list = document.getElementById("resource-toc-list");
+  var inline = document.getElementById("resource-toc-inline");
+  var inlineList = document.getElementById("resource-toc-inline-list");
   if (!content || !toc || !list) return;
   var heads = content.querySelectorAll("h1, h2");
   if (heads.length < 3) return;
   heads.forEach(function (h, i) {
     if (!h.id) h.id = "section-" + (i + 1);
-    var li = document.createElement("li");
-    li.className = "mb-1";
-    var a = document.createElement("a");
-    a.href = "#" + h.id;
-    a.className = "text-decoration-none";
-    a.textContent = h.textContent;
-    li.appendChild(a);
-    list.appendChild(li);
+    [list, inlineList].forEach(function (ul) {
+      if (!ul) return;
+      var li = document.createElement("li");
+      li.className = "mb-1";
+      var a = document.createElement("a");
+      a.href = "#" + h.id;
+      a.className = "text-decoration-none";
+      a.textContent = h.textContent;
+      li.appendChild(a);
+      ul.appendChild(li);
+    });
   });
   toc.classList.remove("d-none");
   toc.classList.add("d-xl-block");
   toc.classList.add("d-none");
+  // The inline copy keeps d-xl-none, so it only shows below extra-large
+  if (inline) inline.classList.remove("d-none");
 });
 </script>
 
