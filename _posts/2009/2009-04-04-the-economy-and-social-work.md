@@ -3,12 +3,10 @@ title: The Economy and Social Work
 date: 2009-04-04 22:44
 permalink: /blog/2009/4/the-economy-and-social-work
 tags:
-  - Travel
-  - Family European Adventure 2016
-  - Family Fun
+  - Social Work
 categories:
   - Personal Blog
-  - Travel Blog
+  - Professional Blog
 locations: 
   - Spokane Washington
 ---

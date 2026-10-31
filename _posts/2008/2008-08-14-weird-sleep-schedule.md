@@ -6,10 +6,9 @@ tags:
   - Personal
   - Work
   - Sleep
-  - Travel
+  - European Excursion 2008
 categories:
   - Personal Blog
-  - Travel Blog
 locations: 
   - Spokane Washington
 ---

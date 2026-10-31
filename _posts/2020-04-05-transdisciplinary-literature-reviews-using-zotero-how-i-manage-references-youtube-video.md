@@ -9,6 +9,7 @@ tags:
   - Drafts
   - Zotero
   - Siri Shortcuts
+  - YouTube
 locations: 
   - Tri-Cities Washington
 categories:
