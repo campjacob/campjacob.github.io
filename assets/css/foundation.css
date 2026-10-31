@@ -502,6 +502,13 @@ nav .dropdown-menu svg.opacity-50 {
 .communication-content div[style*="background-color"] { padding: 0.5rem; border-radius: 0.375rem; margin-bottom: 1rem; }
 .communication-content div[style*="background-color"] .btn { margin: 0.15rem; }
 
+/* Keep every page's content inside a phone screen: long bare URLs (reference lists),
+   fixed-width embeds (YouTube, Panopto, slides in old class emails), and wide tables */
+main { overflow-wrap: break-word; }
+main a { overflow-wrap: anywhere; }
+main iframe, main embed, main video, main img { max-width: 100%; }
+@media (max-width: 575.98px) { main table { display: block; max-width: 100%; overflow-x: auto; } }
+
 /* Stream: posts from other sites rendered without embeds (see _includes/stream-card.htm) */
 .stream-content p:last-child { margin-bottom: 0; }
 .stream-content .invisible { display: none; }               /* Mastodon hides URL scheme/overflow */
