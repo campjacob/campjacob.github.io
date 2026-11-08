@@ -20,8 +20,8 @@ book:
   format_keys: "audio"
   author_key: "sanderson"
   mastodon:
-    - date: 2025-05-16
-      url: "/stream/mastodon/2025-05-16-mastodon-114518932209893924/"
     - date: 2025-04-28
       url: "/stream/mastodon/2025-04-28-mastodon-114419250774951920/"
+    - date: 2025-05-16
+      url: "/stream/mastodon/2025-05-16-mastodon-114518932209893924/"
 ---

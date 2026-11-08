@@ -10,15 +10,15 @@ redirect_from:
 {%- comment -%}
   Everything I post elsewhere, imported by scripts/import-stream.py into the _stream
   collection (presentations' pages here just redirect to the deck), plus blog posts and
-  dictionary words straight from their collections. The old Twitter
+  dictionary words and resources straight from their collections. The old Twitter
   microposts are on /stream/archive/. Items render without embeds so they also work in email.
 {%- endcomment -%}
 {%- comment -%}
-  Blog posts and dictionary words join the stream straight from their collections (they get
+  Blog posts, resources, and dictionary words join the stream straight from their collections (they get
   `source` from _config.yml defaults). Words are dated by added_to_project, not `date`, so
   they're kept in their own list and merged in by date below. Undated words are left out.
 {%- endcomment -%}
-{%- assign posts = site.stream | concat: site.posts | sort: "date" | reverse -%}
+{%- assign posts = site.stream | concat: site.posts | concat: site.resources | sort: "date" | reverse -%}
 {%- comment -%} added_to_project is a Date in some entries and a string in others, so sort on "YYYY-MM-DD|path" text {%- endcomment -%}
 {%- assign word_keys = "" | split: "" -%}
 {%- for w in site.dictionary -%}
@@ -43,9 +43,11 @@ redirect_from:
 
 <header class="mb-4">
   <h1 class="fw-bolder">Stream</h1>
-  <p class="lead mb-2">I like the <a href="https://indieweb.org/why">IndieWeb</a> idea of owning my own data and having my website be the place that links to everything I do. This is everything I post, here and on other sites (blog posts, presentations, new words, notes, photos and photo albums, videos, workouts, and books), gathered in one place.</p>
+  <p class="lead mb-2">I like the <a href="https://indieweb.org/why">IndieWeb</a> idea of owning my own data and having my website be the place that links to everything I do. This is everything I post, here and on other sites (blog posts, essays and articles, presentations, new words, notes, photos and photo albums, videos, workouts, and books), gathered in one place.</p>
   <p class="small mb-0">
     <a href="/books/" class="me-3 text-nowrap"><i class="fas fa-book-open fa-fw" aria-hidden="true"></i>Books</a>
+    <a href="/dictionary/" class="me-3 text-nowrap"><i class="fas fa-book fa-fw" aria-hidden="true"></i>Dictionary</a>
+    <a href="/resources/" class="me-3 text-nowrap"><i class="fas fa-file-lines fa-fw" aria-hidden="true"></i>Resources</a>
     <a href="https://social.vsp.ink/@Jacob" rel="me noopener" class="me-3 text-nowrap"><i class="fab fa-mastodon fa-fw" aria-hidden="true"></i>Mastodon</a>
     <a href="https://media.vsp.ink/photos" rel="me noopener" class="me-3 text-nowrap"><i class="fas fa-camera-retro fa-fw" aria-hidden="true"></i>Pixelfed</a>
     <a href="https://photos.vsp.ink/" rel="me noopener" class="me-3 text-nowrap"><i class="fas fa-images fa-fw" aria-hidden="true"></i>Photo Albums</a>

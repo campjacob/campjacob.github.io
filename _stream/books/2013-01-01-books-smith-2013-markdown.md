@@ -21,16 +21,16 @@ book:
   format_keys: "print ebook"
   author_key: "sparks"
   posts:
-    - title: "Review of David Sparks's Markdown Book  an Investigation to Formatting Documents"
-      url: "/blog/2014/3/review-of-david-sparkss-markdown-book-an-investigation-to-formatting-documents"
-      review: true
     - title: "Building Services for My Students: Helping to Share Information and Connections"
       url: "/blog/2025/02/building-services-for-my-students/"
       mention: true
-    - title: "Tracking Trainings Using Drafts and Launch Center Pro"
-      url: "/blog/2014/11/tracking-trainings-using-dafts-and-launch-center-pro"
-      mention: true
+    - title: "Review of David Sparks's Markdown Book  an Investigation to Formatting Documents"
+      url: "/blog/2014/3/review-of-david-sparkss-markdown-book-an-investigation-to-formatting-documents"
+      review: true
     - title: "The Mise en Place for University Class Preparation"
       url: "/blog/2019/08/the-mise-en-place-for-university-class-preparation/"
+      mention: true
+    - title: "Tracking Trainings Using Drafts and Launch Center Pro"
+      url: "/blog/2014/11/tracking-trainings-using-dafts-and-launch-center-pro"
       mention: true
 ---

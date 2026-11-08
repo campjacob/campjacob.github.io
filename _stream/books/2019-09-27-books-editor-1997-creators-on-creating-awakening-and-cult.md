@@ -22,6 +22,15 @@ book:
   posts:
     - title: "Creators on Creating Book [Infographic]"
       url: "/blog/2019/09/creators-on-creating-book-infographic/"
+  words:
+    - title: "bivouac"
+      url: "/dictionary/bivouac/"
+    - title: "chauvinism"
+      url: "/dictionary/chauvinism/"
+    - title: "gestalt"
+      url: "/dictionary/gestalt/"
+    - title: "iconoclastic"
+      url: "/dictionary/iconoclastic/"
   resources:
     - title: "Discussion on Creators on Creating"
       url: "/resources/essays/discussion-on-creators-on-creating/"

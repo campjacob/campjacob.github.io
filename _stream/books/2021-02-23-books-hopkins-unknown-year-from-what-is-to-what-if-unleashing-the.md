@@ -19,11 +19,11 @@ book:
   format_keys: "print"
   author_key: "hopkins"
   posts:
-    - title: "I Finally Started, My New Project The Mother Dearest Show"
-      url: "/blog/2021/02/i-finally-started-my-new-project-the-mother-dearest-show/"
-      mention: true
     - title: "Envisioning a Better Future: An Interview with My Kids [YouTube Video]"
       url: "/blog/2021/05/envisioning-a-better-future-with-my-kids/"
+      mention: true
+    - title: "I Finally Started, My New Project The Mother Dearest Show"
+      url: "/blog/2021/02/i-finally-started-my-new-project-the-mother-dearest-show/"
       mention: true
   mastodon:
     - date: 2025-03-17

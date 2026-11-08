@@ -1,5 +1,5 @@
 {%- comment -%}
-  One stream item (Mastodon / Pixelfed / YouTube / TikTok / FitPub / Presentations / Dictionary / Photo Albums / Books, or a blog post), used by the /stream/ timeline
+  One stream item (Mastodon / Pixelfed / YouTube / TikTok / FitPub / Presentations / Dictionary / Photo Albums / Books, or a blog post or resource), used by the /stream/ timeline
   and the single-item layout. Pass the item as include.post; include.single drops the
   permalink. No embeds or iframes: plain text and <img> only, so the same markup works in
   a newsletter email. The one exception is a photo album's own page (include.single), which
@@ -13,6 +13,7 @@
   {%- when "tiktok" -%}{%- assign icon = "fab fa-tiktok" -%}{%- assign label = "TikTok" -%}
   {%- when "fitpub" -%}{%- assign icon = "fas fa-person-running" -%}{%- assign label = "FitPub" -%}
   {%- when "blog" -%}{%- assign icon = "fas fa-pen-nib" -%}{%- assign label = "Blog" -%}
+  {%- when "resources" -%}{%- assign icon = "fas fa-file-lines" -%}{%- assign label = "Resources" -%}
   {%- when "presentations" -%}{%- assign icon = "fas fa-person-chalkboard" -%}{%- assign label = "Presentations" -%}
   {%- when "dictionary" -%}{%- assign icon = "fas fa-book" -%}{%- assign label = "Dictionary" -%}
   {%- when "albums" -%}{%- assign icon = "fas fa-images" -%}{%- assign label = "Photo Albums" -%}
@@ -23,7 +24,7 @@
 {%- comment -%} Older book dates are often only known to the month {%- endcomment -%}
 {%- assign date_format = "%b %-d, %Y" -%}{%- if p.book.month_only -%}{%- assign date_format = "%b %Y" -%}{%- endif -%}
 {%- assign media_count = p.media | size -%}
-{%- if p.source == "blog" or p.source == "dictionary" -%}{%- assign xkey = "site:" | append: p.url -%}{%- else -%}{%- assign xkey = p.source | append: ":" | append: p.post_id -%}{%- endif -%}
+{%- if p.source == "blog" or p.source == "dictionary" or p.source == "resources" -%}{%- assign xkey = "site:" | append: p.url -%}{%- else -%}{%- assign xkey = p.source | append: ":" | append: p.post_id -%}{%- endif -%}
 {%- assign also = site.data.stream_crossposts[xkey] -%}
 <article class="stream-item card shadow-sm mb-3" data-source="{{ p.source }}" data-kind="{{ p.kind }}" data-time="{{ item_date | date: '%s' }}" data-year="{{ item_date | date: '%Y' }}">
   <div class="card-body">
@@ -97,6 +98,14 @@
     <div class="stream-content">{{ p.excerpt | strip_html | truncate: 280 }}</div>
     {%- endif -%}
 
+    {%- if p.source == "resources" -%}
+    {%- comment -%} Older resources spell the field "exerpt" {%- endcomment -%}
+    {%- assign r_text = p.exerpt | default: p.excerpt -%}
+    <h3 class="h5 fw-semibold mb-2"><a href="{{ p.url | relative_url }}" class="text-body text-decoration-none">{{ p.title }}</a></h3>
+    {%- if p.header.teaser -%}<a href="{{ p.url | relative_url }}" class="stream-teaser d-block mb-2"><img src="{{ p.header.teaser | relative_url }}" alt="" loading="lazy" decoding="async"></a>{%- endif -%}
+    <div class="stream-content">{{ r_text | strip_html | truncate: 280 }}</div>
+    {%- endif -%}
+
     {%- if p.video -%}
     <a href="{{ p.post_url }}" class="stream-video stream-video-{{ p.source }} d-block position-relative mb-2" rel="noopener">
       <img src="{{ p.video.thumbnail | relative_url }}" alt="{{ p.title | escape }}" loading="lazy" decoding="async">
@@ -123,7 +132,7 @@
     <a href="{{ p.post_url }}" class="stream-activity d-block mb-2" rel="noopener"><img src="{{ a.image }}" alt="Route map for {{ p.title | escape }}" loading="lazy" decoding="async"></a>
     {%- endif -%}
 
-    {%- if p.source == "blog" or p.source == "presentations" or p.source == "dictionary" or p.source == "books" -%}
+    {%- if p.source == "blog" or p.source == "resources" or p.source == "presentations" or p.source == "dictionary" or p.source == "books" -%}
     {%- elsif include.single or p.source != "youtube" -%}
     <div class="stream-content">{{ p.content_html }}</div>
     {%- else -%}

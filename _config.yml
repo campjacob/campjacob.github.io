@@ -296,6 +296,7 @@ defaults:
       path: ""
       type: resources
     values:
+      source: resources   # for /stream/
       layout: resource_foundation
       nav_group: resources
       author_sidebar: true

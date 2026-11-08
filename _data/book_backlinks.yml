@@ -103,15 +103,36 @@
   url: /stream/books/2018-01-30-books-newport-2016-deep-work/
 - title: Slow Productivity
   url: /stream/books/2024-05-02-books-newport-2024-slow-productivity/
+/dictionary/bivouac/:
+- title: Creators on Creating
+  url: /stream/books/2019-09-27-books-editor-1997-creators-on-creating-awakening-and-cult/
 /dictionary/centrifugal%20versus%20centripetal/:
 - title: The Integral Nature of Things
   url: /stream/books/2019-10-01-books-mani-2013-the-integral-nature-of-things-critical/
+/dictionary/chauvinism/:
+- title: Creators on Creating
+  url: /stream/books/2019-09-27-books-editor-1997-creators-on-creating-awakening-and-cult/
 /dictionary/concomitant/:
 - title: School Social Work
   url: /stream/books/2024-07-14-books-jarolmen-2023-school-social-work/
+/dictionary/delouse/:
+- title: Man's Search for Meaning
+  url: /books/frankl-1946-mans-search-for-meaning/
 /dictionary/eros/:
 - title: Teaching to Transgress
   url: /stream/books/2025-10-26-books-hooks-1994-teaching-to-transgress/
+/dictionary/gestalt/:
+- title: Creators on Creating
+  url: /stream/books/2019-09-27-books-editor-1997-creators-on-creating-awakening-and-cult/
+/dictionary/hackneyed/:
+- title: Man's Search for Meaning
+  url: /books/frankl-1946-mans-search-for-meaning/
+/dictionary/haversack/:
+- title: Man's Search for Meaning
+  url: /books/frankl-1946-mans-search-for-meaning/
+/dictionary/iconoclastic/:
+- title: Creators on Creating
+  url: /stream/books/2019-09-27-books-editor-1997-creators-on-creating-awakening-and-cult/
 /dictionary/idiographic/:
 - title: Scientific Inquiry in Social Work
   url: /stream/books/2019-11-10-books-decarlo-2018-scientific-inquiry-in-social-work/
@@ -121,6 +142,9 @@
 /dictionary/inviolable/:
 - title: On Becoming an Artist
   url: /stream/books/2019-11-03-books-langer-2005-on-becoming-an-artist-reinventing-yours/
+/dictionary/mephistophelean/:
+- title: Man's Search for Meaning
+  url: /books/frankl-1946-mans-search-for-meaning/
 /dictionary/modicum/:
 - title: Generalist Practice with Organizations and Communities
   url: /stream/books/2026-05-12-books-kirst-ashman-2018-generalist-practice-with-organizations/
@@ -130,6 +154,9 @@
 /dictionary/patois/:
 - title: Teaching to Transgress
   url: /stream/books/2025-10-26-books-hooks-1994-teaching-to-transgress/
+/dictionary/patrilocality/:
+- title: Nurturing Our Humanity
+  url: /books/eisler-2019-nurturing-our-humanity/
 /dictionary/peccadillo/:
 - title: Creativity
   url: /stream/books/2020-02-01-books-fox-2002-creativity-where-the-divine-and-human-m/
@@ -329,6 +356,9 @@
 /stream/mastodon/2024-01-23-mastodon-111808863199350763/:
 - title: All Souls Lost
   url: /stream/books/2024-10-18-books-moren-2024-all-souls-lost/
+/stream/mastodon/2024-01-30-mastodon-111849373564590191/:
+- title: Nurturing Our Humanity
+  url: /books/eisler-2019-nurturing-our-humanity/
 /stream/mastodon/2024-07-26-mastodon-112855048205626922/:
 - title: The Well of Ascension
   url: /stream/books/2024-07-08-books-sanderson-2007-the-well-of-ascension/
@@ -431,24 +461,6 @@
 /stream/mastodon/2026-11-07-mastodon-117577792621858673/:
 - title: Daring Greatly
   url: /stream/books/2026-10-13-books-brown-2012-daring-greatly/
-/dictionary/delouse/:
-- title: "Man's Search for Meaning"
-  url: /books/frankl-1946-mans-search-for-meaning/
-/dictionary/hackneyed/:
-- title: "Man's Search for Meaning"
-  url: /books/frankl-1946-mans-search-for-meaning/
-/dictionary/haversack/:
-- title: "Man's Search for Meaning"
-  url: /books/frankl-1946-mans-search-for-meaning/
-/dictionary/mephistophelean/:
-- title: "Man's Search for Meaning"
-  url: /books/frankl-1946-mans-search-for-meaning/
 /stream/mastodon/2026-11-07-mastodon-117579171851034078/:
-- title: "Man's Search for Meaning"
+- title: Man's Search for Meaning
   url: /books/frankl-1946-mans-search-for-meaning/
-/dictionary/patrilocality/:
-- title: "Nurturing Our Humanity"
-  url: /books/eisler-2019-nurturing-our-humanity/
-/stream/mastodon/2024-01-30-mastodon-111849373564590191/:
-- title: "Nurturing Our Humanity"
-  url: /books/eisler-2019-nurturing-our-humanity/
