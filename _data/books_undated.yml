@@ -1,0 +1,255 @@
+- title: Essential Research Methods for Social Work, 1st Edition
+  author: Allen Rubin and Earl R. Babbie
+  image: /assets/media/books/babbie-unknown-year-essential-research-methods-for-social-wo.jpg
+  link: https://www.amazon.com/Essential-Research-Methods-Available-CengageNOW/dp/0495006580
+  format: Book
+  format_keys: print
+  category: Research & Teaching
+  author_key: rubin
+  slug: babbie-unknown-year-essential-research-methods-for-social-wo
+- title: Ender's Game
+  author: Orson Scott Card
+  image: /assets/media/books/card-1985-enders-game.jpg
+  link: https://en.wikipedia.org/wiki/Ender's_Game
+  format: Book
+  format_keys: print
+  year: 1985
+  category: Science Fiction & Fantasy
+  author_key: card
+  slug: card-1985-enders-game
+- title: How to Win Friends and Influence People
+  author: Dale Carnegie
+  image: /assets/media/books/carnegie-1936-how-to-win-friends-and-influence-people.jpg
+  link: https://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034
+  format: Book
+  format_keys: print
+  year: 1936
+  category: Personal Growth & Work
+  author_key: carnegie
+  slug: carnegie-1936-how-to-win-friends-and-influence-people
+- title: My Utmost for His Highest
+  author: Oswald Chambers
+  image: /assets/media/books/chambers-1924-my-utmost-for-his-highest.jpg
+  link: https://utmost.org
+  format: Book
+  format_keys: print
+  year: 1924
+  category: Faith & Spirituality
+  author_key: chambers
+  slug: chambers-1924-my-utmost-for-his-highest
+  posts:
+  - title: A Look into Joining the Irresistible Revolution
+    url: /blog/2011/12/a-look-into-joining-the-irresistible-revolution
+- title: The Richest Man in Babylon
+  author: George S. Clason
+  image: /assets/media/books/clason-1926-the-richest-man-in-babylon.jpg
+  link: https://www.amazon.com/Richest-Man-Babylon-George-Clason/dp/1942121288
+  format: Book
+  format_keys: print
+  year: 1926
+  category: Personal Growth & Work
+  author_key: clason
+  slug: clason-1926-the-richest-man-in-babylon
+- title: 'The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change'
+  author: Stephen R. Covey
+  image: /assets/media/books/covey-1989-the-7-habits-of-highly-effective-people.jpg
+  link: https://en.wikipedia.org/wiki/The_7_Habits_of_Highly_Effective_People
+  format: Book
+  format_keys: print
+  year: 1989
+  category: Personal Growth & Work
+  author_key: covey
+  slug: covey-1989-the-7-habits-of-highly-effective-people
+  resources:
+  - title: 'Levels of Leadership: A Leadership Philosophy Grounded in Introspective, Interpersonal, and Intrapersonal Concepts'
+    url: /resources/articles/levels-of-leadership
+    cited: true
+  - title: Paradigmatic Aspects of Inquiry-Based Research
+    url: /resources/essays/paradigmatic-aspects-of-inquiry-based-research/
+    cited: true
+  - title: 'Vision and Social Change: The Courage to See'
+    url: /resources/essays/vision-and-social-change-the-courage-to-see/
+    cited: true
+- title: Crime and Punishment
+  author: Fyodor Dostoevsky
+  image: /assets/media/books/dostoevsky-1866-crime-and-punishment.jpg
+  link: https://en.wikipedia.org/wiki/Crime_and_Punishment
+  format: Book
+  format_keys: print
+  year: 1866
+  category: Other Fiction
+  author_key: dostoevsky
+  slug: dostoevsky-1866-crime-and-punishment
+- title: 'Wild at Heart: Discovering the Secret of a Man''s Soul'
+  author: John Eldredge
+  image: /assets/media/books/eldredge-2001-wild-at-heart-discovering-the-secret-of.jpg
+  link: https://en.wikipedia.org/wiki/Wild_at_Heart_(book)
+  format: Book
+  format_keys: print
+  year: 2001
+  category: Faith & Spirituality
+  author_key: eldredge
+  slug: eldredge-2001-wild-at-heart-discovering-the-secret-of
+- title: Lord of the Flies
+  author: William Golding
+  image: /assets/media/books/golding-1954-lord-of-the-flies.jpg
+  link: https://william-golding.co.uk/books/lord-of-the-flies
+  format: Book
+  format_keys: print
+  year: 1954
+  category: Other Fiction
+  author_key: golding
+  slug: golding-1954-lord-of-the-flies
+- title: Dune
+  author: Frank Herbert
+  image: /assets/media/books/herbert-1965-dune.jpg
+  link: https://en.wikipedia.org/wiki/Dune_(novel)
+  format: Book & Audiobook
+  format_keys: print audio
+  year: 1965
+  category: Science Fiction & Fantasy
+  author_key: herbert
+  slug: herbert-1965-dune
+- title: 'Siddhartha: An Indian novel'
+  author: Hermann Hesse
+  image: /assets/media/books/hesse-1922-siddhartha-an-indian-novel.jpg
+  link: https://en.wikipedia.org/wiki/Siddhartha_(novel)
+  format: Book
+  format_keys: print
+  year: 1922
+  category: Other Fiction
+  author_key: hesse
+  slug: hesse-1922-siddhartha-an-indian-novel
+- title: Think and Grow Rich
+  author: Napoleon Hill
+  image: /assets/media/books/hill-1937-think-and-grow-rich.jpg
+  link: https://www.amazon.com/Think-Grow-Rich-Napoleon-Hill/dp/0449214923
+  format: Book
+  format_keys: print
+  year: 1937
+  category: Personal Growth & Work
+  author_key: hill
+  slug: hill-1937-think-and-grow-rich
+- title: The Outsiders
+  author: S.E. Hinton
+  image: /assets/media/books/hinton-1967-the-outsiders.jpg
+  link: https://en.wikipedia.org/wiki/The_Outsiders_(novel)
+  format: Book
+  format_keys: print
+  year: 1967
+  category: Other Fiction
+  author_key: hinton
+  slug: hinton-1967-the-outsiders
+- title: The Kite Runner
+  author: Khaled Hosseini
+  image: /assets/media/books/hosseini-2003-the-kite-runner.jpg
+  link: https://khaledhosseini.com/books/the-kite-runner/
+  format: Book
+  format_keys: print
+  year: 2003
+  category: Other Fiction
+  author_key: hosseini
+  slug: hosseini-2003-the-kite-runner
+  posts:
+  - title: Delays, Couchsurfing, and Boats... Oh My (Brazil)
+    url: /blog/2009/10/delays-couchsurfing-and-boats-oh-my-brazil
+- title: Hinds' Feet on High Places
+  author: Hannah Hurnard
+  image: /assets/media/books/hurnard-1955-hinds-feet-on-high-places.jpg
+  link: https://www.amazon.com/Hinds-Feet-Places-Hannah-Hurnard/dp/0842314296
+  format: Book
+  format_keys: print
+  year: 1955
+  category: Faith & Spirituality
+  author_key: hurnard
+  slug: hurnard-1955-hinds-feet-on-high-places
+- title: The Screwtape Letters
+  author: C.S. Lewis
+  image: /assets/media/books/lewis-1942-the-screwtape-letters.jpg
+  link: https://en.wikipedia.org/wiki/The_Screwtape_Letters
+  format: Book
+  format_keys: print
+  year: 1942
+  category: Faith & Spirituality
+  author_key: lewis
+  slug: lewis-1942-the-screwtape-letters
+- title: The Chronicles of Narnia
+  author: C.S. Lewis
+  image: /assets/media/books/lewis-1950-the-chronicles-of-narnia.jpg
+  link: https://en.wikipedia.org/wiki/The_Chronicles_of_Narnia
+  format: Book
+  format_keys: print
+  year: 1950
+  category: Science Fiction & Fantasy
+  author_key: lewis
+  slug: lewis-1950-the-chronicles-of-narnia
+- title: Mere Christianity
+  author: C.S. Lewis
+  image: /assets/media/books/lewis-1952-mere-christianity.jpg
+  link: https://en.wikipedia.org/wiki/Mere_Christianity
+  format: Book
+  format_keys: print
+  year: 1952
+  category: Faith & Spirituality
+  author_key: lewis
+  slug: lewis-1952-mere-christianity
+- title: Animal Farm
+  author: George Orwell
+  image: /assets/media/books/orwell-1945-animal-farm.jpg
+  link: https://en.wikipedia.org/wiki/Animal_Farm
+  format: Book
+  format_keys: print
+  year: 1945
+  category: Other Fiction
+  author_key: orwell
+  slug: orwell-1945-animal-farm
+- title: '1984'
+  author: George Orwell
+  image: /assets/media/books/orwell-1949-1984.jpg
+  link: https://en.wikipedia.org/wiki/Nineteen_Eighty-Four
+  format: Book & Audiobook
+  format_keys: print audio
+  year: 1949
+  category: Other Fiction
+  author_key: orwell
+  slug: orwell-1949-1984
+- title: One Nation, Underprivileged Why American Poverty Affects Us All
+  author: Mark Robert Rank
+  image: /assets/media/books/rank-2004-one-nation-underprivileged-why-american.jpg
+  link: ''
+  format: Book
+  format_keys: print
+  year: 2004
+  category: Society & Ideas
+  author_key: rank
+  slug: rank-2004-one-nation-underprivileged-why-american
+- title: The Hiding Place
+  author: Corrie ten Boom, John Sherrill, and Elizabeth Sherrill
+  image: /assets/media/books/boom-1971-the-hiding-place.jpg
+  link: https://en.wikipedia.org/wiki/The_Hiding_Place_(biography)
+  format: Book
+  format_keys: print
+  year: 1971
+  category: Faith & Spirituality
+  author_key: boom
+  slug: boom-1971-the-hiding-place
+- title: The Adventures of Tom Sawyer
+  author: Mark Twain
+  image: /assets/media/books/twain-1876-the-adventures-of-tom-sawyer.jpg
+  link: https://en.wikipedia.org/wiki/The_Adventures_of_Tom_Sawyer
+  format: Book
+  format_keys: print
+  year: 1876
+  category: Other Fiction
+  author_key: twain
+  slug: twain-1876-the-adventures-of-tom-sawyer
+- title: 'The Purpose Driven Life: What on Earth Am I Here for?'
+  author: Rick Warren
+  image: /assets/media/books/warren-2002-the-purpose-driven-life-what-on-earth-a.jpg
+  link: https://www.amazon.com/Purpose-Driven-Life-Rick-Warren/dp/B000VNXOAO/
+  format: Book
+  format_keys: print
+  year: 2002
+  category: Faith & Spirituality
+  author_key: warren
+  slug: warren-2002-the-purpose-driven-life-what-on-earth-a

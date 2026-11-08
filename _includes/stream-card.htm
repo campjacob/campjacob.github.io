@@ -1,5 +1,5 @@
 {%- comment -%}
-  One stream item (Mastodon / Pixelfed / YouTube / TikTok / FitPub / Presentations / Dictionary / Photo Albums, or a blog post), used by the /stream/ timeline
+  One stream item (Mastodon / Pixelfed / YouTube / TikTok / FitPub / Presentations / Dictionary / Photo Albums / Books, or a blog post), used by the /stream/ timeline
   and the single-item layout. Pass the item as include.post; include.single drops the
   permalink. No embeds or iframes: plain text and <img> only, so the same markup works in
   a newsletter email. The one exception is a photo album's own page (include.single), which
@@ -16,20 +16,25 @@
   {%- when "presentations" -%}{%- assign icon = "fas fa-person-chalkboard" -%}{%- assign label = "Presentations" -%}
   {%- when "dictionary" -%}{%- assign icon = "fas fa-book" -%}{%- assign label = "Dictionary" -%}
   {%- when "albums" -%}{%- assign icon = "fas fa-images" -%}{%- assign label = "Photo Albums" -%}
+  {%- when "books" -%}{%- assign icon = "fas fa-book-open" -%}{%- assign label = "Books" -%}
   {%- else -%}{%- assign icon = "fas fa-comment" -%}{%- assign label = "Post" -%}
 {%- endcase -%}
 {%- if p.source == "dictionary" -%}{%- assign item_date = p.added_to_project -%}{%- else -%}{%- assign item_date = p.date -%}{%- endif -%}
+{%- comment -%} Older book dates are often only known to the month {%- endcomment -%}
+{%- assign date_format = "%b %-d, %Y" -%}{%- if p.book.month_only -%}{%- assign date_format = "%b %Y" -%}{%- endif -%}
 {%- assign media_count = p.media | size -%}
 {%- if p.source == "blog" or p.source == "dictionary" -%}{%- assign xkey = "site:" | append: p.url -%}{%- else -%}{%- assign xkey = p.source | append: ":" | append: p.post_id -%}{%- endif -%}
 {%- assign also = site.data.stream_crossposts[xkey] -%}
 <article class="stream-item card shadow-sm mb-3" data-source="{{ p.source }}" data-kind="{{ p.kind }}" data-time="{{ item_date | date: '%s' }}" data-year="{{ item_date | date: '%Y' }}">
   <div class="card-body">
     <div class="d-flex justify-content-between align-items-baseline small text-body-secondary mb-2">
-      <span><i class="{{ icon }} fa-fw" aria-hidden="true"></i> {{ label }}</span>
-      {%- if include.single -%}
-      <time datetime="{{ item_date | date: '%Y-%m-%d' }}">{{ item_date | date: "%b %-d, %Y" }}</time>
+      {% if p.source == "books" %}<a href="/books/" class="text-body-secondary text-decoration-none"><i class="{{ icon }} fa-fw" aria-hidden="true"></i> {{ label }}</a>{% else %}<span><i class="{{ icon }} fa-fw" aria-hidden="true"></i> {{ label }}</span>{% endif %}
+      {%- if p.book.status == "reading" -%}
+      <span>{% if p.book.format == "Audiobook" %}Listening now{% else %}Reading now{% endif %}</span>
+      {%- elsif include.single -%}
+      <time datetime="{{ item_date | date: '%Y-%m-%d' }}">{{ item_date | date: date_format }}</time>
       {%- else -%}
-      <a href="{{ p.url | relative_url }}" class="text-body-secondary text-decoration-none"><time datetime="{{ item_date | date: '%Y-%m-%d' }}">{{ item_date | date: "%b %-d, %Y" }}</time></a>
+      <a href="{{ p.url | relative_url }}" class="text-body-secondary text-decoration-none"><time datetime="{{ item_date | date: '%Y-%m-%d' }}">{{ item_date | date: date_format }}</time></a>
       {%- endif -%}
     </div>
 
@@ -52,6 +57,20 @@
     {%- if pr.image -%}<a href="{{ p.post_url }}" class="stream-slide d-block mb-2" rel="noopener"><img src="{{ pr.image }}" alt="{{ pr.image_alt | escape }}" loading="lazy" decoding="async"></a>{%- endif -%}
     {%- capture where -%}{% if pr.course != "" %}{{ pr.course }}{% endif %}{% if pr.course != "" and pr.location %} &middot; {% endif %}{{ pr.location }}{%- endcapture -%}
     {%- if where != "" -%}<div class="stream-content text-body-secondary small">{{ where }}</div>{%- endif -%}
+    {%- endif -%}
+
+    {%- if p.source == "books" -%}
+    {%- assign b = p.book -%}
+    <div class="stream-book d-flex gap-3">
+      <a href="{{ p.post_url }}" class="stream-book-cover flex-shrink-0" rel="noopener" aria-label="{{ p.title | escape }}"><i class="fas fa-book" aria-hidden="true"></i>{% if b.image %}<img src="{{ b.image }}" alt="Cover of {{ p.title | escape }}" loading="lazy" decoding="async" onerror="this.remove()">{% endif %}</a>
+      <div class="min-w-0">
+        <div class="small text-body-secondary mb-1">{% if b.status == "reading" %}{% if b.format == "Audiobook" %}Listening to{% else %}Reading{% endif %}{% elsif b.format == "Audiobook" %}Listened to{% else %}Read{% endif %}</div>
+        <h3 class="h5 fw-semibold mb-1"><a href="{{ p.post_url }}" class="text-body text-decoration-none" rel="noopener">{{ p.title }}</a></h3>
+        <div class="stream-content">{{ b.author }}{% if b.year %} <span class="text-body-secondary">({{ b.year }})</span>{% endif %}</div>
+        {%- if b.format -%}<div class="small text-body-secondary mt-1">{{ b.format }}</div>{%- endif -%}
+        <div class="mt-2">{% include book-links.htm book=b %}</div>
+      </div>
+    </div>
     {%- endif -%}
 
     {%- if p.source == "dictionary" -%}
@@ -104,7 +123,7 @@
     <a href="{{ p.post_url }}" class="stream-activity d-block mb-2" rel="noopener"><img src="{{ a.image }}" alt="Route map for {{ p.title | escape }}" loading="lazy" decoding="async"></a>
     {%- endif -%}
 
-    {%- if p.source == "blog" or p.source == "presentations" or p.source == "dictionary" -%}
+    {%- if p.source == "blog" or p.source == "presentations" or p.source == "dictionary" or p.source == "books" -%}
     {%- elsif include.single or p.source != "youtube" -%}
     <div class="stream-content">{{ p.content_html }}</div>
     {%- else -%}
@@ -144,11 +163,13 @@
     </a>
     {%- endif -%}
 
+    {% include book-backlink.htm url=p.url class="mt-2 mb-0" %}
+
     {%- comment -%} "View on my site · Pixelfed · Mastodon": the first is this post's page here, then the original, then cross-posts {%- endcomment -%}
     <div class="stream-links small mt-2 text-end text-body-secondary">View on
       {%- unless include.single or p.source == "presentations" or p.source == "dictionary" %} <a href="{{ p.url | relative_url }}" class="text-body-secondary">{% if p.source == "blog" %}my blog{% else %}my site{% endif %}</a>{% endunless -%}
       {%- if p.source == "dictionary" %} <a href="{{ p.url | relative_url }}" class="text-body-secondary">my dictionary</a>{%- endif -%}
-      {%- if p.post_url -%}{%- unless include.single or p.source == "presentations" %} &middot;{% endunless %} <a href="{{ p.post_url }}" class="text-body-secondary" rel="noopener">{% if p.source == "albums" %}photos.vsp.ink{% else %}{{ label }}{% endif %}</a>{%- endif -%}
+      {%- if p.post_url -%}{%- unless include.single or p.source == "presentations" %} &middot;{% endunless %} <a href="{{ p.post_url }}" class="text-body-secondary" rel="noopener">{% if p.source == "albums" %}photos.vsp.ink{% elsif p.source == "books" %}{{ p.book.link_label }}{% else %}{{ label }}{% endif %}</a>{%- endif -%}
       {%- if p.album.embed_url and p.album.embed_url != "" %} &middot; <a href="{{ p.album.embed_url }}" class="text-body-secondary" rel="noopener">vsp.ink</a>{%- endif -%}
       {%- for x in also %} &middot; <a href="{{ x.url }}" class="text-body-secondary" rel="noopener">{{ x.label }}</a>{%- endfor %}
     </div>

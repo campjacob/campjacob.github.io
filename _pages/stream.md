@@ -43,8 +43,9 @@ redirect_from:
 
 <header class="mb-4">
   <h1 class="fw-bolder">Stream</h1>
-  <p class="lead mb-2">I like the <a href="https://indieweb.org/why">IndieWeb</a> idea of owning my own data and having my website be the place that links to everything I do. This is everything I post, here and on other sites (blog posts, presentations, new words, notes, photos and photo albums, videos, and workouts), gathered in one place.</p>
+  <p class="lead mb-2">I like the <a href="https://indieweb.org/why">IndieWeb</a> idea of owning my own data and having my website be the place that links to everything I do. This is everything I post, here and on other sites (blog posts, presentations, new words, notes, photos and photo albums, videos, workouts, and books), gathered in one place.</p>
   <p class="small mb-0">
+    <a href="/books/" class="me-3 text-nowrap"><i class="fas fa-book-open fa-fw" aria-hidden="true"></i>Books</a>
     <a href="https://social.vsp.ink/@Jacob" rel="me noopener" class="me-3 text-nowrap"><i class="fab fa-mastodon fa-fw" aria-hidden="true"></i>Mastodon</a>
     <a href="https://media.vsp.ink/photos" rel="me noopener" class="me-3 text-nowrap"><i class="fas fa-camera-retro fa-fw" aria-hidden="true"></i>Pixelfed</a>
     <a href="https://photos.vsp.ink/" rel="me noopener" class="me-3 text-nowrap"><i class="fas fa-images fa-fw" aria-hidden="true"></i>Photo Albums</a>

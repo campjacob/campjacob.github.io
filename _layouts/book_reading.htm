@@ -1,0 +1,20 @@
+---
+layout: foundation
+---
+{%- comment -%}
+  A book I'm still reading (_pages/books/). Uses the same card as a finished book, but it isn't
+  in the stream. When the book is finished this page goes away and its stream item takes over,
+  with redirect_from keeping this address working.
+{%- endcomment -%}
+<div class="stream my-4" style="max-width: 42rem;">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb small mb-3">
+      <li class="breadcrumb-item"><a href="/books/">Books</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Currently reading</li>
+    </ol>
+  </nav>
+
+  {% include stream-card.htm post=page single=true %}
+
+  <p class="text-center my-4"><a href="/books/" class="btn btn-link btn-sm">All books</a></p>
+</div>

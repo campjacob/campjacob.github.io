@@ -1,0 +1,20 @@
+{%- comment -%}
+  For a tile on /books/: sets link_keys (for the link-type filter) and link_icons (the small
+  icons shown under a cover) on the calling page. Pass the fields as include.book.
+{%- endcomment -%}
+{%- assign bi = include.book -%}
+{%- assign has_review = false -%}{%- assign has_post = false -%}
+{%- for x in bi.posts -%}{%- if x.review -%}{%- assign has_review = true -%}{%- else -%}{%- assign has_post = true -%}{%- endif -%}{%- endfor -%}
+{%- for x in bi.resources -%}{%- if x.review -%}{%- assign has_review = true -%}{%- endif -%}{%- endfor -%}
+{%- capture link_keys -%}{% if has_review %}review {% endif %}{% if has_post %}post {% endif %}{% if bi.resources %}resource {% endif %}{% if bi.mastodon %}mastodon {% endif %}{% if bi.words %}word{% endif %}{%- endcapture -%}
+{%- capture link_icons -%}
+{%- if link_keys != "" -%}
+<span class="book-tile-icons">
+  {%- if has_review -%}<i class="fas fa-star" title="I reviewed this" role="img" aria-label="I reviewed this"></i>{%- endif -%}
+  {%- if has_post -%}<i class="fas fa-pen-nib" title="Blog post" role="img" aria-label="Blog post"></i>{%- endif -%}
+  {%- if bi.resources -%}<i class="fas fa-file-lines" title="Essay or article" role="img" aria-label="Essay or article"></i>{%- endif -%}
+  {%- if bi.mastodon -%}<i class="fab fa-mastodon" title="Mastodon post" role="img" aria-label="Mastodon post"></i>{%- endif -%}
+  {%- if bi.words -%}<i class="fas fa-spell-check" title="Words I learned from it" role="img" aria-label="Words I learned from it"></i>{%- endif -%}
+</span>
+{%- endif -%}
+{%- endcapture -%}

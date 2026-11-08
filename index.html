@@ -19,7 +19,7 @@ permalink: /
   {%- if latest_photos.size >= 6 -%}{%- break -%}{%- endif -%}
 {%- endfor -%}
 {%- assign latest_others = "" | split: "" -%}
-{%- assign other_sources = "youtube,tiktok,fitpub,albums" | split: "," -%}
+{%- assign other_sources = "youtube,tiktok,fitpub,albums,books" | split: "," -%}
 {%- for src in other_sources -%}
   {%- for p in stream -%}{%- if p.source == src -%}{%- assign latest_others = latest_others | push: p -%}{%- break -%}{%- endif -%}{%- endfor -%}
 {%- endfor -%}
@@ -130,7 +130,7 @@ body { overflow-x: clip; }   /* the bands are 100vw, which includes any scrollba
     <h2 class="fw-bolder mb-0">From the Stream</h2>
     <a href="/stream/" class="text-nowrap">The whole stream &rarr;</a>
   </div>
-  <p class="text-body-secondary">What I've been posting lately on Mastodon, Pixelfed, YouTube, TikTok, FitPub, and my photo albums.</p>
+  <p class="text-body-secondary">What I've been up to lately: blog posts, presentations, new words, notes on Mastodon, photos on Pixelfed and in my albums, videos on YouTube and TikTok, workouts on FitPub, and books I've finished.</p>
   <div class="row g-4">
     <div class="col-lg-7">
       <h3 class="h6 fw-bold text-body-secondary text-uppercase small">Latest post</h3>
@@ -159,11 +159,14 @@ body { overflow-x: clip; }   /* the bands are 100vw, which includes any scrollba
       {%- when "fitpub" -%}{%- assign icon = "fas fa-person-running" -%}{%- assign label = "FitPub" -%}{%- assign profile = "https://fitpub.social/@campjacob" -%}
       {%- when "albums" -%}{%- assign icon = "fas fa-images" -%}{%- assign label = "photos.vsp.ink" -%}{%- assign profile = "https://photos.vsp.ink/" -%}
       {%- when "presentations" -%}{%- assign icon = "fas fa-person-chalkboard" -%}{%- assign label = "Presentations" -%}{%- assign profile = "https://presentations.jacobrcampbell.com/" -%}
+      {%- when "books" -%}{%- assign icon = "fas fa-book-open" -%}{%- assign profile = "/books/" -%}
     {%- endcase -%}
+    {%- assign profile_text = "View on " | append: label -%}
+    {%- if p.source == "books" -%}{%- assign profile_text = "All books" -%}{%- endif -%}
     <li class="d-flex flex-wrap align-items-baseline column-gap-2 py-2 border-bottom border-light-subtle">
       <i class="{{ icon }} fa-fw text-body-secondary" aria-hidden="true"></i>
       <a href="{% if p.source == 'presentations' %}{{ p.post_url }}{% else %}{{ p.url | relative_url }}{% endif %}" class="me-auto">{{ p.title }}</a>
-      <span class="small text-body-secondary text-nowrap">{{ p.date | date: "%b %-d, %Y" }} &middot; <a href="{{ profile }}" class="text-body-secondary" rel="noopener">View on {{ label }}</a></span>
+      <span class="small text-body-secondary text-nowrap">{{ p.date | date: "%b %-d, %Y" }} &middot; <a href="{{ profile }}" class="text-body-secondary" rel="noopener">{{ profile_text }}</a></span>
     </li>
     {%- endfor -%}
   </ul>

@@ -17,7 +17,10 @@ layout: foundation
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb small mb-3">
       <li class="breadcrumb-item"><a href="/stream/">Stream</a></li>
-      <li class="breadcrumb-item active" aria-current="page">{{ page.date | date: "%B %-d, %Y" }}</li>
+      {%- if page.source == "books" %}
+      <li class="breadcrumb-item"><a href="/books/">Books</a></li>
+      {%- endif %}
+      <li class="breadcrumb-item active" aria-current="page">{% if page.book.month_only %}{{ page.date | date: "%B %Y" }}{% else %}{{ page.date | date: "%B %-d, %Y" }}{% endif %}</li>
     </ol>
   </nav>
 

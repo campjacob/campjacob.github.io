@@ -1,0 +1,9 @@
+{%- comment -%}
+  "Book: Title" on anything connected to a book (Mastodon posts, blog posts, dictionary words,
+  resources). _data/book_backlinks.yml is built from each book's mentions, so a page only looks
+  up its own URL rather than searching every book. Pass the page's URL as include.url.
+{%- endcomment -%}
+{%- assign bbs = site.data.book_backlinks[include.url] -%}
+{%- if bbs -%}
+<p class="book-backlink small text-body-secondary {{ include.class }}"><i class="fas fa-book-open fa-fw fa-xs" aria-hidden="true"></i> {% if bbs.size == 1 %}Book{% else %}Books{% endif %}: {% for bb in bbs %}<a href="{{ bb.url }}"{% if bb.external %} rel="noopener"{% endif %}>{{ bb.title }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+{%- endif -%}
