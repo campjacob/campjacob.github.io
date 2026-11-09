@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /communications/2022-spring-sowk-487-class-14-weekly-email/
 name: 2022-01-spring-sowk-487-class-14-weekly-email.md
 title: Spring 2022 SOWK 487 Class 14 Weekly Email
 date: 2022-04-17 23:24:28

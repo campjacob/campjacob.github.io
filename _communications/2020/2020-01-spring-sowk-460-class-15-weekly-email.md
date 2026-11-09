@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /communications/2020-spring-sowk-460-class-15-weekly-email/
 name: 2020-01-spring-sowk-460-class-15-weekly-email.md
 title: Spring 2020 SOWK 460 Class 15 Weekly Email
 date: 2020-04-20 16.28.23

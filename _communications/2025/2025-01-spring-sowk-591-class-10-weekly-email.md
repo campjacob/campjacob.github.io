@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /communications/2025-spring-sowk-591-class-10-weekly-email/
 name: 2025-01-spring-sowk-591-class-10-weekly-email.md
 title: Spring 2025 SOWK 591 Class 10 Weekly Email
 date: 2025-03-28 13:22:34

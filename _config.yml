@@ -340,6 +340,31 @@ defaults:
       layout: stream_item
       nav_group: stream
       author_sidebar: true
+  # Kept out of Google: course emails repeat every year, and books, Mastodon, and Pixelfed
+  # posts are copies of other sites. `noindex` adds a robots meta tag (_includes/head.htm);
+  # `sitemap: false` drops them from sitemap.xml. A page that should be found (a newsletter
+  # issue, say) sets both back to false/true in its own front matter.
+  - scope:
+      path: ""
+      type: communications
+    values:
+      noindex: true
+      sitemap: false
+  - scope:
+      path: "_stream/books"
+    values:
+      noindex: true
+      sitemap: false
+  - scope:
+      path: "_stream/mastodon"
+    values:
+      noindex: true
+      sitemap: false
+  - scope:
+      path: "_stream/pixelfed"
+    values:
+      noindex: true
+      sitemap: false
   # _microposts
   - scope:
       path: ""

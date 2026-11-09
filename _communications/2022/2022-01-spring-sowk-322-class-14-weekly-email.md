@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /communications/2022-spring-sowk-322-class-14-weekly-email/
 name: 2022-01-spring-sowk-322-class-14-weekly-email.md
 title: Spring 2022 SOWK 322 Class 14 Weekly Email
 date: 2022-04-17 16:59:10

@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /communications/2019-fall-sowk-459-class-02b-additional-info-about-moodle/
 name: 2019-03-fall-sowk-459-class-02b-additional-info-about-moodle.md
 title: Fall 2019 SOWK 459 Class 02 Additional Information About Moodle
 date: 2019-08-31 22.15.51

@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /communications/2021-spring-sowk-487-class-10-weekly-email/
 name: 2021-01-spring-sowk-487-class-10-weekly-email.md
 title: Spring 2021 SOWK 487 Class 10 Weekly Email
 date: 2021-03-16 00:06:34

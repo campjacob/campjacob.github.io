@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /communications/2026-summer-sowk-588-class-05-weekly-email/
 name: 2026-02-summer-sowk-588-class-05-weekly-email.md
 title: Summer 2026 SOWK 588 Class 05 Weekly Email
 date: 2026-06-01 14:10:27

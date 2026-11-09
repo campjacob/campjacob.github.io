@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /communications/2024-spring-sowk-487-class-05-weekly-email/
 name: 2024-01-spring-sowk-487-class-05-weekly-email.md
 title: Spring 2024 SOWK 487 Class 05 Weekly Email
 date: 2024-02-11 13:07:08

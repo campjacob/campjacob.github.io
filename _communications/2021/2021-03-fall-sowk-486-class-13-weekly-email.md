@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /communications/2021-fall-sowk-486-class-13-weekly-email/
 name: 2021-03-fall-sowk-486-class-13-weekly-email.md
 title: Fall 2021 SOWK 486 Class 13 Weekly Email
 date: 2021-11-16 00:42:33

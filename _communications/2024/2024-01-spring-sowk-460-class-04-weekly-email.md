@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /communications/2024-spring-sowk-460-class-04-weekly-email/
 name: 2024-01-spring-sowk-460-class-04-weekly-email.md
 title: Spring 2024 SOWK 460w Class 04 Weekly Email
 date: 2024-02-05 00:25:50

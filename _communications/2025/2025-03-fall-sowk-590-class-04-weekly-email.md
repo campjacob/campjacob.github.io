@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /communications/2025-fall-sowk-590-class-04-weekly-email/
 name: 2025-03-fall-sowk-590-class-04-weekly-email.md
 title: Fall 2025 SOWK 590 Class 04 Weekly Email
 date: 2025-09-12 16:43:17

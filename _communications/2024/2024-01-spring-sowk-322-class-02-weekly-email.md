@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /communications/2024-spring-sowk-322-class-02-weekly-email/
 name: 2024-01-spring-sowk-322-class-02-weekly-email.md
 title: Spring 2024 SOWK 322 Class 02 Weekly Email
 date: 2024-01-20 16:07:54

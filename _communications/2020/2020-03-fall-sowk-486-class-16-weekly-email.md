@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /communications/2020-fall-sowk-486-class-16-weekly-email/
 name: 2020-03-fall-sowk-486-class-16-weekly-email.md
 title: Fall 2020 SOWK 486 Class 16 Weekly Email
 date: 2020-12-07 14.26.16

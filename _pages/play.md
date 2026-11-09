@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 title: Playground
 permalink: /play/
 layout: page_foundation

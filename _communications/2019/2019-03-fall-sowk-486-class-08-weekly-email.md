@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /communications/2019-fall-sowk-486-class-08-weekly-email/
 name: 2019-03-fall-sowk-486-class-08-weekly-email.md
 title: Fall 2019 SOWK 486 Class 08 Weekly Email
 date: 2019-10-09 01.08.51

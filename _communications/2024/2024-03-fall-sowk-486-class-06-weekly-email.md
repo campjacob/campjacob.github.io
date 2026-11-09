@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /communications/2024-fall-sowk-486-class-06-weekly-email/
 name: 2024-03-fall-sowk-486-class-06-weekly-email.md
 title: Fall 2024 SOWK 486w Class 06 Weekly Email
 date: 2024-09-30 22:34:39

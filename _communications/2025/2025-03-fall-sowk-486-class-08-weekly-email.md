@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /communications/2025-fall-sowk-486-class-08-weekly-email/
 name: 2025-03-fall-sowk-486-class-08-weekly-email.md
 title: Fall 2025 SOWK 486w Class 08 Weekly Email
 date: 2025-10-13 23:51:48

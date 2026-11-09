@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /communications/2022-fall-sowk-430-class-07-weekly-email/
 name: 2022-03-fall-sowk-430-class-07-weekly-email.md
 title: Fall 2022 SOWK 430 Class 07 Weekly Email
 date: 2022-10-01 20:08:51

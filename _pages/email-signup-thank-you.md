@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 name: email-signup-thank-you.md
 title: Thanks for Signing Up for my Email List
 date: 2019-09-19 21.22.30

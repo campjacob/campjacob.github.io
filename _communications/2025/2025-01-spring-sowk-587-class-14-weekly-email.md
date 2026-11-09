@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /communications/2025-spring-sowk-587-class-14-weekly-email/
 name: 2025-01-spring-sowk-587-class-14-weekly-email.md
 title: Spring 2025 SOWK 587 Class 14 Weekly Email
 date: 2025-04-21 23:41:30

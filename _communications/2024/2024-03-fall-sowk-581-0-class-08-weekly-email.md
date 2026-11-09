@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /communications/2024-fall-sowk-581-0-class-08-weekly-email/
 name: 2024-03-fall-sowk-581-0-class-08-weekly-email.md
 title: Fall 2024 SOWK 581.0 Class 08 Weekly Email
 date: 2024-10-07 23:15:19
