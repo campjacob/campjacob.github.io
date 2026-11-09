@@ -208,6 +208,9 @@
 "site:/blog/2026/10/pushing-myself-more-the-2026-chelanathon/":
   - label: "Mastodon"
     url: "https://social.vsp.ink/@Jacob/117379208328304638"
+"site:/books/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/117583679246961457"
 "site:/dictionary/":
   - label: "Mastodon"
     url: "https://social.vsp.ink/@Jacob/116228899272535533"
@@ -258,6 +261,9 @@
 "site:/resources/essays/the-significance-of-a-story/":
   - label: "Mastodon"
     url: "https://social.vsp.ink/@Jacob/114180940673149582"
+"site:/stream/":
+  - label: "Mastodon"
+    url: "https://social.vsp.ink/@Jacob/117583696643597100"
 "site:/testimony/":
   - label: "Mastodon"
     url: "https://social.vsp.ink/@Jacob/113489366646565150"
