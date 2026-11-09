@@ -1,0 +1,3 @@
+{%- comment -%} Live Apple Maps for FitPub cards on this page. Include it once, after the cards. {%- endcomment -%}
+<script src="{{ '/assets/js/activity-maps.js' | relative_url }}"></script>
+<script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js" crossorigin async onerror="activityMapsFailed()" data-callback="initActivityMaps" data-libraries="map,overlays,annotations" data-initial-token="{{ site.mapkit_token }}"></script>

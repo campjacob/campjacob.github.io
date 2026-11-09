@@ -20,9 +20,6 @@ permalink: /locations/
 {%- assign located_count = 0 -%}
 {%- assign located = site.posts | where_exp: "p", "p.locations.size > 0" -%}{%- assign located_count = located.size -%}
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
-
 <article class="locations-index">
 
 <header class="my-4">
@@ -33,7 +30,7 @@ permalink: /locations/
 </header>
 
 <section class="mb-5" aria-label="Map of post locations">
-  <div id="locations-map" class="rounded-top shadow-sm border" style="height: min(60vh, 480px);"></div>
+  <div id="locations-map" class="rounded-top shadow-sm border overflow-hidden" tabindex="0" style="height: min(60vh, 480px);"></div>
 
   <div id="loc-panel" class="card rounded-top-0 border-top-0 shadow-sm" tabindex="0" aria-live="polite" hidden>
     <div class="card-header d-flex align-items-center gap-2">
@@ -123,8 +120,6 @@ permalink: /locations/
 
 </article>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 <script>
 (function () {
   // Same order as the list below: United States first, then countries A to Z.
@@ -138,43 +133,70 @@ permalink: /locations/
   ];
   places.forEach(function (p) { p.where = p.region ? p.region + ", " + p.country : p.country; });
 
-  var map = L.map("locations-map", { scrollWheelZoom: false, worldCopyJump: true });
-  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    maxZoom: 18,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-  }).addTo(map);
-  // OpenStreetMap has no dark tiles, so dark mode inverts the light ones.
-  function applyTheme() {
-    var dark = document.documentElement.getAttribute("data-bs-theme") === "dark";
-    map.getPane("tilePane").style.filter = dark ? "invert(1) hue-rotate(180deg) brightness(0.9) contrast(0.9)" : "";
-  }
-  applyTheme();
-  new MutationObserver(applyTheme).observe(document.documentElement, { attributes: true, attributeFilter: ["data-bs-theme"] });
+  // The map stays null until MapKit loads; the panel and the country list work without it.
+  var map = null;
+  var mapEl = document.getElementById("locations-map");
 
   function size(n) { return Math.round(22 + Math.sqrt(n) * 4); }
-  function pinIcon(p, selected) {
-    var s = size(p.posts.length);
-    return L.divIcon({ className: "", iconSize: [s, s], html: '<span class="loc-pin' + (selected ? ' is-selected' : '') + '" style="width:' + s + 'px;height:' + s + 'px">' + p.posts.length + '</span>' });
+  function pin(label, s, classes) {
+    var el = document.createElement("span");
+    el.className = "loc-pin " + classes;
+    el.style.width = el.style.height = s + "px";
+    el.textContent = label;
+    return el;
   }
+  // MapKit positions the element it is given, so pins sit in a wrapper and keep their own hover and selected transforms.
+  function annotationFor(coordinate, el, s, options) {
+    options.anchorOffset = new DOMPoint(0, -s / 2); // MapKit anchors at the bottom center; this centers the circle on the place.
+    options.size = { width: s, height: s };
+    options.calloutEnabled = false;
+    options.animates = false;
+    return new mapkit.Annotation(coordinate, function () {
+      var wrap = document.createElement("div");
+      wrap.appendChild(el);
+      return wrap;
+    }, options);
+  }
+  // So the same pin can be selected again. MapKit ignores selection changes made inside a select handler.
+  function deselectSoon(a) { setTimeout(function () { a.selected = false; }); }
+  places.forEach(function (p) {
+    p.pin = pin(p.posts.length, size(p.posts.length), "");
+    p.pin.title = p.name + ", " + p.where;
+  });
 
-  // Nearby places merge into one circle showing their total posts; zooming in splits them.
-  var cluster = L.markerClusterGroup({
-    maxClusterRadius: 40, showCoverageOnHover: false, spiderfyOnMaxZoom: true,
-    iconCreateFunction: function (c) {
-      var total = c.getAllChildMarkers().reduce(function (sum, m) { return sum + m.place.posts.length; }, 0);
-      var s = size(total) + 6;
-      return L.divIcon({ className: "", iconSize: [s, s], html: '<span class="loc-pin loc-cluster" style="width:' + s + 'px;height:' + s + 'px">' + total + '</span>' });
+  window.initMapKit = function () {
+    mapkit.addEventListener("error", function (e) {
+      mapEl.innerHTML = '<p class="text-body-secondary small p-3 mb-0">The map could not load (' + esc(e.status) + '). The places are still listed below.</p>';
+    });
+    map = new mapkit.Map(mapEl);
+    function applyTheme() {
+      var dark = document.documentElement.getAttribute("data-bs-theme") === "dark";
+      map.colorScheme = dark ? mapkit.Map.ColorSchemes.Dark : mapkit.Map.ColorSchemes.Light;
     }
-  });
-  var markers = places.map(function (p, i) {
-    var m = L.marker([p.lat, p.lng], { icon: pinIcon(p, false), title: p.name + ", " + p.where, riseOnHover: true });
-    m.place = p;
-    m.on("click", function () { select(i, false); });
-    cluster.addLayer(m);
-    return m;
-  });
-  map.addLayer(cluster);
-  map.fitBounds(cluster.getBounds(), { padding: [20, 20] });
+    applyTheme();
+    new MutationObserver(applyTheme).observe(document.documentElement, { attributes: true, attributeFilter: ["data-bs-theme"] });
+
+    var padding = new mapkit.Padding(30, 30, 30, 30);
+    // Nearby places merge into one circle showing their total posts; selecting it zooms in to split them.
+    map.annotationForCluster = function (c) {
+      var total = c.memberAnnotations.reduce(function (sum, a) { return sum + a.data.posts; }, 0);
+      var s = size(total) + 6;
+      var a = annotationFor(c.coordinate, pin(total, s, "loc-cluster"), s, { accessibilityLabel: total + " posts in " + c.memberAnnotations.length + " places" });
+      a.addEventListener("select", function () {
+        map.showItems(c.memberAnnotations, { animate: true, padding: padding });
+        deselectSoon(a);
+      });
+      return a;
+    };
+    var annotations = places.map(function (p, i) {
+      var s = size(p.posts.length);
+      var a = annotationFor(new mapkit.Coordinate(p.lat, p.lng), p.pin, s, { clusteringIdentifier: "places", data: { posts: p.posts.length }, accessibilityLabel: p.pin.title });
+      a.addEventListener("select", function () { select(i, false); deselectSoon(a); });
+      return a;
+    });
+    map.showItems(annotations, { animate: false, padding: padding });
+    if (zoomWhenReady) showOnMap(places[current]);
+  };
 
   var panel = document.getElementById("loc-panel");
   var list = document.getElementById("loc-posts");
@@ -193,14 +215,19 @@ permalink: /locations/
     more.textContent = "Show all " + n + " posts";
   }
 
+  // Close enough that neighboring places in the Tri-Cities come apart. Not animated: MapKit drops a
+  // new animated move while one is running, so quick arrow presses left the map behind the panel.
+  function showOnMap(p) {
+    map.region = new mapkit.CoordinateRegion(new mapkit.Coordinate(p.lat, p.lng), new mapkit.CoordinateSpan(0.3, 0.3));
+  }
+
   // zoom: move the map to the place (stepping with the arrows); a click on the map leaves the view alone.
+  var zoomWhenReady = false;
   function select(i, zoom) {
-    if (current >= 0) markers[current].setIcon(pinIcon(places[current], false));
+    if (current >= 0) places[current].pin.classList.remove("is-selected");
     current = (i + places.length) % places.length;
-    var m = markers[current];
-    m.setIcon(pinIcon(places[current], true));
-    m.setZIndexOffset(1000);
-    if (zoom) cluster.zoomToShowLayer(m, function () { map.panTo(m.getLatLng()); });
+    places[current].pin.classList.add("is-selected");
+    if (zoom) { if (map) showOnMap(places[current]); else zoomWhenReady = true; }
     panel.hidden = false;
     render(false);
   }
@@ -210,7 +237,7 @@ permalink: /locations/
     var b = e.target.closest("[data-step]");
     if (b) select(current + Number(b.dataset.step), true);
   });
-  [panel, document.getElementById("locations-map")].forEach(function (el) {
+  [panel, mapEl].forEach(function (el) {
     el.addEventListener("keydown", function (e) {
       if (e.key === "ArrowLeft" || e.key === "ArrowRight") { e.preventDefault(); select(current + (e.key === "ArrowRight" ? 1 : -1), true); }
     });
@@ -226,7 +253,7 @@ permalink: /locations/
     if (show) {
       e.preventDefault();
       var i = places.findIndex(function (p) { return p.anchor === show.dataset.showPlace; });
-      document.getElementById("locations-map").scrollIntoView({ behavior: "smooth", block: "center" });
+      mapEl.scrollIntoView({ behavior: "smooth", block: "center" });
       if (i >= 0) select(i, true);
       return;
     }
@@ -243,3 +270,4 @@ permalink: /locations/
   }
 })();
 </script>
+<script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js" crossorigin async data-callback="initMapKit" data-libraries="map,annotations" data-initial-token="{{ site.mapkit_token }}"></script>

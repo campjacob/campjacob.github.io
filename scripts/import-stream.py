@@ -31,8 +31,8 @@ Requirements:
     server needs `php artisan passport:client --personal --provider=users` once.
   - FitPub has no tokens or public list API. Its activities are found through social.vsp.ink,
     which follows @campjacob@fitpub.social and keeps public copies of what it receives (so
-    only activities federated after the follow appear). Each one's details and route-map
-    image come from FitPub's public /api/activities/<id>.
+    only activities federated after the follow appear). Each one's details, route-map image,
+    and the track and pace behind its live map come from FitPub's public /api/activities/<id>.
   - Presentations come from presentations.jacobrcampbell.com/presentations.json. Unlike the
     others, that folder is rewritten on every run (so title fixes come through) and files for
     decks no longer listed are deleted. Their pages here only redirect to the deck
@@ -379,6 +379,36 @@ def run_ytdlp(src, args):
 
 # ---------------------------------------------------------------- FitPub
 
+def fitpub_map_fields(a):
+    """Front matter lines for an activity's card: its live map (assets/js/activity-maps.js) gets
+    the route, always a list of segments as [lng, lat], and a label; the stats row gets average
+    pace and heart rate. FitPub's averagePaceSeconds is per kilometer; rides read better as speed.
+    A track means GPS, so it was outdoors: FitPub marks only races and indoor activities."""
+    fields = []
+    kind = a.get("activityType")
+    track = a.get("simplifiedTrack") or {}
+    coords = track.get("coordinates") or []
+    segments = coords if track.get("type") == "MultiLineString" else [coords]
+    segments = [[[round(p[0], 5), round(p[1], 5)] for p in s] for s in segments if s]
+    if segments:
+        fields.append(f"  track: {json.dumps(segments, separators=(',', ':'))}")
+        if (a.get("context") or {}).get("name") == "RACE":
+            fields.append(f"  map_label: {yq(f'Race {kind}')}")
+        else:
+            fields.append(f"  map_label: {yq('Open Water Swim' if kind == 'Swim' else f'Outdoor {kind}')}")
+    m = a.get("metrics") or {}
+    if kind == "Ride" and m.get("averageSpeed"):
+        mph = m["averageSpeed"] / 1.60934
+        fields.append(f"  pace: {yq(f'{mph:.1f} mph')}")
+    elif m.get("averagePaceSeconds"):
+        s, unit = (m["averagePaceSeconds"] / 10, "/100 m") if kind == "Swim" else (m["averagePaceSeconds"] * 1.60934, "/mi")
+        s = round(s)
+        fields.append(f"  pace: {yq(f'{s // 60}:{s % 60:02d} {unit}')}")
+    if m.get("averageHeartRate"):
+        fields.append(f"  heart_rate: {round(m['averageHeartRate'])}")
+    return fields
+
+
 def run_fitpub(args):
     have = existing_ids("fitpub")
     c = {"new": 0, "exists": 0, "not found": 0}
@@ -419,6 +449,7 @@ def run_fitpub(args):
                 f"  elevation_m: {round(a.get('elevationGain') or 0)}",
                 f"  location: {yq(a.get('activityLocation'))}",
                 f"  image: {yq(FITPUB['base'] + '/api/activities/' + aid + '/image')}",
+                *fitpub_map_fields(a),
             ]
             write_post("fitpub", created, aid, lines, args)
             c["new"] += 1

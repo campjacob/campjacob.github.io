@@ -107,6 +107,8 @@ redirect_from:
 
 </div>
 
+{% include activity-maps.htm %}
+
 <script>
 // Filter by site and year, showing {{ page_size }} at a time. Without JS everything shows.
 (function () {

@@ -537,6 +537,12 @@ main iframe, main embed, main video, main img { max-width: 100%; }
 .stream-duration { position: absolute; right: .4rem; bottom: .4rem; background: rgba(0,0,0,.75); color: #fff; font-size: .75rem; padding: 0 .3rem; border-radius: .2rem; }
 .stream-activity { border-radius: var(--bs-border-radius); overflow: hidden; }
 .stream-activity img { width: 100%; display: block; height: auto; }
+/* Activities with a live map (assets/js/activity-maps.js). The box is reserved so maps appearing and leaving don't shift the page. Embeds and failed maps never get .activity-maps, so FitPub's image shows whole. */
+.activity-maps .stream-activity[data-track] { position: relative; aspect-ratio: 16 / 9; background: var(--bs-tertiary-bg); }
+.activity-maps .stream-activity[data-track] img { visibility: hidden; }
+.activity-map-layer, .activity-map { position: absolute; inset: 0; }
+.activity-map-label { position: absolute; top: 10px; left: 10px; z-index: 5; max-width: calc(100% - 20px); padding: 4px 10px; border-radius: 6px; background: rgba(255,255,255,.92); color: #222; font: 600 12px/1.5 system-ui, sans-serif; box-shadow: 0 1px 4px rgba(0,0,0,.3); pointer-events: none; }
+.activity-map-link { position: absolute; inset: 0 0 36px 0; z-index: 4; } /* Stops short of Apple's Legal link. */
 .stream-stats .list-inline-item:not(:last-child) { margin-right: .75rem; }
 .stream-teaser { border-radius: var(--bs-border-radius); overflow: hidden; }
 .stream-teaser img { width: 100%; display: block; aspect-ratio: 5 / 3; object-fit: cover; }

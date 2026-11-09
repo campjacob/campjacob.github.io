@@ -26,6 +26,8 @@ layout: foundation
 
   {% include stream-card.htm post=page single=true %}
 
+  {%- if page.activity.track %}{% include activity-maps.htm %}{% endif %}
+
   {%- comment -%} ---------- Share: link, embed code, and portable content (HTML / Markdown) ---------- {%- endcomment -%}
   {%- assign p = page -%}
   {%- assign share_url = page.url | absolute_url -%}

@@ -1,0 +1,5 @@
+# Local previews with working Apple Maps. Apple does not accept localhost as a token domain, so this
+# token is restricted to local.jacobrcampbell.com, which /etc/hosts points at this Mac.
+#   bundle exec jekyll serve --config _config.yml,_config_dev.yml
+#   http://local.jacobrcampbell.com:4000/locations/
+mapkit_token: "eyJraWQiOiIyTFdIOFk0SzMzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiI5UjI5NFVWSDdaIiwiaWF0IjoxNzk0MjExNDE1LCJvcmlnaW4iOiJsb2NhbC5qYWNvYnJjYW1wYmVsbC5jb20iLCJzY29wZSI6Im1hcGtpdF9qcyJ9.dC_KAyzQJSRBMkv0pK8WrCotSpG_FEVcVicjvLl_P0kKzvuJwImaXBUlhpl7pXLqvV59-1zzMB2uBYNGg97vRw"

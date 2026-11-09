@@ -75,11 +75,9 @@ Comparing early summer to the four weeks before the race showed real progress:
 
 Here is the course as my watch recorded it: the swim along the Manson shoreline, the bike loop up past Wapato and Roses Lakes, and the run back to the finish. Hover over a leg for its official time.
 
-<div id="chelanathon-map" style="height: 460px; border-radius: 8px; margin: 1em 0 0.25em;"></div>
+<div id="chelanathon-map-wrap" style="position: relative; margin: 1em 0 0.25em;"><div id="chelanathon-map" style="height: 460px; border-radius: 8px; overflow: hidden;"></div></div>
 <p style="font-size: 0.75em; color: #777; margin-top: 0;">GPS tracks from my Apple Watch via <a href="https://fitpub.social/users/campjacob">FitPub</a>. Watch distances run a little long, especially in open water.</p>
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 (function () {
   var tracks = {"swim":[[47.87803,-120.12867],[47.87783,-120.12863],[47.87768,-120.12849],[47.87753,-120.1284],[47.87747,-120.12839],[47.87741,-120.12841],[47.87738,-120.12904],[47.87764,-120.1296],[47.8775,-120.13],[47.87755,-120.13033],[47.87752,-120.13033],[47.87752,-120.13038],[47.8776,-120.13047],[47.87774,-120.13052],[47.87781,-120.1308],[47.87779,-120.13108],[47.87773,-120.13112],[47.87767,-120.13124],[47.87767,-120.13166],[47.87773,-120.13164],[47.87779,-120.13156],[47.87769,-120.13178],[47.87765,-120.132],[47.87766,-120.13207],[47.87758,-120.13201],[47.87761,-120.13209],[47.87775,-120.13224],[47.87777,-120.13231],[47.8777,-120.13282],[47.87772,-120.13287],[47.87771,-120.13281],[47.87765,-120.13298],[47.87763,-120.13299],[47.87763,-120.13276],[47.87768,-120.13252],[47.8776,-120.13234],[47.87753,-120.13204],[47.87756,-120.13177],[47.87749,-120.13142],[47.87747,-120.1312],[47.87749,-120.13114],[47.87746,-120.13084],[47.87748,-120.13065],[47.87735,-120.12995],[47.87734,-120.12955],[47.87727,-120.12925],[47.87729,-120.12906],[47.87724,-120.12879],[47.87726,-120.12867],[47.8773,-120.12861],[47.87737,-120.12857],[47.8775,-120.12859],[47.8776,-120.12868],[47.87794,-120.12858],[47.87806,-120.1286],[47.8781,-120.1287],[47.87819,-120.12873],[47.87848,-120.12871],[47.87864,-120.12872],[47.87892,-120.12869],[47.87897,-120.12864],[47.87897,-120.12853],[47.87897,-120.12857],[47.879,-120.12851],[47.87899,-120.12855],[47.87901,-120.12853]],"bike":[[47.88004,-120.12768],[47.88043,-120.12786],[47.88071,-120.12822],[47.88083,-120.12861],[47.88074,-120.1293],[47.88097,-120.12954],[47.88109,-120.1293],[47.88112,-120.12629],[47.88015,-120.1229],[47.87804,-120.11895],[47.87433,-120.11017],[47.87441,-120.10988],[47.87638,-120.11038],[47.87732,-120.11134],[47.88118,-120.11455],[47.88178,-120.11556],[47.88237,-120.1178],[47.88316,-120.11746],[47.88344,-120.11764],[47.8836,-120.11859],[47.88499,-120.12105],[47.88511,-120.12177],[47.88488,-120.12307],[47.88496,-120.12454],[47.88542,-120.12635],[47.88592,-120.12725],[47.887,-120.12804],[47.88759,-120.12959],[47.88835,-120.12974],[47.88868,-120.13009],[47.88896,-120.13079],[47.8892,-120.13246],[47.88942,-120.13299],[47.89057,-120.13378],[47.89318,-120.13496],[47.89358,-120.13503],[47.89463,-120.1348],[47.89489,-120.13492],[47.8987,-120.14053],[47.89868,-120.14097],[47.89629,-120.1454],[47.89586,-120.14796],[47.89598,-120.14916],[47.89797,-120.15377],[47.89933,-120.15435],[47.90013,-120.1555],[47.90256,-120.16049],[47.90393,-120.16267],[47.90486,-120.1647],[47.90551,-120.1656],[47.90631,-120.16779],[47.90829,-120.17229],[47.91019,-120.17596],[47.91119,-120.17709],[47.91501,-120.18032],[47.91756,-120.18333],[47.92113,-120.18903],[47.92241,-120.18986],[47.92481,-120.19033],[47.9253,-120.19073],[47.9257,-120.1923],[47.92625,-120.19362],[47.92595,-120.19513],[47.92472,-120.19629],[47.92356,-120.19653],[47.92216,-120.19603],[47.92142,-120.19553],[47.92062,-120.1955],[47.91991,-120.19525],[47.9191,-120.19635],[47.91808,-120.19734],[47.91772,-120.19756],[47.91723,-120.19757],[47.91462,-120.19595],[47.90758,-120.19199],[47.90634,-120.19104],[47.90404,-120.18882],[47.90218,-120.18811],[47.89844,-120.18782],[47.89833,-120.18714],[47.89876,-120.1855],[47.90047,-120.18368],[47.90035,-120.18209],[47.89704,-120.17698],[47.89635,-120.17517],[47.89563,-120.17215],[47.89442,-120.16956],[47.89319,-120.16858],[47.89126,-120.16774],[47.8903,-120.16787],[47.88669,-120.16953],[47.88607,-120.1692],[47.88565,-120.16844],[47.88557,-120.16766],[47.88624,-120.16557],[47.88627,-120.1643],[47.88104,-120.14008],[47.88108,-120.12975],[47.88077,-120.12934],[47.88077,-120.12833],[47.88022,-120.12769],[47.87947,-120.12752],[47.87906,-120.12811],[47.87841,-120.12865],[47.8789,-120.12871],[47.879,-120.12855]],"run":[[47.87911,-120.12843],[47.87929,-120.12806],[47.87937,-120.12774],[47.87972,-120.1276],[47.88021,-120.12775],[47.88033,-120.12782],[47.88056,-120.12806],[47.88074,-120.12836],[47.8808,-120.12867],[47.88071,-120.12912],[47.88072,-120.12938],[47.88078,-120.12952],[47.88094,-120.12965],[47.88102,-120.12982],[47.88106,-120.13239],[47.88097,-120.13998],[47.88093,-120.14002],[47.8794,-120.13999],[47.87896,-120.14004],[47.8779,-120.14001],[47.87771,-120.14012],[47.87762,-120.14028],[47.87762,-120.14043],[47.87985,-120.15085],[47.87999,-120.15106],[47.88011,-120.15111],[47.88139,-120.15109],[47.88136,-120.15117],[47.88124,-120.15121],[47.88007,-120.15119],[47.87989,-120.15113],[47.87981,-120.15103],[47.87755,-120.14049],[47.87755,-120.14024],[47.8776,-120.14006],[47.8777,-120.13996],[47.87784,-120.13991],[47.88065,-120.13995],[47.88094,-120.13994],[47.88099,-120.13989],[47.88107,-120.13266],[47.88106,-120.13036],[47.88099,-120.12971],[47.88096,-120.12965],[47.88081,-120.12955],[47.88075,-120.12941],[47.88084,-120.12873],[47.88083,-120.12844],[47.88072,-120.12817],[47.88049,-120.12787],[47.8802,-120.12765],[47.87927,-120.12742],[47.87911,-120.1275],[47.87896,-120.12768]]};
@@ -88,32 +86,87 @@ Here is the course as my watch recorded it: the swim along the Manson shoreline,
     ["bike", "Bike · 12.1 mi · 1:31:48", "#e5007e"],
     ["run",  "Run · 3.1 mi · 46:27",  "#ff8c1a"]
   ];
-  var map = L.map("chelanathon-map", { scrollWheelZoom: false });
-  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    maxZoom: 18,
-    attribution: "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors"
-  }).addTo(map);
-  var group = L.featureGroup().addTo(map);
-  legs.forEach(function (leg) {
-    L.polyline(tracks[leg[0]], { color: "#fff", weight: 8, opacity: 0.8 }).addTo(group);
-    L.polyline(tracks[leg[0]], { color: leg[2], weight: 5, opacity: 0.95 })
-      .bindTooltip(leg[1], { sticky: true }).addTo(group);
-  });
-  L.circleMarker(tracks.run[tracks.run.length - 1], { radius: 8, color: "#fff", weight: 2, fillColor: "#222", fillOpacity: 1 })
-    .bindTooltip("Finish · 2:52:01").addTo(group);
-  map.fitBounds(group.getBounds(), { padding: [20, 20] });
-  var legend = L.control({ position: "bottomright" });
-  legend.onAdd = function () {
-    var div = L.DomUtil.create("div");
-    div.style.cssText = "background: rgba(255,255,255,0.92); padding: 6px 10px; border-radius: 6px; font: 12px/1.6 system-ui, sans-serif; box-shadow: 0 1px 4px rgba(0,0,0,0.3);";
-    div.innerHTML = legs.map(function (leg) {
+  var labelStyle = "position: absolute; z-index: 5; background: rgba(255,255,255,0.92); color: #222; padding: 6px 10px; border-radius: 6px; font: 12px/1.6 system-ui, sans-serif; box-shadow: 0 1px 4px rgba(0,0,0,0.3); pointer-events: none;";
+  window.initChelanathonMap = function () {
+    var wrap = document.getElementById("chelanathon-map-wrap");
+    var mapEl = document.getElementById("chelanathon-map");
+    mapkit.addEventListener("error", function (e) {
+      mapEl.style.height = "auto";
+      mapEl.textContent = "The map could not load (" + e.status + ").";
+    });
+    var map = new mapkit.Map(mapEl);
+    function applyTheme() {
+      var dark = document.documentElement.getAttribute("data-bs-theme") === "dark";
+      map.colorScheme = dark ? mapkit.Map.ColorSchemes.Dark : mapkit.Map.ColorSchemes.Light;
+    }
+    applyTheme();
+    new MutationObserver(applyTheme).observe(document.documentElement, { attributes: true, attributeFilter: ["data-bs-theme"] });
+
+    function line(points, color, width, opacity) {
+      return new mapkit.PolylineOverlay(points, { style: new mapkit.Style({ strokeColor: color, lineWidth: width, strokeOpacity: opacity, lineCap: "round", lineJoin: "round" }) });
+    }
+    var overlays = [], hoverable = [];
+    legs.forEach(function (leg) {
+      var points = tracks[leg[0]].map(function (p) { return new mapkit.Coordinate(p[0], p[1]); });
+      overlays.push(line(points, "#fff", 8, 0.8), line(points, leg[2], 5, 0.95));
+      hoverable.push({ label: leg[1], points: points });
+    });
+    map.addOverlays(overlays);
+
+    var finishPoint = tracks.run[tracks.run.length - 1];
+    var finishCoordinate = new mapkit.Coordinate(finishPoint[0], finishPoint[1]);
+    var finish = new mapkit.Annotation(finishCoordinate, function () {
+      var dot = document.createElement("div");
+      dot.style.cssText = "width: 16px; height: 16px; box-sizing: border-box; border-radius: 50%; background: #222; border: 2px solid #fff;";
+      return dot;
+    }, { anchorOffset: new DOMPoint(0, -8), size: { width: 16, height: 16 }, calloutEnabled: false, animates: false, accessibilityLabel: "Finish, 2:52:01" });
+    map.addAnnotation(finish);
+    map.showItems(overlays.concat(finish), { animate: false, padding: new mapkit.Padding(20, 20, 20, 20) });
+
+    var legend = document.createElement("div");
+    legend.style.cssText = labelStyle + " bottom: 44px; left: 10px;"; // Over the lake, clear of the course and Apple's logo.
+    legend.innerHTML = legs.map(function (leg) {
       return '<span style="display:inline-block;width:14px;height:4px;background:' + leg[2] + ';vertical-align:middle;margin-right:6px;"></span>' + leg[1];
     }).join("<br>");
-    return div;
+    wrap.appendChild(legend);
+
+    // MapKit lines have no hover event, so find the closest leg to the pointer. Later legs win ties
+    // (the run over the bike where they share roads), and the finish dot wins over any leg.
+    var tip = document.createElement("div");
+    tip.style.cssText = labelStyle + " transform: translate(-50%, -140%); white-space: nowrap;";
+    tip.hidden = true;
+    wrap.appendChild(tip);
+    function distance(x, y, a, b) {
+      var dx = b.x - a.x, dy = b.y - a.y, len = dx * dx + dy * dy;
+      var t = len ? Math.max(0, Math.min(1, ((x - a.x) * dx + (y - a.y) * dy) / len)) : 0;
+      return Math.hypot(x - a.x - t * dx, y - a.y - t * dy);
+    }
+    wrap.addEventListener("mousemove", function (e) {
+      var best = null, bestDistance = 10;
+      var x = e.clientX + window.scrollX, y = e.clientY + window.scrollY;
+      hoverable.forEach(function (h) {
+        var previous = map.convertCoordinateToPointOnPage(h.points[0]);
+        h.points.forEach(function (c) {
+          var point = map.convertCoordinateToPointOnPage(c);
+          var d = distance(x, y, previous, point);
+          if (d <= bestDistance) { bestDistance = d; best = h; }
+          previous = point;
+        });
+      });
+      var finishOnPage = map.convertCoordinateToPointOnPage(finishCoordinate);
+      var overFinish = distance(x, y, finishOnPage, finishOnPage) <= 10;
+      tip.hidden = !best && !overFinish;
+      if (tip.hidden) return;
+      var box = wrap.getBoundingClientRect();
+      tip.textContent = overFinish ? "Finish · 2:52:01" : best.label;
+      tip.style.left = (e.clientX - box.left) + "px";
+      tip.style.top = (e.clientY - box.top) + "px";
+    });
+    wrap.addEventListener("mouseleave", function () { tip.hidden = true; });
   };
-  legend.addTo(map);
 })();
 </script>
+<script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js" crossorigin async data-callback="initChelanathonMap" data-libraries="map,overlays,annotations" data-initial-token="{{ site.mapkit_token }}"></script>
 
 I wasn't super happy with my final swim time. I only practiced once with a wetsuit before the race. The water was also very cold (64°F). For the first 400 m, I couldn't really swim normally. Not only was it chaotic being in the middle of everyone, but I also felt like I couldn't catch my breath (because of the cold). I actually thought I might not be able to make it and I might have to quit. But as I got closer to the place where we had to start coming back, I started feeling more comfortable and like I could actually swim.
 

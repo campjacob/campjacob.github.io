@@ -14,6 +14,8 @@ description              : "This site is my home for all of my stuff. I am a sch
 url                      : "https://jacobrcampbell.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "campjacob/campjacob.github.io"
+# Apple Maps (MapKit JS). Restricted to jacobrcampbell.com by Apple, and visible in page source by design.
+mapkit_token             : "eyJraWQiOiJYMzk0M0hGNEczIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiI5UjI5NFVWSDdaIiwiaWF0IjoxNzk0MjEwNDU1LCJvcmlnaW4iOiJqYWNvYnJjYW1wYmVsbC5jb20iLCJzY29wZSI6Im1hcGtpdF9qcyJ9.DOIpmln27SnMjBzpon_hx-TJE_sEIPk1S-8y3vDqyR8VCx6JE8OQmGdT2GdYp-Rd9woAGnkcNsyjUS7cMvYo_Q"
 github_username:  campjacob
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/src/jacob-campbell-logo.svg"
