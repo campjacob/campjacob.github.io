@@ -19,4 +19,8 @@ book:
   category: "Science Fiction & Fantasy"
   format_keys: "audio"
   author_key: "baum"
+  posts:
+    - title: "I Finally Started, My New Project The Mother Dearest Show"
+      url: "/blog/2021/02/i-finally-started-my-new-project-the-mother-dearest-show/"
+      mention: true
 ---
