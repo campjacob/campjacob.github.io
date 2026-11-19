@@ -100,16 +100,6 @@
   category: Other Fiction
   author_key: golding
   slug: golding-1954-lord-of-the-flies
-- title: Dune
-  author: Frank Herbert
-  image: /assets/media/books/herbert-1965-dune.jpg
-  link: https://en.wikipedia.org/wiki/Dune_(novel)
-  format: Book & Audiobook
-  format_keys: print audio
-  year: 1965
-  category: Science Fiction & Fantasy
-  author_key: herbert
-  slug: herbert-1965-dune
 - title: 'Siddhartha: An Indian novel'
   author: Hermann Hesse
   image: /assets/media/books/hesse-1922-siddhartha-an-indian-novel.jpg
