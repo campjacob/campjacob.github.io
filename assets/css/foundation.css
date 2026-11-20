@@ -676,10 +676,12 @@ body { overflow-x: clip; }
 .blog-band { position: relative; flex: 0 0 100vw; max-width: 100vw; width: 100vw; margin-left: calc(50% - 50vw); margin-top: -1rem; color: #fff; background: #000 center / cover no-repeat; }
 .blog-band::before { content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, .5); }
 .blog-band > .container { position: relative; padding-top: 4rem; padding-bottom: 4rem; }
-/* Caption sits in its own right-aligned block at the bottom of the band. It is
-   pulled up into the container's 4rem bottom padding, so short captions keep the
-   band's height while long ones push it taller instead of overlapping the excerpt. */
-.blog-band-caption { position: relative; display: block; max-width: min(26rem, calc(100% - 1.5rem)); margin: -3rem .75rem 0 auto; padding-bottom: .5rem; font-size: .75rem; line-height: 1.35; text-align: right; color: rgba(255, 255, 255, .75); }
+/* Caption sits in its own right-aligned block at the bottom of the band. It sizes
+   to its text and only wraps once it passes 40rem (about 100 characters), so most
+   captions stay on one line. It is pulled up into the container's 4rem bottom
+   padding, so short captions keep the band's height while long ones push it
+   taller instead of overlapping the excerpt. */
+.blog-band-caption { position: relative; display: block; width: fit-content; max-width: min(40rem, calc(100% - 1.5rem)); margin: -3rem .75rem 0 auto; padding-bottom: .5rem; font-size: .75rem; line-height: 1.35; text-align: right; color: rgba(255, 255, 255, .75); }
 .blog-band-caption a { color: inherit; }
 .post-card-img { aspect-ratio: 5 / 3; object-fit: cover; }
 .post-card-img-featured { aspect-ratio: 8 / 3; object-fit: cover; }
